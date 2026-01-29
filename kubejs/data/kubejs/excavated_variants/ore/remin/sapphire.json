@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Sapphire Ore"},
+    "blocks": {
+        "remin:sapphire_ore_iceandfire": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/sapphire", "minecraft:sapphire_ore"]
+}

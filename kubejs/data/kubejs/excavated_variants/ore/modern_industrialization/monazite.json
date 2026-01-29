@@ -1,0 +1,9 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether", "excavated_variants:end"],
+    "translations": {"en_us": "Monazite Ore"},
+    "blocks": {
+        "modern_industrialization:monazite_ore": "excavated_variants:minecraft/stone",
+        "modern_industrialization:deepslate_monazite_ore": "excavated_variants:minecraft/deepslate"
+    },
+    "tags": ["c:ores/monazite", "minecraft:monazite_ore"]
+}

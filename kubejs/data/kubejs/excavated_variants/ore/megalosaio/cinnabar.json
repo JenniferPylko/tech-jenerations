@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Cinnabar Ore"},
+    "blocks": {
+        "megalosaio:cinnabar_ore": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/cinnabar", "minecraft:cinnabar_ore"]
+}

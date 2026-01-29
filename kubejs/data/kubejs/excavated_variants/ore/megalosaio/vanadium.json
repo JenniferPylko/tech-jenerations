@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether", "excavated_variants:end"],
+    "translations": {"en_us": "Vanadium Ore"},
+    "blocks": {
+        "megalosaio:vanadium_ore": "excavated_variants:minecraft/end_stone"
+    },
+    "tags": ["c:ores/vanadium", "minecraft:vanadium_ore"]
+}

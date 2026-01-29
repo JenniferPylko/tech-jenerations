@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Silicon Ore"},
+    "blocks": {
+        "megalosaio:silicon_ore": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/silicon", "minecraft:silicon_ore"]
+}

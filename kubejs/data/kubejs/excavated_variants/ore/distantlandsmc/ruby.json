@@ -1,0 +1,10 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether", "excavated_variants:end"],
+    "translations": {"en_us": "Ruby Ore"},
+    "blocks": {
+        "distantlandsmc:ruby_ore": "excavated_variants:minecraft/stone",
+        "distantlandsmc:ruby_deepslate_ore": "excavated_variants:minecraft/deepslate",
+        "distantlandsmc:ruby_blackstone_ore": "excavated_variants:minecraft/blackstone"
+    },
+    "tags": ["c:ores/ruby", "minecraft:ruby_ore"]
+}

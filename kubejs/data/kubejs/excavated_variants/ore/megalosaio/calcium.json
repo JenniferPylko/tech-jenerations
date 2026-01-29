@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Calcium Ore"},
+    "blocks": {
+        "megalosaio:calcium_ore": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/calcium", "minecraft:calcium_ore"]
+}

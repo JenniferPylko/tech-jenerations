@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether", "excavated_variants:end"],
+    "translations": {"en_us": "Yttrium Ore"},
+    "blocks": {
+        "megalosaio:yttrium_ore": "excavated_variants:minecraft/end_stone"
+    },
+    "tags": ["c:ores/yttrium", "minecraft:yttrium_ore"]
+}

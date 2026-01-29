@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Golden Bery/l Ore"},
+    "blocks": {
+        "remin:golden_beryl_ore": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/golden_beryl", "minecraft:golden_beryl_ore"]
+}

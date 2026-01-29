@@ -1,0 +1,9 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "blue Topaz Ore"},
+    "blocks": {
+        "remin:blue_topaz_ore": "excavated_variants:minecraft/stone",
+        "remin:deepslate_blue_topaz_ore": "excavated_variants:minecraft/deepslate"
+    },
+    "tags": ["c:ores/blue_topaz", "minecraft:blue_topaz_ore"]
+}

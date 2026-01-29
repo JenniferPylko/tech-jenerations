@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Watermelon Tourmaline Ore"},
+    "blocks": {
+        "project_echo:watermelon_tourmaline_ore": "excavated_variants:minecraft/blackstone"
+    },
+    "tags": ["c:ores/watermelon_tourmaline", "minecraft:watermelon_tourmaline_ore"]
+}

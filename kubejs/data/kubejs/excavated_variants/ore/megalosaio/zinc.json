@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Zinc Ore"},
+    "blocks": {
+        "megalosaio:zinc_ore": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/zinc", "minecraft:zinc_ore"]
+}

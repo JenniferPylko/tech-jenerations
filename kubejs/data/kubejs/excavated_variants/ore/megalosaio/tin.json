@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Tin Ore"},
+    "blocks": {
+        "megalosaio:tin_ore": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/tin", "minecraft:tin_ore"]
+}

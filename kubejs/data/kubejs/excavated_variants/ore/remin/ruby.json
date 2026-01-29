@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether", "excavated_variants:end"],
+    "translations": {"en_us": "Ruby Ore"},
+    "blocks": {
+        "remin:nether_ruby_ore": "excavated_variants:minecraft/netherrack"
+    },
+    "tags": ["c:ores/ruby", "minecraft:ruby_ore"]
+}

@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Amethyst Ore"},
+    "blocks": {
+        "project_echo:amethyst_ore": "excavated_variants:minecraft/end_stone"
+    },
+    "tags": ["c:ores/amethyst", "minecraft:amethyst_ore"]
+}

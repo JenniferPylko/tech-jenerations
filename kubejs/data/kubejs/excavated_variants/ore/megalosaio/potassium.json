@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Potassium Ore"},
+    "blocks": {
+        "megalosaio:potassium_ore": "excavated_variants:minecraft/deepslate"
+    },
+    "tags": ["c:ores/potassium", "minecraft:potassium_ore"]
+}

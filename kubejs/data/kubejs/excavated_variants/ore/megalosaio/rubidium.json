@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether", "excavated_variants:end"],
+    "translations": {"en_us": "Rubidium Ore"},
+    "blocks": {
+        "megalosaio:rubidium_ore": "excavated_variants:minecraft/end_stone"
+    },
+    "tags": ["c:ores/rubidium", "minecraft:rubidium_ore"]
+}

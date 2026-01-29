@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Sodium Ore"},
+    "blocks": {
+        "megalosaio:sodium_ore": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/sodium", "minecraft:sodium_ore"]
+}

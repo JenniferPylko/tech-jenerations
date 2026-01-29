@@ -1,0 +1,10 @@
+#Set the defense value for abyss chestplate. Other pieces will be scaled based on that value. (netherite is 8)
+# Default: 9
+# Range: 1 ~ 20
+abyssArmorProtection = 9
+#Set damage dealt by the Warden Heart laser attack
+# Default: 10
+# Range: 1 ~ 1000
+wardenHeartLaser = 10
+#Enable teleporting to the Abyss when falling into the void
+enableVoidFallTeleport = false

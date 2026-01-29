@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Silver Ore"},
+    "blocks": {
+        "megalosaio:silver_ore": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/silver", "minecraft:silver_ore"]
+}

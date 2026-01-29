@@ -1,0 +1,262 @@
+ServerEvents.recipes(($) => {
+    const $forEachRecipe = (filter, callback) => {
+        try { $.forEachRecipe(filter, (recipe) => {
+            try { callback(recipe) } catch (e) {}
+        }) } catch (e) {}
+    }
+
+    const $shaped_2x2 = (output, input) => $.shaped(output, ["AA ", "AA ", "   "], {A: input})
+    const $shaped_3x3_blend = (output, axis_input, diagonal_input, center_input) => $.shaped(output, ["ABA", "BCB", "ABA"], {A: diagonal_input, B: axis_input, C: center_input ?? diagonal_input})
+
+    $forEachRecipe({
+        output: "#minecraft:planks",
+        input: "#minecraft:logs",
+        type: "minecraft:crafting_shapeless",
+        not: {input: "#survivalistessentials:saw_tools"}
+    }, (recipe) => {
+        $.shapeless(recipe.originalRecipeResult.withCount(2), [recipe.originalRecipeIngredients[0], "survivalistessentials:crude_saw"])
+        $.shapeless(recipe.originalRecipeResult.withCount(4), [recipe.originalRecipeIngredients[0], "#survivalistessentials:advanced_saw_tools"])
+        recipe.remove()
+    })
+
+//    $forEachRecipe({input: "#c:stones"}, (recipe) => {
+//        if (recipe.originalRecipeResult.getItemId().match(/.*(smooth|polished).*/)) {
+//            $.recipes.create.sanding([Output.of(recipe.originalRecipeResult.withCount(1))], recipe.originalRecipeIngredients[0])
+//            recipe.remove()
+//        }
+//    })
+
+    for (const rule of global.replacement_rules.ITEM) {
+        for (const original of rule.originals) {
+            try { $.replaceInput({input: original}, original, rule.replacement) } catch (e) {}
+            try { $.replaceOutput({output: original}, original, rule.replacement) } catch (e) {}
+        }
+    }
+
+    $shaped_2x2(Item.of("kubejs:basic_mesh", 1), "minecraft:stick")
+
+    $.recipes.createsifter.sifting([Output.of("minecraft:coarse_dirt", 0.15)], "minecraft:dirt", "kubejs:basic_mesh")
+    $.recipes.createsifter.sifting([Output.of("minecraft:gravel", 0.15)], "minecraft:coarse_dirt", "kubejs:basic_mesh")
+    $.recipes.createsifter.sifting([Output.of("minecraft:flint", 0.15)], "minecraft:gravel", "kubejs:basic_mesh")
+
+    $.replaceInput({output: "modern_industrialization:fire_clay_dust"}, "modern_industrialization:brick_dust", "tfmg:fireclay_ball")
+    $.replaceInput({}, "waystones:warp_stone", "waystones:warp_dust")
+    $.replaceInput({output: "waystones:warp_stone"}, "minecraft:emerald", "minecraft:lodestone")
+    $.replaceInput({input: "minecraft:stick", mod: "survivalistessentials"}, "minecraft:stick", "#kubejs:simple_handles")
+    $.replaceInput({input: "survivalistessentials:plant_string"}, "survivalistessentials:plant_string", "#c:strings")
+    $.replaceInput({output: "minecraft:arrow"}, "minecraft:flint", "survivalistessentials:flint_shard")
+    $.replaceInput({output: "minecraft:map"}, "minecraft:compass", "#supplementaries:way_signs")
+    $.replaceInput({output: "minecraft:lodestone"}, "#c:ingots/tungsten", "create_new_age:fluxuated_magnetite")
+    $.replaceInput({output: "hardcore_torches:fire_starter"}, "minecraft:string", "#c:strings")
+    $.replaceInput({output: "survivalistessentials:crude_hatchet"}, "survivalistessentials:rock_stone", "minecraft:flint")
+    //$.replaceInput({output: ""})
+
+    $.replaceOutput({output: "minecraft:wheat_seeds", mod: "emi_loot"}, "minecraft:wheat", "minecraft:air")
+
+    $.shaped(Item.of("tfmg:fireclay_ball", 3), ["AB ", "BA ", "   "], {A: "minecraft:clay_ball", B: "#c:dusts/bauxite"})
+
+    $.remove([
+        {input: "#c:cobblestones", type: "minecraft:smelting"},
+        {input: "#c:ores", type: "minecraft:smelting"},
+        {input: "#c:sandstone/blocks", type: "minecraft:smelting"},
+        {input: "#c:stones", type: "minecraft:smelting"},
+        {input: "#minecraft:logs", output: "minecraft:chest"},
+        {input: "#minecraft:terracotta", type: "minecraft:smelting"},
+        {input: "ae2:sky_dust", type: "minecraft:smelting"},
+        {input: "minecraft:iron_ingot", output: "minecraft:lodestone"},
+        {input: "minecraft:raw_iron", output: "minecraft:flint_and_steel"},
+        {input: "tfmg:unfired_insulator", type: "minecraft:smelting"},
+        {output: "#c:glass_blocks", type: "minecraft:smelting"},
+        {output: "#c:glass_pane", type: "minecraft:smelting"},
+        {output: "#c:glass_panes", type: "minecraft:smelting"},
+        {output: "#c:glass", type: "minecraft:smelting"},
+        {output: "#c:ingots", type: "minecraft:smelting"},
+        {output: "#c:nuggets", type: "minecraft:smelting"},
+        {output: "ceramicbucket:ceramic_bucket", type: "minecraft:smelting"},
+        {output: "minecraft:brick", type: "minecraft:smelting"},
+        {output: "minecraft:charcoal", type: "minecraft:smelting"},
+        {output: "minecraft:diamond", type: "create:automatic_shapeless"},
+        {output: "minecraft:diamond", type: "minecraft:smelting"},
+        {output: "minecraft:glowstone_dust", type: "minecraft:smelting"},
+        {output: "minecraft:lapis_lazuli", type: "minecraft:smelting"},
+        {output: "minecraft:nether_brick", type: "minecraft:smelting"},
+        {output: "minecraft:quartz", type: "minecraft:smelting"},
+        {output: "minecraft:redstone", type: "minecraft:smelting"},
+        {output: "minecraft:terracotta", type: "minecraft:smelting"},
+        {output: "minecraft:wooden_pickaxe"},
+        {output: "minecraft:wooden_shovel"},
+        {output: "modern_industrialization:fire_clay_brick", type: "minecraft:smelting"},
+        {output: "modern_industrialization:fire_clay_bricks"},
+        {output: "tfmg:fireproof_brick", type: "minecraft:smelting"},
+        {output: "tfmg:fireproof_bricks"},
+        {output: "waystones:warp_dust"},
+        {output: "ae2:silicon"},
+        {output: "#c:cobblestones"},
+        {output: "minecraft:furnace"}
+    ])
+
+    $.recipes.create.crushing("waystones:warp_dust", "waystones:warp_stone")
+
+    $shaped_3x3_blend(Item.of("minecraft:cobblestone"), "#c:clay_balls", "#c:pebbles")
+    $shaped_3x3_blend(Item.of("tfmg:fireproof_bricks"), "tfmg:fireproof_brick", "tfmg:fireclay_ball")
+    $shaped_3x3_blend(Item.of("modern_industrialization:fire_clay_dust"), "tfmg:fireclay_ball", "tfmg:fireclay_ball", "#c:dusts/bauxite")
+    $shaped_3x3_blend(Item.of("modern_industrialization:fire_clay_bricks"), "modern_industrialization:fire_clay_brick", "tfmg:fireclay_ball")
+    $shaped_3x3_blend(Item.of("minecraft:furnace"), "tfmg:fireproof_bricks", "tfmg:fireproof_bricks", "#c:furnace_cavity")
+})
+
+/*
+
+
+function cc_config:max_infection_speed 1
+function cc_config:max_infection_radius 16
+function cc_config:disable_book_on_death
+*/
+
+const $fabrishot = Java.loadClass("me.ramidzkh.fabrishot.Fabrishot")
+
+const fabrishot = () => {
+    $fabrishot.startCapture()
+    while($fabrishot.isInCapture()) {}
+}
+
+ServerEvents.basicCommand("fabrishot", fabrishot)
+
+const $fabrishot_config = Java.loadClass("me.ramidzkh.fabrishot.config.Config")
+
+ServerEvents.basicCommand("panoramashot", ($) => {
+    const configured_filename = $fabrishot_config.CUSTOM_FILE_NAME
+    const configured_hide_hud = $fabrishot_config.HIDE_HUD
+    const configured_width = $fabrishot_config.CAPTURE_WIDTH
+    const configured_height = $fabrishot_config.CAPTURE_HEIGHT
+    $fabrishot_config.CUSTOM_FILE_NAME = "panorama_0"
+    $fabrishot_config.HIDE_HUD = true
+    $fabrishot_config.CAPTURE_WIDTH = 2160
+    $fabrishot_config.CAPTURE_HEIGHT = 2160
+    $.player.runCommand("tick freeze")
+    $.player.runCommand("teleport @p ~ ~ ~ ~ 0")
+    const delay = 500
+    setTimeout(() => {
+        $.player.runCommand("fabrishot")
+        $fabrishot_config.CUSTOM_FILE_NAME = "panorama_1"
+        $.player.runCommand("teleport @p ~ ~ ~ ~90 0")
+        setTimeout(() => {
+            $.player.runCommand("fabrishot")
+            $fabrishot_config.CUSTOM_FILE_NAME = "panorama_2"
+            $.player.runCommand("teleport @p ~ ~ ~ ~90 0")
+            setTimeout(() => {
+                $.player.runCommand("fabrishot")
+                $fabrishot_config.CUSTOM_FILE_NAME = "panorama_3"
+                $.player.runCommand("teleport @p ~ ~ ~ ~90 0")
+                setTimeout(() => {
+                $.player.runCommand("fabrishot")
+                    $fabrishot_config.CUSTOM_FILE_NAME = "panorama_4"
+                    $.player.runCommand("teleport @p ~ ~ ~ ~90 -90")
+                    setTimeout(() => {
+                        $.player.runCommand("fabrishot")
+                        $fabrishot_config.CUSTOM_FILE_NAME = "panorama_5"
+                        $.player.runCommand("teleport @p ~ ~ ~ ~ 90")
+                        setTimeout(() => {
+                            $.player.runCommand("fabrishot")
+                            $fabrishot_config.CUSTOM_FILE_NAME = configured_filename
+                            $fabrishot_config.HIDE_HUD = configured_hide_hud
+                            $fabrishot_config.CAPTURE_WIDTH = configured_width
+                            $fabrishot_config.CAPTURE_HEIGHT = configured_height
+                            $.player.runCommand("teleport @p ~ ~ ~ ~ 0")
+                            $.player.runCommand("tick unfreeze")
+                        }, delay)
+                    }, delay)
+                }, delay)
+            }, delay)
+        }, delay)
+    }, delay)
+})
+
+BlockEvents.randomTick("minecraft:obsidian", ($) => {
+    if (Math.random() < 0.02) {
+        const neighbors = [
+            $.getBlock().getUp(), $.getBlock().getDown(),
+            $.getBlock().getNorth(), $.getBlock().getSouth(),
+            $.getBlock().getEast(), $.getBlock().getWest()
+        ]
+        for (const neighbor of neighbors) {
+            if (neighbor.getId().endsWith("nether_portal")) {
+                $.getBlock().spawnLightning()
+                $.getLevel().destroyBlock($.getBlock().getPos(), false)
+            }
+        }
+    }
+})
+
+/*
+BlockEvents.broken("minecraft:stone", ($) => {
+    $.block.set("minecraft:cobblestone")
+    $.cancel()
+})
+*/
+//BlockEvents.drops()
+
+LootJS.modifiers(($) => {
+    $.addBlockModifier('#c:ores').modifyLoot('#c:raw_materials', (item) => {
+        const replacement = AlmostUnified.getVariantItemTarget(item);
+        if (replacement.isEmpty()) {
+            return item
+        }
+        replacement.setCount(item.getCount());
+        return replacement
+    })
+    $.addTableModifier(LootType.BLOCK).customAction((context, loot) => {
+        //console.log(JSON.stringify(context))
+        //console.log(JSON.stringify(loot))
+        if (!context.id.getPath().match(/.*wheat.*/) && loot.hasItem("minecraft:wheat_seeds")) {
+            loot.remove("minecraft:wheat_seeds")
+        }
+        if (loot.hasItem("ecological:mixed_seeds")) {
+            loot.remove("ecological:mixed_seeds")
+        }
+    })
+    $.addBlockModifier(["#c:stones", "#c:cobblestones"]).replaceLoot("#c:cobblestones", LootEntry.of("survivalistessentials:rock_stone", [0, 4]), false)
+})
+
+const stone_loot_tables = ["minecraft:blocks/stone", "minecraft:blocks/cobblestone"]
+
+LootJS.lootTables(($) => {
+    //for (const table_name of $.getLootTableIds(/.*/)) {
+//
+//        console.log(table_name)
+//    }
+    // :(
+    $.getBlockTable("minecraft:stone").modifyEntry(($entry) => {
+        console.log($entry.item.id)
+        $entry.setItem("survivalistessentials:rock_stone")
+        $entry.setCount([0, 4])
+        return $entry
+    })
+})
+
+const sleeping_bag_colors = [
+    "white",
+    "orange",
+    "magenta",
+    "light_blue",
+    "lime",
+    "yellow",
+    "pink",
+    "gray",
+    "light_gray",
+    "cyan",
+    "purple",
+    "blue",
+    "brown",
+    "green",
+    "red",
+    "black"
+]
+
+PlayerEvents.loggedIn(($) => {
+    if (!$.player.stages.has("first_login")) {
+        $.player.stages.add("first_login")
+        $.server.runCommandSilent(`give ${$.entity.username} minecraft:stick`)
+        $.server.runCommandSilent(`give ${$.entity.username} kubejs:guide`)
+        $.server.runCommandSilent(`give ${$.entity.username} sleeping_bags:${sleeping_bag_colors[Math.floor(Math.random() * sleeping_bag_colors.length)]}_sleeping_bag`)
+    }
+})

@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Morganite Ore"},
+    "blocks": {
+        "remin:morganite_ore": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/morganite", "minecraft:morganite_ore"]
+}

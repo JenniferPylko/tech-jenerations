@@ -1,0 +1,9 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Yellow Topaz Ore"},
+    "blocks": {
+        "remin:yellow_topaz_ore": "excavated_variants:minecraft/stone",
+        "remin:deepslate_yellow_topaz_ore": "excavated_variants:minecraft/deepslate"
+    },
+    "tags": ["c:ores/yellow_topaz", "minecraft:yellow_topaz_ore"]
+}

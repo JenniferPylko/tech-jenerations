@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Titanium Ore"},
+    "blocks": {
+        "megalosaio:titanium_ore": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/titanium", "minecraft:titanium_ore"]
+}

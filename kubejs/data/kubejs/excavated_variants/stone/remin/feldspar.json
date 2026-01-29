@@ -1,0 +1,6 @@
+{
+    "types": ["excavated_variants:overworld"],
+    "translations": {"en_us": "Feldspar"},
+    "block": "remin:feldspar",
+    "ore_tags": ["c:ores_in_ground/feldspar"]
+}

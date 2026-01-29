@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Chromite Ore"},
+    "blocks": {
+        "remin:chromite_ore": "excavated_variants:minecraft/deepslate"
+    },
+    "tags": ["c:ores/chromite", "minecraft:chromite_ore"]
+}

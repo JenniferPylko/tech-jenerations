@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Alexandrite Ore"},
+    "blocks": {
+        "remin:alexandrite_ore_red": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/alexandrite", "minecraft:alexandrite_ore"]
+}

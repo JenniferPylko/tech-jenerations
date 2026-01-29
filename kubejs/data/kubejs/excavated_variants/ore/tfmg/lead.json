@@ -1,0 +1,9 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether", "excavated_variants:end"],
+    "translations": {"en_us": "Lead Ore"},
+    "blocks": {
+        "tfmg:lead_ore": "excavated_variants:minecraft/stone",
+        "tfmg:deepslate_lead_ore": "excavated_variants:minecraft/deepslate"
+    },
+    "tags": ["c:ores/lead", "minecraft:lead_ore"]
+}

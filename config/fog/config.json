@@ -1,0 +1,26 @@
+{
+	"enableMod": true,
+	"disabledBiomes": [
+		"ae2:spatial_storage"
+	],
+	"rainFogMultiplier": 0.9,
+	"undergroundFogMultiplier": 0.5,
+	"enableBiomeSpecificFogColors": true,
+	"enableCloudWhitening": false,
+	"initialFogStart": 0.1,
+	"initialFogEnd": 0.95,
+	"raininessTransitionSpeed": 0.005,
+	"undergroundnessTransitionSpeed": 0.005,
+	"fogStartTransitionSpeed": 0.005,
+	"fogEndTransitionSpeed": 0.005,
+	"darknessTransitionSpeed": 0.005,
+	"fogColorTransitionSpeed": 0.025,
+	"startMultiplierTransitionSpeed": 0.007,
+	"endMultiplierTransitionSpeed": 0.007,
+	"enableMoonFogColorInfluence": true,
+	"newMoonColor": -16777216,
+	"enableSunFogColorInfluence": true,
+	"enableHighAltitudeFogColorInfluence": false,
+	"prioritizePolytoneFogDefinitions": true,
+	"disableModWhenIrisShaderPackIsEnabled": true
+}

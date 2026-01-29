@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Pyrite Ore"},
+    "blocks": {
+        "remin:pyrite_ore": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/pyrite", "minecraft:pyrite_ore"]
+}

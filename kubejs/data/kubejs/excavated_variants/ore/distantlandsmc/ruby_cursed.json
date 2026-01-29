@@ -1,0 +1,9 @@
+{
+    "types": ["excavated_variants:overworld", "excavated_variants:nether", "excavated_variants:end"],
+    "translations": {"en_us": "Ruby Ore"},
+    "blocks": {
+        "distantlandsmc:nether_cursed_ruby_ore": "excavated_variants:minecraft/netherrack",
+        "distantlandsmc:end_cursed_ruby_ore": "excavated_variants:minecraft/end_stone"
+    },
+    "tags": ["c:ores/cursed_ruby", "minecraft:cursed_ruby_ore"]
+}
