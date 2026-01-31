@@ -36,5 +36,6 @@ jobs:
     - name: Create Release
       uses: ncipollo/release-action@v1.20.0
       with:
-        artifact: Tech Jenerations.mrpack
+        artifacts: Tech Jenerations.mrpack
         generateReleaseNotes: true
+        tag: 0.0.0
