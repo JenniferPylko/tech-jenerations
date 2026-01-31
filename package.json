@@ -1,0 +1,25 @@
+{
+  "name": "tech-jenerations",
+  "version": "0.0.0",
+  "description": "Modpack Scripts",
+  "homepage": "https://github.com/JenniferPylko/tech-jenerations",
+  "bugs": {
+    "url": "https://github.com/JenniferPylko/tech-jenerations/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JenniferPylko/tech-jenerations.git"
+  },
+  "license": "CC0",
+  "author": "JenniferPylko",
+  "type": "module",
+  "main": "scripts/index.js",
+  "scripts": {
+    "modpack": "node ./scripts/index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "yargs": "^18.0.0",
+    "zip-lib": "^1.1.2"
+  }
+}
