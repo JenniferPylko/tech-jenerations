@@ -33,3 +33,8 @@ jobs:
       with:
         name: Tech Jenerations.mrpack
         path: Tech Jenerations.mrpack
+    - name: Create Release
+      uses: ncipollo/release-action@v1.20.0
+      with:
+        artifact: Tech Jenerations.mrpack
+        generateReleaseNotes: true
