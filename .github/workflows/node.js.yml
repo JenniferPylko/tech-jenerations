@@ -6,8 +6,6 @@ name: Node.js CI
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 env:
     GH_TOKEN: ${{ github.token }}
 jobs:
@@ -36,10 +34,12 @@ jobs:
       with:
         name: Tech Jenerations.mrpack
         path: Tech Jenerations.mrpack
+    - name: Load Version
+      run: echo "PACK_VERSION=$(cat version)" >> $GITHUB_ENV
     - name: Create Release
       uses: ncipollo/release-action@v1.20.0
       with:
         artifacts: "Tech Jenerations.mrpack"
         generateReleaseNotes: true
-        tag: 0.0.0
+        tag: ${{ env.PACK_VERSION }}
         commit: main
