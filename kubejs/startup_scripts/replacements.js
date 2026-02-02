@@ -33,7 +33,7 @@ const replacement_rules = {
     "ITEM": []
 }
 
-StartupEvents.postInit(() => {
+StartupEvents.init(() => {
     for (const registry of Object.keys(replacement_rules)) {
         for (const rule of replacement_rules[registry]) {
             for (const original of rule.originals) {

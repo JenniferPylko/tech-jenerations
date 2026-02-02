@@ -88,4 +88,4 @@ for (const hash of hashes) {
     }
 }
 
-writeFile("modrinth.index.json", JSON.stringify(index, null, 2))
+writeFile("modrinth.index.json", JSON.stringify(JSON.parse(JSON.stringify(index)), null, 2))

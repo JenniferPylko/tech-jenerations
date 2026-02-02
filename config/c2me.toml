@@ -70,12 +70,12 @@ globalExecutorParallelism = "default"
 	useDensityFunctionCompiler = false
 	# (Default: true) Whether to enable aquifer optimizations to accelerate overworld worldgen
 	# (may cause incompatibility with other mods)
-	optimizeAquifer = "default"
+	optimizeAquifer = false
 	# (Default: true) Whether to enable End Biome Cache to accelerate The End worldgen 
 	# This is no longer included in lithium-fabric 
 	# (may cause incompatibility with other mods)
 	# 
-	useEndBiomeCache = "default"
+	useEndBiomeCache = false
 	# (Default: true) Whether to enable StructureWeightSampler optimizations to accelerate world generation
 	# 
 	optimizeStructureWeightSampler = "default"
@@ -133,7 +133,7 @@ globalExecutorParallelism = "default"
 	# MSPT significantly. This option delays fluid post-processing to scheduled tick to hopefully
 	# mitigate this issue.
 	# 
-	fluidPostProcessingToScheduledTick = "default"
+	fluidPostProcessingToScheduledTick = false
 	# (Default: true) Whether to filter fluid post-processing on worldgen threads
 	# 
 	# The worldgen processes creates a lot of unnecessary fluid post-processing tasks,
@@ -145,7 +145,7 @@ globalExecutorParallelism = "default"
 	# 
 	# Enabling this restores the behavior of always loading in neighbor chunks when a chunk is loaded.
 	# 
-	useLegacyScheduling = false
+	useLegacyScheduling = "default"
 	# (Default: false) Whether to enable low memory mode
 	# 
 	# This option will attempt to aggressively unload unused chunks.
@@ -171,7 +171,9 @@ globalExecutorParallelism = "default"
 	#  
 	# Incompatible with Dimensional Threading (dimthread)
 	# 
-	midTickChunkTasksInterval = "default"
+	# Set to -1 for the following reasons: 
+	# Incompatible with dimthread@1.2.1 (*) (defined in c2me) 
+	midTickChunkTasksInterval = -1
 
 	[generalOptimizations.autoSave]
 		# (Default: ENHANCED) Defines how auto save should be handled  
@@ -203,7 +205,7 @@ globalExecutorParallelism = "default"
 	[clientSideConfig.modifyMaxVDConfig]
 		# (Default: true) Whether to modify maximum view distance
 		enabled = "default"
-		# (Default: 69) Max render distance allowed in game options
+		# (Default: 73) Max render distance allowed in game options
 		maxViewDistance = "default"
 		# (Default: true) Enable client-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 		# This allows requesting render distances higher than 127 chunks from the server
