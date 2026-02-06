@@ -18,7 +18,7 @@
 	"portalSpreadRadius": 100,
 	// The delay in ticks in between the spread around the nether portal. 20 ticks = 1 second.
 	// min: 1, max: 72000
-	"spreadDelayTicks": 600,
+	"spreadDelayTicks": 20,
 	// The amount of blocks that are instantly converted to a nether block around a portal when it is detected. If there are existing nether blocks within the radius, their count is substracted from this number.
 	// min: 0, max: 1000
 	"instantConvertAmount": 0,
@@ -28,5 +28,5 @@
 	// min: 1, max: 100
 	"preventSpreadBlockAmountNeeded": 25,
 	// The block which prevents the nether portal from spreading. By default a coal block (minecraft:coal_block is the namespace ID).
-	"preventSpreadBlockString": "minecraft:gold_block"
+	"preventSpreadBlockString": "minecraft:sculk_catalyst"
 }

@@ -23,7 +23,7 @@ earlyWindowMaximized = true
 #Skip specific GL versions, may help with buggy graphics card drivers
 earlyWindowSkipGLVersions = []
 #Squir?
-earlyWindowSquir = true
+earlyWindowSquir = false
 
 #Define dependency overrides below
 #Dependency overrides can be used to forcibly remove a dependency constraint from a mod or to force a mod to load AFTER another mod
@@ -33,3 +33,4 @@ earlyWindowSquir = true
 [dependencyOverrides]
 	# overly restrictive version requirement, works fine with newer create
 	extendedwrenches = ["-create"]
+	blockreplacer = ["-lanternlib"]

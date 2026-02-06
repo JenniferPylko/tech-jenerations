@@ -46,7 +46,7 @@ globalExecutorParallelism = "default"
 	# Whether to use the fast reduced allocation chunk serializer
 	# (may cause incompatibility with other mods)
 	# 
-	gcFreeChunkSerializer = "default"
+	gcFreeChunkSerializer = true
 	# (Default: true) Whether to use the optimized implementation of IO system
 	replaceImpl = "default"
 	# (Default: 8192) Soft limit for io worker nbt cache
@@ -67,15 +67,15 @@ globalExecutorParallelism = "default"
 	# Chunk upgrades from pre-1.18 versions are not implemented and will
 	# fall back to the unoptimized version of density functions.
 	# 
-	useDensityFunctionCompiler = false
+	useDensityFunctionCompiler = true
 	# (Default: true) Whether to enable aquifer optimizations to accelerate overworld worldgen
 	# (may cause incompatibility with other mods)
-	optimizeAquifer = false
+	optimizeAquifer = "default"
 	# (Default: true) Whether to enable End Biome Cache to accelerate The End worldgen 
 	# This is no longer included in lithium-fabric 
 	# (may cause incompatibility with other mods)
 	# 
-	useEndBiomeCache = false
+	useEndBiomeCache = "default"
 	# (Default: true) Whether to enable StructureWeightSampler optimizations to accelerate world generation
 	# 
 	optimizeStructureWeightSampler = "default"
@@ -133,7 +133,7 @@ globalExecutorParallelism = "default"
 	# MSPT significantly. This option delays fluid post-processing to scheduled tick to hopefully
 	# mitigate this issue.
 	# 
-	fluidPostProcessingToScheduledTick = false
+	fluidPostProcessingToScheduledTick = "default"
 	# (Default: true) Whether to filter fluid post-processing on worldgen threads
 	# 
 	# The worldgen processes creates a lot of unnecessary fluid post-processing tasks,
@@ -145,7 +145,7 @@ globalExecutorParallelism = "default"
 	# 
 	# Enabling this restores the behavior of always loading in neighbor chunks when a chunk is loaded.
 	# 
-	useLegacyScheduling = "default"
+	useLegacyScheduling = false
 	# (Default: false) Whether to enable low memory mode
 	# 
 	# This option will attempt to aggressively unload unused chunks.
@@ -171,8 +171,6 @@ globalExecutorParallelism = "default"
 	#  
 	# Incompatible with Dimensional Threading (dimthread)
 	# 
-	# Set to -1 for the following reasons: 
-	# Incompatible with dimthread@1.2.1 (*) (defined in c2me) 
 	midTickChunkTasksInterval = -1
 
 	[generalOptimizations.autoSave]

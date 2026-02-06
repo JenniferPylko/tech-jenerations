@@ -1,4 +1,5 @@
 const $BuiltInRegistries = Java.loadClass("net.minecraft.core.registries.BuiltInRegistries")
+const $ReplacerConfig = Java.loadClass("com.redcraft86.blockreplacer.ModConfig")
 
 const replacement_rules = {
     "BLOCK": [{
@@ -36,18 +37,13 @@ const replacement_rules = {
 StartupEvents.init(() => {
     for (const registry of Object.keys(replacement_rules)) {
         for (const rule of replacement_rules[registry]) {
+            if (registry === "BLOCK") {
+                $ReplacerConfig.get().replaceBlocks.put(rule.replacement, rule.originals)
+            }
             for (const original of rule.originals) {
                 console.log(`Replacing ${registry} ${original} with ${rule.replacement}`)
                 $BuiltInRegistries[registry].addAlias(original, rule.replacement)
             }
-        }
-    }
-})
-
-BlockEvents.modification(($) => {
-    for (const rule of replacement_rules.BLOCK) {
-        for (const original of rule.originals) {
-            $.modify(original, (block) => block.setIsRandomlyTicking(true))
         }
     }
 })

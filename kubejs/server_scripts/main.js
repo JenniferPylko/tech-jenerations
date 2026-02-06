@@ -186,7 +186,6 @@ BlockEvents.randomTick("minecraft:obsidian", ($) => {
         }
     }
 })
-
 /*
 BlockEvents.broken("minecraft:stone", ($) => {
     $.block.set("minecraft:cobblestone")
