@@ -89,8 +89,7 @@ const banned_mods = {
     stoneholm: "long world generation pauses",
     terrablenderfix: "breaks many biomes",
     wildfields: "entities crash on creation",
-    portaljs: "crashes on start",
-    moogs_structures: "chunk generation hang"
+    portaljs: "crashes on start"
 }
 
 for (const id of Object.keys(Platform.mods)) {
