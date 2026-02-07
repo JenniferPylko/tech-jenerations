@@ -1,0 +1,15 @@
+{
+  // NOTE: This mod will NOT remove block items. Use KubeJS, Reliable Remover, or Item Obliterator for that.
+  //       This system will NOTT run retroactively either, only new placements will get replaced.
+  
+  // Uses a list for values but can be a single entry list if needed.
+  // Example 1: 
+  // 	"minecraft:new_block": [ "minecraft:old_block" ]
+  // Example 2: 
+  // 	"minecraft:new_block": [
+  // 		"minecraft:old_block_1",
+  // 		"minecraft:old_block_2",
+  // 		"minecraft:old_block_etc"
+  // 	]
+  "replaceBlocks": {}
+}
