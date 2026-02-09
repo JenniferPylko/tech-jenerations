@@ -29,7 +29,7 @@
 	#Maximum number of sounds any single mob can track simultaneously.
 	# Default: 10
 	# Range: 1 ~ 1000000
-	maxSoundsTracked = 10
+	maxSoundsTracked = 4
 	#Range threshold above which sounds are treated as 'large range' and checked across the whole dimension cache.
 	# Default: 64.0
 	# Range: 1.0 ~ 2048.0

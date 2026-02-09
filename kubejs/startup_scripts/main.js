@@ -133,8 +133,6 @@ BlockEvents.modification(($) => {
     $requiresTool("#minecraft:wooden_slabs")
     $requiresTool("#minecraft:wooden_trapdoors")
     $requiresTool("#minecraft:wooden_buttons")
-    $requiresTool("#minecraft:wooden_pressure_plates")
-    $requiresTool("#minecraft:all_signs")
     $requiresTool("#minecraft:muddy_mangrove_roots")
     $requiresTool("#c:chests/wooden")
     $requiresTool("#c:barrels/wooden")
@@ -150,6 +148,7 @@ BlockEvents.modification(($) => {
     $name("ecological:wild_carrot", "Wild Carrot")
     $name("ecological:wild_beetroot", "Wild Beetroot")
     $name("ecological:wild_wheat", "Wild Wheat")
+    $name("ecological:wild_potato", "Wild Potato")
 
     $.modify("minecraft:obsidian", (block) => block.setIsRandomlyTicking(true))
 })

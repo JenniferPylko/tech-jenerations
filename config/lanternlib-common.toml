@@ -1,0 +1,2 @@
+#List of entities that cannot grief the world.
+griefingBlacklist = []

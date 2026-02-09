@@ -1,0 +1,19 @@
+{
+  // -- NOTE: To disable this entirely, set false to booleans and clear out phrases and regexes -- //
+  
+  // Whether a shadow log should be printed alongside actual log outputs.
+  // Can be useful to look at the actual line that will get filtered before being logged.
+  "printShadow": false,
+  // Whether System.out.print logs should be affected by the filters.
+  "filterConsole": true,
+  // List of phrases to filter out logs.
+  "phrases": [
+    "Failed to process update information"
+  ],
+  // List of regular expressions to filter out logs. Supports partial matches.
+  "regexes": [
+    "^.*Invalid path .*: Invalid path ''.*$",
+    "^.*Discarding \\@Unique public method.*$",
+    "^.*If this is a development environment you can ignore this message.*$"
+  ]
+}
