@@ -75,7 +75,10 @@ for (const hash of hashes) {
         ]
         index.files.push({
             path: Path.posix.join(placement_directory, version_file.filename),
-            hashes: version_file.hashes,
+            hashes: { // explicitly order these so git diffs aren't huge
+                sha1: version_file.hashes.sha1,
+                sha512: version_file.hashes.sha512
+            },
             env: {
                 client: "required",
                 server: project_info[version_info[hash].project_id].server_side ?? "required"
