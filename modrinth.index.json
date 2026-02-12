@@ -8,8 +8,8 @@
     {
       "path": "mods/Abandoned Watchtowers 6.0 NeoForge 1.21.1.jar",
       "hashes": {
-        "sha1": "496efa2d7d94066d8a392e4ef14d4ba75092caf0",
-        "sha512": "75496db8c548aed4c74579e69f1daeb39f3fb1c037b9063dc369abe6d1a98f64fd6e02f3a9bb3befe3e597f36d233306f05d6ddeff45f0904d5f716c0731c953"
+        "sha512": "75496db8c548aed4c74579e69f1daeb39f3fb1c037b9063dc369abe6d1a98f64fd6e02f3a9bb3befe3e597f36d233306f05d6ddeff45f0904d5f716c0731c953",
+        "sha1": "496efa2d7d94066d8a392e4ef14d4ba75092caf0"
       },
       "env": {
         "client": "required",
@@ -23,8 +23,8 @@
     {
       "path": "mods/abusimbel-1.21.1.jar",
       "hashes": {
-        "sha1": "48f9b2232a282c5e6166dbfb9007725f349414ca",
-        "sha512": "8e42c4e72a2f516573a6f7555cd24fe8d8ceff75d414863e04c4a9f5b0312760fd17ae2d8ac3f9aa22cbb8ff0c54b09979b0751ebcb53f65053bf8b464ed1a62"
+        "sha512": "8e42c4e72a2f516573a6f7555cd24fe8d8ceff75d414863e04c4a9f5b0312760fd17ae2d8ac3f9aa22cbb8ff0c54b09979b0751ebcb53f65053bf8b464ed1a62",
+        "sha1": "48f9b2232a282c5e6166dbfb9007725f349414ca"
       },
       "env": {
         "client": "required",
@@ -38,8 +38,8 @@
     {
       "path": "mods/accessories-neoforge-1.1.0-beta.53+1.21.1.jar",
       "hashes": {
-        "sha1": "77d75c2e13cfdf56a45cdd29806c1c97c3d250fc",
-        "sha512": "baafa9a5e48c17c243d45b6260095ffef2ad00e4e970aafc5b1ca9ab5f4a542b18b0fb35d4584318791edbaf00a3c44806f62062513d991383192aca4df27a07"
+        "sha512": "baafa9a5e48c17c243d45b6260095ffef2ad00e4e970aafc5b1ca9ab5f4a542b18b0fb35d4584318791edbaf00a3c44806f62062513d991383192aca4df27a07",
+        "sha1": "77d75c2e13cfdf56a45cdd29806c1c97c3d250fc"
       },
       "env": {
         "client": "required",
@@ -53,8 +53,8 @@
     {
       "path": "mods/accessories_compat_layer-neoforge-0.1.12+1.21.1.jar",
       "hashes": {
-        "sha512": "f729c4e1c069182aac89805551a056b937e17fd6d9c031b14a6003b5c4fac609563f2c3d6786fe56ecfb62a1094124e68b2e4fb6e2612818d899d3bac181c215",
-        "sha1": "59dd35650925d72f5158816caf895f3d9fa0edf4"
+        "sha1": "59dd35650925d72f5158816caf895f3d9fa0edf4",
+        "sha512": "f729c4e1c069182aac89805551a056b937e17fd6d9c031b14a6003b5c4fac609563f2c3d6786fe56ecfb62a1094124e68b2e4fb6e2612818d899d3bac181c215"
       },
       "env": {
         "client": "required",
@@ -68,8 +68,8 @@
     {
       "path": "mods/AdditionalStructures-1.21-(v.6.3.2-NEO).jar",
       "hashes": {
-        "sha1": "8aded0dfac2208ade2b5d5c8a63b64d9cc19f833",
-        "sha512": "c1eb080713f50ff5c9431b7a2d73f5ef2ae8338f6e9e6483224e08bf3f99cf33962f64951e905a895574c791cb5d4494a09a46d41069c4d8da5a07fd39717dce"
+        "sha512": "c1eb080713f50ff5c9431b7a2d73f5ef2ae8338f6e9e6483224e08bf3f99cf33962f64951e905a895574c791cb5d4494a09a46d41069c4d8da5a07fd39717dce",
+        "sha1": "8aded0dfac2208ade2b5d5c8a63b64d9cc19f833"
       },
       "env": {
         "client": "required",
@@ -83,8 +83,8 @@
     {
       "path": "mods/ae2-dynamic-trees-fix-1.0.jar",
       "hashes": {
-        "sha512": "85cb8f6f08a35d37510fc2ba6df342f932325c7b4730def3e6d064044e554f2eaff9a90d69f2ab179977bf82a67598d83a6f5bb8002ede3f556be9883335b47d",
-        "sha1": "307c82cd2389cfa3c4277ccf4a8891a54155bea2"
+        "sha1": "307c82cd2389cfa3c4277ccf4a8891a54155bea2",
+        "sha512": "85cb8f6f08a35d37510fc2ba6df342f932325c7b4730def3e6d064044e554f2eaff9a90d69f2ab179977bf82a67598d83a6f5bb8002ede3f556be9883335b47d"
       },
       "env": {
         "client": "required",
@@ -113,8 +113,8 @@
     {
       "path": "mods/ae2wtlib-19.3.0.jar",
       "hashes": {
-        "sha512": "477fbc6642b2f96208b99189b9fb3fb774d41587a545a35d0b417fc0321bbe944db2553f0a08d0663258500ea73c3773f7fc093af604ff1d4b579b32c7c40d69",
-        "sha1": "455fb1b4708a6aa26aedbd0c33f2b331c35cdc98"
+        "sha1": "455fb1b4708a6aa26aedbd0c33f2b331c35cdc98",
+        "sha512": "477fbc6642b2f96208b99189b9fb3fb774d41587a545a35d0b417fc0321bbe944db2553f0a08d0663258500ea73c3773f7fc093af604ff1d4b579b32c7c40d69"
       },
       "env": {
         "client": "required",
@@ -143,8 +143,8 @@
     {
       "path": "mods/almostunified-neoforge-1.21.1-1.3.0.jar",
       "hashes": {
-        "sha512": "9f517d364d2bb2339ee37a601527515fac3c35542439c9ff48de0b1bbf56df734841acf75a4ccf7750501005ebe4a5e9a01391760d5e19fdfa996e074fe3be9b",
-        "sha1": "d4d4e89eeec0693433dd16f5cf8dbd0181ae6fe6"
+        "sha1": "d4d4e89eeec0693433dd16f5cf8dbd0181ae6fe6",
+        "sha512": "9f517d364d2bb2339ee37a601527515fac3c35542439c9ff48de0b1bbf56df734841acf75a4ccf7750501005ebe4a5e9a01391760d5e19fdfa996e074fe3be9b"
       },
       "env": {
         "client": "required",
@@ -173,8 +173,8 @@
     {
       "path": "mods/AmbientEnvironment-neoforge-1.21.1-18.0.0.2.jar",
       "hashes": {
-        "sha512": "aad91081e677097847ad847463717fdb77abf32a1a27176b019fa919ba505a3ab01b6d06c30d63da800a0b5b490be3cf5a7cf80f2193b6a8394a4249ba2cfeaa",
-        "sha1": "3a00ec1170b38e75a502dcc46038397f8fd9b305"
+        "sha1": "3a00ec1170b38e75a502dcc46038397f8fd9b305",
+        "sha512": "aad91081e677097847ad847463717fdb77abf32a1a27176b019fa919ba505a3ab01b6d06c30d63da800a0b5b490be3cf5a7cf80f2193b6a8394a4249ba2cfeaa"
       },
       "env": {
         "client": "required",
@@ -188,8 +188,8 @@
     {
       "path": "mods/amendments-1.21-2.0.15-neoforge.jar",
       "hashes": {
-        "sha512": "a9ea5029cb4788e9e1dae8ed94f05e9111754e064d41fcd6bf7e570c28106dc1e680d2f2e82324b87a0a154a3d714bbdf2425124a62cba4765c41c1097d1609a",
-        "sha1": "00056f29646f3bf86116b281c2362c0dabdb4533"
+        "sha1": "00056f29646f3bf86116b281c2362c0dabdb4533",
+        "sha512": "a9ea5029cb4788e9e1dae8ed94f05e9111754e064d41fcd6bf7e570c28106dc1e680d2f2e82324b87a0a154a3d714bbdf2425124a62cba4765c41c1097d1609a"
       },
       "env": {
         "client": "required",
@@ -248,8 +248,8 @@
     {
       "path": "mods/architectury-13.0.8-neoforge.jar",
       "hashes": {
-        "sha512": "65e3664953385d880320dd6bb818bcb96d361c07c53e2a7f65e64c6a47720ee26b233224ae9cad465ef0b2bbaefdaf30fb0175a983cecd91de058817d6fcf57e",
-        "sha1": "6ca11d3cc136bf69bb8f4d56982481eb85b5100b"
+        "sha1": "6ca11d3cc136bf69bb8f4d56982481eb85b5100b",
+        "sha512": "65e3664953385d880320dd6bb818bcb96d361c07c53e2a7f65e64c6a47720ee26b233224ae9cad465ef0b2bbaefdaf30fb0175a983cecd91de058817d6fcf57e"
       },
       "env": {
         "client": "required",
@@ -263,8 +263,8 @@
     {
       "path": "mods/ash_api-neoforge-21.1.1.jar",
       "hashes": {
-        "sha512": "6db5c15b3c0949c1eed65fc1d41ae5eadcbe23e802c6ed5d96d70a3de41c6c10c973a53389ce09c142b1a369904742ba18c88b778b8c18358c27f1ec3e4b3c94",
-        "sha1": "723cdb086c66f93c31ce308f82aa2e552a9fac4c"
+        "sha1": "723cdb086c66f93c31ce308f82aa2e552a9fac4c",
+        "sha512": "6db5c15b3c0949c1eed65fc1d41ae5eadcbe23e802c6ed5d96d70a3de41c6c10c973a53389ce09c142b1a369904742ba18c88b778b8c18358c27f1ec3e4b3c94"
       },
       "env": {
         "client": "required",
@@ -278,8 +278,8 @@
     {
       "path": "mods/atmospheric-1.21.1-7.0.1.jar",
       "hashes": {
-        "sha512": "137a56f031a303116dd9245cde3b20047a523fa3215df3e8ab51590249a469a60b1e57536fdb578b6feafc89f4075f85ccd76af52dcf181b6b2df032dec7aafb",
-        "sha1": "522bbf4f8e0dcb1754c464e66ab301d8235ea315"
+        "sha1": "522bbf4f8e0dcb1754c464e66ab301d8235ea315",
+        "sha512": "137a56f031a303116dd9245cde3b20047a523fa3215df3e8ab51590249a469a60b1e57536fdb578b6feafc89f4075f85ccd76af52dcf181b6b2df032dec7aafb"
       },
       "env": {
         "client": "required",
@@ -353,8 +353,8 @@
     {
       "path": "mods/backported_animal_variants-0.2-1.21.1.jar",
       "hashes": {
-        "sha1": "db15bf99141b41bf9352960061c670078465f6c8",
-        "sha512": "5d55f486c237aa46b91988f5de5097993c347cbb60b4c1969c3c23b5bf96619e89673fbe4c7e1cf846c6f9ee4106da043be61c0c8733b6808b2595ebe310e158"
+        "sha512": "5d55f486c237aa46b91988f5de5097993c347cbb60b4c1969c3c23b5bf96619e89673fbe4c7e1cf846c6f9ee4106da043be61c0c8733b6808b2595ebe310e158",
+        "sha1": "db15bf99141b41bf9352960061c670078465f6c8"
       },
       "env": {
         "client": "required",
@@ -398,8 +398,8 @@
     {
       "path": "mods/baguettelib-1.21.1-NeoForge-1.1.5.jar",
       "hashes": {
-        "sha512": "a3c71420f36b627a49ee894fc7dd294e82304107d402449f3db638a5a38678fe974d07429eed5183ef4b7f872f664ffcfebfcbdd0264f5ee26725b1914fbed24",
-        "sha1": "f4dc59ccb7767daa4ff22a7e8b59cf937efb9cdd"
+        "sha1": "f4dc59ccb7767daa4ff22a7e8b59cf937efb9cdd",
+        "sha512": "a3c71420f36b627a49ee894fc7dd294e82304107d402449f3db638a5a38678fe974d07429eed5183ef4b7f872f664ffcfebfcbdd0264f5ee26725b1914fbed24"
       },
       "env": {
         "client": "required",
@@ -458,8 +458,8 @@
     {
       "path": "mods/basic_nvg-1.1.0-neoforge-1.21.1.jar",
       "hashes": {
-        "sha512": "820f534b2a64c50197681956dbf6666767be3b21567f7d278f0814e6b56e613a4ccd94c982b2b9ced9cd14be9793b311a31113f7dbc44ac67d6e8b3091919674",
-        "sha1": "2136d875875c5806a0dd6f28f7f467a62c231c40"
+        "sha1": "2136d875875c5806a0dd6f28f7f467a62c231c40",
+        "sha512": "820f534b2a64c50197681956dbf6666767be3b21567f7d278f0814e6b56e613a4ccd94c982b2b9ced9cd14be9793b311a31113f7dbc44ac67d6e8b3091919674"
       },
       "env": {
         "client": "required",
@@ -473,8 +473,8 @@
     {
       "path": "mods/bellsandwhistles-0.4.7-1.21.1.jar",
       "hashes": {
-        "sha512": "482ee096477b89ed8ec5ce008a4a8ac0ae853079a4f5ce16ad0e0dd9b2eb12b3326f17acaaca1eae0bc51ad238f4e51c8d5b93ded71fe7240717ac8600041c59",
-        "sha1": "85944080f8bd47dad64a8193a70662cd9ddbb200"
+        "sha1": "85944080f8bd47dad64a8193a70662cd9ddbb200",
+        "sha512": "482ee096477b89ed8ec5ce008a4a8ac0ae853079a4f5ce16ad0e0dd9b2eb12b3326f17acaaca1eae0bc51ad238f4e51c8d5b93ded71fe7240717ac8600041c59"
       },
       "env": {
         "client": "required",
@@ -503,8 +503,8 @@
     {
       "path": "mods/better-snowy-biome-v2.5.1.jar",
       "hashes": {
-        "sha512": "ff9a98505a6e2ef624e1ec638aef7e41a222dd28ff12c5814ff1742a4978893f4e42d209f530bbbd3874168927e11900f29b9b52de3c05be86ec34a8426c3810",
-        "sha1": "e84943b363eeb8f8bd11f25290666ec9d7522bad"
+        "sha1": "e84943b363eeb8f8bd11f25290666ec9d7522bad",
+        "sha512": "ff9a98505a6e2ef624e1ec638aef7e41a222dd28ff12c5814ff1742a4978893f4e42d209f530bbbd3874168927e11900f29b9b52de3c05be86ec34a8426c3810"
       },
       "env": {
         "client": "required",
@@ -518,8 +518,8 @@
     {
       "path": "mods/betterbeds-1.4.0.jar",
       "hashes": {
-        "sha1": "48f215da24598e4ad93efc7d0ca0a6f91660069f",
-        "sha512": "950a61a1d60cb28b97f9d6e83a78b7943986ae10dba0d30f2f61a4967f9acdc6c8548d4d5b7446c6695f3145583d50bb10e06555d24fabca7e3816381e397517"
+        "sha512": "950a61a1d60cb28b97f9d6e83a78b7943986ae10dba0d30f2f61a4967f9acdc6c8548d4d5b7446c6695f3145583d50bb10e06555d24fabca7e3816381e397517",
+        "sha1": "48f215da24598e4ad93efc7d0ca0a6f91660069f"
       },
       "env": {
         "client": "required",
@@ -533,8 +533,8 @@
     {
       "path": "mods/betterbiomeblend-1.5.2.jar",
       "hashes": {
-        "sha512": "dbd8caa967f2537a61e4a8d199e6a55f27418db521d8a11f1aa77e1dcc02ea340f5077b12c4053114db886fa3b0f8168e36231c22bde292d388952f34202391e",
-        "sha1": "c6528c9760ecfd2987484aabe54c3d26e931e3a7"
+        "sha1": "c6528c9760ecfd2987484aabe54c3d26e931e3a7",
+        "sha512": "dbd8caa967f2537a61e4a8d199e6a55f27418db521d8a11f1aa77e1dcc02ea340f5077b12c4053114db886fa3b0f8168e36231c22bde292d388952f34202391e"
       },
       "env": {
         "client": "required",
@@ -548,8 +548,8 @@
     {
       "path": "mods/betterdays-1.21.1-3.3.6.2-NEOFORGE.jar",
       "hashes": {
-        "sha1": "7424f2e07fd45ba60b0aff239621ca27d4513289",
-        "sha512": "009068bb0d2acd7e24f9dec506362da68c967f83054f187e6146d4e86a8e1cd178fd999904f8d37fd483c85af9075e453c7f723a1f426d3748e07cd850ccbfc4"
+        "sha512": "009068bb0d2acd7e24f9dec506362da68c967f83054f187e6146d4e86a8e1cd178fd999904f8d37fd483c85af9075e453c7f723a1f426d3748e07cd850ccbfc4",
+        "sha1": "7424f2e07fd45ba60b0aff239621ca27d4513289"
       },
       "env": {
         "client": "required",
@@ -563,8 +563,8 @@
     {
       "path": "mods/better_falling-2.2.0-neoforge-1.21.1.jar",
       "hashes": {
-        "sha512": "bafc25d0f45132670610ea8485bd3fd40906b4702ac61789fed9c64601dab9cc505a0e76e8738cb555cecc5e641d95ffe108e64759eae80bf2fb21317d9856e4",
-        "sha1": "01b367d09ec4cbabc0cfe2bb566178ec4d3ba3b9"
+        "sha1": "01b367d09ec4cbabc0cfe2bb566178ec4d3ba3b9",
+        "sha512": "bafc25d0f45132670610ea8485bd3fd40906b4702ac61789fed9c64601dab9cc505a0e76e8738cb555cecc5e641d95ffe108e64759eae80bf2fb21317d9856e4"
       },
       "env": {
         "client": "required",
@@ -593,8 +593,8 @@
     {
       "path": "mods/bigcontraptions-neoforge-1.0.jar",
       "hashes": {
-        "sha1": "cf1af44de7042f26fce74549130e1eb7d937ced8",
-        "sha512": "70830507e68f9c12e6b908d5fc030c960fcd7137078d7abcab48362bd68fa08c01fa7ae4207e5510b87ec47ec69f36d8dd933791a0175765c0cdfefdc138f98e"
+        "sha512": "70830507e68f9c12e6b908d5fc030c960fcd7137078d7abcab48362bd68fa08c01fa7ae4207e5510b87ec47ec69f36d8dd933791a0175765c0cdfefdc138f98e",
+        "sha1": "cf1af44de7042f26fce74549130e1eb7d937ced8"
       },
       "env": {
         "client": "required",
@@ -638,8 +638,8 @@
     {
       "path": "mods/biomespy-neoforge-1.21.1-1.3.3.jar",
       "hashes": {
-        "sha512": "ec5d3e5e33b13427167e83f07f65ab7545ace4fd9fb51292e42ae8bf7f2febced60964716bd8d3d7b6f52e3d8efb3be352d96381f39f78a774ecc557ee46b241",
-        "sha1": "079f612d2b3eed5502896c7cd691969f33b7ab1c"
+        "sha1": "079f612d2b3eed5502896c7cd691969f33b7ab1c",
+        "sha512": "ec5d3e5e33b13427167e83f07f65ab7545ace4fd9fb51292e42ae8bf7f2febced60964716bd8d3d7b6f52e3d8efb3be352d96381f39f78a774ecc557ee46b241"
       },
       "env": {
         "client": "required",
@@ -653,8 +653,8 @@
     {
       "path": "mods/biome_fest-1.0.0-neoforge-1.21.1.jar",
       "hashes": {
-        "sha512": "52588c42edb00d98400092e618d40051ed8a661498daf78f2a0f0e40004c7ecda73f7aa4479c77c26c372f8646c89787bc30823f8b63089356c99ea2a7d1748f",
-        "sha1": "e07046f2615cdfe3add7adf5473adaf31406aa64"
+        "sha1": "e07046f2615cdfe3add7adf5473adaf31406aa64",
+        "sha512": "52588c42edb00d98400092e618d40051ed8a661498daf78f2a0f0e40004c7ecda73f7aa4479c77c26c372f8646c89787bc30823f8b63089356c99ea2a7d1748f"
       },
       "env": {
         "client": "required",
@@ -668,8 +668,8 @@
     {
       "path": "mods/blastcraft-1.21.1-0.6.0-1.jar",
       "hashes": {
-        "sha512": "d859316466500c3fae575da79f0f53df0791cc17751a29a4c03a5e441b3eb826d882a5b2fc13f0af584eb8b4f5468a5ab13c4e9eafa7a8fa30e5aea6a0740a45",
-        "sha1": "7ea6d2bf6968430d7f70dfe6bad4777757db6149"
+        "sha1": "7ea6d2bf6968430d7f70dfe6bad4777757db6149",
+        "sha512": "d859316466500c3fae575da79f0f53df0791cc17751a29a4c03a5e441b3eb826d882a5b2fc13f0af584eb8b4f5468a5ab13c4e9eafa7a8fa30e5aea6a0740a45"
       },
       "env": {
         "client": "required",
@@ -683,8 +683,8 @@
     {
       "path": "mods/blazingbamboo-neoforge-1.1.3-1.21.1.jar",
       "hashes": {
-        "sha512": "3264b21d995b25de67fd8006582cc50b3d73b284724d5d9e473b412939115768476626f59b886b8daea2675ec79fb6e6999a2b87b646e65d5157d435d030b7fa",
-        "sha1": "36fb7a634013ad0a152d02928d52c6a1209570c2"
+        "sha1": "36fb7a634013ad0a152d02928d52c6a1209570c2",
+        "sha512": "3264b21d995b25de67fd8006582cc50b3d73b284724d5d9e473b412939115768476626f59b886b8daea2675ec79fb6e6999a2b87b646e65d5157d435d030b7fa"
       },
       "env": {
         "client": "required",
@@ -698,8 +698,8 @@
     {
       "path": "mods/blockreplacer-1.21.1-1.0.0.jar",
       "hashes": {
-        "sha1": "bc876f2f638b985dba9aed103cede8574702ce81",
-        "sha512": "1d0a0c6dba84324d24f5e1874157e54597204ac6a3013a0fe221dabe83720ac48bde276b43e4ffc3a0caab6ab5b9eb56f0b48ea9b4ea1548069378f70961fc24"
+        "sha512": "1d0a0c6dba84324d24f5e1874157e54597204ac6a3013a0fe221dabe83720ac48bde276b43e4ffc3a0caab6ab5b9eb56f0b48ea9b4ea1548069378f70961fc24",
+        "sha1": "bc876f2f638b985dba9aed103cede8574702ce81"
       },
       "env": {
         "client": "required",
@@ -713,8 +713,8 @@
     {
       "path": "mods/blueprint-1.21.1-8.0.8.jar",
       "hashes": {
-        "sha512": "3864af3a4204a60b88627887dd40efdd820376c465ebfa8201de1cdf21300c57881a08bbce7864f7dd81dbeaddfb6045881b52dfdddc03a7e7592bd6783c8d11",
-        "sha1": "9f9549cecaee3f4cb03d9c829b148a110a0efb54"
+        "sha1": "9f9549cecaee3f4cb03d9c829b148a110a0efb54",
+        "sha512": "3864af3a4204a60b88627887dd40efdd820376c465ebfa8201de1cdf21300c57881a08bbce7864f7dd81dbeaddfb6045881b52dfdddc03a7e7592bd6783c8d11"
       },
       "env": {
         "client": "required",
@@ -728,8 +728,8 @@
     {
       "path": "mods/Boids-2.0.2+1.21.jar",
       "hashes": {
-        "sha1": "22d1966eb24ab99c7c8c7d9260e539183546b115",
-        "sha512": "e8de71f8a0598468b7c983aae250d88746a5add895531e4fe1d251d7d73a974b32f96d166df98e24e4ae638ecd0e110a6c9f1a7e89751adc118cc119f6012f5a"
+        "sha512": "e8de71f8a0598468b7c983aae250d88746a5add895531e4fe1d251d7d73a974b32f96d166df98e24e4ae638ecd0e110a6c9f1a7e89751adc118cc119f6012f5a",
+        "sha1": "22d1966eb24ab99c7c8c7d9260e539183546b115"
       },
       "env": {
         "client": "required",
@@ -741,25 +741,25 @@
       "fileSize": 106560
     },
     {
-      "path": "mods/bookshelf-neoforge-1.21.1-21.1.80.jar",
+      "path": "mods/bookshelf-neoforge-1.21.1-21.1.81.jar",
       "hashes": {
-        "sha1": "04faab5a3e3fde909601145ac7dd8d806087958d",
-        "sha512": "bff24c4540b3bffdd687060fa6e4176e619166e30f5d13c31746d77ca6b44657b82dbe87441c5b2fa84bddca2f57d86f6294977929b8a631ae5ef3bee5b90883"
+        "sha512": "78d4577a8e8fbb241216968475dd73f5b9e5efeb7da802b18a4e6c290e49af6cb4a5676e9855d0d8ff3613f967812e4bd363bbb9196c17c954d19454f84b2214",
+        "sha1": "efc4cda6da4dd879f24d057ed0a6413764c9ba40"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/uy4Cnpcm/versions/vQ3DXKc6/bookshelf-neoforge-1.21.1-21.1.80.jar"
+        "https://cdn.modrinth.com/data/uy4Cnpcm/versions/1sdJl7J1/bookshelf-neoforge-1.21.1-21.1.81.jar"
       ],
-      "fileSize": 328814
+      "fileSize": 328813
     },
     {
       "path": "mods/BridgingMod-2.6.2+1.21.1.neoforge-release.jar",
       "hashes": {
-        "sha512": "315129fd67381cfc799aa51fcd6ee511fdb6959a8b60f33afc9ea48c7cc13c689d6d56fcd2c793d8ce9ba95f7a37a5fe94c4422baa8c011592153ad2bd47dbd5",
-        "sha1": "18c4fdadf7d1b4632ae0e0914e4075847306b52f"
+        "sha1": "18c4fdadf7d1b4632ae0e0914e4075847306b52f",
+        "sha512": "315129fd67381cfc799aa51fcd6ee511fdb6959a8b60f33afc9ea48c7cc13c689d6d56fcd2c793d8ce9ba95f7a37a5fe94c4422baa8c011592153ad2bd47dbd5"
       },
       "env": {
         "client": "required",
@@ -818,8 +818,8 @@
     {
       "path": "mods/cable_facades-1.21.1-NeoForge-1.6.5.jar",
       "hashes": {
-        "sha1": "d3633dd32a47144f1072fc855aa46637b0ed4c2d",
-        "sha512": "c3151470a2f6af1bf3a83d918752facd375af2fa1e5c96fb18e172e651f21b8fd520cb7ade1add41abd3800386aaff553e86f3fac8b566eb9b6a9236837458ec"
+        "sha512": "c3151470a2f6af1bf3a83d918752facd375af2fa1e5c96fb18e172e651f21b8fd520cb7ade1add41abd3800386aaff553e86f3fac8b566eb9b6a9236837458ec",
+        "sha1": "d3633dd32a47144f1072fc855aa46637b0ed4c2d"
       },
       "env": {
         "client": "required",
@@ -848,8 +848,8 @@
     {
       "path": "mods/cfmgandcdgcombatability-5.0.0.jar",
       "hashes": {
-        "sha1": "cc65c074e7fac5e5aaca66bf199cb85d99e6c93b",
-        "sha512": "e910c91dec3e8c6eb4b6e45495541e084b7980f326e128515c9f047171d3563864e2755bd8dbbb0639625caaae54e8a7762e2da4b2df25d172ae77f8f68894c6"
+        "sha512": "e910c91dec3e8c6eb4b6e45495541e084b7980f326e128515c9f047171d3563864e2755bd8dbbb0639625caaae54e8a7762e2da4b2df25d172ae77f8f68894c6",
+        "sha1": "cc65c074e7fac5e5aaca66bf199cb85d99e6c93b"
       },
       "env": {
         "client": "required",
@@ -878,8 +878,8 @@
     {
       "path": "mods/CharcoalPit[1.21]-4.8.jar",
       "hashes": {
-        "sha1": "1a4a3ef2183439e418c97395b13c355acaaa43eb",
-        "sha512": "27fa8c60539d3cf9a3aba0700fe7184ebbe50f216d27a2bd19ee671452557bda37116f01160cd5b0a928cc717dc7d91e17273af8ab34585021b8b9446fc66f7c"
+        "sha512": "27fa8c60539d3cf9a3aba0700fe7184ebbe50f216d27a2bd19ee671452557bda37116f01160cd5b0a928cc717dc7d91e17273af8ab34585021b8b9446fc66f7c",
+        "sha1": "1a4a3ef2183439e418c97395b13c355acaaa43eb"
       },
       "env": {
         "client": "required",
@@ -893,8 +893,8 @@
     {
       "path": "mods/chat_heads-0.15.0-neoforge-1.21.jar",
       "hashes": {
-        "sha512": "1426bf3e9d094a370e134f0ab864d0ec8c2df4bc047a26779d5dd28c64adb2a2a6ceb792b67dc6d61bd49d3c77d72c980076313fd06f61a2e9f0573c166e649c",
-        "sha1": "a2c3744ededab5614bb8ecb71e058fdd3ba24638"
+        "sha1": "a2c3744ededab5614bb8ecb71e058fdd3ba24638",
+        "sha512": "1426bf3e9d094a370e134f0ab864d0ec8c2df4bc047a26779d5dd28c64adb2a2a6ceb792b67dc6d61bd49d3c77d72c980076313fd06f61a2e9f0573c166e649c"
       },
       "env": {
         "client": "required",
@@ -908,8 +908,8 @@
     {
       "path": "mods/chemicalscience-1.21.1-3.1.0.jar",
       "hashes": {
-        "sha1": "511629e5f763c955554d13224fd3b1f8b2c2a6e7",
-        "sha512": "db4204deb453318adf2ba3f04c3758e4330603326332e3fc561d30c2d5a19c60e85b91898b7b0c226fa253345c96704ca6aa5920dd985ec9065c604a4db5033b"
+        "sha512": "db4204deb453318adf2ba3f04c3758e4330603326332e3fc561d30c2d5a19c60e85b91898b7b0c226fa253345c96704ca6aa5920dd985ec9065c604a4db5033b",
+        "sha1": "511629e5f763c955554d13224fd3b1f8b2c2a6e7"
       },
       "env": {
         "client": "required",
@@ -923,17 +923,17 @@
     {
       "path": "mods/cherry-monastery-5.4.jar",
       "hashes": {
-        "sha512": "0b9fbff282a8031c87c4c0bf2610ab5dcf7057e1dbec8734d12fae1f2e5bdb879090c6fb283c8c16c97b50d94b45c1acb2c412626fd41759b6a93abdd82e546b",
-        "sha1": "5fd10db3e9ad8d1ccb21a92328c64d58de6d71c0"
+        "sha1": "857add2db5f7df5dd9e311e30f15fed1b306b248",
+        "sha512": "ad231a252761b1b4623945b93f5ffa49569d8a8fda3f12b89b85c21d2da184cbcc3231584e389b8ed5df45c196b998669aca3ff8af1321e6daf7ee22941b5041"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/qwMPYms7/versions/xl403u7C/cherry-monastery-5.4.jar"
+        "https://cdn.modrinth.com/data/qwMPYms7/versions/shhdTLTx/cherry-monastery-5.4.jar"
       ],
-      "fileSize": 3356876
+      "fileSize": 3363957
     },
     {
       "path": "mods/chronodawn-0.5.0+1.21.1-neoforge.jar",
@@ -968,8 +968,8 @@
     {
       "path": "mods/citresewn-1.2.2+1.21.jar",
       "hashes": {
-        "sha1": "5569769f66eda6d51ca3ae56d58d5a4657f19ef9",
-        "sha512": "24338b35423798b3d842025d2a8725b980980b7ccb168b876e21ea1d4067ecba3f67918b0d6b8b332128841ab6cbe2c2d3fd408c0dd36eeeb36cb76a875c442a"
+        "sha512": "24338b35423798b3d842025d2a8725b980980b7ccb168b876e21ea1d4067ecba3f67918b0d6b8b332128841ab6cbe2c2d3fd408c0dd36eeeb36cb76a875c442a",
+        "sha1": "5569769f66eda6d51ca3ae56d58d5a4657f19ef9"
       },
       "env": {
         "client": "required",
@@ -1013,8 +1013,8 @@
     {
       "path": "mods/cloth-config-15.0.140-neoforge.jar",
       "hashes": {
-        "sha1": "c3e5733ba4503b102589a026000fd5ce0212f6f2",
-        "sha512": "aaf9b010955b8cd294e5a92f069985b18729fd5e2cf22d351f1dff9680f15488688803ec41e77e941cbde130ceb535014ca4c868047d80ab69c2d508e216654d"
+        "sha512": "aaf9b010955b8cd294e5a92f069985b18729fd5e2cf22d351f1dff9680f15488688803ec41e77e941cbde130ceb535014ca4c868047d80ab69c2d508e216654d",
+        "sha1": "c3e5733ba4503b102589a026000fd5ce0212f6f2"
       },
       "env": {
         "client": "required",
@@ -1043,8 +1043,8 @@
     {
       "path": "mods/ColdSweat-2.4-b06f.jar",
       "hashes": {
-        "sha512": "21844ac1e0a8aeb6f5d9e8b219959d7114d1e273795175f4843c4902099c72495717d2de669e577055d9a22bea382abcaf8dd8ed32e06d4f6041f99b71547a05",
-        "sha1": "5dfb67b5e20eeb43477e3eb06cba1527eac2e448"
+        "sha1": "5dfb67b5e20eeb43477e3eb06cba1527eac2e448",
+        "sha512": "21844ac1e0a8aeb6f5d9e8b219959d7114d1e273795175f4843c4902099c72495717d2de669e577055d9a22bea382abcaf8dd8ed32e06d4f6041f99b71547a05"
       },
       "env": {
         "client": "required",
@@ -1103,8 +1103,8 @@
     {
       "path": "mods/compatstructures-1.0.2.jar",
       "hashes": {
-        "sha1": "96eb12b497ad8a6fd8fb98902d39a47028646903",
-        "sha512": "b9a2267d2e301d8c2a15d34b54a4411f6c7235712566c2b8977146149ea4ac51c88d24760be135b169e407852e0ab1555c0b7d88ec0a7f46968c262d3ee4ff87"
+        "sha512": "b9a2267d2e301d8c2a15d34b54a4411f6c7235712566c2b8977146149ea4ac51c88d24760be135b169e407852e0ab1555c0b7d88ec0a7f46968c262d3ee4ff87",
+        "sha1": "96eb12b497ad8a6fd8fb98902d39a47028646903"
       },
       "env": {
         "client": "required",
@@ -1118,8 +1118,8 @@
     {
       "path": "mods/connector-2.0.0-beta.12+1.21.1-full.jar",
       "hashes": {
-        "sha512": "5d3746f9cf220c3592f1398f7b7380af265c91b465c3fbaa813f521c41ac022e9e5ce909b4251a05ef8c92c3b93a3ce7e0c081577ef8ec2ab2b4ca86d112799f",
-        "sha1": "b835ddbf29090a67271879789a395f2c502ca269"
+        "sha1": "b835ddbf29090a67271879789a395f2c502ca269",
+        "sha512": "5d3746f9cf220c3592f1398f7b7380af265c91b465c3fbaa813f521c41ac022e9e5ce909b4251a05ef8c92c3b93a3ce7e0c081577ef8ec2ab2b4ca86d112799f"
       },
       "env": {
         "client": "required",
@@ -1148,8 +1148,8 @@
     {
       "path": "mods/continuity-3.0.0+1.21.neoforge.jar",
       "hashes": {
-        "sha512": "320b6def6073ce0ffc0ce2bd7cdb66324467ea3e7cec05508f32d78f65c60ff3e155394b94c60f62e059404ec0ca3fc6112987a5764a8f85241d3026a2ee4935",
-        "sha1": "0aecd2d043ac25299254623fafdd9129ab2ba9c2"
+        "sha1": "0aecd2d043ac25299254623fafdd9129ab2ba9c2",
+        "sha512": "320b6def6073ce0ffc0ce2bd7cdb66324467ea3e7cec05508f32d78f65c60ff3e155394b94c60f62e059404ec0ca3fc6112987a5764a8f85241d3026a2ee4935"
       },
       "env": {
         "client": "required",
@@ -1193,8 +1193,8 @@
     {
       "path": "mods/copperagebackport-neoforge-1.21.1-0.1.4.jar",
       "hashes": {
-        "sha512": "16b232857d9319d57ff5f0b739d23507c6f7e576199d4167a933d0505967c854def97c09020c1d9f27deff8c45e063a03e29c001a838fb43518e03562fc5ff95",
-        "sha1": "9892ad37739b62e330274ca51648b00a7ac51114"
+        "sha1": "9892ad37739b62e330274ca51648b00a7ac51114",
+        "sha512": "16b232857d9319d57ff5f0b739d23507c6f7e576199d4167a933d0505967c854def97c09020c1d9f27deff8c45e063a03e29c001a838fb43518e03562fc5ff95"
       },
       "env": {
         "client": "required",
@@ -1223,8 +1223,8 @@
     {
       "path": "mods/Corgilib-NeoForge-1.21.1-5.0.0.7.jar",
       "hashes": {
-        "sha512": "f614e06f2871cdaddd6eb526ee831a661e2818243e310f3087ca89ab989c25a6140d4b4305fd5537a80960c00047d7b3e86bf177dd7605ff8e963f0f644e7fc0",
-        "sha1": "a84b16272a6cd1b3fec0ff0e2ffdd05cf92dc02a"
+        "sha1": "a84b16272a6cd1b3fec0ff0e2ffdd05cf92dc02a",
+        "sha512": "f614e06f2871cdaddd6eb526ee831a661e2818243e310f3087ca89ab989c25a6140d4b4305fd5537a80960c00047d7b3e86bf177dd7605ff8e963f0f644e7fc0"
       },
       "env": {
         "client": "required",
@@ -1253,8 +1253,8 @@
     {
       "path": "mods/cpapireforged-neo-1.21.1-1.2.2.jar",
       "hashes": {
-        "sha1": "9535f872717c530b9638fe49a8fcac9b58b3cc54",
-        "sha512": "c7ec668bb6b67e3855eaf1175caa0eac77101412af10747b8a118134adf86f43d849b7a1523768b5c540debaad2d97b6009db14e280dd35370d420f289b3f9c0"
+        "sha512": "c7ec668bb6b67e3855eaf1175caa0eac77101412af10747b8a118134adf86f43d849b7a1523768b5c540debaad2d97b6009db14e280dd35370d420f289b3f9c0",
+        "sha1": "9535f872717c530b9638fe49a8fcac9b58b3cc54"
       },
       "env": {
         "client": "required",
@@ -1268,8 +1268,8 @@
     {
       "path": "mods/CraftPresence-2.7.0+1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "53e252f44a2b5c2db8f1a54111ada2c84d6ae55c",
-        "sha512": "88c21a68f0e820fc26c871b981b7b21278a4cc24ae7a62856058e551ab3cb020ef3de41f90db3194c04d1ed05aa6722d7d29824a24b579782932ccc913f385fc"
+        "sha512": "88c21a68f0e820fc26c871b981b7b21278a4cc24ae7a62856058e551ab3cb020ef3de41f90db3194c04d1ed05aa6722d7d29824a24b579782932ccc913f385fc",
+        "sha1": "53e252f44a2b5c2db8f1a54111ada2c84d6ae55c"
       },
       "env": {
         "client": "required",
@@ -1283,8 +1283,8 @@
     {
       "path": "mods/Create Encased-1.21.1-1.8-ht2.jar",
       "hashes": {
-        "sha512": "5a390e43fd0ef0cedf277ca985199bcd7dd3f83ce3a132774436808191ef24611541c3349ddbea7c82a5a3cde11ed87c72173a46498c7555947436b51894f24e",
-        "sha1": "957a7ee1741c7a8536bedd401a923d7fb73a7092"
+        "sha1": "957a7ee1741c7a8536bedd401a923d7fb73a7092",
+        "sha512": "5a390e43fd0ef0cedf277ca985199bcd7dd3f83ce3a132774436808191ef24611541c3349ddbea7c82a5a3cde11ed87c72173a46498c7555947436b51894f24e"
       },
       "env": {
         "client": "required",
@@ -1298,8 +1298,8 @@
     {
       "path": "mods/create-1.21.1-6.0.9.jar",
       "hashes": {
-        "sha512": "8b3b3d9b6874f31a538add81390dff26b5f9475da6349dc52fc20dbde802edfc32ead511e12291198591574d42605f916f1acbadc2437056eea615d8586bf7cf",
-        "sha1": "bf08bf8980c080f42d6f644f4f44a725cf7c3be9"
+        "sha1": "bf08bf8980c080f42d6f644f4f44a725cf7c3be9",
+        "sha512": "8b3b3d9b6874f31a538add81390dff26b5f9475da6349dc52fc20dbde802edfc32ead511e12291198591574d42605f916f1acbadc2437056eea615d8586bf7cf"
       },
       "env": {
         "client": "required",
@@ -1313,8 +1313,8 @@
     {
       "path": "mods/create-dyn-light-forge-1.21.1-2.0.1.jar",
       "hashes": {
-        "sha512": "253b04afbfdf4863b1f4bcafa0cf5ba806c82faf81497e6b69833d4f4edefda5f32f10a8bc3f70e6ea5e46fd69c545ec26d321cbda8077846cfaeae584d2ded1",
-        "sha1": "38ca94bda8ddcb8d75152ad9d4108283316f81ac"
+        "sha1": "38ca94bda8ddcb8d75152ad9d4108283316f81ac",
+        "sha512": "253b04afbfdf4863b1f4bcafa0cf5ba806c82faf81497e6b69833d4f4edefda5f32f10a8bc3f70e6ea5e46fd69c545ec26d321cbda8077846cfaeae584d2ded1"
       },
       "env": {
         "client": "required",
@@ -1328,8 +1328,8 @@
     {
       "path": "mods/create-easyfilling-dypiduo-1.21.1-1.0.0.jar",
       "hashes": {
-        "sha512": "b3cd937738ab59a78587f3680ddc13e63b69b75d4d8ebd8f6b45533be2ddbc9aa9fb720869799cea5119a793844db304eb214321f225748c6b9d7deb659e338f",
-        "sha1": "b8403ebb341113d900d14961e89060c0356e6553"
+        "sha1": "b8403ebb341113d900d14961e89060c0356e6553",
+        "sha512": "b3cd937738ab59a78587f3680ddc13e63b69b75d4d8ebd8f6b45533be2ddbc9aa9fb720869799cea5119a793844db304eb214321f225748c6b9d7deb659e338f"
       },
       "env": {
         "client": "required",
@@ -1358,8 +1358,8 @@
     {
       "path": "mods/create-man-of-many-planes-1.1.jar",
       "hashes": {
-        "sha1": "a0629ebc804090f5a76929fee300789138f12f18",
-        "sha512": "4117fbe6d778e702d61e093d02b1236dab341e8ed973a9e2b4d489339e75c20d10642f734fdc700643c9bf50893d4a837d595d69bd391211d1b7763977b7ec8a"
+        "sha512": "4117fbe6d778e702d61e093d02b1236dab341e8ed973a9e2b4d489339e75c20d10642f734fdc700643c9bf50893d4a837d595d69bd391211d1b7763977b7ec8a",
+        "sha1": "a0629ebc804090f5a76929fee300789138f12f18"
       },
       "env": {
         "client": "required",
@@ -1403,8 +1403,8 @@
     {
       "path": "mods/create-stuff-additions1.21.1_v2.1.0e.jar",
       "hashes": {
-        "sha512": "b259596a70dfd2e4f8449e9151e7c2816eeffa51a508f9f123e16e452024dafb0f9a81c23acf79bb5c32a030ccbf9175d29066a7ee1ed78053cad8e491715bf6",
-        "sha1": "5de330acd44af9e09430a7710687ad176dabf1e2"
+        "sha1": "5de330acd44af9e09430a7710687ad176dabf1e2",
+        "sha512": "b259596a70dfd2e4f8449e9151e7c2816eeffa51a508f9f123e16e452024dafb0f9a81c23acf79bb5c32a030ccbf9175d29066a7ee1ed78053cad8e491715bf6"
       },
       "env": {
         "client": "required",
@@ -1433,8 +1433,8 @@
     {
       "path": "mods/create-wrencheable-planes-2.0.jar",
       "hashes": {
-        "sha1": "98ec519e81ae201994864a7416a2b49efc1dc4ab",
-        "sha512": "728b1cb0890732df913b2d5f4af9dfab03c1c0ed09fdcc7c25a75d76cfe377ac2e689b08f4f93d3d301feeeab47817022c67e537a069f71891779601651633f3"
+        "sha512": "728b1cb0890732df913b2d5f4af9dfab03c1c0ed09fdcc7c25a75d76cfe377ac2e689b08f4f93d3d301feeeab47817022c67e537a069f71891779601651633f3",
+        "sha1": "98ec519e81ae201994864a7416a2b49efc1dc4ab"
       },
       "env": {
         "client": "required",
@@ -1448,8 +1448,8 @@
     {
       "path": "mods/createaddition-1.5.10.jar",
       "hashes": {
-        "sha1": "2bd194da923dd38239ef49df30ecf1a720d38997",
-        "sha512": "22522c86d5ca798c9ee9f3c20f18f540be125fa1c76d736d1c2e876a31469b5ee61eef27829e7b69f16940675186519448f6b4978635b6010db1422da8edca0d"
+        "sha512": "22522c86d5ca798c9ee9f3c20f18f540be125fa1c76d736d1c2e876a31469b5ee61eef27829e7b69f16940675186519448f6b4978635b6010db1422da8edca0d",
+        "sha1": "2bd194da923dd38239ef49df30ecf1a720d38997"
       },
       "env": {
         "client": "required",
@@ -1463,8 +1463,8 @@
     {
       "path": "mods/createappliedkinetics-1.5.3-1.21.1.jar",
       "hashes": {
-        "sha512": "811381c533257d0fa7f552e4cbc8395c9775530d8c4d3d128e1ee98af6a12dc5317d36f2289579e1b8f4bade99c27049a63e406222efc889f32b1b3c9d460245",
-        "sha1": "050fa78283731de06e8a4046da5d99bc7466d093"
+        "sha1": "050fa78283731de06e8a4046da5d99bc7466d093",
+        "sha512": "811381c533257d0fa7f552e4cbc8395c9775530d8c4d3d128e1ee98af6a12dc5317d36f2289579e1b8f4bade99c27049a63e406222efc889f32b1b3c9d460245"
       },
       "env": {
         "client": "required",
@@ -1538,8 +1538,8 @@
     {
       "path": "mods/createfiltersanywhere-2.2.0.jar",
       "hashes": {
-        "sha1": "ca7a68327857c235088b7e21a7cebc6f8ee9c4d0",
-        "sha512": "a352ce15f4bbacba3ff55db636d97bb5d4f5180ec5971b9800cb48b83e7d0d4d1188be01a83d6103455f9d4298ed468f0f0e63d0b1d504442e0661e34e1f0d4e"
+        "sha512": "a352ce15f4bbacba3ff55db636d97bb5d4f5180ec5971b9800cb48b83e7d0d4d1188be01a83d6103455f9d4298ed468f0f0e63d0b1d504442e0661e34e1f0d4e",
+        "sha1": "ca7a68327857c235088b7e21a7cebc6f8ee9c4d0"
       },
       "env": {
         "client": "required",
@@ -1568,8 +1568,8 @@
     {
       "path": "mods/createlowheated-neoforge-1.21.1-6.0.8-2.jar",
       "hashes": {
-        "sha512": "01a5ce2d1e19e0c9188691b1e1a9592d3165717ee9d6738443b134261f54fc820d02338ad378d60a9b0ec1487f637e346c9d0581bec4277f3bc069682cc4f7fe",
-        "sha1": "ffba23f5725e580f0978467eb463645fab3ddaf0"
+        "sha1": "ffba23f5725e580f0978467eb463645fab3ddaf0",
+        "sha512": "01a5ce2d1e19e0c9188691b1e1a9592d3165717ee9d6738443b134261f54fc820d02338ad378d60a9b0ec1487f637e346c9d0581bec4277f3bc069682cc4f7fe"
       },
       "env": {
         "client": "required",
@@ -1583,8 +1583,8 @@
     {
       "path": "mods/createmetalogistics-1.21.1-0.4.5c.jar",
       "hashes": {
-        "sha1": "05059bc441031e7a96c33a447ff3165f52686cc4",
-        "sha512": "1edfca60acba7b6eeeca7a78217710adaf896d4324893e6ebb59b6fc97bd8e3e0a1aa25f02cbdbecf2d10ed62e79905e58647b231599a1e145f5db070b97e9be"
+        "sha512": "1edfca60acba7b6eeeca7a78217710adaf896d4324893e6ebb59b6fc97bd8e3e0a1aa25f02cbdbecf2d10ed62e79905e58647b231599a1e145f5db070b97e9be",
+        "sha1": "05059bc441031e7a96c33a447ff3165f52686cc4"
       },
       "env": {
         "client": "required",
@@ -1613,8 +1613,8 @@
     {
       "path": "mods/CreateOPlenty-NeoForge-Create+6.0.7-3.0.jar",
       "hashes": {
-        "sha1": "9c636f52e9354fdccc0b53201c22dfb5887f0589",
-        "sha512": "758ef597ea2f1767d6f7a17bc6ea43c3a441b15fb8ff48d2bdcf71a7168f28e903d19c47547ac7fda3a02cd7c324ea7baab8ead18593b17a3799ae15642d77ec"
+        "sha512": "758ef597ea2f1767d6f7a17bc6ea43c3a441b15fb8ff48d2bdcf71a7168f28e903d19c47547ac7fda3a02cd7c324ea7baab8ead18593b17a3799ae15642d77ec",
+        "sha1": "9c636f52e9354fdccc0b53201c22dfb5887f0589"
       },
       "env": {
         "client": "required",
@@ -1703,8 +1703,8 @@
     {
       "path": "mods/createsa_tank_fix-1.3.jar",
       "hashes": {
-        "sha512": "e1e55a15149dc1247c41cf1fda52c8e4c6f5703ed5e20b4c9fb3916fffb6001e03514cd229e4340d34366b8a6386250e2decd8432c166d81078ea988ecb3ebb6",
-        "sha1": "8e3214432c1d0137b34d6e098be30032874db3e4"
+        "sha1": "8e3214432c1d0137b34d6e098be30032874db3e4",
+        "sha512": "e1e55a15149dc1247c41cf1fda52c8e4c6f5703ed5e20b4c9fb3916fffb6001e03514cd229e4340d34366b8a6386250e2decd8432c166d81078ea988ecb3ebb6"
       },
       "env": {
         "client": "required",
@@ -1733,8 +1733,8 @@
     {
       "path": "mods/createstockbridge-1.21.1-0.1.6.jar",
       "hashes": {
-        "sha1": "3ba1d0ca05211bfd28a03ce6492f9e66d08e430a",
-        "sha512": "bdc3247e2f361018eb15dbd1008a672f37830066cafae9ddb99c75ca33e0ae962d1292a7c4706adb06872fb4687b2ad9046aa6f5d2b5127359b6bd517201d713"
+        "sha512": "bdc3247e2f361018eb15dbd1008a672f37830066cafae9ddb99c75ca33e0ae962d1292a7c4706adb06872fb4687b2ad9046aa6f5d2b5127359b6bd517201d713",
+        "sha1": "3ba1d0ca05211bfd28a03ce6492f9e66d08e430a"
       },
       "env": {
         "client": "required",
@@ -1748,8 +1748,8 @@
     {
       "path": "mods/createthreadedtrains-neoforge-1.21.1-1.0.0.jar",
       "hashes": {
-        "sha512": "93511d32e8c7484fdcfd90646d48f297ba3188788e0ea6412900be38ae6b82e69bc131bbb011519b52ac0728a7dfd531c0ac356a7935335c06f691ad20e38c69",
-        "sha1": "1dec765e324bf968a1685a173aff5a13c11d0856"
+        "sha1": "1dec765e324bf968a1685a173aff5a13c11d0856",
+        "sha512": "93511d32e8c7484fdcfd90646d48f297ba3188788e0ea6412900be38ae6b82e69bc131bbb011519b52ac0728a7dfd531c0ac356a7935335c06f691ad20e38c69"
       },
       "env": {
         "client": "required",
@@ -1763,8 +1763,8 @@
     {
       "path": "mods/create_bb-1.0.7-1.21.1-Neoforge.jar",
       "hashes": {
-        "sha1": "7a6eae4bc851786c6519c8cac956b406cb71a8eb",
-        "sha512": "77741f2b77426bb24607221ea98e544280a81ba74cadb77334c3d0911f8ffbf63d3d3f268d435c1c1e0e5794cfc33f7fbb5fc0e43ba7a89098b4a97aa4396987"
+        "sha512": "77741f2b77426bb24607221ea98e544280a81ba74cadb77334c3d0911f8ffbf63d3d3f268d435c1c1e0e5794cfc33f7fbb5fc0e43ba7a89098b4a97aa4396987",
+        "sha1": "7a6eae4bc851786c6519c8cac956b406cb71a8eb"
       },
       "env": {
         "client": "required",
@@ -1838,8 +1838,8 @@
     {
       "path": "mods/create_connected-1.1.13-mc1.21.1.jar",
       "hashes": {
-        "sha512": "e7fe213615cf888b09c28ed88fcb2379d537ad610435764f5338af2460c9decd40248848d7dbee1686ff1729e54068aee15a6583d8e3bbaacfb37de60badb96f",
-        "sha1": "59314285929fb405e667a1dd8d1c32cddbd69a18"
+        "sha1": "59314285929fb405e667a1dd8d1c32cddbd69a18",
+        "sha512": "e7fe213615cf888b09c28ed88fcb2379d537ad610435764f5338af2460c9decd40248848d7dbee1686ff1729e54068aee15a6583d8e3bbaacfb37de60badb96f"
       },
       "env": {
         "client": "required",
@@ -1853,8 +1853,8 @@
     {
       "path": "mods/create_deep_dark-3.0.1-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "439f933c11641af360fe52da047c530636a9e9a6",
-        "sha512": "ab5742dcdb7b4c522b16e5dc58085f3bbc83ebae287b2d60cc8bc286610fa9392a63261fab75513ab927b4ffa4700858406e954703cebe4722fa66941adcbd28"
+        "sha512": "ab5742dcdb7b4c522b16e5dc58085f3bbc83ebae287b2d60cc8bc286610fa9392a63261fab75513ab927b4ffa4700858406e954703cebe4722fa66941adcbd28",
+        "sha1": "439f933c11641af360fe52da047c530636a9e9a6"
       },
       "env": {
         "client": "required",
@@ -1883,8 +1883,8 @@
     {
       "path": "mods/create_ironworks-4.0.2-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "983d12b71ffb2ddcf3f274eb00dde119cc453c3f",
-        "sha512": "9e33b4b635cb3a37c632bd0b25de8c67c2c7e2cb29cdf098305c3e6e278734735b607200ceb688a91c2a25298f9a624db081061534fad472d72e2d08c3a67bea"
+        "sha512": "9e33b4b635cb3a37c632bd0b25de8c67c2c7e2cb29cdf098305c3e6e278734735b607200ceb688a91c2a25298f9a624db081061534fad472d72e2d08c3a67bea",
+        "sha1": "983d12b71ffb2ddcf3f274eb00dde119cc453c3f"
       },
       "env": {
         "client": "required",
@@ -1898,8 +1898,8 @@
     {
       "path": "mods/create_limited-1.21.1-1.0.0-b-neoforge.jar",
       "hashes": {
-        "sha1": "8ddd2e70eb70e41a48cc24317fc53d886d36e4fa",
-        "sha512": "964223efd67f384772efa87f182fb519faa30df212b1badb462700e35c0ab4ae9553b5851de43543750150f4b14286866e829beefce2bcdcc96635e054d2817d"
+        "sha512": "964223efd67f384772efa87f182fb519faa30df212b1badb462700e35c0ab4ae9553b5851de43543750150f4b14286866e829beefce2bcdcc96635e054d2817d",
+        "sha1": "8ddd2e70eb70e41a48cc24317fc53d886d36e4fa"
       },
       "env": {
         "client": "required",
@@ -1943,8 +1943,8 @@
     {
       "path": "mods/create_mpnt-1.0.0.jar",
       "hashes": {
-        "sha1": "b3e4747c7969b2995ce718dbf104586f84fdb151",
-        "sha512": "739e05712f8a1946a0f210668143a1d9867a9903bcc900e85e5d36a54a6df6d01b4d8d7b99c6230f549d93dc708db7d58c10acc68536ad3c4f1ec527f55f4626"
+        "sha512": "739e05712f8a1946a0f210668143a1d9867a9903bcc900e85e5d36a54a6df6d01b4d8d7b99c6230f549d93dc708db7d58c10acc68536ad3c4f1ec527f55f4626",
+        "sha1": "b3e4747c7969b2995ce718dbf104586f84fdb151"
       },
       "env": {
         "client": "required",
@@ -1958,8 +1958,8 @@
     {
       "path": "mods/create_oxidized-0.1.3.jar",
       "hashes": {
-        "sha512": "e13c938efe11bf23360d6e23b9186cd374e08ab099159eaa51fb1531561ee9c8702cf649280068bd07be3874776dd0866c93fdea7e709d4937bc5a11db7744ca",
-        "sha1": "fe93a9575174b4993cf3fb5f2aed4dd4431096ee"
+        "sha1": "fe93a9575174b4993cf3fb5f2aed4dd4431096ee",
+        "sha512": "e13c938efe11bf23360d6e23b9186cd374e08ab099159eaa51fb1531561ee9c8702cf649280068bd07be3874776dd0866c93fdea7e709d4937bc5a11db7744ca"
       },
       "env": {
         "client": "required",
@@ -1988,8 +1988,8 @@
     {
       "path": "mods/create_pillagers_arise-132.32 Release-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "efe39f96957c3b5eebb3dc8a85f64c0f882afb60",
-        "sha512": "fbc90f0e918d834c72e067fa64a836d2022de846c652156f25e2c4b56fe1c979bbbda45fe7595273680039b9a48552dc250cf6dbc2b8c0e8f7ae1963018e6e0d"
+        "sha512": "fbc90f0e918d834c72e067fa64a836d2022de846c652156f25e2c4b56fe1c979bbbda45fe7595273680039b9a48552dc250cf6dbc2b8c0e8f7ae1963018e6e0d",
+        "sha1": "efe39f96957c3b5eebb3dc8a85f64c0f882afb60"
       },
       "env": {
         "client": "required",
@@ -2003,8 +2003,8 @@
     {
       "path": "mods/create_polymer-1.0.3-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "4c2d788d848a41127a30d89c253332ae0f5e18b7",
-        "sha512": "376f114c9c0b5015609804716704aef171c9054334b65468d4ff13fb57dab71816ed921cf5fffa883e5f761a499b9956136b749a68e48022303c44773dd16fc0"
+        "sha512": "376f114c9c0b5015609804716704aef171c9054334b65468d4ff13fb57dab71816ed921cf5fffa883e5f761a499b9956136b749a68e48022303c44773dd16fc0",
+        "sha1": "4c2d788d848a41127a30d89c253332ae0f5e18b7"
       },
       "env": {
         "client": "required",
@@ -2048,8 +2048,8 @@
     {
       "path": "mods/create_structures_overhaul-1.3.1-neoforge-1.21.1.jar",
       "hashes": {
-        "sha512": "48fd4b76087316eecad86d8d5752665b650d4d1f6df56d39717c4f45d52ba7c48145ab67c20f66734e97ad5c1ffd6f5a1dd00b5fc826c09c02e93716523a599f",
-        "sha1": "c155edfd4d851a0b86226a81f0b8c2ef8b46f672"
+        "sha1": "c155edfd4d851a0b86226a81f0b8c2ef8b46f672",
+        "sha512": "48fd4b76087316eecad86d8d5752665b650d4d1f6df56d39717c4f45d52ba7c48145ab67c20f66734e97ad5c1ffd6f5a1dd00b5fc826c09c02e93716523a599f"
       },
       "env": {
         "client": "required",
@@ -2063,8 +2063,8 @@
     {
       "path": "mods/create_train_parts-0.3.6-1.21.1-6.0.9-216.jar",
       "hashes": {
-        "sha1": "9375e43d82fed97ece089dc460c7c46bba351af3",
-        "sha512": "06dd3c21a2f83fa30455d55e91c18ad0171997968b3169548a608c9a4514c5ad504a9a185f7a79c3559c1ac315f7e0093a9088f6107b592f9fe0c3ec6cac0820"
+        "sha512": "06dd3c21a2f83fa30455d55e91c18ad0171997968b3169548a608c9a4514c5ad504a9a185f7a79c3559c1ac315f7e0093a9088f6107b592f9fe0c3ec6cac0820",
+        "sha1": "9375e43d82fed97ece089dc460c7c46bba351af3"
       },
       "env": {
         "client": "required",
@@ -2078,8 +2078,8 @@
     {
       "path": "mods/create_trimmed.jar",
       "hashes": {
-        "sha1": "2a7e00032f611c06f9e5fa2e743052552f5cb5c9",
-        "sha512": "bc1e2515975122fa888595427ca0381a1a4f6f117b88d14b4d3c260a4e6b1cfc0f8113c01074e472fb52a35cdaf8bbab45ebf89baa4ce49ff42567c25a43c0cb"
+        "sha512": "bc1e2515975122fa888595427ca0381a1a4f6f117b88d14b4d3c260a4e6b1cfc0f8113c01074e472fb52a35cdaf8bbab45ebf89baa4ce49ff42567c25a43c0cb",
+        "sha1": "2a7e00032f611c06f9e5fa2e743052552f5cb5c9"
       },
       "env": {
         "client": "required",
@@ -2153,8 +2153,8 @@
     {
       "path": "mods/custom_nether_portals-neoforge-1.21.1-1.0.0.jar",
       "hashes": {
-        "sha512": "fdafbe79953ca34936264a2693893179d1b9a0227e4b2650185988bbaf4d0412d98ae66e5d18f0cb06d4df579dfa8ee894207314feb163bd253d0b1eae994782",
-        "sha1": "4a16a1b3ae645dfb6d987b5aa12ab58e0e956080"
+        "sha1": "4a16a1b3ae645dfb6d987b5aa12ab58e0e956080",
+        "sha512": "fdafbe79953ca34936264a2693893179d1b9a0227e4b2650185988bbaf4d0412d98ae66e5d18f0cb06d4df579dfa8ee894207314feb163bd253d0b1eae994782"
       },
       "env": {
         "client": "required",
@@ -2168,8 +2168,8 @@
     {
       "path": "mods/Dark Orion 1.1 (NF1.21.1).jar",
       "hashes": {
-        "sha512": "0ee4ca72b7c64cdd09b925855218cc96abf687105480f545b811d5386ddff21ed4a347d45b90f8f0cc37ac19496d1595ab133d11d84e0728f5bfbffe6fb9a71c",
-        "sha1": "81da8ce546e5a20e9b2fd5ba71e5dc816695130a"
+        "sha1": "81da8ce546e5a20e9b2fd5ba71e5dc816695130a",
+        "sha512": "0ee4ca72b7c64cdd09b925855218cc96abf687105480f545b811d5386ddff21ed4a347d45b90f8f0cc37ac19496d1595ab133d11d84e0728f5bfbffe6fb9a71c"
       },
       "env": {
         "client": "required",
@@ -2198,8 +2198,8 @@
     {
       "path": "mods/darkpaintings-neoforge-1.21.1-21.1.7.jar",
       "hashes": {
-        "sha512": "ae8382b38bee167e1e710a96eae8e7347fb9a4b70d5e5250662478eb6d26567c7d4070c7adc85ea1fc2bd4bf3e0761e1fe15b12ba87301c281d7d52f7c0c2ba5",
-        "sha1": "6552512cfc406bf26f405199056506d0697b1fa8"
+        "sha1": "6552512cfc406bf26f405199056506d0697b1fa8",
+        "sha512": "ae8382b38bee167e1e710a96eae8e7347fb9a4b70d5e5250662478eb6d26567c7d4070c7adc85ea1fc2bd4bf3e0761e1fe15b12ba87301c281d7d52f7c0c2ba5"
       },
       "env": {
         "client": "required",
@@ -2228,8 +2228,8 @@
     {
       "path": "mods/deeperdarker-neoforge-1.21-1.3.4.jar",
       "hashes": {
-        "sha1": "e519bed972f9728af38f351c3dcffc1324e883bf",
-        "sha512": "c7041b8671e87ff5271a53631ceaab77168154851108ef1876fab1e141382db77337c8aaadb615b96d1196db699af492029a454a6088ea97860fb6897af501a8"
+        "sha512": "c7041b8671e87ff5271a53631ceaab77168154851108ef1876fab1e141382db77337c8aaadb615b96d1196db699af492029a454a6088ea97860fb6897af501a8",
+        "sha1": "e519bed972f9728af38f351c3dcffc1324e883bf"
       },
       "env": {
         "client": "required",
@@ -2273,17 +2273,17 @@
     {
       "path": "mods/desert-mansion-3.4.jar",
       "hashes": {
-        "sha1": "be2f6f3fea3d1af610f0080e9f2a59a501c16bc0",
-        "sha512": "d80c8259455fe5ad80db029860aee0273acb1bbcd9d0d28d1d5bbad85db8c54dbf5cb58a2de8a1622ff49a17d5dd800965dec1492e3eb0ca0e586d8504a2ab39"
+        "sha512": "0cb01617e3b3a1dc459ae43244b0c407cbfcb00c2e758732dd1fa2d60b561ad78feae5ff4f715800391ce3bd00187a288695d5204aa8fbcc47ad0cfcc78369ce",
+        "sha1": "3b745256576523d41ab7b4978c4fdcd11451aa11"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/dUS7kX7b/versions/31Obsr0K/desert-mansion-3.4.jar"
+        "https://cdn.modrinth.com/data/dUS7kX7b/versions/FK15Kr5P/desert-mansion-3.4.jar"
       ],
-      "fileSize": 3218960
+      "fileSize": 3227908
     },
     {
       "path": "mods/Design-n-Decor-1.21.1-2.1.0.jar",
@@ -2303,8 +2303,8 @@
     {
       "path": "mods/dg_js-1.21.1-1.1.5.jar",
       "hashes": {
-        "sha512": "26c8c5a76934119fb3a0922a36a5625e6062ff5f925bb989255c8939cfbe30022da2b44942d4d2272b2b12b7f1ad8792e7cf1fb32806e89b1c81e3072fbf0cc8",
-        "sha1": "e5a7d088dd23c6922f37928fe297b41d956475c7"
+        "sha1": "e5a7d088dd23c6922f37928fe297b41d956475c7",
+        "sha512": "26c8c5a76934119fb3a0922a36a5625e6062ff5f925bb989255c8939cfbe30022da2b44942d4d2272b2b12b7f1ad8792e7cf1fb32806e89b1c81e3072fbf0cc8"
       },
       "env": {
         "client": "required",
@@ -2363,8 +2363,8 @@
     {
       "path": "mods/dimensional_leap-1.0.jar",
       "hashes": {
-        "sha1": "cb837d78440bd07d8cc46b6b41f1e476cf833b10",
-        "sha512": "2e1ab5fbe75094acff71772b38750d885bc66d7c96d35c200c1a7cf41a85ddeef65dc99c20928be8f76564b66fb8c7f9933da934b025cecd42c9b139b8bd2364"
+        "sha512": "2e1ab5fbe75094acff71772b38750d885bc66d7c96d35c200c1a7cf41a85ddeef65dc99c20928be8f76564b66fb8c7f9933da934b025cecd42c9b139b8bd2364",
+        "sha1": "cb837d78440bd07d8cc46b6b41f1e476cf833b10"
       },
       "env": {
         "client": "required",
@@ -2423,8 +2423,8 @@
     {
       "path": "mods/distantlandsmc-1.0.0.jar",
       "hashes": {
-        "sha1": "25967d2e5bf99cb4670a866ad0aaca1e188a5b2a",
-        "sha512": "4e5f697ed0cbbe538873f73776df3201898905e0e538d0c05cdb05e117c9a8dc42136106e4c01546f54b895ed6c842ce2ade13ac7ca2c558fa074d55732dc773"
+        "sha512": "4e5f697ed0cbbe538873f73776df3201898905e0e538d0c05cdb05e117c9a8dc42136106e4c01546f54b895ed6c842ce2ade13ac7ca2c558fa074d55732dc773",
+        "sha1": "25967d2e5bf99cb4670a866ad0aaca1e188a5b2a"
       },
       "env": {
         "client": "required",
@@ -2468,8 +2468,8 @@
     {
       "path": "mods/DoubleDoors_1.0.0_NeoForge_1.21.1.jar",
       "hashes": {
-        "sha1": "bb216aab262807836b7a84f0b2ded5debad89281",
-        "sha512": "b105b21de4604a302932637ee3081e610c62dba2be7766d9e8495ecd5e75d4323ff53545a2823cb61eb478926c9b60013c2399281de4dd4c4be8f59a129bf964"
+        "sha512": "b105b21de4604a302932637ee3081e610c62dba2be7766d9e8495ecd5e75d4323ff53545a2823cb61eb478926c9b60013c2399281de4dd4c4be8f59a129bf964",
+        "sha1": "bb216aab262807836b7a84f0b2ded5debad89281"
       },
       "env": {
         "client": "required",
@@ -2498,8 +2498,8 @@
     {
       "path": "mods/dtbwg-1.1.0-BETA02.jar",
       "hashes": {
-        "sha512": "32d00007b235ef399a9fb7f2c3f7ad23f70f68adad2d1827376573f6373a36827f128173ef886cdec1e9d9e09dabf53803f50e4458556cff74180ec127e10471",
-        "sha1": "70652596042c6a74d395288d01b7e3b564661792"
+        "sha1": "70652596042c6a74d395288d01b7e3b564661792",
+        "sha512": "32d00007b235ef399a9fb7f2c3f7ad23f70f68adad2d1827376573f6373a36827f128173ef886cdec1e9d9e09dabf53803f50e4458556cff74180ec127e10471"
       },
       "env": {
         "client": "required",
@@ -2513,8 +2513,8 @@
     {
       "path": "mods/dtru-1.1.0.jar",
       "hashes": {
-        "sha1": "66f4e402c8622eb17e7e49c560096de86512b07f",
-        "sha512": "d69357e00f658dbdb56a661c74a2ef6c67bd0c79246f599121f4cc65ea87b7cfac1e97d62a05aec63b0403392c24cb5cc45d322b807197b73e9dc2a83db82bb1"
+        "sha512": "d69357e00f658dbdb56a661c74a2ef6c67bd0c79246f599121f4cc65ea87b7cfac1e97d62a05aec63b0403392c24cb5cc45d322b807197b73e9dc2a83db82bb1",
+        "sha1": "66f4e402c8622eb17e7e49c560096de86512b07f"
       },
       "env": {
         "client": "required",
@@ -2543,8 +2543,8 @@
     {
       "path": "mods/dungeons-and-taverns-ancient-city-overhaul-v2.jar",
       "hashes": {
-        "sha512": "970968c358f5fcd43d06f29711d10960108bbbdcd1c76aa4ff2d216d0f4029ab50c2ad0b8b6d8a3f31934a0362fcdc04ae844f1d169edd8a8a34620296f86f28",
-        "sha1": "85142817ffd180c2867db39d313b2d1f80635bc9"
+        "sha1": "85142817ffd180c2867db39d313b2d1f80635bc9",
+        "sha512": "970968c358f5fcd43d06f29711d10960108bbbdcd1c76aa4ff2d216d0f4029ab50c2ad0b8b6d8a3f31934a0362fcdc04ae844f1d169edd8a8a34620296f86f28"
       },
       "env": {
         "client": "required",
@@ -2558,8 +2558,8 @@
     {
       "path": "mods/dungeons-and-taverns-v4.4.4.jar",
       "hashes": {
-        "sha1": "249a5bdd0e8622b8a11f88758e6f5fd5fda036a3",
-        "sha512": "83069dc336bcc212059f753923373d9522aa5953bf4b4fe2a8cfa666b4e28d2d017daa66c4b35e315c3be8d1ad60c2872879dd47cc1f47665ebbfd102da76976"
+        "sha512": "83069dc336bcc212059f753923373d9522aa5953bf4b4fe2a8cfa666b4e28d2d017daa66c4b35e315c3be8d1ad60c2872879dd47cc1f47665ebbfd102da76976",
+        "sha1": "249a5bdd0e8622b8a11f88758e6f5fd5fda036a3"
       },
       "env": {
         "client": "required",
@@ -2573,8 +2573,8 @@
     {
       "path": "mods/DungeonsArise-1.21.1-2.1.68-release.jar",
       "hashes": {
-        "sha1": "c651339154da7b9e9cf47a80fdef22c4d59cad5c",
-        "sha512": "cf87e06c8a49c9147fac2cf4d218d0e0eb56bb75819ab85f84ed7ae775bb3e259e2ebd5c423696d4d9026f6a69698babf5e7c82c74e480fbbf107359ef30a97e"
+        "sha512": "cf87e06c8a49c9147fac2cf4d218d0e0eb56bb75819ab85f84ed7ae775bb3e259e2ebd5c423696d4d9026f6a69698babf5e7c82c74e480fbbf107359ef30a97e",
+        "sha1": "c651339154da7b9e9cf47a80fdef22c4d59cad5c"
       },
       "env": {
         "client": "required",
@@ -2588,8 +2588,8 @@
     {
       "path": "mods/DungeonsAriseSevenSeas-1.21.x-1.0.4-neoforge.jar",
       "hashes": {
-        "sha1": "ac9edb266a1360e9e4c80ed0b2f931f1505307eb",
-        "sha512": "14c9a833f85e343561547a5efb44a7f275b4e3fa97294ca36628c54b990a3634fb0df1223a127a02b5bdc5b113dfbfca46d76906b0efa3e797f0622cc14d3b50"
+        "sha512": "14c9a833f85e343561547a5efb44a7f275b4e3fa97294ca36628c54b990a3634fb0df1223a127a02b5bdc5b113dfbfca46d76906b0efa3e797f0622cc14d3b50",
+        "sha1": "ac9edb266a1360e9e4c80ed0b2f931f1505307eb"
       },
       "env": {
         "client": "required",
@@ -2648,8 +2648,8 @@
     {
       "path": "mods/dynamictrees-neoforge-1.21.1-1.6.0.jar",
       "hashes": {
-        "sha512": "645d29769523d2d23c5ea2da787e714176e2a3e17c67943ca24ea321b335464d5570b2fbc6426a617eb4bd6a2734e16b5961c6527874708a242d5f7f413da14f",
-        "sha1": "b50c1f3e57c184576aefb116849992d5ff751b4c"
+        "sha1": "b50c1f3e57c184576aefb116849992d5ff751b4c",
+        "sha512": "645d29769523d2d23c5ea2da787e714176e2a3e17c67943ca24ea321b335464d5570b2fbc6426a617eb4bd6a2734e16b5961c6527874708a242d5f7f413da14f"
       },
       "env": {
         "client": "required",
@@ -2693,8 +2693,8 @@
     {
       "path": "mods/ecological-0.3.0+1.21-1.21.1.jar",
       "hashes": {
-        "sha512": "1cd586649f2d5ce45b2ee9e634c1e66b5a8b7d8767ecc004b19480c9cd9b6638a0243798584e77727818705a5641eeb1fe1af456a02565017d37c5ede51ef2a4",
-        "sha1": "b72d821bfa21a73ce9f009d6a94f1c054d400a5d"
+        "sha1": "b72d821bfa21a73ce9f009d6a94f1c054d400a5d",
+        "sha512": "1cd586649f2d5ce45b2ee9e634c1e66b5a8b7d8767ecc004b19480c9cd9b6638a0243798584e77727818705a5641eeb1fe1af456a02565017d37c5ede51ef2a4"
       },
       "env": {
         "client": "required",
@@ -2708,8 +2708,8 @@
     {
       "path": "mods/edwiresplus-1.21.1-1.0.0.jar",
       "hashes": {
-        "sha1": "c90130d8fbc3fdba02fa13e2c95a1e59b694dd0a",
-        "sha512": "9c06bf2689ac50fd61b3495794e2a0365432dc2e43401506ae2f3d377a92cc8c046ae1d20d5abce304c7f62508be5f1ddddcd1caa56808aefc96e64d55154eb6"
+        "sha512": "9c06bf2689ac50fd61b3495794e2a0365432dc2e43401506ae2f3d377a92cc8c046ae1d20d5abce304c7f62508be5f1ddddcd1caa56808aefc96e64d55154eb6",
+        "sha1": "c90130d8fbc3fdba02fa13e2c95a1e59b694dd0a"
       },
       "env": {
         "client": "required",
@@ -2753,8 +2753,8 @@
     {
       "path": "mods/emiffect-neoforge-2.1.6+mc1.21.1.jar",
       "hashes": {
-        "sha1": "0afecce68c1fa9e13ef46d4b20a67f65b19c9d8c",
-        "sha512": "60db5a6c2649d58de5514f851cda63c3bef9eb46a827f1f587cca1fa935fe9f8ef8d0fdf3ed71adb4b58193a72f9ce7ea2e9d4d83e274ee70faa6265b4c80dd6"
+        "sha512": "60db5a6c2649d58de5514f851cda63c3bef9eb46a827f1f587cca1fa935fe9f8ef8d0fdf3ed71adb4b58193a72f9ce7ea2e9d4d83e274ee70faa6265b4c80dd6",
+        "sha1": "0afecce68c1fa9e13ef46d4b20a67f65b19c9d8c"
       },
       "env": {
         "client": "required",
@@ -2768,8 +2768,8 @@
     {
       "path": "mods/EMIProfessions-neoforge-1.21.1-1.0.3.jar",
       "hashes": {
-        "sha512": "f720f58590e3098459c27e3579f36a00b66443b7c089e3fa9ef1399ed17587d51b046c69e2f07f6e21089fc85d58881a5b224d94a1b2f4738a0c6cbb2dd9c798",
-        "sha1": "db869b08e5d86188a259b2dfeeece6f94ea17630"
+        "sha1": "db869b08e5d86188a259b2dfeeece6f94ea17630",
+        "sha512": "f720f58590e3098459c27e3579f36a00b66443b7c089e3fa9ef1399ed17587d51b046c69e2f07f6e21089fc85d58881a5b224d94a1b2f4738a0c6cbb2dd9c798"
       },
       "env": {
         "client": "required",
@@ -2798,8 +2798,8 @@
     {
       "path": "mods/emi_create_schematics-1.1.0.jar",
       "hashes": {
-        "sha512": "c25c5c0a7759d43790c785315e394bf81b064c79775bd032784d4588acd3afce37dd4e43be4d2db879561b9b7853245b7f9f79b5ffc40333a9703c8ff006f868",
-        "sha1": "a34c4df9c1a39c553ac7cef28bb78132e4185cb6"
+        "sha1": "a34c4df9c1a39c553ac7cef28bb78132e4185cb6",
+        "sha512": "c25c5c0a7759d43790c785315e394bf81b064c79775bd032784d4588acd3afce37dd4e43be4d2db879561b9b7853245b7f9f79b5ffc40333a9703c8ff006f868"
       },
       "env": {
         "client": "required",
@@ -2828,8 +2828,8 @@
     {
       "path": "mods/emi_loot-0.7.9+1.21+neoforge.jar",
       "hashes": {
-        "sha1": "bd0326eeda721c87a29efd78f9a52f46d572392c",
-        "sha512": "9c67ff502da7a94ef7707c144deb4ec6472f445e99cc8eab30b77f22d886a86b8793338452fe394296f3132ed4d37271d475af184e3a9519ddebdad1a82eecf7"
+        "sha512": "9c67ff502da7a94ef7707c144deb4ec6472f445e99cc8eab30b77f22d886a86b8793338452fe394296f3132ed4d37271d475af184e3a9519ddebdad1a82eecf7",
+        "sha1": "bd0326eeda721c87a29efd78f9a52f46d572392c"
       },
       "env": {
         "client": "required",
@@ -2843,8 +2843,8 @@
     {
       "path": "mods/emi_ores-1.2+1.21.1+neoforge.jar",
       "hashes": {
-        "sha512": "7b01dd29400802a18e3f23bcc2057e12070d28529bf358306758b462d69ab0532aa392a4b683cb0f5cf1a20f09e5f0d965f90923e72fb2fd6476f63a55a210a7",
-        "sha1": "2326620a11ad9ca463ef3a8cfa7d8f5ae169b756"
+        "sha1": "2326620a11ad9ca463ef3a8cfa7d8f5ae169b756",
+        "sha512": "7b01dd29400802a18e3f23bcc2057e12070d28529bf358306758b462d69ab0532aa392a4b683cb0f5cf1a20f09e5f0d965f90923e72fb2fd6476f63a55a210a7"
       },
       "env": {
         "client": "required",
@@ -2858,8 +2858,8 @@
     {
       "path": "mods/enchdesc-neoforge-1.21.1-21.1.9.jar",
       "hashes": {
-        "sha512": "22258e118552e690ae77ad1a13e5dfe69bf94bdd765d2e614e2e4cc7410c406866b7937b54e8475660bba858b0eadb7efd430146563301143643622622d2c928",
-        "sha1": "e4fa515c5deab3165f250f2a1297ac836d496064"
+        "sha1": "e4fa515c5deab3165f250f2a1297ac836d496064",
+        "sha512": "22258e118552e690ae77ad1a13e5dfe69bf94bdd765d2e614e2e4cc7410c406866b7937b54e8475660bba858b0eadb7efd430146563301143643622622d2c928"
       },
       "env": {
         "client": "required",
@@ -2963,8 +2963,8 @@
     {
       "path": "mods/epicfight-skilltree-neoforge-21.3.1-1.21.1.jar",
       "hashes": {
-        "sha1": "fde633dbb975740a8a669605546ed7d39794049e",
-        "sha512": "46ecb78a8f6c896e3b1388bae17bd105d59de1eeb76dbc24cb81fe8bc95408d106cd569b98402a44c149e6280da0e0e861f331511efa0122daa0fe315d6fd4f1"
+        "sha512": "46ecb78a8f6c896e3b1388bae17bd105d59de1eeb76dbc24cb81fe8bc95408d106cd569b98402a44c149e6280da0e0e861f331511efa0122daa0fe315d6fd4f1",
+        "sha1": "fde633dbb975740a8a669605546ed7d39794049e"
       },
       "env": {
         "client": "required",
@@ -2993,8 +2993,8 @@
     {
       "path": "mods/euphonium-1.0.3+1.21.jar",
       "hashes": {
-        "sha512": "d481f4537fb41cffb05f814c6e9b2c33da169f5ead0826232f1abf3e753f0f08accf900f1795a6138ebb9b391d81de14196a089b7c49adaa1bb77b3a9afdbf7d",
-        "sha1": "daae0b26547aa340caa342d5bc809c15aa2a7953"
+        "sha1": "daae0b26547aa340caa342d5bc809c15aa2a7953",
+        "sha512": "d481f4537fb41cffb05f814c6e9b2c33da169f5ead0826232f1abf3e753f0f08accf900f1795a6138ebb9b391d81de14196a089b7c49adaa1bb77b3a9afdbf7d"
       },
       "env": {
         "client": "required",
@@ -3023,8 +3023,8 @@
     {
       "path": "mods/excavatedvariants-4.3.1-neoforge.jar",
       "hashes": {
-        "sha1": "ca8f84c616949f31d055a557339b4a2d2cec0da9",
-        "sha512": "eb3e1b85e5a2eda11ac434cbd8871d76c6db9bb689aedb56c432a687f7669eb253d422c6ebe62726842fbeb331aeb6c2be299f5a8319495019dfffe72f00dd7c"
+        "sha512": "eb3e1b85e5a2eda11ac434cbd8871d76c6db9bb689aedb56c432a687f7669eb253d422c6ebe62726842fbeb331aeb6c2be299f5a8319495019dfffe72f00dd7c",
+        "sha1": "ca8f84c616949f31d055a557339b4a2d2cec0da9"
       },
       "env": {
         "client": "required",
@@ -3068,8 +3068,8 @@
     {
       "path": "mods/explosiveenhancement-neoforge-1.21.1-1.1.2.jar",
       "hashes": {
-        "sha1": "fee0be3ffe494189733ceaeb7163a38b03098ea5",
-        "sha512": "60ee5593d8b2cfeac306da6fcd6eeeebca672ef0f0f89e0e39250a2351117340f541648377d6f111bd36367bc994285d73e378d417845f5f85130e4a7778cb99"
+        "sha512": "60ee5593d8b2cfeac306da6fcd6eeeebca672ef0f0f89e0e39250a2351117340f541648377d6f111bd36367bc994285d73e378d417845f5f85130e4a7778cb99",
+        "sha1": "fee0be3ffe494189733ceaeb7163a38b03098ea5"
       },
       "env": {
         "client": "required",
@@ -3083,8 +3083,8 @@
     {
       "path": "mods/Exposure Detective-1.0.0-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "7ac25a5601eeb837bc42bf47ddc2f992319cc28e",
-        "sha512": "0c0f3460742231b4c6a9f52618923309e03a8d319b38c917d161cc4da3a7b5f8016cbb612adfb118f6d32428afc0786a5ce201715cdc7379ff42e782de85e1a5"
+        "sha512": "0c0f3460742231b4c6a9f52618923309e03a8d319b38c917d161cc4da3a7b5f8016cbb612adfb118f6d32428afc0786a5ce201715cdc7379ff42e782de85e1a5",
+        "sha1": "7ac25a5601eeb837bc42bf47ddc2f992319cc28e"
       },
       "env": {
         "client": "required",
@@ -3128,8 +3128,8 @@
     {
       "path": "mods/exposure_polaroid-neoforge-1.21.1-1.1.2.jar",
       "hashes": {
-        "sha512": "27b6575ef2f6fbfae86d9a5cd4e3968479d29da0c0c3529540a9453446f2ba34ea24c31bd8dc310de7f3f6ceb5f6511c3d25013e7ff3d66e952b6af8d0854228",
-        "sha1": "1576d16933cf50c3daeee2acd44a5982855ca432"
+        "sha1": "1576d16933cf50c3daeee2acd44a5982855ca432",
+        "sha512": "27b6575ef2f6fbfae86d9a5cd4e3968479d29da0c0c3529540a9453446f2ba34ea24c31bd8dc310de7f3f6ceb5f6511c3d25013e7ff3d66e952b6af8d0854228"
       },
       "env": {
         "client": "required",
@@ -3141,25 +3141,25 @@
       "fileSize": 358586
     },
     {
-      "path": "mods/extended-industrialization-1.15.27-1.21.1.jar",
+      "path": "mods/extended-industrialization-1.15.28-1.21.1.jar",
       "hashes": {
-        "sha512": "435dad5b201213901e093d306c1993ea856ac4081e5c097a870c345d230182ec528c9c8270dace86e26b5933b65978005df4941e3ccab4dd4ff2be663a3aec52",
-        "sha1": "fa855b8de631701386823584a0b1e92209c8aff7"
+        "sha512": "9c48d3f9acaf19786978e9d10b8d19eea8c2bf2c17e3c3f2f5ab17ee2b3ddc492ce4b1954a71f595dc04b825bb0178c7cc8070f0ceb7994ab2b0aa30f659e77c",
+        "sha1": "64042273cee68e45243f637f3366c3de5bc4cafc"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/CCM0U9YU/versions/pbnGeA7B/extended-industrialization-1.15.27-1.21.1.jar"
+        "https://cdn.modrinth.com/data/CCM0U9YU/versions/6ITv76PK/extended-industrialization-1.15.28-1.21.1.jar"
       ],
-      "fileSize": 2252156
+      "fileSize": 2254427
     },
     {
       "path": "mods/extra-mod-integrations-all-neoforge-1.0.3+1.21.1.jar",
       "hashes": {
-        "sha512": "9267359eefc56bdb1eca2992cba12363f54f974f27ca2031ecb0677ba4c3bcd1d563db94dd569bbdf085a8b890cd7aa681ae6f485859051565b6a2cf50adc4c8",
-        "sha1": "70429571ccf7faa4c1811092739fb7d645829eef"
+        "sha1": "70429571ccf7faa4c1811092739fb7d645829eef",
+        "sha512": "9267359eefc56bdb1eca2992cba12363f54f974f27ca2031ecb0677ba4c3bcd1d563db94dd569bbdf085a8b890cd7aa681ae6f485859051565b6a2cf50adc4c8"
       },
       "env": {
         "client": "required",
@@ -3203,8 +3203,8 @@
     {
       "path": "mods/falling_snow-1.21.1-neoforge-1.1.0.jar",
       "hashes": {
-        "sha1": "ba56cd4360e3281007549ca579aa6f769991c0dc",
-        "sha512": "8861a82f6260d99d993a63bda24bb6a7ce309f77ee63a8e71da2471d9237ed0f1ca318d8c38500f11e54f7f2e8142ff633f69e180ea6bf787598da50a1b2b6fc"
+        "sha512": "8861a82f6260d99d993a63bda24bb6a7ce309f77ee63a8e71da2471d9237ed0f1ca318d8c38500f11e54f7f2e8142ff633f69e180ea6bf787598da50a1b2b6fc",
+        "sha1": "ba56cd4360e3281007549ca579aa6f769991c0dc"
       },
       "env": {
         "client": "required",
@@ -3218,8 +3218,8 @@
     {
       "path": "mods/fancymenu_neoforge_3.8.1_MC_1.21.1.jar",
       "hashes": {
-        "sha512": "b427c7b2f3315d146fb8ae3a74c54fa67880952458335d802e635426a3a96d523cf5503afb91fa001cb4bba17c8face2ac5baa8cad488aeb6e2712c3f4b0b891",
-        "sha1": "061a2c1ae0563d9d433928c243c58ee9b45f630f"
+        "sha1": "061a2c1ae0563d9d433928c243c58ee9b45f630f",
+        "sha512": "b427c7b2f3315d146fb8ae3a74c54fa67880952458335d802e635426a3a96d523cf5503afb91fa001cb4bba17c8face2ac5baa8cad488aeb6e2712c3f4b0b891"
       },
       "env": {
         "client": "required",
@@ -3263,8 +3263,8 @@
     {
       "path": "mods/Female-Gender-Mod-neoforge-1.21-3.2.2.jar",
       "hashes": {
-        "sha1": "f2e4027d0943c04700173a97c88aaebb1f1777ad",
-        "sha512": "99a56830fcb47d7a2f74f4985069e4af0bf1cd8907ccf4c3d2cb593c903a87eeb7fa70dc47e3943b6b320bd97a3530d77d54e4c85ef63462dc838cc735a3097f"
+        "sha512": "99a56830fcb47d7a2f74f4985069e4af0bf1cd8907ccf4c3d2cb593c903a87eeb7fa70dc47e3943b6b320bd97a3530d77d54e4c85ef63462dc838cc735a3097f",
+        "sha1": "f2e4027d0943c04700173a97c88aaebb1f1777ad"
       },
       "env": {
         "client": "required",
@@ -3293,8 +3293,8 @@
     {
       "path": "mods/fiberopticcables-1.0.1-neoforge-1.21.1.jar",
       "hashes": {
-        "sha512": "c27c62682b9ad1c519286d8230890373252b47de11cd1f2df895bc499f38d467c9ebf11b234a53f0c60c9d6e4a58a5d8f37e0199805b2aafca8dc356037b790c",
-        "sha1": "1f92a493b8840541d7120e3ea98b0a4c802dbb2b"
+        "sha1": "1f92a493b8840541d7120e3ea98b0a4c802dbb2b",
+        "sha512": "c27c62682b9ad1c519286d8230890373252b47de11cd1f2df895bc499f38d467c9ebf11b234a53f0c60c9d6e4a58a5d8f37e0199805b2aafca8dc356037b790c"
       },
       "env": {
         "client": "required",
@@ -3308,8 +3308,8 @@
     {
       "path": "mods/fish_of_thieves-mc1.21.1-v21.1.1.2-neoforge.jar",
       "hashes": {
-        "sha1": "24d6106493ce05e1583ca9b2f3e7792cc9d3428b",
-        "sha512": "8d22fa0bd310099b660e43c595e397e5be7e6a808bb7a63714b5f56708831dc83a954b680cc4cb882c66122179b4d68fe6242424dc54fc7f4cdcca148ef7a642"
+        "sha512": "8d22fa0bd310099b660e43c595e397e5be7e6a808bb7a63714b5f56708831dc83a954b680cc4cb882c66122179b4d68fe6242424dc54fc7f4cdcca148ef7a642",
+        "sha1": "24d6106493ce05e1583ca9b2f3e7792cc9d3428b"
       },
       "env": {
         "client": "required",
@@ -3321,25 +3321,25 @@
       "fileSize": 1881823
     },
     {
-      "path": "mods/flowing_fluids_neoforge_1.21.1-0.6.1.jar",
+      "path": "mods/flowing_fluids_1.21-neoforge-1.0.1.jar",
       "hashes": {
-        "sha512": "eae8e6a5d587ae9b29b2b163f3f5903683ada5809fa5022ef39e88252ea875bb9719ac76fe98ddbd9648252348a6b8a240513f6f07038c4bb5351753b4cde932",
-        "sha1": "b6d0d183770abd0fd5c4c1baad14176d818a9bef"
+        "sha1": "694a80c5eba9fe629a6c6b3abae33b60b651a3ce",
+        "sha512": "51eece4cddf4a63288518bd98c6b5d82b78d9391f1bf503a2894722383d7ecb37cb6f2bf570ef9e7c16c68e4db0da43322295f1e8ea967c688c01c27ed7d335a"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/s1I3BT95/versions/yzQYHjP9/flowing_fluids_neoforge_1.21.1-0.6.1.jar"
+        "https://cdn.modrinth.com/data/s1I3BT95/versions/1swtyIe6/flowing_fluids_1.21-neoforge-1.0.1.jar"
       ],
-      "fileSize": 135654
+      "fileSize": 176233
     },
     {
       "path": "mods/fluid-1.0.1.jar",
       "hashes": {
-        "sha512": "737b101b0df446f9693f520a02ace8542e6f02f288d2d7889d423f7430093475de7300d82e4bdd2f327171f7c3c9746846f4e3f9c4249a47d27e57af2428dffa",
-        "sha1": "261f4d78cf37caee4d591a511653f889b6ba7d22"
+        "sha1": "261f4d78cf37caee4d591a511653f889b6ba7d22",
+        "sha512": "737b101b0df446f9693f520a02ace8542e6f02f288d2d7889d423f7430093475de7300d82e4bdd2f327171f7c3c9746846f4e3f9c4249a47d27e57af2428dffa"
       },
       "env": {
         "client": "required",
@@ -3353,8 +3353,8 @@
     {
       "path": "mods/Fog-neoforge-1.11.0-1.21.1.jar",
       "hashes": {
-        "sha512": "930acf4610db47432ae305ab12ed317c00961e96bbb6c8c41c2f528f5b16a798405297b42f313dc641fbf725cb9d2aae8ab98e83a72739669284843e1df2959d",
-        "sha1": "106460aa8b09e8ce6051b332d104c787c208d28a"
+        "sha1": "106460aa8b09e8ce6051b332d104c787c208d28a",
+        "sha512": "930acf4610db47432ae305ab12ed317c00961e96bbb6c8c41c2f528f5b16a798405297b42f313dc641fbf725cb9d2aae8ab98e83a72739669284843e1df2959d"
       },
       "env": {
         "client": "required",
@@ -3473,8 +3473,8 @@
     {
       "path": "mods/giant_lily_pads-1.0.0-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "b6d61a41b02b5080f24a0c495bc5967f5d9eccaa",
-        "sha512": "ce5ae5539a06cac456f7a2c342448737dbdb4e7ae84e8c56d1cd596c6bb70ad65ecdaf6dcd7866deb8316d6b03b64a11033d6faa037ed6f372d8871053db0292"
+        "sha512": "ce5ae5539a06cac456f7a2c342448737dbdb4e7ae84e8c56d1cd596c6bb70ad65ecdaf6dcd7866deb8316d6b03b64a11033d6faa037ed6f372d8871053db0292",
+        "sha1": "b6d61a41b02b5080f24a0c495bc5967f5d9eccaa"
       },
       "env": {
         "client": "required",
@@ -3518,8 +3518,8 @@
     {
       "path": "mods/giant_ruined_portals-1.0.0-neoforge-1.21.1.jar",
       "hashes": {
-        "sha512": "7b342891d9f74be6a5266dbf3c26692e5b5085e1740a74417e01d3cd1244f15e3250a41eba39cbe0743c13ed402a27a42e001fa27456a772f42e3cc2df0961c9",
-        "sha1": "52e650d12adc987a993c4008c15b61160cef2c30"
+        "sha1": "52e650d12adc987a993c4008c15b61160cef2c30",
+        "sha512": "7b342891d9f74be6a5266dbf3c26692e5b5085e1740a74417e01d3cd1244f15e3250a41eba39cbe0743c13ed402a27a42e001fa27456a772f42e3cc2df0961c9"
       },
       "env": {
         "client": "required",
@@ -3548,8 +3548,8 @@
     {
       "path": "mods/glow-1.2.0.jar",
       "hashes": {
-        "sha1": "1ef2accf1c2050cdf1d81511b915865c09f873a8",
-        "sha512": "14f2c905b1c3726be2b94e5787f64217bb927a5e72f2f993d42b93c61f00e37a76466be42a6667e587bfe8c1641acb264ee80579eccf755688b58a819a552951"
+        "sha512": "14f2c905b1c3726be2b94e5787f64217bb927a5e72f2f993d42b93c61f00e37a76466be42a6667e587bfe8c1641acb264ee80579eccf755688b58a819a552951",
+        "sha1": "1ef2accf1c2050cdf1d81511b915865c09f873a8"
       },
       "env": {
         "client": "required",
@@ -3563,8 +3563,8 @@
     {
       "path": "mods/gravestone-neoforge-1.21.1-1.0.35.jar",
       "hashes": {
-        "sha1": "91f5e2395081ac5f5034ce05f83bcbfca1e3fd5c",
-        "sha512": "4fac4b141df81161177fb0882335e27d1259d05ffd3f3795a0258e3471f4e72840cfa5b73fb1bc1ad8cdca255b83dc46f713f81fea533e4fb1e72834e1724886"
+        "sha512": "4fac4b141df81161177fb0882335e27d1259d05ffd3f3795a0258e3471f4e72840cfa5b73fb1bc1ad8cdca255b83dc46f713f81fea533e4fb1e72834e1724886",
+        "sha1": "91f5e2395081ac5f5034ce05f83bcbfca1e3fd5c"
       },
       "env": {
         "client": "required",
@@ -3668,8 +3668,8 @@
     {
       "path": "mods/hrtffix-neoforge-1.0.0.jar",
       "hashes": {
-        "sha1": "d0c74b4b52b9d3e4b6cff65ff7d53773670a8d88",
-        "sha512": "c5864752c67c1894d58b1f11d427f36292ba80b9bd105a1ddf0f076cc08c0122117ede14e5b24cdd8973441570470e31265d2cb4442e534e1614af659fee0c12"
+        "sha512": "c5864752c67c1894d58b1f11d427f36292ba80b9bd105a1ddf0f076cc08c0122117ede14e5b24cdd8973441570470e31265d2cb4442e534e1614af659fee0c12",
+        "sha1": "d0c74b4b52b9d3e4b6cff65ff7d53773670a8d88"
       },
       "env": {
         "client": "required",
@@ -3683,8 +3683,8 @@
     {
       "path": "mods/icebreak-1.0.0+1.21.1.jar",
       "hashes": {
-        "sha1": "0114baa5c15c695e1b58df0fbab99fe05aeeb7c4",
-        "sha512": "8ea573171a0d277e6678f6fad36c6bbe09d78134e97c09eaa37b2f8ca75de08a09d69ceeb507c962a7086b7f94c12f3c58d9498587a9e60cefc8d9db4ce62086"
+        "sha512": "8ea573171a0d277e6678f6fad36c6bbe09d78134e97c09eaa37b2f8ca75de08a09d69ceeb507c962a7086b7f94c12f3c58d9498587a9e60cefc8d9db4ce62086",
+        "sha1": "0114baa5c15c695e1b58df0fbab99fe05aeeb7c4"
       },
       "env": {
         "client": "required",
@@ -3698,17 +3698,17 @@
     {
       "path": "mods/ice_pillager_castle-4.4.jar",
       "hashes": {
-        "sha1": "8b1ffb8ee54cade199517acb3a62644738c6c64d",
-        "sha512": "adee9ec895acf238b38b48ac53493226c1745a698c0f439c352d2b1fc11ed5b3be342099343cda9481786170c218a7aa9ec309280f6e35f96aa76baede86f65a"
+        "sha1": "54a3c9cb163a62e231eee718c6e2550e16b38cb3",
+        "sha512": "164819475134415942227dd8a48a9364cb0e11dacda71c57bf19e115887ce2e9a2e8523637cc1c79461b6496b4606a3358a9235b22161cfedb2a53e9bbd67525"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/j63UGQG7/versions/li2JlKV2/ice_pillager_castle-4.4.jar"
+        "https://cdn.modrinth.com/data/j63UGQG7/versions/gKHkHP3U/ice_pillager_castle-4.4.jar"
       ],
-      "fileSize": 3173767
+      "fileSize": 3179869
     },
     {
       "path": "mods/Ignition-1.21.1-6.0.1.jar",
@@ -3743,8 +3743,8 @@
     {
       "path": "mods/immersive_aircraft-1.4.2+1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "196aaca1152a93696c0898d070edb044d63e7c92",
-        "sha512": "b5c3ca8b93c8ebb4a97472e07ff7b2f15192eee065b70886cb2c35626d24d2accb9ad1a55249123677103abd4a79fe6ee36811bafd2efb21e1ff712577caa851"
+        "sha512": "b5c3ca8b93c8ebb4a97472e07ff7b2f15192eee065b70886cb2c35626d24d2accb9ad1a55249123677103abd4a79fe6ee36811bafd2efb21e1ff712577caa851",
+        "sha1": "196aaca1152a93696c0898d070edb044d63e7c92"
       },
       "env": {
         "client": "required",
@@ -3773,8 +3773,8 @@
     {
       "path": "mods/info-tools-1.3.1-mc1.21.8.jar",
       "hashes": {
-        "sha1": "7d2ef2e4360237ac216ee17b9a55c92d6a5b2f83",
-        "sha512": "15a47e4df0e2d95efa3ad1b3fe9a72cba569e8d918c77f317e17118ddddada79a077aae8f841072c1ce83dcc8217984dbb47ea74137cc698408a5beffd579f10"
+        "sha512": "15a47e4df0e2d95efa3ad1b3fe9a72cba569e8d918c77f317e17118ddddada79a077aae8f841072c1ce83dcc8217984dbb47ea74137cc698408a5beffd579f10",
+        "sha1": "7d2ef2e4360237ac216ee17b9a55c92d6a5b2f83"
       },
       "env": {
         "client": "required",
@@ -3788,8 +3788,8 @@
     {
       "path": "mods/item-interactions-mod-neoforge+1.21.1-2.1.4.jar",
       "hashes": {
-        "sha512": "cdb9f458ff499d591ada7f83199522c65421ee85cbec967c4c06a000ceec132a9bf08f14cacbe030924f7ad40de579c7bcd2bb7ecdca38439e38860396f46cb4",
-        "sha1": "60f7f8e825c4478202e382c1a9c582b3a80a12c5"
+        "sha1": "60f7f8e825c4478202e382c1a9c582b3a80a12c5",
+        "sha512": "cdb9f458ff499d591ada7f83199522c65421ee85cbec967c4c06a000ceec132a9bf08f14cacbe030924f7ad40de579c7bcd2bb7ecdca38439e38860396f46cb4"
       },
       "env": {
         "client": "required",
@@ -3833,8 +3833,8 @@
     {
       "path": "mods/japanese-castle-1.0.jar",
       "hashes": {
-        "sha512": "5f43f099c19d6c1caf97f49a31dab0805fc0d7c68939f448cb7df29537a047d81b871c876ec0775b4dd212f32f1c6340d9f357c386c53ecd8bf582ecd2eb5267",
-        "sha1": "f1fca028f8551788f9bf7e05ca22ce0a44693eab"
+        "sha1": "f1fca028f8551788f9bf7e05ca22ce0a44693eab",
+        "sha512": "5f43f099c19d6c1caf97f49a31dab0805fc0d7c68939f448cb7df29537a047d81b871c876ec0775b4dd212f32f1c6340d9f357c386c53ecd8bf582ecd2eb5267"
       },
       "env": {
         "client": "required",
@@ -3848,8 +3848,8 @@
     {
       "path": "mods/japanese-offering-shrines-1.0.jar",
       "hashes": {
-        "sha1": "ff783eff45df2214ff35db3c00274bc291774005",
-        "sha512": "b1f90cfdb742b4666bdf2ff0dd9dc6f0f9b5ff8118e3fc087404efd31c40f4cf37f9f02093ead997438be08f2bd71053c378df738d0a440bd00242c6c3c34946"
+        "sha512": "b1f90cfdb742b4666bdf2ff0dd9dc6f0f9b5ff8118e3fc087404efd31c40f4cf37f9f02093ead997438be08f2bd71053c378df738d0a440bd00242c6c3c34946",
+        "sha1": "ff783eff45df2214ff35db3c00274bc291774005"
       },
       "env": {
         "client": "required",
@@ -3878,8 +3878,8 @@
     {
       "path": "mods/justenoughbreeding-neoforge-1.21-1.21.1-1.6.2.jar",
       "hashes": {
-        "sha1": "4f47678f57e2cadebd42484897bf5417d7fa344a",
-        "sha512": "6fcd93644ac9ed4cde25752bfc74839bf0055f3bc6661e9af4101b7b634ff666bec784fe263cb89a7f7ff6ac74b2f487957134520c3f23987aa6d2b06a6d77f4"
+        "sha512": "6fcd93644ac9ed4cde25752bfc74839bf0055f3bc6661e9af4101b7b634ff666bec784fe263cb89a7f7ff6ac74b2f487957134520c3f23987aa6d2b06a6d77f4",
+        "sha1": "4f47678f57e2cadebd42484897bf5417d7fa344a"
       },
       "env": {
         "client": "required",
@@ -3893,8 +3893,8 @@
     {
       "path": "mods/keybindjs-2101-1.0.1.jar",
       "hashes": {
-        "sha512": "9507e5c9b6138d5eed99f4b7ad7cc9e8f82e4ced8496a9a75737afb78024e4448ac63d83294f6d726e82aeb09e30741aefc027408b8ec94cad43aa0ab43fd211",
-        "sha1": "95218c0181dea86747943ec60b10a57bce1bfd29"
+        "sha1": "95218c0181dea86747943ec60b10a57bce1bfd29",
+        "sha512": "9507e5c9b6138d5eed99f4b7ad7cc9e8f82e4ced8496a9a75737afb78024e4448ac63d83294f6d726e82aeb09e30741aefc027408b8ec94cad43aa0ab43fd211"
       },
       "env": {
         "client": "required",
@@ -3908,8 +3908,8 @@
     {
       "path": "mods/keymod-1.0.jar",
       "hashes": {
-        "sha1": "be3f71f97ef0cb8f8d7a51a3736cf45cb7af3482",
-        "sha512": "05878366116d88011e014e1cab2313a979c8978f1a320878ea49e187c350930b286234875c8df9892650a8362c92e8b28fd217743ee33db2bfbf96605059b27b"
+        "sha512": "05878366116d88011e014e1cab2313a979c8978f1a320878ea49e187c350930b286234875c8df9892650a8362c92e8b28fd217743ee33db2bfbf96605059b27b",
+        "sha1": "be3f71f97ef0cb8f8d7a51a3736cf45cb7af3482"
       },
       "env": {
         "client": "required",
@@ -3998,8 +3998,8 @@
     {
       "path": "mods/kubejsoffline-neoforge-5.2.0.jar",
       "hashes": {
-        "sha1": "e3f539101059803b7e96d560d27469dc3aeed7f7",
-        "sha512": "1a908ba8481cce53c4e7f065b785e2586fa0d15c3c882124dc06ffb530440a50f657586ac9cf5820279800b4c5cf0f4dfa943a390ae1dbf2dc43c375b0d14fc3"
+        "sha512": "1a908ba8481cce53c4e7f065b785e2586fa0d15c3c882124dc06ffb530440a50f657586ac9cf5820279800b4c5cf0f4dfa943a390ae1dbf2dc43c375b0d14fc3",
+        "sha1": "e3f539101059803b7e96d560d27469dc3aeed7f7"
       },
       "env": {
         "client": "required",
@@ -4028,8 +4028,8 @@
     {
       "path": "mods/lanternlib-1.21.1-2.2.0.jar",
       "hashes": {
-        "sha512": "ac34b73cf8b72ebbd4b5a08c43963ea74ee3f0d662c64ec09c478d991e307073434655763d9af96991d98e7f0b88dbf24810bf850ecd951ddd03ee9470a2c11a",
-        "sha1": "9cb908cb375829ed05bdfec49f70455d3b42ef49"
+        "sha1": "9cb908cb375829ed05bdfec49f70455d3b42ef49",
+        "sha512": "ac34b73cf8b72ebbd4b5a08c43963ea74ee3f0d662c64ec09c478d991e307073434655763d9af96991d98e7f0b88dbf24810bf850ecd951ddd03ee9470a2c11a"
       },
       "env": {
         "client": "required",
@@ -4058,8 +4058,8 @@
     {
       "path": "mods/lavasand-1.21.1-neoforge-2.1.jar",
       "hashes": {
-        "sha512": "d10570804ce87704d743d1f7a72e6fcf8ebb8fd290f9117de658618936928a38a5e60b75f78b4a3176c68ba8e9b523daaab522d2abad9c0174b3974ec7150809",
-        "sha1": "6430229c545746f66838d860be5049896d5158e5"
+        "sha1": "6430229c545746f66838d860be5049896d5158e5",
+        "sha512": "d10570804ce87704d743d1f7a72e6fcf8ebb8fd290f9117de658618936928a38a5e60b75f78b4a3176c68ba8e9b523daaab522d2abad9c0174b3974ec7150809"
       },
       "env": {
         "client": "required",
@@ -4073,8 +4073,8 @@
     {
       "path": "mods/letmedespawn-1.21.x-neoforge-1.5.0.jar",
       "hashes": {
-        "sha1": "576fe2edaa96e7e71015287457bd52f87646d968",
-        "sha512": "e6c892bb621a9382728c6f5735922736283cd54ec4f5a5d4d7d0745dedbe39851e21a69abcdf7af783fbacf8c700789b6ef9278dc09782ad1cd63ec004bc7a35"
+        "sha512": "e6c892bb621a9382728c6f5735922736283cd54ec4f5a5d4d7d0745dedbe39851e21a69abcdf7af783fbacf8c700789b6ef9278dc09782ad1cd63ec004bc7a35",
+        "sha1": "576fe2edaa96e7e71015287457bd52f87646d968"
       },
       "env": {
         "client": "required",
@@ -4103,8 +4103,8 @@
     {
       "path": "mods/lithostitched-1.5.7-neoforge-1.21.1.jar",
       "hashes": {
-        "sha512": "98792c8ec08ccb5152bf992ef023e89e65f42c7789453cdcb948c2cc96d600b9287d0ec0c52d06e8c851f28b43c84e618562f77da14e1b3d9efa338a89fade95",
-        "sha1": "aed1e2f4d6db2b3f2d4a1548f97fcaa6b606911e"
+        "sha1": "aed1e2f4d6db2b3f2d4a1548f97fcaa6b606911e",
+        "sha512": "98792c8ec08ccb5152bf992ef023e89e65f42c7789453cdcb948c2cc96d600b9287d0ec0c52d06e8c851f28b43c84e618562f77da14e1b3d9efa338a89fade95"
       },
       "env": {
         "client": "required",
@@ -4133,8 +4133,8 @@
     {
       "path": "mods/livingthings-neoforge-1.21.1-2.3.0.jar",
       "hashes": {
-        "sha1": "b5a54f8fd82c5e34558f3034e6c1fa00d3a3284c",
-        "sha512": "61cacd1865d9d97d1e77afbeeddc9658684f663bb0b4926646b390b40b109b8f6282acf5c28e54fa115c949b02a5890cc7f7b6ace8a6d3f422c70d3cccce2cf3"
+        "sha512": "61cacd1865d9d97d1e77afbeeddc9658684f663bb0b4926646b390b40b109b8f6282acf5c28e54fa115c949b02a5890cc7f7b6ace8a6d3f422c70d3cccce2cf3",
+        "sha1": "b5a54f8fd82c5e34558f3034e6c1fa00d3a3284c"
       },
       "env": {
         "client": "required",
@@ -4163,8 +4163,8 @@
     {
       "path": "mods/lootjs-neoforge-1.21.1-3.6.1.jar",
       "hashes": {
-        "sha1": "a5b8019795de70fde065dc938bf4750aacf9f935",
-        "sha512": "f2e416f47cdba4c1b90cd5b7efdde4501adfaa86e26da3c2fcd6ff1345d6ee5f84e0905f95b937375243a8e86bdbed021f7a976412c2f0b98086b025c315b5a4"
+        "sha512": "f2e416f47cdba4c1b90cd5b7efdde4501adfaa86e26da3c2fcd6ff1345d6ee5f84e0905f95b937375243a8e86bdbed021f7a976412c2f0b98086b025c315b5a4",
+        "sha1": "a5b8019795de70fde065dc938bf4750aacf9f935"
       },
       "env": {
         "client": "required",
@@ -4268,8 +4268,8 @@
     {
       "path": "mods/melody_neoforge_1.0.10_MC_1.21.jar",
       "hashes": {
-        "sha1": "e83052a92c4ca0016bcfe7f0207273983dc84698",
-        "sha512": "3bd96b851a65fa95d92d051851e6a7a415927f718fcb05f0dfb5983eb3ca54edfb842ea85f1497e1b3510b5884181b8f9c6080d2b15642ceadac695011c00ec1"
+        "sha512": "3bd96b851a65fa95d92d051851e6a7a415927f718fcb05f0dfb5983eb3ca54edfb842ea85f1497e1b3510b5884181b8f9c6080d2b15642ceadac695011c00ec1",
+        "sha1": "e83052a92c4ca0016bcfe7f0207273983dc84698"
       },
       "env": {
         "client": "required",
@@ -4283,8 +4283,8 @@
     {
       "path": "mods/me_beam_former-1.21.1-1.2.3.jar",
       "hashes": {
-        "sha512": "1e6bcb007afdd4cbf40d577658cff5426a4caa388d1bcca84e19bb572132d8593361245d5cabf282f87f4070f0ea3268ac20c50ef0b6e548dcdda6561b4d052a",
-        "sha1": "a22d1d70112a1cbf2c3457cccab3912ce8084821"
+        "sha1": "a22d1d70112a1cbf2c3457cccab3912ce8084821",
+        "sha512": "1e6bcb007afdd4cbf40d577658cff5426a4caa388d1bcca84e19bb572132d8593361245d5cabf282f87f4070f0ea3268ac20c50ef0b6e548dcdda6561b4d052a"
       },
       "env": {
         "client": "required",
@@ -4388,8 +4388,8 @@
     {
       "path": "mods/modernfix-neoforge-5.26.1+mc1.21.1.jar",
       "hashes": {
-        "sha512": "d6df16e21c454b86b07991408dd0eb0f611942ee01d9598375a6b0907167aaf29e2906c8ad11c5f0971979e68ea8267d9a8deb82ba638bd85ccd4265d2448a1d",
-        "sha1": "50abc7ff4ef2fcbc3baf4c6b96e2a7141cbd1b8a"
+        "sha1": "50abc7ff4ef2fcbc3baf4c6b96e2a7141cbd1b8a",
+        "sha512": "d6df16e21c454b86b07991408dd0eb0f611942ee01d9598375a6b0907167aaf29e2906c8ad11c5f0971979e68ea8267d9a8deb82ba638bd85ccd4265d2448a1d"
       },
       "env": {
         "client": "required",
@@ -4403,8 +4403,8 @@
     {
       "path": "mods/modern_nuclearization-2.0.jar",
       "hashes": {
-        "sha512": "a041a180c37aea01d7b3e6c78238759367a7539a19c87db0c012e3f12ad478a2a26947e93d1007ee3bf84f184ed9696d404521e79b754225cd9198fa599c6987",
-        "sha1": "d489b8ee78ea7c8f0fb84524623824defa4dadd4"
+        "sha1": "d489b8ee78ea7c8f0fb84524623824defa4dadd4",
+        "sha512": "a041a180c37aea01d7b3e6c78238759367a7539a19c87db0c012e3f12ad478a2a26947e93d1007ee3bf84f184ed9696d404521e79b754225cd9198fa599c6987"
       },
       "env": {
         "client": "required",
@@ -4433,8 +4433,8 @@
     {
       "path": "mods/MoogsEndStructures-1.21-2.0.1.jar",
       "hashes": {
-        "sha1": "e44787b0d977a27a0367b76a09ba680487334671",
-        "sha512": "bc6ebffe094c53dc4cdb1a0f7938ec679bdd3da4f2c47867ccc9195270fe8499afee052616e22d28493da13a53a71b6f1c34c3f12a6a7a02806a026c3b3b6e2f"
+        "sha512": "bc6ebffe094c53dc4cdb1a0f7938ec679bdd3da4f2c47867ccc9195270fe8499afee052616e22d28493da13a53a71b6f1c34c3f12a6a7a02806a026c3b3b6e2f",
+        "sha1": "e44787b0d977a27a0367b76a09ba680487334671"
       },
       "env": {
         "client": "required",
@@ -4448,8 +4448,8 @@
     {
       "path": "mods/MoogsMissingVillages-1.21-2.0.0.jar",
       "hashes": {
-        "sha1": "169f06dbf76c079ff93dc134fd8931beef2a1a82",
-        "sha512": "a43534e5bbcbce5482649cd912b111603c9e691a73d05691ae5c79fc80b6994d8f71d08a6e8ce31d1c774bc9134c2e98229d880e9a15bac2d85b668cb9eadfd7"
+        "sha512": "a43534e5bbcbce5482649cd912b111603c9e691a73d05691ae5c79fc80b6994d8f71d08a6e8ce31d1c774bc9134c2e98229d880e9a15bac2d85b668cb9eadfd7",
+        "sha1": "169f06dbf76c079ff93dc134fd8931beef2a1a82"
       },
       "env": {
         "client": "required",
@@ -4478,8 +4478,8 @@
     {
       "path": "mods/MoogsSoaringStructures-1.21-2.0.2.jar",
       "hashes": {
-        "sha1": "74b79d7913140321d070b0a9bd46c78b89d5a3d3",
-        "sha512": "452618a01a81c9101d8f720f51f67f667ca8ff7c8a5e629c05ab0c0f8792e3cf413a914d07db452904c8d00022e31a9c522ec8935bba1f2a3b7ea03832ef0bb1"
+        "sha512": "452618a01a81c9101d8f720f51f67f667ca8ff7c8a5e629c05ab0c0f8792e3cf413a914d07db452904c8d00022e31a9c522ec8935bba1f2a3b7ea03832ef0bb1",
+        "sha1": "74b79d7913140321d070b0a9bd46c78b89d5a3d3"
       },
       "env": {
         "client": "required",
@@ -4493,8 +4493,8 @@
     {
       "path": "mods/MoogsTemplesReimagined-1.21-1.1.0.jar",
       "hashes": {
-        "sha1": "8fd9e8e72d68b6267e7e595b9081472225a20501",
-        "sha512": "9daa9625e1134d59da5c4de12e97ff875af7dacb27235b0e4a68d4b75e441495f0e0e283aa0424633a2edc410234ab05ab8246aedf470d241b683fcd1e0c23e8"
+        "sha512": "9daa9625e1134d59da5c4de12e97ff875af7dacb27235b0e4a68d4b75e441495f0e0e283aa0424633a2edc410234ab05ab8246aedf470d241b683fcd1e0c23e8",
+        "sha1": "8fd9e8e72d68b6267e7e595b9081472225a20501"
       },
       "env": {
         "client": "required",
@@ -4508,8 +4508,8 @@
     {
       "path": "mods/MoogsVoyagerStructures-1.21-5.0.5.jar",
       "hashes": {
-        "sha1": "6335b4caf8d5f969c948b5a2ce6c675d367a600b",
-        "sha512": "bc6f2a0590816e20a9df722181221e4e7769e64f9fe0efdb88666bae3443354ad59df95a0562f5a854cdc3d5d9a9c12448b605cc3b7fee51e61a85b397fd8f05"
+        "sha512": "bc6f2a0590816e20a9df722181221e4e7769e64f9fe0efdb88666bae3443354ad59df95a0562f5a854cdc3d5d9a9c12448b605cc3b7fee51e61a85b397fd8f05",
+        "sha1": "6335b4caf8d5f969c948b5a2ce6c675d367a600b"
       },
       "env": {
         "client": "required",
@@ -4523,8 +4523,8 @@
     {
       "path": "mods/moogs_structures-1.1.0-1.21-1.21.1-neoforge.jar",
       "hashes": {
-        "sha512": "3f1a22fff74805dbe1cc1ad2eaa9e4c4bbe3eddb77ed99bd873bdf9b8b6d0b55c12bf0064e5459816d4429250483e24978db816100a9b71462daaf1cdfe92af1",
-        "sha1": "cde9ef5e7d4d74bb6d5725367398a6dc4d02ee99"
+        "sha1": "cde9ef5e7d4d74bb6d5725367398a6dc4d02ee99",
+        "sha512": "3f1a22fff74805dbe1cc1ad2eaa9e4c4bbe3eddb77ed99bd873bdf9b8b6d0b55c12bf0064e5459816d4429250483e24978db816100a9b71462daaf1cdfe92af1"
       },
       "env": {
         "client": "required",
@@ -4568,8 +4568,8 @@
     {
       "path": "mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
       "hashes": {
-        "sha512": "f95c0cc881211ee0442434976775e07aae40b4a2ba4e3a85455bc57ca9d3c991e239cd98374a8abd442dc9c378dcd9001e2caa1bf69991d424b5652dd7f3483b",
-        "sha1": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc"
+        "sha1": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc",
+        "sha512": "f95c0cc881211ee0442434976775e07aae40b4a2ba4e3a85455bc57ca9d3c991e239cd98374a8abd442dc9c378dcd9001e2caa1bf69991d424b5652dd7f3483b"
       },
       "env": {
         "client": "required",
@@ -4613,8 +4613,8 @@
     {
       "path": "mods/mycenae-1.0.jar",
       "hashes": {
-        "sha1": "ac393f38b36ff05a67d2d8445376440af5b74517",
-        "sha512": "f8acd904fbc1928586567992579dfdae919baefc6782aacfaec5ab8ad1ce2d57820737e73ec8429d6a89e2f53d79c336ce89115f932df481e33e69e8c370a220"
+        "sha512": "f8acd904fbc1928586567992579dfdae919baefc6782aacfaec5ab8ad1ce2d57820737e73ec8429d6a89e2f53d79c336ce89115f932df481e33e69e8c370a220",
+        "sha1": "ac393f38b36ff05a67d2d8445376440af5b74517"
       },
       "env": {
         "client": "required",
@@ -4628,8 +4628,8 @@
     {
       "path": "mods/naturaltemperature-1.0.15.4-NEOFORGE-MC-1.21.1.jar",
       "hashes": {
-        "sha512": "3816d6c7e72dc8eef34a1f0bb0d34cfb2baa704804b620c602fe11b601dc731c997780a83c29a7d83de2b0dbbfc963501c1a2c0d69e47339f0d287c87f2e115b",
-        "sha1": "f9a70b4d6b92e03a8ea4ac23831cc247d5d63998"
+        "sha1": "f9a70b4d6b92e03a8ea4ac23831cc247d5d63998",
+        "sha512": "3816d6c7e72dc8eef34a1f0bb0d34cfb2baa704804b620c602fe11b601dc731c997780a83c29a7d83de2b0dbbfc963501c1a2c0d69e47339f0d287c87f2e115b"
       },
       "env": {
         "client": "required",
@@ -4643,8 +4643,8 @@
     {
       "path": "mods/natures_spirit-2.2.5-1.21.1.jar",
       "hashes": {
-        "sha1": "153679dc2dd4601b40beed834799ba1d7c05b08a",
-        "sha512": "c99aa5b451c2a8cc3cdb7c36fb9bdf81a8b69bf54956c2897bd7af7478bb1b870cbffc7f3d9e78679e3ed457f2a543daef8e232bef7f130cf7facd2931810a1b"
+        "sha512": "c99aa5b451c2a8cc3cdb7c36fb9bdf81a8b69bf54956c2897bd7af7478bb1b870cbffc7f3d9e78679e3ed457f2a543daef8e232bef7f130cf7facd2931810a1b",
+        "sha1": "153679dc2dd4601b40beed834799ba1d7c05b08a"
       },
       "env": {
         "client": "required",
@@ -4673,8 +4673,8 @@
     {
       "path": "mods/nemos-inventory-sorting-NeoForge-1.21.1-1.8.2.1.jar",
       "hashes": {
-        "sha1": "7da5cfba7dc968ee0587b375328acb124f655776",
-        "sha512": "8e9318f92c82adc19ba6897e327fb17c60473d161c9d40cd70a672e928964d526bb9f39dd8e043d34a16c03f76a68a43df39ab579609dc0efeee8597307a06bd"
+        "sha512": "8e9318f92c82adc19ba6897e327fb17c60473d161c9d40cd70a672e928964d526bb9f39dd8e043d34a16c03f76a68a43df39ab579609dc0efeee8597307a06bd",
+        "sha1": "7da5cfba7dc968ee0587b375328acb124f655776"
       },
       "env": {
         "client": "required",
@@ -4688,8 +4688,8 @@
     {
       "path": "mods/NeoForge-Version-Serene Seasons Plus-1.21.1-4.2.3.jar",
       "hashes": {
-        "sha1": "f38f2b2448cc35e7e26992313423778b80962e8e",
-        "sha512": "02273b48ff4180c379257b3cf48070a067949928de69c220178ef07f9760d5e9101a7e29a78ddc9289e8070ee3229bce63df4a3a9bef117bd1f6e16f70f7b009"
+        "sha512": "02273b48ff4180c379257b3cf48070a067949928de69c220178ef07f9760d5e9101a7e29a78ddc9289e8070ee3229bce63df4a3a9bef117bd1f6e16f70f7b009",
+        "sha1": "f38f2b2448cc35e7e26992313423778b80962e8e"
       },
       "env": {
         "client": "required",
@@ -4703,8 +4703,8 @@
     {
       "path": "mods/netherportalfix-neoforge-1.21.1-21.1.1.jar",
       "hashes": {
-        "sha1": "9f1ba483216aebce1ee6185601231158684f5de8",
-        "sha512": "be26c53b4e7aa9dc27b05fe4cafdd120a3d1356410b35d25381d473bd9a7aa19ce6cec1bb982fda842f2a663d15dec5d12248b50141f9479a5e9ec33ed2ab3f7"
+        "sha512": "be26c53b4e7aa9dc27b05fe4cafdd120a3d1356410b35d25381d473bd9a7aa19ce6cec1bb982fda842f2a663d15dec5d12248b50141f9479a5e9ec33ed2ab3f7",
+        "sha1": "9f1ba483216aebce1ee6185601231158684f5de8"
       },
       "env": {
         "client": "required",
@@ -4733,8 +4733,8 @@
     {
       "path": "mods/netherskeletons-5.0-neoforge-1.21.1.jar",
       "hashes": {
-        "sha512": "d020ddb1e9643747eb9f2bc731d8018439747c83c0a85aec3f043c0c238b00a030bfb75291992af81f78e6657990ec909f89d48f7e1655b08623e1474f95fb39",
-        "sha1": "395e4ac5169ff730339b696c6378dfd7dc2ca5a2"
+        "sha1": "395e4ac5169ff730339b696c6378dfd7dc2ca5a2",
+        "sha512": "d020ddb1e9643747eb9f2bc731d8018439747c83c0a85aec3f043c0c238b00a030bfb75291992af81f78e6657990ec909f89d48f7e1655b08623e1474f95fb39"
       },
       "env": {
         "client": "required",
@@ -4778,8 +4778,8 @@
     {
       "path": "mods/NorthernCompass-NeoForge-1.21-1.1.3.jar",
       "hashes": {
-        "sha1": "ab49d576dda8bdb4e59ad6b543c51144827dd7ba",
-        "sha512": "19a06e489e570e7a848162dcbbda14b7cf30c6bbf86122b4afc347105662580a43c3cf10bd835f6afb6f08db31e1bf6c209882e43d853bc023f3fd6b6ff971e1"
+        "sha512": "19a06e489e570e7a848162dcbbda14b7cf30c6bbf86122b4afc347105662580a43c3cf10bd835f6afb6f08db31e1bf6c209882e43d853bc023f3fd6b6ff971e1",
+        "sha1": "ab49d576dda8bdb4e59ad6b543c51144827dd7ba"
       },
       "env": {
         "client": "required",
@@ -4823,8 +4823,8 @@
     {
       "path": "mods/notenoughanimations-neoforge-1.11.2-mc1.21.1.jar",
       "hashes": {
-        "sha512": "6e791355bd3bae4ce0a915d6030c8b7b81df7fc44b61d24cdef5374fdf87c42e82d99059949f5c48720bbeedba84bda487aad4ed716b26e861a03768a8d3ac93",
-        "sha1": "7e3c57e757d475f4a0fb90831ab762a5d8c27560"
+        "sha1": "7e3c57e757d475f4a0fb90831ab762a5d8c27560",
+        "sha512": "6e791355bd3bae4ce0a915d6030c8b7b81df7fc44b61d24cdef5374fdf87c42e82d99059949f5c48720bbeedba84bda487aad4ed716b26e861a03768a8d3ac93"
       },
       "env": {
         "client": "required",
@@ -4838,8 +4838,8 @@
     {
       "path": "mods/notenoughcrashes-neoforge-4.4.9+1.21.1.jar",
       "hashes": {
-        "sha1": "4108c653e3e0d54a6df3c5354a752ea0ea801ffe",
-        "sha512": "912c31c6e806e457a501742d668b82b70f03d5cdbb722f09da27ba19f3408f236b1704ccf9ed4a2bee82cc272ba78671bfe1fd8b46baefef1ac4ee56d703f04f"
+        "sha512": "912c31c6e806e457a501742d668b82b70f03d5cdbb722f09da27ba19f3408f236b1704ccf9ed4a2bee82cc272ba78671bfe1fd8b46baefef1ac4ee56d703f04f",
+        "sha1": "4108c653e3e0d54a6df3c5354a752ea0ea801ffe"
       },
       "env": {
         "client": "required",
@@ -4853,8 +4853,8 @@
     {
       "path": "mods/nuclearscience-1.21.1-0.8.1-0.jar",
       "hashes": {
-        "sha1": "9a3ecc567f5c929b0590571b6528308c6bf2af83",
-        "sha512": "2edc288a28a41546e99d7e5c2bed130529288c09498f064ffdbf1bd5b5bafc32dd3124757edfea6dd027992c1d31b2bee814d8f3eeeb62240d5068f7a4a71a3d"
+        "sha512": "2edc288a28a41546e99d7e5c2bed130529288c09498f064ffdbf1bd5b5bafc32dd3124757edfea6dd027992c1d31b2bee814d8f3eeeb62240d5068f7a4a71a3d",
+        "sha1": "9a3ecc567f5c929b0590571b6528308c6bf2af83"
       },
       "env": {
         "client": "required",
@@ -4868,8 +4868,8 @@
     {
       "path": "mods/Nullscape_1.21.x_v1.2.14.jar",
       "hashes": {
-        "sha1": "ae8e1cbd5de6cf6f450bb44cd69cd284dad690dd",
-        "sha512": "b35a9dfdc7180ca851aea378ee4687e18b3aae717c16870a7762afc67dc0c77598fb2c4a62cb12d6ed0eacf7c9166520e0a3e7dce20da09817065d27e62c8b44"
+        "sha512": "b35a9dfdc7180ca851aea378ee4687e18b3aae717c16870a7762afc67dc0c77598fb2c4a62cb12d6ed0eacf7c9166520e0a3e7dce20da09817065d27e62c8b44",
+        "sha1": "ae8e1cbd5de6cf6f450bb44cd69cd284dad690dd"
       },
       "env": {
         "client": "required",
@@ -4883,8 +4883,8 @@
     {
       "path": "mods/nustone-crafting-1.0.1+mod.jar",
       "hashes": {
-        "sha512": "6c2832f32d254f474135e5cf2a12e9e04a8ef8e0b2d21b5547dadffe92c4989fc399483f90550f2e14451dd3ea79b733f42f9f97dc9b3301ab740c60f4a051d4",
-        "sha1": "32f24c24ad49b80abea6e36b219e9f32f247b91f"
+        "sha1": "32f24c24ad49b80abea6e36b219e9f32f247b91f",
+        "sha512": "6c2832f32d254f474135e5cf2a12e9e04a8ef8e0b2d21b5547dadffe92c4989fc399483f90550f2e14451dd3ea79b733f42f9f97dc9b3301ab740c60f4a051d4"
       },
       "env": {
         "client": "required",
@@ -4913,8 +4913,8 @@
     {
       "path": "mods/ocean_lily_pad_village-1.0.1-neoforge-1.21.1.jar",
       "hashes": {
-        "sha512": "f82187e69cee65b2109722908869c124eaaaa085c214fe62f6bc6796300de085009d57b06d4876373d834d20a95b4f7e0f023d4d85f791eb46a85f2a6914ac77",
-        "sha1": "e5a0f27697ba71f2b41559404947703e04a4fd50"
+        "sha1": "e5a0f27697ba71f2b41559404947703e04a4fd50",
+        "sha512": "f82187e69cee65b2109722908869c124eaaaa085c214fe62f6bc6796300de085009d57b06d4876373d834d20a95b4f7e0f023d4d85f791eb46a85f2a6914ac77"
       },
       "env": {
         "client": "required",
@@ -4928,8 +4928,8 @@
     {
       "path": "mods/OctoLib-NEOFORGE-0.6.0.4+1.21.jar",
       "hashes": {
-        "sha512": "66b27e29aa3c15b1beef24f219cb1f3ed442aad4cdca2d276fc0516131b65dc977cacd17d6555433bad062ddb9feb8145d71ca87d7b99e70d9c5091542818785",
-        "sha1": "106ca4d0a3597e1a5c6489e98361c81436c528e0"
+        "sha1": "106ca4d0a3597e1a5c6489e98361c81436c528e0",
+        "sha512": "66b27e29aa3c15b1beef24f219cb1f3ed442aad4cdca2d276fc0516131b65dc977cacd17d6555433bad062ddb9feb8145d71ca87d7b99e70d9c5091542818785"
       },
       "env": {
         "client": "required",
@@ -4943,8 +4943,8 @@
     {
       "path": "mods/Oh-The-Biomes-Weve-Gone-NeoForge-2.5.4.jar",
       "hashes": {
-        "sha512": "6ad3fb5bee6b6701e465baa5c1db2cfbc80fca9e0e8c08d7c48b8d911c68479c0b33399f8a960565060ae6c94d82750d28daf66de7269f3fa096f014554aef8b",
-        "sha1": "b8b2aa46b3987a6ee2f7f34593fd243e647d8c9e"
+        "sha1": "b8b2aa46b3987a6ee2f7f34593fd243e647d8c9e",
+        "sha512": "6ad3fb5bee6b6701e465baa5c1db2cfbc80fca9e0e8c08d7c48b8d911c68479c0b33399f8a960565060ae6c94d82750d28daf66de7269f3fa096f014554aef8b"
       },
       "env": {
         "client": "required",
@@ -4988,8 +4988,8 @@
     {
       "path": "mods/operation_starcleave-neoforge-mc1.21.1-0.2.0.3.jar",
       "hashes": {
-        "sha1": "1fbce369e2675e66d65b120bee00b54d2688701d",
-        "sha512": "44173972db5473d706ce20db779dea5b943afe0983a44fc2d04f1cd7da694b5d1794be6e404473569d677648640bb9d903ef26eb036d0d99941bcefe557e60d7"
+        "sha512": "44173972db5473d706ce20db779dea5b943afe0983a44fc2d04f1cd7da694b5d1794be6e404473569d677648640bb9d903ef26eb036d0d99941bcefe557e60d7",
+        "sha1": "1fbce369e2675e66d65b120bee00b54d2688701d"
       },
       "env": {
         "client": "required",
@@ -5033,8 +5033,8 @@
     {
       "path": "mods/particle_core-0.3.3+1.21+neoforge.jar",
       "hashes": {
-        "sha1": "f859d68818e522fb00056d3ed1603ca4300eb681",
-        "sha512": "bf14200f4f279c2c5f5a50e09ef561f34463848fde507cb5930e4f4dbfed107697387ce030593be37a14da73cc459b0901928466fb44b2c2a387c584f38ec489"
+        "sha512": "bf14200f4f279c2c5f5a50e09ef561f34463848fde507cb5930e4f4dbfed107697387ce030593be37a14da73cc459b0901928466fb44b2c2a387c584f38ec489",
+        "sha1": "f859d68818e522fb00056d3ed1603ca4300eb681"
       },
       "env": {
         "client": "required",
@@ -5123,8 +5123,8 @@
     {
       "path": "mods/piglin-conservatory-3.0.jar",
       "hashes": {
-        "sha512": "6de10a49b091546f70a4d8950e76403e7a2f9fe1a31eada3b9c015f12a903350ae761b1ec2a8facb42571ec22330a51ea3a05b29459acdbc3f6d50e21827fc03",
-        "sha1": "ec83827609b8f35ba05d86f52edf50a92dea7312"
+        "sha1": "ec83827609b8f35ba05d86f52edf50a92dea7312",
+        "sha512": "6de10a49b091546f70a4d8950e76403e7a2f9fe1a31eada3b9c015f12a903350ae761b1ec2a8facb42571ec22330a51ea3a05b29459acdbc3f6d50e21827fc03"
       },
       "env": {
         "client": "required",
@@ -5138,8 +5138,8 @@
     {
       "path": "mods/polymorph-neoforge-1.1.0+1.21.1.jar",
       "hashes": {
-        "sha512": "37358e19d8f251b7d435ea5198eded7b1361e90d5728e11fcb15aeb55786f4ee10fd8fecd14b11f34a99bd92aea01a9977c0dbc46ab6bb07af61a6c89455b6ff",
-        "sha1": "84f8c539fa326dc723ae62b7a6916d6b01982d07"
+        "sha1": "84f8c539fa326dc723ae62b7a6916d6b01982d07",
+        "sha512": "37358e19d8f251b7d435ea5198eded7b1361e90d5728e11fcb15aeb55786f4ee10fd8fecd14b11f34a99bd92aea01a9977c0dbc46ab6bb07af61a6c89455b6ff"
       },
       "env": {
         "client": "required",
@@ -5153,8 +5153,8 @@
     {
       "path": "mods/polytone-1.21-3.6.4-neoforge.jar",
       "hashes": {
-        "sha512": "9bf380d27903c1c18acc24537f69a042b4120a25870a337b72aac0856ccca3cd0b43ca518805e4b84bc9ca580ff3048b277d7bb54831d6ab083b50b2dee19686",
-        "sha1": "876d3b6e6ce69782149e73dac6c61c98be2e2485"
+        "sha1": "876d3b6e6ce69782149e73dac6c61c98be2e2485",
+        "sha512": "9bf380d27903c1c18acc24537f69a042b4120a25870a337b72aac0856ccca3cd0b43ca518805e4b84bc9ca580ff3048b277d7bb54831d6ab083b50b2dee19686"
       },
       "env": {
         "client": "required",
@@ -5168,8 +5168,8 @@
     {
       "path": "mods/Presence Footsteps [NEOFORGE]+1.21-1.1.0.jar",
       "hashes": {
-        "sha1": "56cf3b5a6bd26d65452b3124350f8014c2652d32",
-        "sha512": "5305280687c3f4ae320f1ef6ac1720a3d68d02a4d56f1e28d5cd34a6c7b000302a4adce7de3ec0ec63326f1a3de4a18ddd2dd5179123d3ed9c699e50d568e0a3"
+        "sha512": "5305280687c3f4ae320f1ef6ac1720a3d68d02a4d56f1e28d5cd34a6c7b000302a4adce7de3ec0ec63326f1a3de4a18ddd2dd5179123d3ed9c699e50d568e0a3",
+        "sha1": "56cf3b5a6bd26d65452b3124350f8014c2652d32"
       },
       "env": {
         "client": "required",
@@ -5183,8 +5183,8 @@
     {
       "path": "mods/prickle-neoforge-1.21.1-21.1.11.jar",
       "hashes": {
-        "sha1": "5174059ecf97340a0de5ef211b938de26c4eaa36",
-        "sha512": "154d42795ccf1f3e07714775cdb82fd5db17574319286ced13d86b0456b64e4cf5bb89ffbcbfcefce67b73ed0b83e4e2944e493d79d9a385ff9de23006ee7bf5"
+        "sha512": "154d42795ccf1f3e07714775cdb82fd5db17574319286ced13d86b0456b64e4cf5bb89ffbcbfcefce67b73ed0b83e4e2944e493d79d9a385ff9de23006ee7bf5",
+        "sha1": "5174059ecf97340a0de5ef211b938de26c4eaa36"
       },
       "env": {
         "client": "required",
@@ -5241,25 +5241,25 @@
       "fileSize": 1080389
     },
     {
-      "path": "mods/questlog-neoforge-1.21.1-1.0.7.jar",
+      "path": "mods/questlog-neoforge-1.21.1-1.0.8.jar",
       "hashes": {
-        "sha512": "f3333c0a29ceaf5c30586760da526e5198f5ea1d600aa3352df870d3f54722d2e6325db7c12124305e3a01d5334253096f1766f69692d981278a6971d997f9db",
-        "sha1": "aec6056d3b53380cdc8dffc8a5527e884c0e459e"
+        "sha512": "a76ef46ac136d6a005f9688172f170aa76e24379c501f56d37701d9b30264341cbe7599eefe42d8594ea2b409fcd0da619197fb0335ace064e62251155aaedc3",
+        "sha1": "010183d22012da08a3e7f0c9f3045a10a36cb098"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ufQYCY6N/versions/dyUtMO0x/questlog-neoforge-1.21.1-1.0.7.jar"
+        "https://cdn.modrinth.com/data/ufQYCY6N/versions/Fc0x1AAv/questlog-neoforge-1.21.1-1.0.8.jar"
       ],
-      "fileSize": 285689
+      "fileSize": 285722
     },
     {
       "path": "mods/quick-pack-neoforge-1.2.0+1.21.10.jar",
       "hashes": {
-        "sha1": "04c2e51b446222fe3c34d5ec7a95cae216456e28",
-        "sha512": "5c6b3b63ba0cda369531dfdb77ea2380642e419e5ce6c21e6addccf3325a6ab0d1991ba1a823d3211ff8da7c942d79e4ed534ea909c4a7aa71bb6c43e6359adf"
+        "sha512": "5c6b3b63ba0cda369531dfdb77ea2380642e419e5ce6c21e6addccf3325a6ab0d1991ba1a823d3211ff8da7c942d79e4ed534ea909c4a7aa71bb6c43e6359adf",
+        "sha1": "04c2e51b446222fe3c34d5ec7a95cae216456e28"
       },
       "env": {
         "client": "required",
@@ -5273,8 +5273,8 @@
     {
       "path": "mods/railways-0.1.0+neoforge-mc1.21.1.jar",
       "hashes": {
-        "sha1": "6eaa3864182762595ac81c067f37fad3a5b0ae07",
-        "sha512": "52c641635a63276ed93b40d9d61be2579ecc41333709ebe8cdd9c7f6baab43b7471ad8c0fbe247f5a9ed66fd3701c5d083c341a0031138cc08e55ce797d470f1"
+        "sha512": "52c641635a63276ed93b40d9d61be2579ecc41333709ebe8cdd9c7f6baab43b7471ad8c0fbe247f5a9ed66fd3701c5d083c341a0031138cc08e55ce797d470f1",
+        "sha1": "6eaa3864182762595ac81c067f37fad3a5b0ae07"
       },
       "env": {
         "client": "required",
@@ -5318,8 +5318,8 @@
     {
       "path": "mods/redstonepen-1.21-neoforge-1.11.42.jar",
       "hashes": {
-        "sha512": "7446d400a5cb81c990a6fe168ca8660082d507405f895154d3494ac59d60f1711132301c445421fdebc0d6ac6d888ec4509daa225889c4d69c790028a3a35bd6",
-        "sha1": "4c9a706061c0e303a02431905a4fbb63c28d14be"
+        "sha1": "4c9a706061c0e303a02431905a4fbb63c28d14be",
+        "sha512": "7446d400a5cb81c990a6fe168ca8660082d507405f895154d3494ac59d60f1711132301c445421fdebc0d6ac6d888ec4509daa225889c4d69c790028a3a35bd6"
       },
       "env": {
         "client": "required",
@@ -5363,8 +5363,8 @@
     {
       "path": "mods/reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar",
       "hashes": {
-        "sha1": "b03d05495be28d8cef7a34872941bb8d703d60e6",
-        "sha512": "d66b5d30e1bb8316cb75d52ba8485c6c1cfb0d03624288f39c1826b92de9da9c3d79351be9d7303ca3226176255921f35063139da118c755cf9a709186129744"
+        "sha512": "d66b5d30e1bb8316cb75d52ba8485c6c1cfb0d03624288f39c1826b92de9da9c3d79351be9d7303ca3226176255921f35063139da118c755cf9a709186129744",
+        "sha1": "b03d05495be28d8cef7a34872941bb8d703d60e6"
       },
       "env": {
         "client": "required",
@@ -5378,8 +5378,8 @@
     {
       "path": "mods/regions_unexplored-neoforge-1.21.1-0.5.9.jar",
       "hashes": {
-        "sha512": "df3e1b95734ec259c6c1ef9e1ce08df96a40868efa171a2009e2b1ea5c9410e86cbcdccc37256e3bd3dbafe77994ad65c801536302bc41d55b3e7915fa0d8a17",
-        "sha1": "064c2da020731fadd07e095707320431df12288d"
+        "sha1": "064c2da020731fadd07e095707320431df12288d",
+        "sha512": "df3e1b95734ec259c6c1ef9e1ce08df96a40868efa171a2009e2b1ea5c9410e86cbcdccc37256e3bd3dbafe77994ad65c801536302bc41d55b3e7915fa0d8a17"
       },
       "env": {
         "client": "required",
@@ -5408,8 +5408,8 @@
     {
       "path": "mods/remove-terralith-intro-message-1.1.jar",
       "hashes": {
-        "sha512": "62391dc2948f14ea0bebab89bdd88bf768bacf458a1832dcd53f95b709c1caf3dde3470cb5b12f3efe5d6904c72410452c56fce952b03f474d9d7a5dc932dfbb",
-        "sha1": "709d1300b4b35bf6a8c6bfc0d5c9d918484ba462"
+        "sha1": "709d1300b4b35bf6a8c6bfc0d5c9d918484ba462",
+        "sha512": "62391dc2948f14ea0bebab89bdd88bf768bacf458a1832dcd53f95b709c1caf3dde3470cb5b12f3efe5d6904c72410452c56fce952b03f474d9d7a5dc932dfbb"
       },
       "env": {
         "client": "required",
@@ -5423,8 +5423,8 @@
     {
       "path": "mods/repurposed_structures-7.5.17+1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "2079a66cda18db8095c27808f95194b752ca704a",
-        "sha512": "a984aee3690f4e3d5e1e56549aac87c5b132eafe811f2144df9361e7fee32b458fed13af14e3db88652cbfecf913d6bee845eefa3d569576e2188267157dfce3"
+        "sha512": "a984aee3690f4e3d5e1e56549aac87c5b132eafe811f2144df9361e7fee32b458fed13af14e3db88652cbfecf913d6bee845eefa3d569576e2188267157dfce3",
+        "sha1": "2079a66cda18db8095c27808f95194b752ca704a"
       },
       "env": {
         "client": "required",
@@ -5438,8 +5438,8 @@
     {
       "path": "mods/resourcefullib-neoforge-1.21-3.0.12.jar",
       "hashes": {
-        "sha512": "a9d20e345faa9bcb297bd95ac9524205834804d1bb13518397dd4f7f62b352b08c3339ee7f7870d3669078ceeb33d5c31ea527aecce4b31d62ec1ff7d8b562c8",
-        "sha1": "24389c8e48ff0e8594e4686b750c494c66a5f8df"
+        "sha1": "24389c8e48ff0e8594e4686b750c494c66a5f8df",
+        "sha512": "a9d20e345faa9bcb297bd95ac9524205834804d1bb13518397dd4f7f62b352b08c3339ee7f7870d3669078ceeb33d5c31ea527aecce4b31d62ec1ff7d8b562c8"
       },
       "env": {
         "client": "required",
@@ -5483,8 +5483,8 @@
     {
       "path": "mods/rsec-neoforge-1.21.1-1.1.jar",
       "hashes": {
-        "sha1": "efeac464b140515ff2e6c60d3126cac7f5fdf1ff",
-        "sha512": "083f49cac9173819dee689671b2901bdaf7a62b2a4eba63a3023998d826849b423f9598c6642f2ed0356f80b80edee5475b22a9047240f37a54341962621ecbe"
+        "sha512": "083f49cac9173819dee689671b2901bdaf7a62b2a4eba63a3023998d826849b423f9598c6642f2ed0356f80b80edee5475b22a9047240f37a54341962621ecbe",
+        "sha1": "efeac464b140515ff2e6c60d3126cac7f5fdf1ff"
       },
       "env": {
         "client": "required",
@@ -5513,8 +5513,8 @@
     {
       "path": "mods/schematicenergistics-1.21.1-1.3.2.jar",
       "hashes": {
-        "sha512": "2fc8a94efda176972052c9591c22585fa7b96dbb126b66715c4f4e06bb283bb948362078be6d6037a44030cfd82abdfbde1805ffd463c9f71bde90a3f06bb418",
-        "sha1": "112e35f5a9271580cfe81b7cf52d46b84f44aa26"
+        "sha1": "112e35f5a9271580cfe81b7cf52d46b84f44aa26",
+        "sha512": "2fc8a94efda176972052c9591c22585fa7b96dbb126b66715c4f4e06bb283bb948362078be6d6037a44030cfd82abdfbde1805ffd463c9f71bde90a3f06bb418"
       },
       "env": {
         "client": "required",
@@ -5543,8 +5543,8 @@
     {
       "path": "mods/sculktransporting-1.21.1-1.2.2.jar",
       "hashes": {
-        "sha512": "aa20ac9a628f272fb2024fcaf4d2969ac6ff6059b6d068ab27a69b3304264351bce11e39abdb019c71cd8fa0a164018f572b937fff6fd5ace46127e59d583006",
-        "sha1": "10318f48a9663bfbd5719b3e69132f0e933f87f0"
+        "sha1": "10318f48a9663bfbd5719b3e69132f0e933f87f0",
+        "sha512": "aa20ac9a628f272fb2024fcaf4d2969ac6ff6059b6d068ab27a69b3304264351bce11e39abdb019c71cd8fa0a164018f572b937fff6fd5ace46127e59d583006"
       },
       "env": {
         "client": "required",
@@ -5558,8 +5558,8 @@
     {
       "path": "mods/seamless-loading-screen-2.2.1+1.21-neoforge.jar",
       "hashes": {
-        "sha1": "0e53c533a9032d337ee59740ed228a0002db500e",
-        "sha512": "4815727f635c506d028a0da1c6b8a0b5114df3d378d95776ab1f40d694e80b56709cd0d18a2e68984d5d6cb0b31fc24b3d6803d9f26e462bef5bc81911ac6a7b"
+        "sha512": "4815727f635c506d028a0da1c6b8a0b5114df3d378d95776ab1f40d694e80b56709cd0d18a2e68984d5d6cb0b31fc24b3d6803d9f26e462bef5bc81911ac6a7b",
+        "sha1": "0e53c533a9032d337ee59740ed228a0002db500e"
       },
       "env": {
         "client": "required",
@@ -5603,8 +5603,8 @@
     {
       "path": "mods/SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
       "hashes": {
-        "sha1": "127e4a3e699dafebc512e1fa7983f245b49cb420",
-        "sha512": "8d6c2712019da586c9f3a1372f2951173cd5f7a821645ffa03e4448e56f6b277aab0651307e1d4d9e0944cb02d32b2caff581bde912cb21fc6fd7b7d84655b8c"
+        "sha512": "8d6c2712019da586c9f3a1372f2951173cd5f7a821645ffa03e4448e56f6b277aab0651307e1d4d9e0944cb02d32b2caff581bde912cb21fc6fd7b7d84655b8c",
+        "sha1": "127e4a3e699dafebc512e1fa7983f245b49cb420"
       },
       "env": {
         "client": "required",
@@ -5633,8 +5633,8 @@
     {
       "path": "mods/server_heater-neoforge-1.1.jar",
       "hashes": {
-        "sha1": "a5b145b8ac18a8cc8671dcae73fe2017c20f9e2f",
-        "sha512": "6358817aad92706215beb1dcdef9f5db5929f8302db024270a6db8d41ad097f7c1964ebd343246fb72ed818fe3af535131a7c24c074194d2c4f6676d555aae57"
+        "sha512": "6358817aad92706215beb1dcdef9f5db5929f8302db024270a6db8d41ad097f7c1964ebd343246fb72ed818fe3af535131a7c24c074194d2c4f6676d555aae57",
+        "sha1": "a5b145b8ac18a8cc8671dcae73fe2017c20f9e2f"
       },
       "env": {
         "client": "required",
@@ -5648,8 +5648,8 @@
     {
       "path": "mods/sharedadvancements-neoforge-1.21.X-6.0.0.jar",
       "hashes": {
-        "sha1": "a9bf759c3c598cc75ae77f4a66036630d1462e21",
-        "sha512": "2babe3a1e3f8ce5e26925c86589a6d1dd444dfcb4bb19f157ca74d151d2cdd8146f278b4665db462eac26474e9db7a0e08a377afe5b3edf59ec7a18b44ef1b0c"
+        "sha512": "2babe3a1e3f8ce5e26925c86589a6d1dd444dfcb4bb19f157ca74d151d2cdd8146f278b4665db462eac26474e9db7a0e08a377afe5b3edf59ec7a18b44ef1b0c",
+        "sha1": "a9bf759c3c598cc75ae77f4a66036630d1462e21"
       },
       "env": {
         "client": "required",
@@ -5663,8 +5663,8 @@
     {
       "path": "mods/shatter_me-1.0.0-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "155d0f412657384da6cdb6160187bae1cbcecb9f",
-        "sha512": "6bfb64c39747754621d59d35623b859c5921dc501add91bb8acb2ae751d1b91478fa40dfc468d0b8176260d4e0de242e208f7c5ebaf8227248e126486bed2c95"
+        "sha512": "6bfb64c39747754621d59d35623b859c5921dc501add91bb8acb2ae751d1b91478fa40dfc468d0b8176260d4e0de242e208f7c5ebaf8227248e126486bed2c95",
+        "sha1": "155d0f412657384da6cdb6160187bae1cbcecb9f"
       },
       "env": {
         "client": "required",
@@ -5678,8 +5678,8 @@
     {
       "path": "mods/simpleclouds-0.7.3+1.21.1-all.jar",
       "hashes": {
-        "sha512": "156a48ff32f0b2564da7d298636cf7f2f4cc05ad14fec017ca42da41e9de5c9fa1c14b968af28babfc02a43907dad8822f55b6df36277a61e654279ab054d051",
-        "sha1": "b796263392bb5fce4a3c77c45273af3a1e63423c"
+        "sha1": "b796263392bb5fce4a3c77c45273af3a1e63423c",
+        "sha512": "156a48ff32f0b2564da7d298636cf7f2f4cc05ad14fec017ca42da41e9de5c9fa1c14b968af28babfc02a43907dad8822f55b6df36277a61e654279ab054d051"
       },
       "env": {
         "client": "required",
@@ -5693,8 +5693,8 @@
     {
       "path": "mods/SimpleCustomEarlyLoading-2.1-neoforge.jar",
       "hashes": {
-        "sha512": "b09815f3153739733c6ead6ffaf718eb3a058c805f4ead33b337153b0be12850968ff720762c876e76bddf6b244e5bac44adf0ea7146f5a0c2ad61aba818f913",
-        "sha1": "662e9994945e26239399fb421d76cdea684c5674"
+        "sha1": "662e9994945e26239399fb421d76cdea684c5674",
+        "sha512": "b09815f3153739733c6ead6ffaf718eb3a058c805f4ead33b337153b0be12850968ff720762c876e76bddf6b244e5bac44adf0ea7146f5a0c2ad61aba818f913"
       },
       "env": {
         "client": "required",
@@ -5738,8 +5738,8 @@
     {
       "path": "mods/sleeping-bags-neoforge-1.21.1-1.0.9.jar",
       "hashes": {
-        "sha1": "03edb14a2940bf5769f09d6f2058944e88889b6e",
-        "sha512": "b29c1bb682bc8f0f016af91043a6202761bb67e2434235008f2d986170973189b241dc04d17bf5c467d6dbbf69508116f79f66fce0e3954a11162b51ef02cb6f"
+        "sha512": "b29c1bb682bc8f0f016af91043a6202761bb67e2434235008f2d986170973189b241dc04d17bf5c467d6dbbf69508116f79f66fce0e3954a11162b51ef02cb6f",
+        "sha1": "03edb14a2940bf5769f09d6f2058944e88889b6e"
       },
       "env": {
         "client": "required",
@@ -5768,8 +5768,8 @@
     {
       "path": "mods/smallships-neoforge-1.21.1-2.0.0-b2.1.jar",
       "hashes": {
-        "sha1": "aa586dc4339d49db1c988497415d197195849fb9",
-        "sha512": "e5f9e7efd537330e41253696827d72de0662fd46b83a4a3b2983b2de105718125af53e237af5047c1660c45a872486278375a65a71ce39788632993907900120"
+        "sha512": "e5f9e7efd537330e41253696827d72de0662fd46b83a4a3b2983b2de105718125af53e237af5047c1660c45a872486278375a65a71ce39788632993907900120",
+        "sha1": "aa586dc4339d49db1c988497415d197195849fb9"
       },
       "env": {
         "client": "required",
@@ -5798,8 +5798,8 @@
     {
       "path": "mods/smart_bounds-1.0.0.jar",
       "hashes": {
-        "sha512": "1aeacbd4981e3ad48c49fc813d63ff260a704347154f4a1f4290f123d17ba7e5dde51e881edae92d50370e9b1f515b8805dbf86f5778a42ccbda7a6e9e87f9ff",
-        "sha1": "9d271d70b1d2870d5c232e71e2923abaac3a6767"
+        "sha1": "9d271d70b1d2870d5c232e71e2923abaac3a6767",
+        "sha512": "1aeacbd4981e3ad48c49fc813d63ff260a704347154f4a1f4290f123d17ba7e5dde51e881edae92d50370e9b1f515b8805dbf86f5778a42ccbda7a6e9e87f9ff"
       },
       "env": {
         "client": "required",
@@ -5843,8 +5843,8 @@
     {
       "path": "mods/SnowRealMagic-1.21.1-NeoForge-12.2.1.jar",
       "hashes": {
-        "sha1": "eb1094ad9dbf9d95cf876c102f998119a54cf44e",
-        "sha512": "c83b6ae690fc8acb95eb30249de6487dfd73031178032211d493c7010f0c50529d74cffe52ea168c068f3ece829f320336e265b106988c06efcf6094f35dac2e"
+        "sha512": "c83b6ae690fc8acb95eb30249de6487dfd73031178032211d493c7010f0c50529d74cffe52ea168c068f3ece829f320336e265b106988c06efcf6094f35dac2e",
+        "sha1": "eb1094ad9dbf9d95cf876c102f998119a54cf44e"
       },
       "env": {
         "client": "required",
@@ -5873,8 +5873,8 @@
     {
       "path": "mods/sodium-extra-neoforge-0.6.0+mc1.21.1.jar",
       "hashes": {
-        "sha1": "7473bb42753902c639294821af13e9cd9ee735da",
-        "sha512": "6f7383ef3f4b572c76d3371a7441bc3d625db9d404cf61b249fab018bc3ffd1fa82e735ec21916df3f4072f0927dad3673efbc40bf8d11846c3d6fecc9329bb7"
+        "sha512": "6f7383ef3f4b572c76d3371a7441bc3d625db9d404cf61b249fab018bc3ffd1fa82e735ec21916df3f4072f0927dad3673efbc40bf8d11846c3d6fecc9329bb7",
+        "sha1": "7473bb42753902c639294821af13e9cd9ee735da"
       },
       "env": {
         "client": "required",
@@ -5888,8 +5888,8 @@
     {
       "path": "mods/sodium-neoforge-0.6.13+mc1.21.1.jar",
       "hashes": {
-        "sha1": "38af70fa4dc4b2aaac636e92fdba3bedd5a025e1",
-        "sha512": "ce58f34d05d96c0a109a5cea23c741f6bdb2e6be31fc087c5989274cefca5f10ba0c08c62083cf554a51f2c7667bf46e4164383f675c844e77633aef2659996b"
+        "sha512": "ce58f34d05d96c0a109a5cea23c741f6bdb2e6be31fc087c5989274cefca5f10ba0c08c62083cf554a51f2c7667bf46e4164383f675c844e77633aef2659996b",
+        "sha1": "38af70fa4dc4b2aaac636e92fdba3bedd5a025e1"
       },
       "env": {
         "client": "required",
@@ -5903,8 +5903,8 @@
     {
       "path": "mods/sodiumcoreshadersupport-1.3.4-mc1.21.1-sodium0.6.13-neoforge.jar",
       "hashes": {
-        "sha1": "d605e564610af548937f06b8a6520a2e7db4d8e6",
-        "sha512": "f859ce57011071dded63b1db625e194eb7b3717e25c18e6be2611ab7cb5a7ff9923dafc216e5666726ca1f8c7d78e8216b56dce91544fe517388dbb127e515dd"
+        "sha512": "f859ce57011071dded63b1db625e194eb7b3717e25c18e6be2611ab7cb5a7ff9923dafc216e5666726ca1f8c7d78e8216b56dce91544fe517388dbb127e515dd",
+        "sha1": "d605e564610af548937f06b8a6520a2e7db4d8e6"
       },
       "env": {
         "client": "required",
@@ -5918,8 +5918,8 @@
     {
       "path": "mods/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
       "hashes": {
-        "sha512": "ec19a81cf2dfde255990a457d8f6d7375df53cb94190dce71c4bfe5d5263f4862027ce4aa0af20cb11d56c7c031d5e149b3bdf95bec6343e5bd4552450b14c0a",
-        "sha1": "02e9bc7ba28147cdf2d608ecf4f2c1eab34b4652"
+        "sha1": "02e9bc7ba28147cdf2d608ecf4f2c1eab34b4652",
+        "sha512": "ec19a81cf2dfde255990a457d8f6d7375df53cb94190dce71c4bfe5d5263f4862027ce4aa0af20cb11d56c7c031d5e149b3bdf95bec6343e5bd4552450b14c0a"
       },
       "env": {
         "client": "required",
@@ -5933,8 +5933,8 @@
     {
       "path": "mods/sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar",
       "hashes": {
-        "sha1": "5d014d031fa77ab600e07835b032ef4dcb79b442",
-        "sha512": "f2f022183f300961d7d0503461daa59e3e606c32f189f1cb3307edaf765986c541929205b7bf6f40c4c88319696e9d863c1bf711bd441dc9b7081c198ddb445b"
+        "sha512": "f2f022183f300961d7d0503461daa59e3e606c32f189f1cb3307edaf765986c541929205b7bf6f40c4c88319696e9d863c1bf711bd441dc9b7081c198ddb445b",
+        "sha1": "5d014d031fa77ab600e07835b032ef4dcb79b442"
       },
       "env": {
         "client": "required",
@@ -5978,8 +5978,8 @@
     {
       "path": "mods/soundattract-4.1.9.jar",
       "hashes": {
-        "sha512": "e530f30792d437eb8cb24cbc337881e884e07057d1529dbcf1619a9b7f84b2e279f218d2eda0078833d8d7971c0d906cb26b24cfff35e937f2e969cf0f654475",
-        "sha1": "a203c5c5c16a6e54d4f7189a9ad3d843666408ef"
+        "sha1": "a203c5c5c16a6e54d4f7189a9ad3d843666408ef",
+        "sha512": "e530f30792d437eb8cb24cbc337881e884e07057d1529dbcf1619a9b7f84b2e279f218d2eda0078833d8d7971c0d906cb26b24cfff35e937f2e969cf0f654475"
       },
       "env": {
         "client": "required",
@@ -6008,8 +6008,8 @@
     {
       "path": "mods/spark-1.10.124-neoforge.jar",
       "hashes": {
-        "sha1": "9430cc2ab64ff89d698be593769fb9f9ee4efae6",
-        "sha512": "f86ce34f2759c69df82578c397ff55b666c84626229a98f598458b960c21b38c95d6bfef4772af7f963c4f4868e5e2d9aef6b99c1d51bab55bf45e0e6e6b5ed4"
+        "sha512": "f86ce34f2759c69df82578c397ff55b666c84626229a98f598458b960c21b38c95d6bfef4772af7f963c4f4868e5e2d9aef6b99c1d51bab55bf45e0e6e6b5ed4",
+        "sha1": "9430cc2ab64ff89d698be593769fb9f9ee4efae6"
       },
       "env": {
         "client": "required",
@@ -6038,8 +6038,8 @@
     {
       "path": "mods/spawn-animations-compats-13.0.jar",
       "hashes": {
-        "sha1": "cffb38936778e7619eebb217d26c372bc1ce2e00",
-        "sha512": "fa7ed100082d097256cd84447d64f105b7ac978c3fe4465f2bd91c60cf3b42e92c0e4bf433de43c6daa90d7afcfb14fb29c6f8f279349a186aadf09449fc0cfe"
+        "sha512": "fa7ed100082d097256cd84447d64f105b7ac978c3fe4465f2bd91c60cf3b42e92c0e4bf433de43c6daa90d7afcfb14fb29c6f8f279349a186aadf09449fc0cfe",
+        "sha1": "cffb38936778e7619eebb217d26c372bc1ce2e00"
       },
       "env": {
         "client": "required",
@@ -6083,8 +6083,8 @@
     {
       "path": "mods/spyglass_improvements-1.5.7+mc1.21+neoforge.jar",
       "hashes": {
-        "sha512": "6b4933795f3fda0d8c042c35c8f95ce47db88f2ec06b15a6c803298e660a1cb18223ed5fcb96d15aeabde540abf050f3a19ca23ebad4d060afc8860174af937f",
-        "sha1": "c7a2041f23f99a289fa2307774a2709e42d3d591"
+        "sha1": "c7a2041f23f99a289fa2307774a2709e42d3d591",
+        "sha512": "6b4933795f3fda0d8c042c35c8f95ce47db88f2ec06b15a6c803298e660a1cb18223ed5fcb96d15aeabde540abf050f3a19ca23ebad4d060afc8860174af937f"
       },
       "env": {
         "client": "required",
@@ -6113,8 +6113,8 @@
     {
       "path": "mods/strayed-fates-forsaken-v2.0.0.2.jar",
       "hashes": {
-        "sha512": "df314995b28abe5d1bcb3080e3b351cf27decdfee7df802edfb6feda9ac560f9bc973cf8e263c11ecd97b81b9dda3eecffcee3a5c586397d0ce4a857663af988",
-        "sha1": "a45afcf68d857f9bf4292fa286238f11568801b7"
+        "sha1": "a45afcf68d857f9bf4292fa286238f11568801b7",
+        "sha512": "df314995b28abe5d1bcb3080e3b351cf27decdfee7df802edfb6feda9ac560f9bc973cf8e263c11ecd97b81b9dda3eecffcee3a5c586397d0ce4a857663af988"
       },
       "env": {
         "client": "required",
@@ -6128,8 +6128,8 @@
     {
       "path": "mods/structure-expansion-neoforge-88.0.1.jar",
       "hashes": {
-        "sha512": "7bb917cf9d6c30456f42001c163e8f5e089422c1e79dcff6a377b77abbd21f4520b16f483941314944d01cc0e441a520bc94b56b9f6fe40fd5f9665bd0f527a0",
-        "sha1": "73dbedaa61d5e52297e63bfb7361ea501deaa6b7"
+        "sha1": "73dbedaa61d5e52297e63bfb7361ea501deaa6b7",
+        "sha512": "7bb917cf9d6c30456f42001c163e8f5e089422c1e79dcff6a377b77abbd21f4520b16f483941314944d01cc0e441a520bc94b56b9f6fe40fd5f9665bd0f527a0"
       },
       "env": {
         "client": "required",
@@ -6188,8 +6188,8 @@
     {
       "path": "mods/supplementaries-1.21-3.5.19-neoforge.jar",
       "hashes": {
-        "sha1": "f8e9ef89e00e22de80e92c505d8bad18651385dd",
-        "sha512": "1c5bef31049b897d945abd456487a2ba465319fc6218011b597720afc89ce9b676ddb1d01b4498762da8af621e66680ab5a6e7a8e95513580e604e7094fdf353"
+        "sha512": "1c5bef31049b897d945abd456487a2ba465319fc6218011b597720afc89ce9b676ddb1d01b4498762da8af621e66680ab5a6e7a8e95513580e604e7094fdf353",
+        "sha1": "f8e9ef89e00e22de80e92c505d8bad18651385dd"
       },
       "env": {
         "client": "required",
@@ -6233,8 +6233,8 @@
     {
       "path": "mods/tectonic-3.0.19-neoforge-1.21.1.jar",
       "hashes": {
-        "sha512": "ad08192af9177ac69a2f1c4633d24ea3dbe70caca4179a9319d9eed9a49fe6dd7c2202ce450ce6f88b68e3836c515a2a91706985e15ad63b78f5c98fed222da2",
-        "sha1": "ceec0993d51f383053244cad204769b27dff2965"
+        "sha1": "ceec0993d51f383053244cad204769b27dff2965",
+        "sha512": "ad08192af9177ac69a2f1c4633d24ea3dbe70caca4179a9319d9eed9a49fe6dd7c2202ce450ce6f88b68e3836c515a2a91706985e15ad63b78f5c98fed222da2"
       },
       "env": {
         "client": "required",
@@ -6248,8 +6248,8 @@
     {
       "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
       "hashes": {
-        "sha512": "9d4b2a1be5139c0fb2fad92ed21805b17d9e83b6ea48e637e018bb14063c1823a206390755dbfe8d025c20fd62ac11cdd84db53ddb956dabaeda01bff57bac50",
-        "sha1": "744394d979b422be560babf9df7a6800ede9ac5b"
+        "sha1": "744394d979b422be560babf9df7a6800ede9ac5b",
+        "sha512": "9d4b2a1be5139c0fb2fad92ed21805b17d9e83b6ea48e637e018bb14063c1823a206390755dbfe8d025c20fd62ac11cdd84db53ddb956dabaeda01bff57bac50"
       },
       "env": {
         "client": "required",
@@ -6263,8 +6263,8 @@
     {
       "path": "mods/Terralith_1.21.x_v2.5.8.jar",
       "hashes": {
-        "sha512": "f862ed5435ce4c11a97d2ea5c40eee9f817c908f3223b5fd3e3fff0562a55111d7429dc73a2f1ca0b1af7b1ff6fa0470ed6efebb5de13336c40bb70fb357dd60",
-        "sha1": "bee0cfb1a8cd4bf3d96bccea224fb45d74de9085"
+        "sha1": "bee0cfb1a8cd4bf3d96bccea224fb45d74de9085",
+        "sha512": "f862ed5435ce4c11a97d2ea5c40eee9f817c908f3223b5fd3e3fff0562a55111d7429dc73a2f1ca0b1af7b1ff6fa0470ed6efebb5de13336c40bb70fb357dd60"
       },
       "env": {
         "client": "required",
@@ -6278,8 +6278,8 @@
     {
       "path": "mods/tesseract-api-neoforge-1.11.8-1.21.1.jar",
       "hashes": {
-        "sha1": "0df0445517710e30f4d43461fece8e783c8135d8",
-        "sha512": "e801e09be9fce0310e990afe3b3ba00f65bd9212d0f59d527de18f8f7a6d991fa82de12037ca98705fb3f72634e73c505078e4f9017f0d453790a6b71f98d68a"
+        "sha512": "e801e09be9fce0310e990afe3b3ba00f65bd9212d0f59d527de18f8f7a6d991fa82de12037ca98705fb3f72634e73c505078e4f9017f0d453790a6b71f98d68a",
+        "sha1": "0df0445517710e30f4d43461fece8e783c8135d8"
       },
       "env": {
         "client": "required",
@@ -6293,8 +6293,8 @@
     {
       "path": "mods/tfmg-1.2.0.jar",
       "hashes": {
-        "sha512": "03f2ad28c78ef565ef203c5650280acb0b846d6105dc5c84b2e31187f501be5c59733ef3adb623fbaa32c3233d113d608905259128661ffab06b26b270b1b38c",
-        "sha1": "b520f3687f60a69eb265ff5b9a16759b9e124103"
+        "sha1": "b520f3687f60a69eb265ff5b9a16759b9e124103",
+        "sha512": "03f2ad28c78ef565ef203c5650280acb0b846d6105dc5c84b2e31187f501be5c59733ef3adb623fbaa32c3233d113d608905259128661ffab06b26b270b1b38c"
       },
       "env": {
         "client": "required",
@@ -6338,8 +6338,8 @@
     {
       "path": "mods/thick_air-1.21.1-NeoForge-1.1.2.jar",
       "hashes": {
-        "sha1": "7301c9805ead2132592a235c94c96888b50b0b1d",
-        "sha512": "0f60a7322a1403aeecb26598110ec3bde3841a32aa3d9e6a1f6298407ac053730286bca8e8108a9ad68b189c089411767f6f03fda0a66d9bf0e7dc4e36ba017e"
+        "sha512": "0f60a7322a1403aeecb26598110ec3bde3841a32aa3d9e6a1f6298407ac053730286bca8e8108a9ad68b189c089411767f6f03fda0a66d9bf0e7dc4e36ba017e",
+        "sha1": "7301c9805ead2132592a235c94c96888b50b0b1d"
       },
       "env": {
         "client": "required",
@@ -6368,8 +6368,8 @@
     {
       "path": "mods/thirstwasfixed-1.3.0.jar",
       "hashes": {
-        "sha512": "805e12fd300b584f8f6d428356a6ac8c5f30b23a6408aee047ffe083553e0e39d3fdada35c9aedeaa7ac8932bec374cef6a50d1f8bdd91dd3ed5921adee76603",
-        "sha1": "8d009051939cf0256145293bf046f36e3a8a5400"
+        "sha1": "8d009051939cf0256145293bf046f36e3a8a5400",
+        "sha512": "805e12fd300b584f8f6d428356a6ac8c5f30b23a6408aee047ffe083553e0e39d3fdada35c9aedeaa7ac8932bec374cef6a50d1f8bdd91dd3ed5921adee76603"
       },
       "env": {
         "client": "required",
@@ -6398,8 +6398,8 @@
     {
       "path": "mods/tidal-towns-1.3.4.jar",
       "hashes": {
-        "sha1": "ef3e419d3ef610cae6117b396e0a74b9a40be635",
-        "sha512": "f40954849ed782fe262505c859bfee749eab57a2963d10d5e0b95b5eb1b1835729a98e76e7995f6ecfeba60141448203d3e0f36b1ae9f69db75aceff7175b607"
+        "sha512": "f40954849ed782fe262505c859bfee749eab57a2963d10d5e0b95b5eb1b1835729a98e76e7995f6ecfeba60141448203d3e0f36b1ae9f69db75aceff7175b607",
+        "sha1": "ef3e419d3ef610cae6117b396e0a74b9a40be635"
       },
       "env": {
         "client": "required",
@@ -6428,8 +6428,8 @@
     {
       "path": "mods/timm-1.1-neoforge-1.21.jar",
       "hashes": {
-        "sha1": "85f907fcbebc25bba32e0af4abcdc55205c45146",
-        "sha512": "6635a5e316d0e84c59c472a98cf02248c81484fbe34397f5da03f0e1d4c336ae098474c46272499f924c745c4fb4f89d5810ffc2944ce98a909ea796b23e7e90"
+        "sha512": "6635a5e316d0e84c59c472a98cf02248c81484fbe34397f5da03f0e1d4c336ae098474c46272499f924c745c4fb4f89d5810ffc2944ce98a909ea796b23e7e90",
+        "sha1": "85f907fcbebc25bba32e0af4abcdc55205c45146"
       },
       "env": {
         "client": "required",
@@ -6458,8 +6458,8 @@
     {
       "path": "mods/toastysmobs-2.3.9-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "1d54e9d6295dab5a0a1df0f3d5bb41e7874403e1",
-        "sha512": "c3e999631b4e6108a743c294c2a573514dcb49f10db55af9bef7f8108d77412f923eaa282bc422a8a62a84393d0e99ac75024e311560a43f7eb7ac662b53fb37"
+        "sha512": "c3e999631b4e6108a743c294c2a573514dcb49f10db55af9bef7f8108d77412f923eaa282bc422a8a62a84393d0e99ac75024e311560a43f7eb7ac662b53fb37",
+        "sha1": "1d54e9d6295dab5a0a1df0f3d5bb41e7874403e1"
       },
       "env": {
         "client": "required",
@@ -6518,8 +6518,8 @@
     {
       "path": "mods/towerinator-1.3.jar",
       "hashes": {
-        "sha512": "74e58de9e3841f21098c3b2da640f0939abd43d0f98b78fea171f56433a0f7394813478ea5510d71b7063a3402d20e9d6a43b787b011dca256cdc644e7de4425",
-        "sha1": "da85be584029f985562cdfbd045bdeaf22c67097"
+        "sha1": "da85be584029f985562cdfbd045bdeaf22c67097",
+        "sha512": "74e58de9e3841f21098c3b2da640f0939abd43d0f98b78fea171f56433a0f7394813478ea5510d71b7063a3402d20e9d6a43b787b011dca256cdc644e7de4425"
       },
       "env": {
         "client": "required",
@@ -6548,8 +6548,8 @@
     {
       "path": "mods/trainutilities-neoforge-3.0.2.jar",
       "hashes": {
-        "sha1": "2a2a2ef95e447520ffd83c6322fd0b19db320ff3",
-        "sha512": "3293993505103432507d8252d8f4ccf06f884cc89df9a4910d36335248faec310b26488e374adcf2bd115564fa8418eb3b9edfca3af18ca95b0e6cc6e4a841da"
+        "sha512": "3293993505103432507d8252d8f4ccf06f884cc89df9a4910d36335248faec310b26488e374adcf2bd115564fa8418eb3b9edfca3af18ca95b0e6cc6e4a841da",
+        "sha1": "2a2a2ef95e447520ffd83c6322fd0b19db320ff3"
       },
       "env": {
         "client": "required",
@@ -6578,8 +6578,8 @@
     {
       "path": "mods/TravelersTitles-1.21.1-NeoForge-5.1.3.jar",
       "hashes": {
-        "sha512": "eed7ed02277e32f374da0999bbb24410c04543ca39e6e349ca9e441c468e218cf0cad59173f8b98c3f45140b24552efa3672ff48feb311ec01b19ab2f02b2e64",
-        "sha1": "166cba4d367c6dd103d1d5dcab7a31174bec799e"
+        "sha1": "166cba4d367c6dd103d1d5dcab7a31174bec799e",
+        "sha512": "eed7ed02277e32f374da0999bbb24410c04543ca39e6e349ca9e441c468e218cf0cad59173f8b98c3f45140b24552efa3672ff48feb311ec01b19ab2f02b2e64"
       },
       "env": {
         "client": "required",
@@ -6591,19 +6591,19 @@
       "fileSize": 235345
     },
     {
-      "path": "mods/trek-B0.5.1.2.jar",
+      "path": "mods/trek-B0.6.jar",
       "hashes": {
-        "sha512": "89281ae56e10273852e04599536e14e8c68a435d7e1b40206d6bc40028871a727e32dccb042c83198979842fee78a13717ada9bd8b3005c6047f2fbfc69ee4d2",
-        "sha1": "d1f73b2c6afe18ae3bc4e120ec7dc4d5eafd7433"
+        "sha1": "546a8e4052217d906c707b45d94b53e82b071482",
+        "sha512": "80d8b7ee67259d5c7b906c287b5672fbc620a0b73b81b907522f8d76af2427211a95483aa5ac068d5e769fb94d92a6129d7e6f988f5ee6ade3134200e32e06a6"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/h2jngREY/versions/UQT3TzsF/trek-B0.5.1.2.jar"
+        "https://cdn.modrinth.com/data/h2jngREY/versions/fMlqHMUb/trek-B0.6.jar"
       ],
-      "fileSize": 23223969
+      "fileSize": 25458242
     },
     {
       "path": "mods/t_and_t-neoforge-fabric-1.13.7+1.21.1.jar",
@@ -6683,8 +6683,8 @@
     {
       "path": "mods/unkindled-1.2.0+1.21.1.jar",
       "hashes": {
-        "sha512": "f89a6d3a6c785547daf0dcc55f46a28c4049a4a8c05e174981969f17fe19797bccaf77d99c8e1569239111b4638b8e98d2d8151c07f15dad3b4c9b982c293c79",
-        "sha1": "f54eb60c654cfbcaea13aaef67ba1901ddca00e0"
+        "sha1": "f54eb60c654cfbcaea13aaef67ba1901ddca00e0",
+        "sha512": "f89a6d3a6c785547daf0dcc55f46a28c4049a4a8c05e174981969f17fe19797bccaf77d99c8e1569239111b4638b8e98d2d8151c07f15dad3b4c9b982c293c79"
       },
       "env": {
         "client": "required",
@@ -6703,7 +6703,7 @@
       },
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/ZlX3EVmE/versions/qEFip2XZ/Updating%20World%20Icon-neoforge-1.21.1-1.0.1.jar"
@@ -6713,8 +6713,8 @@
     {
       "path": "mods/vanillin-neoforge-1.21.1-1.1.3.jar",
       "hashes": {
-        "sha512": "b4c42bd310e66f20f679ff091192bb01739670f21162344bd177c812da20e873704ecb6ea5f6fd4d87661aee7be59a160808391582dfb97753833bfbb9fde236",
-        "sha1": "fae8bb9f13cd9d086949b9aca85956bb6fa47f56"
+        "sha1": "fae8bb9f13cd9d086949b9aca85956bb6fa47f56",
+        "sha512": "b4c42bd310e66f20f679ff091192bb01739670f21162344bd177c812da20e873704ecb6ea5f6fd4d87661aee7be59a160808391582dfb97753833bfbb9fde236"
       },
       "env": {
         "client": "required",
@@ -6728,8 +6728,8 @@
     {
       "path": "mods/variantsandventures-neoforge-1.0.22+mc1.21.1.jar",
       "hashes": {
-        "sha1": "bfdb2798d96f02abb57f0753ba13f41d42707b43",
-        "sha512": "31a55b2e62ea3ab71b448c0910b3bc186fc5f02f6f5d89baf091eba2e4c2da8325bd0735e6b4a71f6f5360ea8f37b4655cc1189681597a93429e759ae3e9da03"
+        "sha512": "31a55b2e62ea3ab71b448c0910b3bc186fc5f02f6f5d89baf091eba2e4c2da8325bd0735e6b4a71f6f5360ea8f37b4655cc1189681597a93429e759ae3e9da03",
+        "sha1": "bfdb2798d96f02abb57f0753ba13f41d42707b43"
       },
       "env": {
         "client": "required",
@@ -6743,8 +6743,8 @@
     {
       "path": "mods/via_romana-2.2.2+1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "e25ffefdcfa2b5657cd048f9ba186f87f30475f4",
-        "sha512": "e227b4aa359ed9c8867fa572ff7c8370b5b942ce3aeebe2fa1d3589c07bf21f3c46764fe54c00e2097a4c948fece02a9b609a23b077cd18a7699d450aacebb3d"
+        "sha512": "e227b4aa359ed9c8867fa572ff7c8370b5b942ce3aeebe2fa1d3589c07bf21f3c46764fe54c00e2097a4c948fece02a9b609a23b077cd18a7699d450aacebb3d",
+        "sha1": "e25ffefdcfa2b5657cd048f9ba186f87f30475f4"
       },
       "env": {
         "client": "required",
@@ -6788,8 +6788,8 @@
     {
       "path": "mods/VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar",
       "hashes": {
-        "sha1": "74941456944461f39b10504ec9aed8c1e0fb7276",
-        "sha512": "8e8837d2ddf7d60d192597d0c53d0fe3cd10858bf1cd015b154bc87a05603c0b849acc966592671d927bdb421c83f3c95f80ce5ba63717825508ef1579437aac"
+        "sha512": "8e8837d2ddf7d60d192597d0c53d0fe3cd10858bf1cd015b154bc87a05603c0b849acc966592671d927bdb421c83f3c95f80ce5ba63717825508ef1579437aac",
+        "sha1": "74941456944461f39b10504ec9aed8c1e0fb7276"
       },
       "env": {
         "client": "required",
@@ -6833,8 +6833,8 @@
     {
       "path": "mods/wailt-21.1.3.0-neoforge-1.21.1.jar",
       "hashes": {
-        "sha512": "2cb128bc6a99681a2b07fccbac00c6b188256f1ecafb415b8064bbc77b9f8f7eeedaab737f4e8e25647f11271aa43325c486f8ea5869cee5bfc1893d60f89c5a",
-        "sha1": "73569dd2f2bb5cd7d66740ea793ca5a03c52db00"
+        "sha1": "73569dd2f2bb5cd7d66740ea793ca5a03c52db00",
+        "sha512": "2cb128bc6a99681a2b07fccbac00c6b188256f1ecafb415b8064bbc77b9f8f7eeedaab737f4e8e25647f11271aa43325c486f8ea5869cee5bfc1893d60f89c5a"
       },
       "env": {
         "client": "required",
@@ -6878,8 +6878,8 @@
     {
       "path": "mods/whats-that-slot-neoforge-1.3.6+1.21.jar",
       "hashes": {
-        "sha512": "e59de871f813717021be77b8ad414212db6ee8efc6c2d6c1f246c52df78a0df9ea0c4a14012753bb53bde7fcfd6707d61d8145bb8bc8035be7253c1e172bbc8c",
-        "sha1": "67988f677f27c58f654227968827809230f4b9c8"
+        "sha1": "67988f677f27c58f654227968827809230f4b9c8",
+        "sha512": "e59de871f813717021be77b8ad414212db6ee8efc6c2d6c1f246c52df78a0df9ea0c4a14012753bb53bde7fcfd6707d61d8145bb8bc8035be7253c1e172bbc8c"
       },
       "env": {
         "client": "required",
@@ -6893,8 +6893,8 @@
     {
       "path": "mods/wits-1.3.0+1.21-neoforge.jar",
       "hashes": {
-        "sha1": "4fb6e087325c70031fdb7fe6eb5278c5038511dd",
-        "sha512": "265574b22e5c1966bddab651f53bb8a29add0053f95f5ce979fcfd52e7bfb816d2c3d6e7c2827c965e63e337555803f1193f4226e1a5cfda05f5fbf929394675"
+        "sha512": "265574b22e5c1966bddab651f53bb8a29add0053f95f5ce979fcfd52e7bfb816d2c3d6e7c2827c965e63e337555803f1193f4226e1a5cfda05f5fbf929394675",
+        "sha1": "4fb6e087325c70031fdb7fe6eb5278c5038511dd"
       },
       "env": {
         "client": "required",
@@ -6923,8 +6923,8 @@
     {
       "path": "mods/World Expansion-Light and Dark 0.1.5-1.21.1-NeoForge.jar",
       "hashes": {
-        "sha512": "e0e1debd345b0cea30efc5c2d8e9ba0a28250088beae50cbaa1f8220abddcf750914508e27aeb1411e1f22d3c02b7b78b165c1cc754654e2e9f11c81aa33746c",
-        "sha1": "159adaeef633f9c114837b9f5097719866cc40f5"
+        "sha1": "159adaeef633f9c114837b9f5097719866cc40f5",
+        "sha512": "e0e1debd345b0cea30efc5c2d8e9ba0a28250088beae50cbaa1f8220abddcf750914508e27aeb1411e1f22d3c02b7b78b165c1cc754654e2e9f11c81aa33746c"
       },
       "env": {
         "client": "required",
@@ -6968,8 +6968,8 @@
     {
       "path": "mods/xaerominimap-neoforge-1.21.1-25.3.10.jar",
       "hashes": {
-        "sha512": "97dbc7ddc8b86edead71f60e3257175abe9e05e94387447aad2467cfcf0a5211ed848ee3df9bb3c308183405f997f8acd508ac01f8ee374f08d9af00729fc1d8",
-        "sha1": "d4828332dd831455429156b6cfa24aa9bd99dd77"
+        "sha1": "d4828332dd831455429156b6cfa24aa9bd99dd77",
+        "sha512": "97dbc7ddc8b86edead71f60e3257175abe9e05e94387447aad2467cfcf0a5211ed848ee3df9bb3c308183405f997f8acd508ac01f8ee374f08d9af00729fc1d8"
       },
       "env": {
         "client": "required",
@@ -6998,8 +6998,8 @@
     {
       "path": "mods/xaerotrainmap-1.0.0.jar",
       "hashes": {
-        "sha512": "6bdd0cc65492523cce939d2514632a60cbb38701ece15d4ab5caccc4a837fb28b0e1308698a0afe1921adb4f0ad0e6a69bf4aee68ab3277c47ea9b815d00068d",
-        "sha1": "4b9d3a53247b2f3977e32b246be5aeb131504eae"
+        "sha1": "4b9d3a53247b2f3977e32b246be5aeb131504eae",
+        "sha512": "6bdd0cc65492523cce939d2514632a60cbb38701ece15d4ab5caccc4a837fb28b0e1308698a0afe1921adb4f0ad0e6a69bf4aee68ab3277c47ea9b815d00068d"
       },
       "env": {
         "client": "required",
@@ -7073,8 +7073,8 @@
     {
       "path": "mods/YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar",
       "hashes": {
-        "sha1": "c7eaa25a8734525d7085e730728344242a177990",
-        "sha512": "8c73b73a335ff1a788ef187dc68ad1225e21fd9230e0f2d7b768969383f799b053a0e1ec01cfd98b1980dc4b98db2a1c764c00739f58336714b7d982dc254424"
+        "sha512": "8c73b73a335ff1a788ef187dc68ad1225e21fd9230e0f2d7b768969383f799b053a0e1ec01cfd98b1980dc4b98db2a1c764c00739f58336714b7d982dc254424",
+        "sha1": "c7eaa25a8734525d7085e730728344242a177990"
       },
       "env": {
         "client": "required",
@@ -7088,8 +7088,8 @@
     {
       "path": "mods/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
       "hashes": {
-        "sha1": "90529257dbd92558998c65178294bc7b2fd16a64",
-        "sha512": "6454c955f75f66104810e967a59ae032ddf1ccc5a854346af6bfba6e44cd456e755cd8feb1e0968be4e9132ea6c5d1cb2126fe5e85d3eb18c8d3ea3c81ffdf9a"
+        "sha512": "6454c955f75f66104810e967a59ae032ddf1ccc5a854346af6bfba6e44cd456e755cd8feb1e0968be4e9132ea6c5d1cb2126fe5e85d3eb18c8d3ea3c81ffdf9a",
+        "sha1": "90529257dbd92558998c65178294bc7b2fd16a64"
       },
       "env": {
         "client": "required",
@@ -7103,8 +7103,8 @@
     {
       "path": "mods/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
       "hashes": {
-        "sha512": "40513bacd13fa9860abcab507b1fc09dc51649af4b615ce466e0ec361557f02d35e6e44bea1cc17cb4120805f862aad01394eb185f46611e7be63dfd97f272df",
-        "sha1": "73a660c13063450e555e5e2c015ae24d606b32b4"
+        "sha1": "73a660c13063450e555e5e2c015ae24d606b32b4",
+        "sha512": "40513bacd13fa9860abcab507b1fc09dc51649af4b615ce466e0ec361557f02d35e6e44bea1cc17cb4120805f862aad01394eb185f46611e7be63dfd97f272df"
       },
       "env": {
         "client": "required",
@@ -7118,8 +7118,8 @@
     {
       "path": "mods/YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar",
       "hashes": {
-        "sha512": "02923a1a97eb81ec13d69bdc6b7e8b36dfb9e6f1a98adfcf103707ec3afde35831ccd4b210e9b3a9c7662541c38ea593a3d94c12171b4072ea7feafa75c95f96",
-        "sha1": "832f2c17425debe74a9f267f4136f1a0f0221d19"
+        "sha1": "832f2c17425debe74a9f267f4136f1a0f0221d19",
+        "sha512": "02923a1a97eb81ec13d69bdc6b7e8b36dfb9e6f1a98adfcf103707ec3afde35831ccd4b210e9b3a9c7662541c38ea593a3d94c12171b4072ea7feafa75c95f96"
       },
       "env": {
         "client": "required",
@@ -7133,8 +7133,8 @@
     {
       "path": "mods/YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",
       "hashes": {
-        "sha1": "d6b7ce6cf351b09cbd23147ff166c35cfdc572e8",
-        "sha512": "eca4233e874a55886c63d2111b8685d479771d3627bad2922582e65b78c51ba74733dc4624aabf91f2a2178a940a72d9209ae33eef74e34f84f07d62256709d9"
+        "sha512": "eca4233e874a55886c63d2111b8685d479771d3627bad2922582e65b78c51ba74733dc4624aabf91f2a2178a940a72d9209ae33eef74e34f84f07d62256709d9",
+        "sha1": "d6b7ce6cf351b09cbd23147ff166c35cfdc572e8"
       },
       "env": {
         "client": "required",
@@ -7148,8 +7148,8 @@
     {
       "path": "mods/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
       "hashes": {
-        "sha1": "6a14e1d8201f068ca87ef8333e471c5378955906",
-        "sha512": "8b01b386f53feeaa55f0c62697578b82e00501e45e428b2a68df6bda34efb6a4b3b4e3582abf13fe767ebcb61aef9368186f53c03999958bef38f31c41a7f8b2"
+        "sha512": "8b01b386f53feeaa55f0c62697578b82e00501e45e428b2a68df6bda34efb6a4b3b4e3582abf13fe767ebcb61aef9368186f53c03999958bef38f31c41a7f8b2",
+        "sha1": "6a14e1d8201f068ca87ef8333e471c5378955906"
       },
       "env": {
         "client": "required",
@@ -7163,8 +7163,8 @@
     {
       "path": "mods/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
       "hashes": {
-        "sha1": "4061ece2141475227646649046fc14c2da505922",
-        "sha512": "18b461298d3df1215fa3b4d2c0cb2ef1c7ed76701d8a0bb140277b21923e31abd939f0fd9b400c5bd676d739f1cda31c43b4dc753f9187251542223f3424d336"
+        "sha512": "18b461298d3df1215fa3b4d2c0cb2ef1c7ed76701d8a0bb140277b21923e31abd939f0fd9b400c5bd676d739f1cda31c43b4dc753f9187251542223f3424d336",
+        "sha1": "4061ece2141475227646649046fc14c2da505922"
       },
       "env": {
         "client": "required",
@@ -7178,8 +7178,8 @@
     {
       "path": "mods/YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar",
       "hashes": {
-        "sha512": "77c864da36f1d2173e6460dc335996893a804954b8a5c274173fc95dfdbf437e80d9dce32f6060306a662fc35322566eecf5dfe24e2d3fab79bf7e0ff9fa4db6",
-        "sha1": "fba629defdb92ad99ec4f411895afb6e19555a18"
+        "sha1": "fba629defdb92ad99ec4f411895afb6e19555a18",
+        "sha512": "77c864da36f1d2173e6460dc335996893a804954b8a5c274173fc95dfdbf437e80d9dce32f6060306a662fc35322566eecf5dfe24e2d3fab79bf7e0ff9fa4db6"
       },
       "env": {
         "client": "required",
@@ -7208,8 +7208,8 @@
     {
       "path": "mods/YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar",
       "hashes": {
-        "sha512": "9baa8a1f36a2a36efc3df58ab9347fd9f326b551ad78e3f600ed9d68862c619752ac0770804807efb15a46fcb4d9f6e2baf6a11f622d3ebb6c865662f6c7bcfd",
-        "sha1": "bbf6c91f4a2829c58bc024eaaab821986bc93de6"
+        "sha1": "bbf6c91f4a2829c58bc024eaaab821986bc93de6",
+        "sha512": "9baa8a1f36a2a36efc3df58ab9347fd9f326b551ad78e3f600ed9d68862c619752ac0770804807efb15a46fcb4d9f6e2baf6a11f622d3ebb6c865662f6c7bcfd"
       },
       "env": {
         "client": "required",
@@ -7223,8 +7223,8 @@
     {
       "path": "mods/YungsBridges-1.21.1-NeoForge-5.1.1.jar",
       "hashes": {
-        "sha1": "18099c2d54acd16bb8ab90a66f40fa16496d065e",
-        "sha512": "20b07ae4c08974980f976bcae32f18ccb885745d6cd50d4a5d0156eb5c51c29e49f8b2bf7dc2ae160d39b62f2332513bd9850efc5cba13697e36a2ac2848bc3b"
+        "sha512": "20b07ae4c08974980f976bcae32f18ccb885745d6cd50d4a5d0156eb5c51c29e49f8b2bf7dc2ae160d39b62f2332513bd9850efc5cba13697e36a2ac2848bc3b",
+        "sha1": "18099c2d54acd16bb8ab90a66f40fa16496d065e"
       },
       "env": {
         "client": "required",
@@ -7298,8 +7298,8 @@
     {
       "path": "datapacks/[1.21--1.21.1]mob-variations.zip",
       "hashes": {
-        "sha1": "81752064faaafb8adf2696eb99240d7bb234c5c7",
-        "sha512": "5c39f593e1dc2b18fbf1572f2d2a857c21f627d0064e1e3952faebea1c83d9e8d48fe7d957dd9caa89a4192964e09be2f62b0d1e8591c497ed68a1be51910f34"
+        "sha512": "5c39f593e1dc2b18fbf1572f2d2a857c21f627d0064e1e3952faebea1c83d9e8d48fe7d957dd9caa89a4192964e09be2f62b0d1e8591c497ed68a1be51910f34",
+        "sha1": "81752064faaafb8adf2696eb99240d7bb234c5c7"
       },
       "env": {
         "client": "required",
@@ -7328,8 +7328,8 @@
     {
       "path": "resourcepacks/3D-muskets-1.1.zip",
       "hashes": {
-        "sha1": "d7a5474e900c914b8c75f8f8817df9b82d4b3b2e",
-        "sha512": "9e475d0dc53d1a30d8f9b094669071e60fd013803cbdee81ccafcb373c5b61782d285b5b5d805c5569534d4a10f88dc23b8b3d3c98007643c3bf90d692a31b54"
+        "sha512": "9e475d0dc53d1a30d8f9b094669071e60fd013803cbdee81ccafcb373c5b61782d285b5b5d805c5569534d4a10f88dc23b8b3d3c98007643c3bf90d692a31b54",
+        "sha1": "d7a5474e900c914b8c75f8f8817df9b82d4b3b2e"
       },
       "env": {
         "client": "required",
@@ -7343,8 +7343,8 @@
     {
       "path": "resourcepacks/AE2 GUI.zip",
       "hashes": {
-        "sha512": "d545936b8b70a66d80a06db3bd131e490c3cb3657279273fa8523223e86c15cddd7542b7397b3b784d515936a9346622d3273759f29e58e317c9f6f609b1d748",
-        "sha1": "d7956deee39ee1a4578c6bf732697cf412c9c833"
+        "sha1": "d7956deee39ee1a4578c6bf732697cf412c9c833",
+        "sha512": "d545936b8b70a66d80a06db3bd131e490c3cb3657279273fa8523223e86c15cddd7542b7397b3b784d515936a9346622d3273759f29e58e317c9f6f609b1d748"
       },
       "env": {
         "client": "required",
@@ -7433,8 +7433,8 @@
     {
       "path": "resourcepacks/Crushed ores for Modern Industrialization.zip",
       "hashes": {
-        "sha1": "c7df9a349d59048fd5af52dd8a2cf001aecb136a",
-        "sha512": "d8d1c423547c7acbec3ceee01d365fc930ce1d3480526f0ef5798d0afa2c0e477d5ed1ee32a0f3d9b1f7faee2207ad564473a4879c4f348c26dcfb3c6a272cb2"
+        "sha512": "d8d1c423547c7acbec3ceee01d365fc930ce1d3480526f0ef5798d0afa2c0e477d5ed1ee32a0f3d9b1f7faee2207ad564473a4879c4f348c26dcfb3c6a272cb2",
+        "sha1": "c7df9a349d59048fd5af52dd8a2cf001aecb136a"
       },
       "env": {
         "client": "required",
@@ -7448,8 +7448,8 @@
     {
       "path": "resourcepacks/Enhanced Audio Ambience r1.zip",
       "hashes": {
-        "sha512": "43ae5a991a68e1d8baf288d8626f74cdc46835d18b676332a849162ba318057656bce023bfdbe6377b0e156f7e769ed1c93892da0d48450268acf28b81dc4c22",
-        "sha1": "52de6f2aaa9c140e97932afb705d80fb6ef6475b"
+        "sha1": "52de6f2aaa9c140e97932afb705d80fb6ef6475b",
+        "sha512": "43ae5a991a68e1d8baf288d8626f74cdc46835d18b676332a849162ba318057656bce023bfdbe6377b0e156f7e769ed1c93892da0d48450268acf28b81dc4c22"
       },
       "env": {
         "client": "required",
@@ -7463,8 +7463,8 @@
     {
       "path": "resourcepacks/Enhanced Lightning Sound.zip",
       "hashes": {
-        "sha1": "52891e6667a106d988350eb1c008fc7d13e61160",
-        "sha512": "3054e53debe5becc5d39d3231dad0ea77b568155c9c34242cdf779814b209e0fa89d3d26d811c8f45b83290db80c8cdc4fbf5cd17af41aedc62cc63b91d5b363"
+        "sha512": "3054e53debe5becc5d39d3231dad0ea77b568155c9c34242cdf779814b209e0fa89d3d26d811c8f45b83290db80c8cdc4fbf5cd17af41aedc62cc63b91d5b363",
+        "sha1": "52891e6667a106d988350eb1c008fc7d13e61160"
       },
       "env": {
         "client": "required",
@@ -7493,8 +7493,8 @@
     {
       "path": "resourcepacks/Fractal Glint.zip",
       "hashes": {
-        "sha1": "c0c5373c76efe4faff98264b5b1122794e249ff3",
-        "sha512": "608d709a93dcc111d9eb9a8417a52a6f6c3c2cfb02c06caa85deab8f0ec5619511cc95836fc7be7a391a2f56ab0c243dc3cfed7dbc0ed9be70602e5cc5171e8a"
+        "sha512": "608d709a93dcc111d9eb9a8417a52a6f6c3c2cfb02c06caa85deab8f0ec5619511cc95836fc7be7a391a2f56ab0c243dc3cfed7dbc0ed9be70602e5cc5171e8a",
+        "sha1": "c0c5373c76efe4faff98264b5b1122794e249ff3"
       },
       "env": {
         "client": "required",
@@ -7508,8 +7508,8 @@
     {
       "path": "resourcepacks/Fusion 3D Items v1.0.1 for Minecraft 1.20-1.21.8.zip",
       "hashes": {
-        "sha1": "995514ac464f299683eaa07d7567bead990480c7",
-        "sha512": "4e4631b4050639021c77218b8ec65d41a3136d8bed7e23ca497545f517e708ad513190c2d1479be7eb393b88853abf5a117442ed81417fd502830e654a1fe10b"
+        "sha512": "4e4631b4050639021c77218b8ec65d41a3136d8bed7e23ca497545f517e708ad513190c2d1479be7eb393b88853abf5a117442ed81417fd502830e654a1fe10b",
+        "sha1": "995514ac464f299683eaa07d7567bead990480c7"
       },
       "env": {
         "client": "required",
@@ -7538,8 +7538,8 @@
     {
       "path": "resourcepacks/Fusion Connected Blocks v1.0.2 for Minecraft 1.20-1.21.8.zip",
       "hashes": {
-        "sha1": "74ac3ff2e5215703ba9057d0e4662e726a847764",
-        "sha512": "5f3a36ab6dfe5ff54491330d3265ad845433ff347d79d89d14fda862d5cfa4d53f9fc8d183540326fe68f46639d01678b90252bb1066c4ea421424a242e208dc"
+        "sha512": "5f3a36ab6dfe5ff54491330d3265ad845433ff347d79d89d14fda862d5cfa4d53f9fc8d183540326fe68f46639d01678b90252bb1066c4ea421424a242e208dc",
+        "sha1": "74ac3ff2e5215703ba9057d0e4662e726a847764"
       },
       "env": {
         "client": "required",
@@ -7613,8 +7613,8 @@
     {
       "path": "resourcepacks/HatsuneMikuCreatedMinecraft.zip",
       "hashes": {
-        "sha512": "c54f706bb73ea1bf9c60af1bb50c7a4da8536001cd51660a1b611dfea1db02d09d74cf96e30f753f95abb28b17ea8f4d911243ca7e20ff9d8a2729a16ed0980c",
-        "sha1": "5b4087b592d10541a3cfae8205e0f6f66cb2eb6b"
+        "sha1": "5b4087b592d10541a3cfae8205e0f6f66cb2eb6b",
+        "sha512": "c54f706bb73ea1bf9c60af1bb50c7a4da8536001cd51660a1b611dfea1db02d09d74cf96e30f753f95abb28b17ea8f4d911243ca7e20ff9d8a2729a16ed0980c"
       },
       "env": {
         "client": "required",
@@ -7658,8 +7658,8 @@
     {
       "path": "resourcepacks/Purity was Shown 1.0.zip",
       "hashes": {
-        "sha512": "9763ad117e014ac9c8312194e189adca336c76087b5f3f2fbccc99a3ee76ca9843d21fb25d992f5dddde03a969bba2f9e448f7ab2ca0063a5bda242c5b7e37f7",
-        "sha1": "02ef28a0166b86447e8b3b12501e6e4e72785d73"
+        "sha1": "02ef28a0166b86447e8b3b12501e6e4e72785d73",
+        "sha512": "9763ad117e014ac9c8312194e189adca336c76087b5f3f2fbccc99a3ee76ca9843d21fb25d992f5dddde03a969bba2f9e448f7ab2ca0063a5bda242c5b7e37f7"
       },
       "env": {
         "client": "required",
@@ -7718,8 +7718,8 @@
     {
       "path": "resourcepacks/Standardized Ingots v12.0.zip",
       "hashes": {
-        "sha1": "da81db67e9c452f55f18588bcca776e6746ca439",
-        "sha512": "c2f787b708b626d5d29fe5360cdd295a61fbcbc8e3f3e7a90d04d96509d97a5c02ab1bdd30cfb13c1f1e9c526453f5cd5d66847b395561d947c9bc32f5597c1d"
+        "sha512": "c2f787b708b626d5d29fe5360cdd295a61fbcbc8e3f3e7a90d04d96509d97a5c02ab1bdd30cfb13c1f1e9c526453f5cd5d66847b395561d947c9bc32f5597c1d",
+        "sha1": "da81db67e9c452f55f18588bcca776e6746ca439"
       },
       "env": {
         "client": "required",
@@ -7748,8 +7748,8 @@
     {
       "path": "resourcepacks/Visual Effects+.zip",
       "hashes": {
-        "sha512": "452991069d63cebd151c0e1cd2c01f44952985abc2d53b9a281408320bfe9ef5f606262669edc65c08ed1c11a8eef9c7fa4938589e3b2968fc6196375907f94e",
-        "sha1": "77c0701e2bf82d7a0c8955c384329a64f5f22014"
+        "sha1": "77c0701e2bf82d7a0c8955c384329a64f5f22014",
+        "sha512": "452991069d63cebd151c0e1cd2c01f44952985abc2d53b9a281408320bfe9ef5f606262669edc65c08ed1c11a8eef9c7fa4938589e3b2968fc6196375907f94e"
       },
       "env": {
         "client": "required",
@@ -7778,8 +7778,8 @@
     {
       "path": "resourcepacks/§aBiomeBloom§8.zip",
       "hashes": {
-        "sha512": "990f7204e571232fc7c32a0b4cdc7795127bbb2dc70f00c20d44186b7b4e62730efc52a94bfc3475ed948a487479101a1c798203d7cdfcc2c1a472a2ee53db2c",
-        "sha1": "782fc7cb3744801b43df5572b7a74a87aa6fa0e8"
+        "sha1": "782fc7cb3744801b43df5572b7a74a87aa6fa0e8",
+        "sha512": "990f7204e571232fc7c32a0b4cdc7795127bbb2dc70f00c20d44186b7b4e62730efc52a94bfc3475ed948a487479101a1c798203d7cdfcc2c1a472a2ee53db2c"
       },
       "env": {
         "client": "required",
@@ -7793,8 +7793,8 @@
     {
       "path": "resourcepacks/§cBetter Pressure Plates.zip",
       "hashes": {
-        "sha512": "4ce2bcb92213564cc6abb1d19f0f3a2139929a9399aaa786e32828c38e2ac550de626b55fcb08721348525205d63f302eeeabc34e9d1e424d4c0a8df813c99ae",
-        "sha1": "94447dbc2ac1fc5f30af27f09b0ddd7da390088f"
+        "sha1": "94447dbc2ac1fc5f30af27f09b0ddd7da390088f",
+        "sha512": "4ce2bcb92213564cc6abb1d19f0f3a2139929a9399aaa786e32828c38e2ac550de626b55fcb08721348525205d63f302eeeabc34e9d1e424d4c0a8df813c99ae"
       },
       "env": {
         "client": "required",

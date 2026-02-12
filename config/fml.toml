@@ -9,7 +9,7 @@ versionCheck = false
 #Default config path for servers
 defaultConfigPath = "defaultconfigs"
 #Disables Optimized DFU client-side - already disabled on servers
-disableOptimizedDFU = false
+disableOptimizedDFU = true
 #Early window provider
 earlyWindowProvider = "SimpleCustomEarlyLoading"
 #Early window width
