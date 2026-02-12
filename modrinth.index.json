@@ -396,19 +396,19 @@
       "fileSize": 2450979
     },
     {
-      "path": "mods/baguettelib-1.21.1-NeoForge-1.1.5.jar",
+      "path": "mods/baguettelib-1.21.1-NeoForge-1.1.6.jar",
       "hashes": {
-        "sha1": "f4dc59ccb7767daa4ff22a7e8b59cf937efb9cdd",
-        "sha512": "a3c71420f36b627a49ee894fc7dd294e82304107d402449f3db638a5a38678fe974d07429eed5183ef4b7f872f664ffcfebfcbdd0264f5ee26725b1914fbed24"
+        "sha1": "dddf0f4454bf013d05d5eaa600e5a6eef555d67a",
+        "sha512": "1ff44b3018c68770faf008b9e8a3cd25799bdd75b6b055b5d7d1b86ac0a594986205eb8c1f5573bf867559f46ef8f0f9eea9abd028e8c55c07ea67cdd0946afe"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/OfKzpbRU/versions/EhQs2skr/baguettelib-1.21.1-NeoForge-1.1.5.jar"
+        "https://cdn.modrinth.com/data/OfKzpbRU/versions/Qweyxy2G/baguettelib-1.21.1-NeoForge-1.1.6.jar"
       ],
-      "fileSize": 66286
+      "fileSize": 66319
     },
     {
       "path": "mods/balm-neoforge-1.21.1-21.0.56.jar",
@@ -1536,19 +1536,19 @@
       "fileSize": 3137342
     },
     {
-      "path": "mods/createfiltersanywhere-2.2.0.jar",
+      "path": "mods/createfiltersanywhere-2.3.0-1.21.1.jar",
       "hashes": {
-        "sha1": "ca7a68327857c235088b7e21a7cebc6f8ee9c4d0",
-        "sha512": "a352ce15f4bbacba3ff55db636d97bb5d4f5180ec5971b9800cb48b83e7d0d4d1188be01a83d6103455f9d4298ed468f0f0e63d0b1d504442e0661e34e1f0d4e"
+        "sha1": "0c87e264e9b67ebaed7e016d029190dffcef3a11",
+        "sha512": "b8867f633c2689fa4c16eac0cfe85a6b2d5a2bd8f93c0ad209473b441e27f2288310ef625e63c926185c156dc066ab58be2841a3147dbc22f7ad188a7c9011c3"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/1WQdyUFV/versions/vukZLEc6/createfiltersanywhere-2.2.0.jar"
+        "https://cdn.modrinth.com/data/1WQdyUFV/versions/Xc3MdZHc/createfiltersanywhere-2.3.0-1.21.1.jar"
       ],
-      "fileSize": 169661
+      "fileSize": 169906
     },
     {
       "path": "mods/createhorsepower-1.21.1-1.1.0.jar",
@@ -3141,19 +3141,19 @@
       "fileSize": 358586
     },
     {
-      "path": "mods/extended-industrialization-1.15.28-1.21.1.jar",
+      "path": "mods/extended-industrialization-1.15.29-1.21.1.jar",
       "hashes": {
-        "sha1": "64042273cee68e45243f637f3366c3de5bc4cafc",
-        "sha512": "9c48d3f9acaf19786978e9d10b8d19eea8c2bf2c17e3c3f2f5ab17ee2b3ddc492ce4b1954a71f595dc04b825bb0178c7cc8070f0ceb7994ab2b0aa30f659e77c"
+        "sha1": "a636ef9448c0cee7446cdd8986500b745ef91ea8",
+        "sha512": "373e9db607661fed5212f866cbf2c02b7ba1d643a1412051cdac6948044ac36a2ea51ce5a6613755758a40719dc5c26fc1b495f1bb2c74ca1af869beda0efd20"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/CCM0U9YU/versions/6ITv76PK/extended-industrialization-1.15.28-1.21.1.jar"
+        "https://cdn.modrinth.com/data/CCM0U9YU/versions/iajGbIIJ/extended-industrialization-1.15.29-1.21.1.jar"
       ],
-      "fileSize": 2254427
+      "fileSize": 2254421
     },
     {
       "path": "mods/extra-mod-integrations-all-neoforge-1.0.3+1.21.1.jar",
@@ -5241,19 +5241,19 @@
       "fileSize": 1080389
     },
     {
-      "path": "mods/questlog-neoforge-1.21.1-1.0.8.jar",
+      "path": "mods/questlog-neoforge-1.21.1-1.1.0.jar",
       "hashes": {
-        "sha1": "010183d22012da08a3e7f0c9f3045a10a36cb098",
-        "sha512": "a76ef46ac136d6a005f9688172f170aa76e24379c501f56d37701d9b30264341cbe7599eefe42d8594ea2b409fcd0da619197fb0335ace064e62251155aaedc3"
+        "sha1": "7ebc8126403323f63afd0e84bb5f0fe89c1c6b6c",
+        "sha512": "96e0899c96112353d3d2e98d1c709996de98fe0f189bca6e2f90baf798e95b1b951e3b514bebcadf34652ae74966431616f1f9a1a665342e32105678ccfd9728"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ufQYCY6N/versions/Fc0x1AAv/questlog-neoforge-1.21.1-1.0.8.jar"
+        "https://cdn.modrinth.com/data/ufQYCY6N/versions/5yCIbppN/questlog-neoforge-1.21.1-1.1.0.jar"
       ],
-      "fileSize": 285722
+      "fileSize": 289205
     },
     {
       "path": "mods/quick-pack-neoforge-1.2.0+1.21.10.jar",
@@ -5331,19 +5331,19 @@
       "fileSize": 513816
     },
     {
-      "path": "mods/reducedloot-neoforge-1.21.x-1.1.jar",
+      "path": "mods/reducedloot-1.21.x-1.2.jar",
       "hashes": {
-        "sha1": "22ece2e61a6f14b912f641db7f962cf7377694c3",
-        "sha512": "0b68c91312fdedec05958152646c9fc8c048cc767c86608627bc2079d6528c1af6284eb5d815691a9d7487e6c5f65a5b85a8d5533f2c3dba12dfdeb0ea2a18d4"
+        "sha1": "607f79915925705642223df328239d77ace76b88",
+        "sha512": "7ea86ba50530937d47a36ff0344070242e574f8c19eae093036cb2ed39b1dd73a90cd52644a6edc1f7f4101bddf4b35d12c6c7cacb01b8bf52d3b07246b3ca14"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/42IQWulr/versions/LNOJTMJ3/reducedloot-neoforge-1.21.x-1.1.jar"
+        "https://cdn.modrinth.com/data/42IQWulr/versions/qIxUQyZl/reducedloot-1.21.x-1.2.jar"
       ],
-      "fileSize": 144116
+      "fileSize": 144816
     },
     {
       "path": "mods/reducedores-1.21.x-1.0.jar",
