@@ -235,6 +235,9 @@ ServerEvents.tags("item", ($) => {
     $.add("c:furnace_cavity", "pneumaticcraft:reinforced_chest")
     $.add("c:furnace_cavity", "minecraft:cauldron")
     $.add("c:furnace_cavity", "create:basin")
+
+    $.remove("c:ingots/gold", "remin:rose_gold")
+    $.add("c:ingots/rose_gold", "remin:rose_gold")
 })
 
 ServerEvents.tags("block", ($) => {
