@@ -1851,19 +1851,19 @@
       "fileSize": 6555122
     },
     {
-      "path": "mods/create_deep_dark-3.0.1-neoforge-1.21.1.jar",
+      "path": "mods/create_deep_dark-3.0.2-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "439f933c11641af360fe52da047c530636a9e9a6",
-        "sha512": "ab5742dcdb7b4c522b16e5dc58085f3bbc83ebae287b2d60cc8bc286610fa9392a63261fab75513ab927b4ffa4700858406e954703cebe4722fa66941adcbd28"
+        "sha1": "41a8c7f2f096555355214c55031ade1a84ef4058",
+        "sha512": "df0b5b9cd489b0def8bc8b750aedb96f4a1de37b4f24b0a45cae302cad94e2b3455240fa9dc6b58fd6cc7e005f445a8ea9cde2a7f51b449e54cccf3739a7a4b3"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/knrLSB8n/versions/6GAmJfi0/create_deep_dark-3.0.1-neoforge-1.21.1.jar"
+        "https://cdn.modrinth.com/data/knrLSB8n/versions/3tduJc4Y/create_deep_dark-3.0.2-neoforge-1.21.1.jar"
       ],
-      "fileSize": 254376
+      "fileSize": 254417
     },
     {
       "path": "mods/create_easy_structures-0.2a-neoforge-1.21.1.jar",
@@ -2916,19 +2916,19 @@
       "fileSize": 493897
     },
     {
-      "path": "mods/entity_texture_features_1.21-neoforge-7.0.8.jar",
+      "path": "mods/entity_texture_features_1.21-neoforge-7.0.9.jar",
       "hashes": {
-        "sha1": "1b9fa548d04b67508a9ad63fe6fb69d6a315232f",
-        "sha512": "f07da56e0b6c2ea6a02da41efb157fad3fc2d797bd6ee3170f3e8f2f5a5b91930d610015034a467eb042561b3e6d976d4ea4a491957063e56c2f1ef1bf77890c"
+        "sha1": "0a31d1b0753ad626b06e14fb5af840bf3d4c7973",
+        "sha512": "ffe8cabdda7647ce5362a835fd28446516656e20541fd32f0c985603fd896a7b3fe5ee73680d6bdefb208786532bb0c0d3ecc5275e7acfef2c06b0a620ca21cb"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/BVzZfTc1/versions/p7wtsUSV/entity_texture_features_1.21-neoforge-7.0.8.jar"
+        "https://cdn.modrinth.com/data/BVzZfTc1/versions/Z10hRNc9/entity_texture_features_1.21-neoforge-7.0.9.jar"
       ],
-      "fileSize": 733270
+      "fileSize": 735043
     },
     {
       "path": "mods/environmental-1.21.1-5.0.1.jar",
@@ -2946,19 +2946,19 @@
       "fileSize": 7834244
     },
     {
-      "path": "mods/epic-fight-21.15.4-mc1.21.1-neoforge.jar",
+      "path": "mods/epic-fight-21.15.5-mc1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "7b8db349969f244735aa9824f4c3917f892a7ea4",
-        "sha512": "64369a29277aa35c5c9401973f609e48230822b078d51d5cdadef217b57df0040c90f7480575916e725880d1281a44dd8fdccdf09d5063b26d9e7158795060d2"
+        "sha1": "4e25c7deb9a8fd520ef7da6dffa983b19a30b173",
+        "sha512": "8fd30f2a26f4e1b20c54081f19cbf9d027f4ec3070482222b9452aebdaf5bf66c139186e29282737a802c5bbe6b86160e2ea8ae7e2fc39143ac702d34e7b123f"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/YgV0s8VX/epic-fight-21.15.4-mc1.21.1-neoforge.jar"
+        "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/YKMNQW93/epic-fight-21.15.5-mc1.21.1-neoforge.jar"
       ],
-      "fileSize": 8337404
+      "fileSize": 8339434
     },
     {
       "path": "mods/epicfight-skilltree-neoforge-21.3.1-1.21.1.jar",
@@ -3171,6 +3171,21 @@
       "fileSize": 316330
     },
     {
+      "path": "mods/fabric-api-0.115.6+1.21.1.jar",
+      "hashes": {
+        "sha1": "1148b398767708be366ddc9988a357831cc456bb",
+        "sha512": "11771581ceccf16534279b1db1a46c3c1a731fb11f4a52413e7c8b7f2cef181cca2ff5c1131280624fbd733ee37c1741bd7fb641613ffedbc7c5e68dd121a045"
+      },
+      "env": {
+        "client": "required",
+        "server": "optional"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/P7dR8mSH/versions/4AkOEqGy/fabric-api-0.115.6%2B1.21.1.jar"
+      ],
+      "fileSize": 2406680
+    },
+    {
       "path": "mods/fabrishot-1.14.1.jar",
       "hashes": {
         "sha1": "c8afc690bb3508df7db793f37e1fe5407dba2f22",
@@ -3321,19 +3336,19 @@
       "fileSize": 1881823
     },
     {
-      "path": "mods/flowing_fluids_1.21-neoforge-1.0.1.jar",
+      "path": "mods/flowing_fluids_1.21-neoforge-1.0.3.jar",
       "hashes": {
-        "sha1": "694a80c5eba9fe629a6c6b3abae33b60b651a3ce",
-        "sha512": "51eece4cddf4a63288518bd98c6b5d82b78d9391f1bf503a2894722383d7ecb37cb6f2bf570ef9e7c16c68e4db0da43322295f1e8ea967c688c01c27ed7d335a"
+        "sha1": "d06507c1cab9d69d1852e5ad10d732c6c23b06fd",
+        "sha512": "b1625fef4876b0c09dd26e30ac90d0f7794169f1a78d60ddea0d544b7625aa6d3a5bb8ca0e8762d934aa7027e69fd661476836a6d5d5bd5a87bd5caed9de8d7a"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/s1I3BT95/versions/1swtyIe6/flowing_fluids_1.21-neoforge-1.0.1.jar"
+        "https://cdn.modrinth.com/data/s1I3BT95/versions/wLM2dHhQ/flowing_fluids_1.21-neoforge-1.0.3.jar"
       ],
-      "fileSize": 176233
+      "fileSize": 176454
     },
     {
       "path": "mods/fluid-1.0.1.jar",
@@ -3486,19 +3501,19 @@
       "fileSize": 18697
     },
     {
-      "path": "mods/giant_natural_additions-1.0.0-neoforge-1.21.1.jar",
+      "path": "mods/giant_natural_additions-2.0.0-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "d041feb53b17dda3a476e296e06917e87a9ed349",
-        "sha512": "da2e866ec3b78e39e23c026a3c7a108b74ff0bd325edb0ab359d745a8be7428072cfd0dc302a7b96aac350b82978b342a8769d11f2ce98c56b53c140693ceb32"
+        "sha1": "e830007ca94002193336fb32bb9b2533bd8b527f",
+        "sha512": "20ab6540874796b64354a2efe7bf5ae8142e65185c8f15625e37df84522b22f4c2c9962c98178ac914d14512cc5d2fbdc4ce00a668c07384ea0a4cd7a94c27ca"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/hnrzQdHf/versions/TlA4U7lz/giant_natural_additions-1.0.0-neoforge-1.21.1.jar"
+        "https://cdn.modrinth.com/data/hnrzQdHf/versions/6d5woivs/giant_natural_additions-2.0.0-neoforge-1.21.1.jar"
       ],
-      "fileSize": 704923
+      "fileSize": 1328152
     },
     {
       "path": "mods/giant_nether_tree-1.0.0-neoforge-1.21.1.jar",
@@ -5991,19 +6006,19 @@
       "fileSize": 315515
     },
     {
-      "path": "mods/sound_physics_perfected-1.15+1.21.1-neoforge.jar",
+      "path": "mods/sound_physics_perfected-1.15.1+1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "7aff89022903ed1a04c53981b0ec46dcc469388f",
-        "sha512": "b68e0c76f6eda26aa79e8e9a4595e5446d228e15691007b54d6c413cb373d715a58ae3b6dc03795b8dadebbc05d646817ee2c8df9a59ba855fa9b839bc0a2689"
+        "sha1": "f2921f6c8ce0d23a6519188b84830d0c4b23469c",
+        "sha512": "c996503417ea230d321fe5e50d443f4e4214d4601e499659b5dd91fd48df658812f6b4dc94c01d374b342a253a491cd16d70de6e75ef732dc93cfc6956c8956f"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/KS6Hbu9Z/versions/xVvIWtXg/sound_physics_perfected-1.15%2B1.21.1-neoforge.jar"
+        "https://cdn.modrinth.com/data/KS6Hbu9Z/versions/T5ebjtMq/sound_physics_perfected-1.15.1%2B1.21.1-neoforge.jar"
       ],
-      "fileSize": 421985
+      "fileSize": 427565
     },
     {
       "path": "mods/spark-1.10.124-neoforge.jar",
