@@ -149,6 +149,7 @@ BlockEvents.modification(($) => {
     $name("ecological:wild_beetroot", "Wild Beetroot")
     $name("ecological:wild_wheat", "Wild Wheat")
     $name("ecological:wild_potato", "Wild Potato")
+    $name("charcoal_pit:bloom", "Metallurgic Bloom")
 
     $.modify("minecraft:obsidian", (block) => block.setIsRandomlyTicking(true))
 })

@@ -66,6 +66,7 @@ ServerEvents.recipes(($) => {
         {input: "minecraft:iron_ingot", output: "minecraft:lodestone"},
         {input: "minecraft:raw_iron", output: "minecraft:flint_and_steel"},
         {input: "tfmg:unfired_insulator", type: "minecraft:smelting"},
+        {input: "minecraft:glowstone_dust", output: "minecraft:torch"},
         {output: "#c:glass_blocks", type: "minecraft:smelting"},
         {output: "#c:glass_pane", type: "minecraft:smelting"},
         {output: "#c:glass_panes", type: "minecraft:smelting"},
@@ -92,25 +93,37 @@ ServerEvents.recipes(($) => {
         {output: "waystones:warp_dust"},
         {output: "ae2:silicon"},
         {output: "#c:cobblestones"},
-        {output: "minecraft:furnace"}
+        {output: "minecraft:furnace"},
+        {output: "survivalistessentials:book"}
     ])
 
     $.recipes.create.crushing("waystones:warp_dust", "waystones:warp_stone")
 
     $shaped_3x3_blend(Item.of("minecraft:cobblestone"), "#c:clay_balls", "#c:pebbles")
+    $shaped_3x3_blend(Item.of("minecraft:bricks"), "#c:clay_balls", "minecraft:brick")
     $shaped_3x3_blend(Item.of("tfmg:fireproof_bricks"), "tfmg:fireproof_brick", "tfmg:fireclay_ball")
     $shaped_3x3_blend(Item.of("modern_industrialization:fire_clay_dust"), "tfmg:fireclay_ball", "tfmg:fireclay_ball", "#c:dusts/bauxite")
     $shaped_3x3_blend(Item.of("modern_industrialization:fire_clay_bricks"), "modern_industrialization:fire_clay_brick", "tfmg:fireclay_ball")
-    $shaped_3x3_blend(Item.of("minecraft:furnace"), "tfmg:fireproof_bricks", "tfmg:fireproof_bricks", "#c:furnace_cavity")
+    $shaped_3x3_blend(Item.of("minecraft:furnace"), "minecraft:bricks", "minecraft:bricks", "#c:furnace_cavity")
+
+    $.replaceOutput({output: "minecraft:torch"}, "minecraft:torch", "hardcore_torches:unlit_torch")
+
+    $.campfireCooking("minecraft:brick", "#c:clay_balls", 0.35, 12000)
+
+    $.custom({
+        "type": "charcoal_pit:blooming",
+        "temperature": 1001,
+        "cooking_time": 1600,
+        "experience": 0.7,
+        "ingredient": {
+            "tag": "c:storage_blocks/raw_copper"
+        },
+        "result": {
+            "count": 9,
+            "id": "minecraft:copper_ingot"
+        }
+    })
 })
-
-/*
-
-
-function cc_config:max_infection_speed 1
-function cc_config:max_infection_radius 16
-function cc_config:disable_book_on_death
-*/
 
 const $fabrishot = Java.loadClass("me.ramidzkh.fabrishot.Fabrishot")
 

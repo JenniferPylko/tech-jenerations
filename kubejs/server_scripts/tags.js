@@ -223,7 +223,7 @@ ServerEvents.tags("item", ($) => {
 
     $.add("c:clay_balls", "minecraft:clay_ball")
     $.add("c:clay_balls", "tfmg:fireclay_ball")
-    $.add("c:clay_balls", "modernindustrialization:fire_clay_dust")
+    $.add("c:clay_balls", "modern_industrialization:fire_clay_dust")
     $.add("c:furnace_cavity", "minecraft:bucket")
     $.add("c:furnace_cavity", "remin:bronze_bucket")
     $.add("c:furnace_cavity", "ceramicbucket:ceramic_bucket")
@@ -238,6 +238,13 @@ ServerEvents.tags("item", ($) => {
 
     $.remove("c:ingots/gold", "remin:rose_gold")
     $.add("c:ingots/rose_gold", "remin:rose_gold")
+    $.add("c:coal_coke", "modern_industrialization:coke")
+    $.add("charcoal_pit:jei_fuels", "modern_industrialization:coke")
+    $.add("charcoal_pit:jei_fuels", "modern_industrialization:coke_block")
+    $.add("charcoal_pit:jei_fuels", "modern_industrialization:lignite_coal")
+    $.add("charcoal_pit:jei_fuels", "modern_industrialization:lignite_coal_block")
+    $.add("charcoal_pit:jei_fuels", "#minecraft:logs_that_burn")
+    $.add("charcoal_pit:jei_fuels", "#minecraft:saplings")
 })
 
 ServerEvents.tags("block", ($) => {

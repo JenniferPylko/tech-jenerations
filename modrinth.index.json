@@ -3216,19 +3216,19 @@
       "fileSize": 153343
     },
     {
-      "path": "mods/falling_snow-1.21.1-neoforge-1.1.0.jar",
+      "path": "mods/falling_snow-1.21.1-neoforge-1.1.1.jar",
       "hashes": {
-        "sha1": "ba56cd4360e3281007549ca579aa6f769991c0dc",
-        "sha512": "8861a82f6260d99d993a63bda24bb6a7ce309f77ee63a8e71da2471d9237ed0f1ca318d8c38500f11e54f7f2e8142ff633f69e180ea6bf787598da50a1b2b6fc"
+        "sha1": "854ec8284be2be05061c294b9c971d7294318943",
+        "sha512": "27e7d23238ec314af95b7833180d3fa3497d14da30d3f52528b3df43cf0d82f04abeb14fd797ddaf1e88c8a7e2520f83d45db74fca29c218c822246be060c4cc"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/soBfQALz/versions/SsWWQvaR/falling_snow-1.21.1-neoforge-1.1.0.jar"
+        "https://cdn.modrinth.com/data/soBfQALz/versions/XEYt45IF/falling_snow-1.21.1-neoforge-1.1.1.jar"
       ],
-      "fileSize": 10905
+      "fileSize": 10899
     },
     {
       "path": "mods/fancymenu_neoforge_3.8.1_MC_1.21.1.jar",
