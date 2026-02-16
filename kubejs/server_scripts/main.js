@@ -270,10 +270,10 @@ PlayerEvents.loggedIn(($) => {
         $.server.runCommandSilent(`give ${$.entity.username} minecraft:stick`)
         $.server.runCommandSilent(`give ${$.entity.username} kubejs:guide`)
         $.server.runCommandSilent(`give ${$.entity.username} sleeping_bags:${sleeping_bag_colors[Math.floor(Math.random() * sleeping_bag_colors.length)]}_sleeping_bag`)
-        $.server.runCommandSilent(`give ${$.entity.username} wardentools:deep_fruit 16`)
+        //$.server.runCommandSilent(`give ${$.entity.username} wardentools:deep_fruit 16`)
     }
 })
 
 PlayerEvents.respawned(($) => {
-    $.server.runCommandSilent(`give ${$.entity.username} wardentools:deep_fruit`)
+    //$.server.runCommandSilent(`give ${$.entity.username} wardentools:deep_fruit`)
 })

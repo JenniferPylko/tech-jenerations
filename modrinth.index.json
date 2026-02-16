@@ -456,21 +456,6 @@
       "fileSize": 3033501
     },
     {
-      "path": "mods/basic_nvg-1.1.0-neoforge-1.21.1.jar",
-      "hashes": {
-        "sha1": "2136d875875c5806a0dd6f28f7f467a62c231c40",
-        "sha512": "820f534b2a64c50197681956dbf6666767be3b21567f7d278f0814e6b56e613a4ccd94c982b2b9ced9cd14be9793b311a31113f7dbc44ac67d6e8b3091919674"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/SUb8zvN6/versions/bXmRxwQc/basic_nvg-1.1.0-neoforge-1.21.1.jar"
-      ],
-      "fileSize": 2559396
-    },
-    {
       "path": "mods/bellsandwhistles-0.4.7-1.21.1.jar",
       "hashes": {
         "sha1": "85944080f8bd47dad64a8193a70662cd9ddbb200",
@@ -649,21 +634,6 @@
         "https://cdn.modrinth.com/data/OieZFwRr/versions/5ARULl76/biomespy-neoforge-1.21.1-1.3.3.jar"
       ],
       "fileSize": 38566
-    },
-    {
-      "path": "mods/biome_fest-1.0.0-neoforge-1.21.1.jar",
-      "hashes": {
-        "sha1": "e07046f2615cdfe3add7adf5473adaf31406aa64",
-        "sha512": "52588c42edb00d98400092e618d40051ed8a661498daf78f2a0f0e40004c7ecda73f7aa4479c77c26c372f8646c89787bc30823f8b63089356c99ea2a7d1748f"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/NCzlcLbw/versions/f7IbsG4G/biome_fest-1.0.0-neoforge-1.21.1.jar"
-      ],
-      "fileSize": 1464300
     },
     {
       "path": "mods/blastcraft-1.21.1-0.6.0-1.jar",
@@ -2616,21 +2586,6 @@
       "fileSize": 393572
     },
     {
-      "path": "mods/dynamicelectricity-1.21.1-1.2.1-0.jar",
-      "hashes": {
-        "sha1": "91a27404d577284d81267acaf594b57a7a46f43d",
-        "sha512": "dcd1e8cc6f878eff68e5476b02e5a8558175cad1ba806471fa87e1ce1b56bf59133f1a219d5be0a8483c46da9f246fab21a06aaa0075ee45a5be213c5ccef636"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/gYqTAyBw/versions/RERuOOaQ/dynamicelectricity-1.21.1-1.2.1-0.jar"
-      ],
-      "fileSize": 360332
-    },
-    {
       "path": "mods/DynamicTrees-AddonLib-DTteam-neoforge-1.21.1-0.2.0-BETA03.jar",
       "hashes": {
         "sha1": "6e62080422574375885ee3366a7b78a7cd1cfdd3",
@@ -4429,21 +4384,6 @@
         "https://cdn.modrinth.com/data/c7oycezb/versions/wwEeuuWd/modern_nuclearization-2.0.jar"
       ],
       "fileSize": 1067241
-    },
-    {
-      "path": "mods/mods_optimizer-neoforge-1.21.1-4.3.0.jar",
-      "hashes": {
-        "sha1": "aca8eb4deea86c005741dff87745d98ca13709d7",
-        "sha512": "afcac014cf7f24b36b0e41ec245e848892b091703523e0faa330bed4afade21e6dca3ce1dbb3829dd34f8a00cccb3e2d02672f1fa0c7602e2dbf0308ed0651de"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/hlVtb1H0/versions/YsuxMxVa/mods_optimizer-neoforge-1.21.1-4.3.0.jar"
-      ],
-      "fileSize": 204161
     },
     {
       "path": "mods/MoogsEndStructures-1.21-2.0.1.jar",
@@ -6456,21 +6396,6 @@
       "fileSize": 40296
     },
     {
-      "path": "mods/timm-1.1-neoforge-1.21.jar",
-      "hashes": {
-        "sha1": "85f907fcbebc25bba32e0af4abcdc55205c45146",
-        "sha512": "6635a5e316d0e84c59c472a98cf02248c81484fbe34397f5da03f0e1d4c336ae098474c46272499f924c745c4fb4f89d5810ffc2944ce98a909ea796b23e7e90"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/EgBj3Bnf/versions/AoFYLDWr/timm-1.1-neoforge-1.21.jar"
-      ],
-      "fileSize": 155331913
-    },
-    {
       "path": "mods/tlib-neoforge-1.4.1-1.21.1.jar",
       "hashes": {
         "sha1": "185ae293beab9e810cc3bea29797ee45f784922b",
@@ -6876,21 +6801,6 @@
       "fileSize": 42995
     },
     {
-      "path": "mods/wardentools-1.1.4_neoforge_1.21.1.jar",
-      "hashes": {
-        "sha1": "c2dc600c90feb7e382be35f2aa6e2b3b37c6e9a2",
-        "sha512": "fa48a5cc49561d8f6d343d2645aa06e4d508e63d62374bfbecf249b7305b65d3fcbae382df4b5777ad04b92bf399c6ca883f9daa70e65f916de33cee5c6a62d3"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/x2qQNlIy/versions/3JYwqibr/wardentools-1.1.4_neoforge_1.21.1.jar"
-      ],
-      "fileSize": 27978118
-    },
-    {
       "path": "mods/waystones-neoforge-1.21.1-21.1.25.jar",
       "hashes": {
         "sha1": "88446787b139183f7270d030c168c003f1834de6",
@@ -6949,21 +6859,6 @@
         "https://cdn.modrinth.com/data/xsNAEIke/versions/oBxziFBI/woodenbucket-neoforge-1.21-4.1.2.0.jar"
       ],
       "fileSize": 24982
-    },
-    {
-      "path": "mods/World Expansion-Light and Dark 0.1.5-1.21.1-NeoForge.jar",
-      "hashes": {
-        "sha1": "159adaeef633f9c114837b9f5097719866cc40f5",
-        "sha512": "e0e1debd345b0cea30efc5c2d8e9ba0a28250088beae50cbaa1f8220abddcf750914508e27aeb1411e1f22d3c02b7b78b165c1cc754654e2e9f11c81aa33746c"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/jaehGZMy/versions/R3YCjaXq/World%20Expansion-Light%20and%20Dark%200.1.5-1.21.1-NeoForge.jar"
-      ],
-      "fileSize": 13092681
     },
     {
       "path": "mods/worldgen-patches-1.1.0-neoforge-1.21.1.jar",

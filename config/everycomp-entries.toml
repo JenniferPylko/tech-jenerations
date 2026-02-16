@@ -83,9 +83,6 @@
 			pau_brasil = true
 			ipe_amarelo = true
 
-		[types.wood_type.world_expansion]
-			baobab = true
-
 		[types.wood_type.regions_unexplored]
 			alpha = true
 			baobab = true
@@ -150,10 +147,6 @@
 			laurel = true
 			kousa = true
 			grimwood = true
-
-		[types.wood_type.wardentools]
-			darktree = true
-			whitetree = true
 
 		[types.wood_type.deeperdarker]
 			bloom = true
@@ -290,9 +283,6 @@
 			jacaranda = true
 			pau_brasil = true
 			ipe_amarelo = true
-
-		[types.leaves_type.world_expansion]
-			baobab = true
 
 		[types.leaves_type.regions_unexplored]
 			alpha = true
@@ -616,9 +606,6 @@
 			kousa = true
 			currant = true
 			grimwood = true
-
-		[types.leaves_type.wardentools]
-			whitetree = true
 
 		[types.leaves_type.deeperdarker]
 			echo = true
