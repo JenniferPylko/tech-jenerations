@@ -1138,7 +1138,7 @@
       },
       "env": {
         "client": "required",
-        "server": "optional"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/DOUdJVEm/versions/hAS6EJWA/controlify-3.0.0-beta.2%2B1.21.1-neoforge.jar"
@@ -3126,21 +3126,6 @@
       "fileSize": 316330
     },
     {
-      "path": "mods/fabric-api-0.115.6+1.21.1.jar",
-      "hashes": {
-        "sha1": "1148b398767708be366ddc9988a357831cc456bb",
-        "sha512": "11771581ceccf16534279b1db1a46c3c1a731fb11f4a52413e7c8b7f2cef181cca2ff5c1131280624fbd733ee37c1741bd7fb641613ffedbc7c5e68dd121a045"
-      },
-      "env": {
-        "client": "required",
-        "server": "optional"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/P7dR8mSH/versions/4AkOEqGy/fabric-api-0.115.6%2B1.21.1.jar"
-      ],
-      "fileSize": 2406680
-    },
-    {
       "path": "mods/fabrishot-1.14.1.jar",
       "hashes": {
         "sha1": "c8afc690bb3508df7db793f37e1fe5407dba2f22",
@@ -3328,7 +3313,7 @@
       },
       "env": {
         "client": "required",
-        "server": "optional"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/WuGVWUF2/versions/c4ytB02Y/Fog-neoforge-1.11.0-1.21.1.jar"

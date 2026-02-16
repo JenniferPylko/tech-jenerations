@@ -30,6 +30,11 @@ const loader_folders = {
     datapack: "datapacks"
 }
 
+const env_overrides = {
+    "WuGVWUF2": {server: "unsupported"}, // Fog
+    "DOUdJVEm": {server: "unsupported"}, // Controlify
+}
+
 const hashed_files = {}
 
 for (const [dir, extension] of content_dirs) {
@@ -73,7 +78,7 @@ for (const hash of hashes) {
                                         ?? version_info[hash].loaders.find((loader) => loader === "minecraft")
                                         ?? "neoforge"
         ]
-        index.files.push({
+        const entry = {
             path: Path.posix.join(placement_directory, version_file.filename),
             hashes: { // explicitly order these so git diffs aren't huge
                 sha1: version_file.hashes.sha1,
@@ -85,7 +90,11 @@ for (const hash of hashes) {
             },
             downloads: [version_file.url],
             fileSize: version_file.size
-        })
+        }
+        if (typeof env_overrides[version_info[hash].project_id] !== "undefined") {
+            entry.env = Object.assign(entry.env, env_overrides[version_info[hash].project_id])
+        }
+        index.files.push(entry)
     } else {
         console.warn(`The Modrinth API did not find a match for ${hashed_files[hash]}`)
     }
