@@ -28,6 +28,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
+    - name: Set Base Version
+      run: echo "BASE_RUN_NUMBER=30" >> $GITHUB_ENV
     - run: npm run modpack -- pack
     - name: Upload Pack
       uses: actions/upload-artifact@v6.0.0
