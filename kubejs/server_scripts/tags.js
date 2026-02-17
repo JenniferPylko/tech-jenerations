@@ -25,10 +25,16 @@ const unification = {
         ruby: ["distantlandsmc:ruby_axe", "project_echo:ruby_axe"],
         emerald: ["distantlandsmc:emerald_axe", "project_echo:emeral_d_axe"]
     },
+    crushed_raw_materials: {
+        silver: ["create:crushed_raw_silver", "create_more_additions:crushed_raw_silver"],
+        tin: ["create:crushed_raw_tin", "create_ironworks:crushed_raw_tin"]
+    },
     dusts: {
         antimony: "megalosaio:antimony_dust",
         arsenic: "megalosaio:arsenic_dust",
         bauxite: "tfmg:bauxite_powder",
+        copper: "megalosaio:copper_dust",
+        diamond: "create_compat_core:diamond_dust",
         emerald: "create_compat_core:emerald_dust",
         gallium: "megalosaio:gallium_dust",
         germanium: "megalosaio:germanium_dust",
@@ -41,6 +47,7 @@ const unification = {
         ruthenium: "megalosaio:ruthenium_dust",
         silicon: "megalosaio:silicon_dust",
         technetium: "megalosai:technetium_dust",
+        tungsten: "megalosaio:tungsten_dust",
         vanadium: "megalosaio:vanadium_dust"
     },
     gearboxes: {
@@ -64,13 +71,16 @@ const unification = {
         antimony: "megalosaio:antimony_ingot",
         arsenic: "megalosaio:arsenic_ingot",
         beryllium: "megalosaio:beryllium_ingot",
+        bronze: "megalosaio:cu_bronze_ingot",
         germanium: "megalosaio:germanium_ingot",
         lithium: "megalosaio:lithium_ingot",
         magnesium: "megalosaio:magnesium_ingot",
         nickel: ["megalosaio:nickel_ingot", "remin:nickel_ingot"],
         platinum: "megalosaio:platinum_ingot",
         silicon: "megalosaio:silicon_ingot",
-        vanadium: "megalosaio:vanadimu_ingot"
+        tin: "megalosaio:tin_ingot",
+        tungsten: "megalosaio:tungsten_ingot",
+        vanadium: "megalosaio:vanadium_ingot"
     },
     nuggets: {
         antimony: "megalosaio:antimony_nugget",
@@ -80,6 +90,7 @@ const unification = {
         magnesium: "megalosaio:magnesium_nugget",
         platinum: "megalosaio:platinum_nugget",
         silicon: "megalosaio:silicon_nugget",
+        tungsten: "megalosaio:tungsten_nugget",
         vanadium: "megalosaio:vanadium_nugget"
     },
     ores: {
@@ -99,14 +110,21 @@ const unification = {
             "distantlandsmc:ruby_blackstone_ore"
         ],
         thorium: "create_new_age:thorium_ore",
+        tin: ["remin:tin_ore", "megalosaio:tin_ore"],
         platinum: ["remin:platinum_ore", "megalosaio:platinum_ore", "modern_industrialization:platinum_ore"],
+        tungsten: "megalosaio:tungsten_ore",
         vanadium: "megalosaio:vanadium_ore"
     },
     pickaxes: {
         aluminum: ["megalosaio:aluminium_pickaxe", "tfmg:aluminum_pickaxe"],
         brass: ["create_ironworks:brass_pickaxe", "create_sa:brass_pickaxe"],
+        bronze: ["charcoal_pit:bronze_pickaxe", "remin:bronze_pickaxe", "create_ironworks:bronze_pickaxe"],
+        copper: ["minecraft:copper_pickaxe", "charcoal_pit:copper_pickaxe", "create_ironworks:copper_pickaxe", "create_sa:copper_pickaxe"],
         ruby: ["distantlandsmc:ruby_pickaxe", "project_echo:ruby_pickaxe", "distantlandsmc:ruby_shovel"],
         emerald: ["distantlandsmc:emerald_pickaxe", "project_echo:emeral_d_pickaxe"]
+    },
+    plates: {
+        andesite_alloy: ["createdeco:andesite_sheet", "create_mpnt:andesite_alloy_sheet"]
     },
     raw_materials: {
         antimony: "megalosaio:raw_antimony",
@@ -115,7 +133,9 @@ const unification = {
         germanium: "megalosaio:raw_germanium",
         magnesium: "megalosaio:raw_magnesium",
         nickel: ["remin:raw_nickel", "megalosaio:raw_nickel"],
-        thorium: "create_new_age:thorium"
+        thorium: "create_new_age:thorium",
+        tin: ["remin:raw_tin", "megalosaio:raw_tin"],
+        tungsten: ["megalosaio:raw_tungsten"]
     },
     shovels: {
         aluminum: ["megalosaio:aluminium_shovel", "tfmg:aluminum_shovel"],
@@ -138,12 +158,15 @@ const unification = {
         lithium: "megalosaio:lithium_block",
         nickel: ["megalosaio:nickel_block", "remin:nickel_block"],
         platinum: "megalosaio:platinum_block",
+        tungsten: ["megalosaio:tungsten_block", "remin:tungsten_block"],
         raw_antimony: "megalosaio:raw_antimony_block",
         raw_arsenic: "megalosaio:raw_arsenic_block",
         raw_germanium: "megalosaio:raw_germanium_block",
         raw_lithium: "megalosaio:raw_lithium_block",
         raw_nickel: ["megalosaio:raw_nickel_block", "remin:raw_nickel_block"],
-        raw_platinum: "megalosaio:raw_platinum_block"
+        raw_platinum: "megalosaio:raw_platinum_block",
+        raw_tin: ["remin:raw_tin_block", "megalosaio:raw_tin_block"],
+        raw_tungsten: "megalosaio:raw_tungsten_block"
     },
     swords: {
         aluminum: ["megalosaio:aluminium_swords", "tfmg:aluminum_sword"],
@@ -245,6 +268,36 @@ ServerEvents.tags("item", ($) => {
     $.add("charcoal_pit:jei_fuels", "modern_industrialization:lignite_coal_block")
     $.add("charcoal_pit:jei_fuels", "#minecraft:logs_that_burn")
     $.add("charcoal_pit:jei_fuels", "#minecraft:saplings")
+
+    $.add("c:crafting_shaft", "create:shaft")
+    $.add("c:crafting_shaft", "createcasing:brass_shaft")
+    $.add("c:crafting_shaft", "#c:rods/steel")
+    $.add("c:crafting_shaft", "#c:rods/stainless_steel")
+    $.add("c:crafting_shaft", "#c:rods/hsla_steel")
+    $.add("c:crafting_shaft", "#c:rods/titanium_carbide")
+    $.add("c:crafting_shaft", "#c:rods/iron")
+    $.add("c:crafting_shaft", "#c:rods/invar")
+    $.add("c:crafting_shaft", "#c:rods/titanium")
+    $.add("c:crafting_shaft", "#c:rods/copper")
+    $.add("c:crafting_shaft", "#c:rods/bronze")
+    $.add("c:crafting_shaft", "#c:rods/brass")
+    $.add("c:weak_crafting_shaft", "#c:crafting_shaft")
+    $.add("c:weak_crafting_shaft", "#c:rods")
+    $.add("c:weak_crafting_shaft", "createcasing:acacia_shaft")
+    $.add("c:weak_crafting_shaft", "createcasing:birch_shaft")
+    $.add("c:weak_crafting_shaft", "createcasing:bamboo_shaft")
+    $.add("c:weak_crafting_shaft", "createcasing:cherry_shaft")
+    $.add("c:weak_crafting_shaft", "createcasing:crimson_shaft")
+    $.add("c:weak_crafting_shaft", "createcasing:dark_oak_shaft")
+    $.add("c:weak_crafting_shaft", "createcasing:oak_shaft")
+    $.add("c:weak_crafting_shaft", "createcasing:jungle_shaft")
+    $.add("c:weak_crafting_shaft", "createcasing:mangrove_shaft")
+    $.add("c:weak_crafting_shaft", "createcasing:warped_shaft")
+    $.add("c:weak_crafting_shaft", "createcasing:spruce_shaft")
+    $.add("c:weak_crafting_shaft", "minecraft:bamboo")
+    $.add("c:weak_crafting_shaft", "minecraft:stick")
+    $.add("c:weak_crafting_shaft", "minecraft:end_rod")
+    $.add("c:weak_crafting_shaft", "#minecraft:lightning_rods")
 })
 
 ServerEvents.tags("block", ($) => {

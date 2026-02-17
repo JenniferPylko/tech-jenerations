@@ -14,8 +14,8 @@ ServerEvents.recipes(($) => {
         type: "minecraft:crafting_shapeless",
         not: {input: "#survivalistessentials:saw_tools"}
     }, (recipe) => {
-        $.shapeless(recipe.originalRecipeResult.withCount(2), [recipe.originalRecipeIngredients[0], "survivalistessentials:crude_saw"])
-        $.shapeless(recipe.originalRecipeResult.withCount(4), [recipe.originalRecipeIngredients[0], "#survivalistessentials:advanced_saw_tools"])
+        $.shapeless(recipe.originalRecipeResult.withCount(2), [recipe.originalRecipeIngredients[0], "survivalistessentials:crude_saw"]).damageIngredient("survivalistessentials:crude_saw")
+        $.shapeless(recipe.originalRecipeResult.withCount(4), [recipe.originalRecipeIngredients[0], "#survivalistessentials:advanced_saw_tools"]).damageIngredient("#survivalistessentials:advanced_saw_tools")
         recipe.remove()
     })
 
@@ -49,11 +49,11 @@ ServerEvents.recipes(($) => {
     $.replaceInput({output: "minecraft:lodestone"}, "#c:ingots/tungsten", "create_new_age:fluxuated_magnetite")
     $.replaceInput({output: "hardcore_torches:fire_starter"}, "minecraft:string", "#c:strings")
     $.replaceInput({output: "survivalistessentials:crude_hatchet"}, "survivalistessentials:rock_stone", "minecraft:flint")
-    //$.replaceInput({output: ""})
+    $.replaceInput({input: "create:shaft"}, "create:shaft", "#c:crafting_shaft")
+    $.replaceInput({input: "modern_industrialization:brick_dust", output: "minecraft:brick"}, "modern_industrialization:brick_dust", "minecraft:clay_ball")
 
     $.replaceOutput({output: "minecraft:wheat_seeds", mod: "emi_loot"}, "minecraft:wheat", "minecraft:air")
-
-    $.shaped(Item.of("tfmg:fireclay_ball", 3), ["AB ", "BA ", "   "], {A: "minecraft:clay_ball", B: "#c:dusts/bauxite"})
+    $.replaceOutput({input: "#c:ingots/aluminum", output: "#c:ingots/bronze"}, "#c:ingots/bronze", "megalosaio:cu_aluminium_bronze_ingot")
 
     $.remove([
         {input: "#c:cobblestones", type: "minecraft:smelting"},
@@ -74,7 +74,6 @@ ServerEvents.recipes(($) => {
         {output: "#c:ingots", type: "minecraft:smelting"},
         {output: "#c:nuggets", type: "minecraft:smelting"},
         {output: "ceramicbucket:ceramic_bucket", type: "minecraft:smelting"},
-        {output: "minecraft:brick", type: "minecraft:smelting"},
         {output: "minecraft:charcoal", type: "minecraft:smelting"},
         {output: "minecraft:diamond", type: "create:automatic_shapeless"},
         {output: "minecraft:diamond", type: "minecraft:smelting"},
@@ -94,25 +93,37 @@ ServerEvents.recipes(($) => {
         {output: "ae2:silicon"},
         {output: "#c:cobblestones"},
         {output: "minecraft:furnace"},
-        {output: "survivalistessentials:book"}
+        {output: "survivalistessentials:book"},
+        {output: "create:andesite_alloy", input: "minecraft:andesite"},
+        {id: "remin:bronze_ingot_recipe"},
+        {id: "remin:aluminium_bronze_ingot_recipe"},
+        {output: "minecraft:blast_furnace"},
+        {output: "modern_industrialization:fire_clay_dust"}
     ])
+
+    $.shaped(Item.of("tfmg:fireclay_ball", 3), ["AB ", "BA ", "   "], {A: "minecraft:clay_ball", B: "#c:dusts/bauxite"})
+    $.shaped(Item.of("minecraft:blast_furnace"), ["AAA", "ABA", "CCC"], {A: "tfmg:fireproof_bricks", B: "minecraft:furnace", C: "#c:cobblestones"})
+    $.shaped(Item.of("createhorsepower:horse_crank"), [" A ", "BAB", "CCC"], {A: "#c:weak_crafting_shaft", B: "survivalistessentials:rock_stone", C: "#c:cobblestones"})
 
     $.recipes.create.crushing("waystones:warp_dust", "waystones:warp_stone")
 
     $shaped_3x3_blend(Item.of("minecraft:cobblestone"), "#c:clay_balls", "#c:pebbles")
     $shaped_3x3_blend(Item.of("minecraft:bricks"), "#c:clay_balls", "minecraft:brick")
-    $shaped_3x3_blend(Item.of("tfmg:fireproof_bricks"), "tfmg:fireproof_brick", "tfmg:fireclay_ball")
+    $shaped_3x3_blend(Item.of("tfmg:fireproof_bricks"), "minecraft:brick", "tfmg:fireclay_ball")
     $shaped_3x3_blend(Item.of("modern_industrialization:fire_clay_dust"), "tfmg:fireclay_ball", "tfmg:fireclay_ball", "#c:dusts/bauxite")
     $shaped_3x3_blend(Item.of("modern_industrialization:fire_clay_bricks"), "modern_industrialization:fire_clay_brick", "tfmg:fireclay_ball")
     $shaped_3x3_blend(Item.of("minecraft:furnace"), "minecraft:bricks", "minecraft:bricks", "#c:furnace_cavity")
+    $shaped_3x3_blend(Item.of("create:andesite_alloy"), "#c:nuggets/titanium", "#c:nuggets/steel", "minecraft:andesite")
 
     $.replaceOutput({output: "minecraft:torch"}, "minecraft:torch", "hardcore_torches:unlit_torch")
 
     $.campfireCooking("minecraft:brick", "#c:clay_balls", 0.35, 12000)
 
+    $.blasting("tfmg:fireproof_brick", "tfmg:fireclay_ball", 0.35, 600)
+
     $.custom({
         "type": "charcoal_pit:blooming",
-        "temperature": 1001,
+        "temperature": 900,
         "cooking_time": 1600,
         "experience": 0.7,
         "ingredient": {
@@ -120,7 +131,20 @@ ServerEvents.recipes(($) => {
         },
         "result": {
             "count": 9,
-            "id": "minecraft:copper_ingot"
+            "id": "remin:copper_ingot"
+        }
+    })
+    $.custom({
+        "type": "charcoal_pit:blooming",
+        "temperature": 500,
+        "cooking_time": 600,
+        "experience": 0.7,
+        "ingredient": {
+            "tag": "c:storage_blocks/raw_tin"
+        },
+        "result": {
+            "count": 9,
+            "id": "remin:tin_ingot"
         }
     })
 })
@@ -138,6 +162,18 @@ BlockEvents.randomTick("minecraft:obsidian", ($) => {
                 $.getLevel().destroyBlock($.getBlock().getPos(), false)
             }
         }
+    }
+})
+
+const $Firmament = Java.loadClass("phanastrae.operation_starcleave.world.firmament.Firmament")
+const $FirmamentManipulator = Java.loadClass("phanastrae.operation_starcleave.item.FirmamentManipulatorItem")
+
+BlockEvents.randomTick("operation_starcleave:nucleosyntheseed", ($) => {
+    const firmament = $Firmament.fromLevel($.getLevel())
+    const x= $.getBlock().getPos().getX()
+    const z = $.getBlock().getPos().getZ()
+    if (firmament && Math.random() < 0.001 && firmament.getFirmamentRegion(x, z).getDrip(x, z) > 0) {
+        $FirmamentManipulator.fractureFirmament(firmament, x, z, $.random)
     }
 })
 /*
@@ -167,7 +203,8 @@ LootJS.modifiers(($) => {
             loot.remove("ecological:mixed_seeds")
         }
     })
-    $.addBlockModifier(["#c:stones", "#c:cobblestones"]).replaceLoot("#c:cobblestones", LootEntry.of("survivalistessentials:rock_stone", [0, 4]), false)
+    $.addBlockModifier(["#c:stones", "#c:cobblestones", "distantlandsmc:rock"]).replaceLoot("#c:cobblestones", LootEntry.of("survivalistessentials:rock_stone", [0, 4]), false)
+    $.addBlockModifier(["distantlandsmc:pabble", "distantlandsmc:pabble_1", "distantlandsmc:pabble_2"]).replaceLoot("distantlandsmc:small_stone", LootEntry.of("survivalistessentials:rock_stone", 1), false)
 })
 
 const stone_loot_tables = ["minecraft:blocks/stone", "minecraft:blocks/cobblestone"]
@@ -218,3 +255,12 @@ PlayerEvents.loggedIn(($) => {
 PlayerEvents.respawned(($) => {
     $.server.runCommandSilent(`effect give ${$.entity.username} minecraft:glowing 120`)
 })
+
+for (const sleeping_bag of Ingredient.of("@sleeping_bags").getItemIds()) {
+    ItemEvents.rightClicked(sleeping_bag, ($) => {
+        $.item.setDamage($.item.getDamageValue() + 1)
+        if ($.item.getDamageValue() >= $.item.getMaxDamage()) {
+            $.item.shrink(1)
+        }
+    })
+}

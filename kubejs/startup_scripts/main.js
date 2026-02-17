@@ -89,7 +89,8 @@ const banned_mods = {
     stoneholm: "long world generation pauses",
     terrablenderfix: "breaks many biomes",
     wildfields: "entities crash on creation",
-    portaljs: "crashes on start"
+    portaljs: "crashes on start",
+    wardentools: "crashes dedicated servers on start"
 }
 
 for (const id of Object.keys(Platform.mods)) {
@@ -122,7 +123,7 @@ StartupEvents.registry("item", ($) => {
 })
 
 BlockEvents.modification(($) => {
-    const $requiresTool = (selector) => $.modify(selector, (block) => block.setRequiresTool(true))
+    const $requiresTool = (selector, required = true) => $.modify(selector, (block) => block.setRequiresTool(required))
     const $name = (selector, displayName) => $.modify(selector, (block) => block.setNameKey(displayName))
 
     $requiresTool("#minecraft:logs")
@@ -142,6 +143,10 @@ BlockEvents.modification(($) => {
     $requiresTool("#create:roots")
     $requiresTool("#c:stones")
     $requiresTool("minecraft:stone")
+    $requiresTool("distantlandsmc:pabble", false)
+    $requiresTool("distantlandsmc:pabble_1", false)
+    $requiresTool("distantlandsmc:pabble_2", false)
+    $requiresTool("distantlandsmc:rock", false)
     //$.modify("minecraft:stone", (block) => block.block().getBlockBuilder().tag("minecraft:needs_iron_tool").tag("minecraft:incorrect_for_wooden_tool").tag("minecraft:incorrect_for_stone_tool"))
 
     $name("modern_industrialization:fire_clay_bricks", "Refractory Bricks")
@@ -164,4 +169,12 @@ ItemEvents.modification(($) => {
     $.modify("create:cinder_flour", $name("Netherrack Dust"))
 
     $.modify("minecraft:stone_pickaxe", (item) => item.setMaxDamage(8))
+    $.modify("survivalistessentials:crude_saw", (item) => item.setMaxDamage(12))
+    $.modify("survivalistessentials:basic_saw", (item) => item.setMaxDamage(40))
+    $.modify("survivalistessentials:sharp_saw", (item) => item.setMaxDamage(200))
+    $.modify("survivalistessentials:crude_saw", (item) => item.setMaxDamage(12))
+
+    for (const sleeping_bag of Ingredient.of("@sleeping_bags").getItemIds()) {
+        $.modify(sleeping_bag, (item) => item.setMaxDamage(180))
+    }
 })

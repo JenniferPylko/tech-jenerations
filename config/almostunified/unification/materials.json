@@ -63,7 +63,8 @@
     "c:storage_blocks/raw_{material}",
     "c:swords/{material}",
     "c:tiny_dusts/{material}",
-    "c:wires/{material}"
+    "c:wires/{material}",
+    "c:crushed_raw_materials/{material}"
   ],
   "ignored_tags": ["c:gems/quartz"],
   "ignored_items": [".*excavated_variants.*"],

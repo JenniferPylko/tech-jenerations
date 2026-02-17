@@ -13,7 +13,7 @@ Pay attention to your oxygen! If you spawned at too high of an altitude the air 
 
 Exposure kills! If you're experiencing hypo- or hyperthermia find a spot that's a safer temperature. Avoid going in the water unless you have to. It's cold!
 
-Now, close this guide and find shelter. Somewhere with a light source is optimal-- it gets dark and you only have a few deep fruits.
+Now, close this guide and find shelter. Somewhere with a light source is optimal -- it gets dark and you only have so much fuel in your lantern -- but a little hole in the side of a mountain works too, as long as monsters can't get to you.
 
 You'll need to manage your thirst in addition to your hunger. Standing water is kind of dirty, but running water is a bit better. Sneak+interact with empty hands to drink water in the world.
 
