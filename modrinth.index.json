@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "0.0.0",
+  "versionId": "0.1.0",
   "name": "Tech Jenerations",
   "summary": "",
   "files": [
@@ -334,21 +334,6 @@
         "https://cdn.modrinth.com/data/wmbF3trP/versions/LUNG2kPE/automaticoperator-1.21.1-1.4.jar"
       ],
       "fileSize": 30516
-    },
-    {
-      "path": "mods/AutoRestart-1.21.1-3.0.0.jar",
-      "hashes": {
-        "sha1": "b2f2964251d3d04bf583ccaf78cbfc1521cef9dc",
-        "sha512": "b3b441c78cf228f3a5a5ac8a16566892ae6a14f9aeb70bdaf696ab1e5c5f44da1fa027d3a6c92876ef220cf79337a0dd2d25b9ddbbabfe56ba543d759e155cef"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/N93mhFhT/versions/b2iystOl/AutoRestart-1.21.1-3.0.0.jar"
-      ],
-      "fileSize": 71760
     },
     {
       "path": "mods/backported_animal_variants-0.2-1.21.1.jar",
@@ -1866,19 +1851,19 @@
       "fileSize": 24239
     },
     {
-      "path": "mods/create_ltab-3.7.2.jar",
+      "path": "mods/create_ltab-3.7.3.jar",
       "hashes": {
-        "sha1": "dda61a7356c50e403792d8497a40fb4b96903132",
-        "sha512": "f0270c2c7ae86bb50647edf36d13bd0ced555cbf758a069acc0ac9854029171626aa1d80e130689a99f59a58012b3acefd6a11d50aa194f3308eeeabc4a956c1"
+        "sha1": "8a9cfc48d50c17b67493fb2b44ebd1ee42a01e75",
+        "sha512": "c4e64c3c36c1d5e1ad2865abf8c3d0373e08517af873f157e3d9608eb2d2ec76c15fe90d2b48913a9476ba8df0e90fbc703bb0fe2a933010093f9aa235cc021e"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/fUa6OtBG/versions/3J1LUSXs/create_ltab-3.7.2.jar"
+        "https://cdn.modrinth.com/data/fUa6OtBG/versions/Nfv2VFmo/create_ltab-3.7.3.jar"
       ],
-      "fileSize": 2294685
+      "fileSize": 2309554
     },
     {
       "path": "mods/create_more_additions-1.9.0-neoforge-1.21.1.jar",
@@ -2886,19 +2871,19 @@
       "fileSize": 7834244
     },
     {
-      "path": "mods/epic-fight-21.15.5-mc1.21.1-neoforge.jar",
+      "path": "mods/epic-fight-21.15.6-mc1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "4e25c7deb9a8fd520ef7da6dffa983b19a30b173",
-        "sha512": "8fd30f2a26f4e1b20c54081f19cbf9d027f4ec3070482222b9452aebdaf5bf66c139186e29282737a802c5bbe6b86160e2ea8ae7e2fc39143ac702d34e7b123f"
+        "sha1": "962bb811802d8c50f8a63be282067dc0c4611566",
+        "sha512": "03a11457033df4e0d94392bdaef07e3f0cbb41ec081294038b7d9da70810a6999a63fb0e74e4925ed13dde073daa2415b78176940383392437ef00d0daee3f35"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/YKMNQW93/epic-fight-21.15.5-mc1.21.1-neoforge.jar"
+        "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/71Ed7Y1v/epic-fight-21.15.6-mc1.21.1-neoforge.jar"
       ],
-      "fileSize": 8339434
+      "fileSize": 8329171
     },
     {
       "path": "mods/epicfight-skilltree-neoforge-21.3.1-1.21.1.jar",
@@ -3141,19 +3126,19 @@
       "fileSize": 153343
     },
     {
-      "path": "mods/falling_snow-1.21.1-neoforge-1.1.1.jar",
+      "path": "mods/falling_snow-1.21.1-neoforge-1.1.2.jar",
       "hashes": {
-        "sha1": "854ec8284be2be05061c294b9c971d7294318943",
-        "sha512": "27e7d23238ec314af95b7833180d3fa3497d14da30d3f52528b3df43cf0d82f04abeb14fd797ddaf1e88c8a7e2520f83d45db74fca29c218c822246be060c4cc"
+        "sha1": "1259fd892325fb4b9ca8346f1a107a0b448d905b",
+        "sha512": "4ea3cad425b332133139fabab58a4e1aecbe7837733d534930afd4f36bf9d455e9eff5a650bea8a82a49f300dac3e79306580f3019c23680d26fdb57088d650a"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/soBfQALz/versions/XEYt45IF/falling_snow-1.21.1-neoforge-1.1.1.jar"
+        "https://cdn.modrinth.com/data/soBfQALz/versions/dHPvdhIc/falling_snow-1.21.1-neoforge-1.1.2.jar"
       ],
-      "fileSize": 10899
+      "fileSize": 10540
     },
     {
       "path": "mods/fancymenu_neoforge_3.8.1_MC_1.21.1.jar",
@@ -3306,19 +3291,19 @@
       "fileSize": 300280
     },
     {
-      "path": "mods/forgified-fabric-api-0.116.7+2.2.1+1.21.1.jar",
+      "path": "mods/forgified-fabric-api-0.116.7+2.2.2+1.21.1.jar",
       "hashes": {
-        "sha1": "222673ec5bdec830384987fb495d900514e8648e",
-        "sha512": "dc09919d7d0257ba934aaa327fc54aa8fc49fa9769fd448d6b1108ced0a40c265d65054a20f78ea96aac5d6eaf3c5ac3137e95e70e4b3f908432ea96aef32923"
+        "sha1": "3b59f631eec65a9eeaa4f38868a0005c29e46d89",
+        "sha512": "50055cf765fa0809c248f1ac7af1aa80fb287120b30226440d422031c09b382487b68b6ae0978447c19cac6dd7be1fa303ed449b6b46be48ddc7899aeeb8f664"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/Aqlf1Shp/versions/16ZPmtFm/forgified-fabric-api-0.116.7%2B2.2.1%2B1.21.1.jar"
+        "https://cdn.modrinth.com/data/Aqlf1Shp/versions/RctniEse/forgified-fabric-api-0.116.7%2B2.2.2%2B1.21.1.jar"
       ],
-      "fileSize": 5563869
+      "fileSize": 5567803
     },
     {
       "path": "mods/forgotten_church-1.0.0-neoforge-1.21.1.jar",
@@ -5451,19 +5436,19 @@
       "fileSize": 3011367
     },
     {
-      "path": "mods/schematicenergistics-1.21.1-1.3.2.jar",
+      "path": "mods/schematicenergistics-1.21.1-1.4.0.jar",
       "hashes": {
-        "sha1": "112e35f5a9271580cfe81b7cf52d46b84f44aa26",
-        "sha512": "2fc8a94efda176972052c9591c22585fa7b96dbb126b66715c4f4e06bb283bb948362078be6d6037a44030cfd82abdfbde1805ffd463c9f71bde90a3f06bb418"
+        "sha1": "d64aaf6b7f3227ec36901f79108705da003e1eed",
+        "sha512": "53da69576160b557356ec755a3973d2eb7d5f032a8c83457fd6e90bd2decb27f64fae72182b43ba7501184f59c948a674548ae10f07f62d054190a215fe78b6c"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/2qXuuYu8/versions/yV4Vs1xc/schematicenergistics-1.21.1-1.3.2.jar"
+        "https://cdn.modrinth.com/data/2qXuuYu8/versions/Je3J3isa/schematicenergistics-1.21.1-1.4.0.jar"
       ],
-      "fileSize": 190748
+      "fileSize": 198377
     },
     {
       "path": "mods/sculkmuffler-1.2.0.jar",
@@ -6771,19 +6756,19 @@
       "fileSize": 42995
     },
     {
-      "path": "mods/waystones-neoforge-1.21.1-21.1.25.jar",
+      "path": "mods/waystones-neoforge-1.21.1-21.1.26.jar",
       "hashes": {
-        "sha1": "88446787b139183f7270d030c168c003f1834de6",
-        "sha512": "03ed5454fd2fc404a910ada3776fd6199ecd039602eeeb5e7a160b9431f4e45cfc54741ad48846fbf9461b941a73d3458d7222553a2cc3598b392499bd2d0e50"
+        "sha1": "d55302ce9b7694d4cebe2662f1830b90062ef595",
+        "sha512": "9cebe4dc28c00c2c98f4a6719c1b57fa86f4f52cdbef423e7ce1b70d15459144d8384424db7d35694b18017b082c38234277dba3a43329aae7ce454905586349"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/LOpKHB2A/versions/f4A1aY3t/waystones-neoforge-1.21.1-21.1.25.jar"
+        "https://cdn.modrinth.com/data/LOpKHB2A/versions/WF7RddDj/waystones-neoforge-1.21.1-21.1.26.jar"
       ],
-      "fileSize": 865610
+      "fileSize": 869009
     },
     {
       "path": "mods/whats-that-slot-neoforge-1.3.6+1.21.jar",
@@ -7491,19 +7476,19 @@
       "fileSize": 2126
     },
     {
-      "path": "resourcepacks/guiretextures-1.14.3.zip",
+      "path": "resourcepacks/guiretextures-1.14.4.zip",
       "hashes": {
-        "sha1": "4adceadc2b460bf6434947715b479292b072dbf7",
-        "sha512": "cc279f3f1c1c4dff35fc9fc27ba5bf0f55cc48c0e8c90c56d3c567f31f2e5aded7a424d806678c96d941d173daa166d02af0089fd773f3250a3f57b42b243f03"
+        "sha1": "1d491178f5ef4f83169b445ea64083e9144d1ddc",
+        "sha512": "cd707047bac56380a1ee90ae9cf04078dd42692340c3a519dc5c8d802c6ef767731e613857a6a5ccd9201b9201cd3ec79917ca65f3c630d27da219795acf391b"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ZM5PH9W6/versions/DuCmq0pW/guiretextures-1.14.3.zip"
+        "https://cdn.modrinth.com/data/ZM5PH9W6/versions/Fkco1T8D/guiretextures-1.14.4.zip"
       ],
-      "fileSize": 707244
+      "fileSize": 713695
     },
     {
       "path": "resourcepacks/HatsuneMikuCreatedMinecraft.zip",

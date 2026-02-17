@@ -13,7 +13,7 @@ const content_dirs = [
 const base_index = {
     game: "minecraft",
     formatVersion: 1,
-    versionId: "0.0.0",
+    versionId: "0.1.0",
     name: "Tech Jenerations",
     summary: "",
     files: [],
