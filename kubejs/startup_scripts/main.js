@@ -123,7 +123,8 @@ StartupEvents.registry("item", ($) => {
 })
 
 BlockEvents.modification(($) => {
-    const $requiresTool = (selector, required = true) => $.modify(selector, (block) => block.setRequiresTool(required))
+    const $requiresTool = (selector) => $.modify(selector, (block) => block.setRequiresTool(true))
+    const $notRequiresTool = (selector) => $.modify(selector, (block) => block.setRequiresTool(false))
     const $name = (selector, displayName) => $.modify(selector, (block) => block.setNameKey(displayName))
 
     $requiresTool("#minecraft:logs")
@@ -143,10 +144,10 @@ BlockEvents.modification(($) => {
     $requiresTool("#create:roots")
     $requiresTool("#c:stones")
     $requiresTool("minecraft:stone")
-    $requiresTool("distantlandsmc:pabble", false)
-    $requiresTool("distantlandsmc:pabble_1", false)
-    $requiresTool("distantlandsmc:pabble_2", false)
-    $requiresTool("distantlandsmc:rock", false)
+    $notRequiresTool("distantlandsmc:pabble")
+    $notRequiresTool("distantlandsmc:pabble_1")
+    $notRequiresTool("distantlandsmc:pabble_2")
+    $notRequiresTool("distantlandsmc:rock")
     //$.modify("minecraft:stone", (block) => block.block().getBlockBuilder().tag("minecraft:needs_iron_tool").tag("minecraft:incorrect_for_wooden_tool").tag("minecraft:incorrect_for_stone_tool"))
 
     $name("modern_industrialization:fire_clay_bricks", "Refractory Bricks")
