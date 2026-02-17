@@ -3636,6 +3636,21 @@
       "fileSize": 3179869
     },
     {
+      "path": "mods/iChunUtil-1.21-NeoForge-1.0.3.jar",
+      "hashes": {
+        "sha1": "1f161c8b6288e6094fc57f4a9c10a6050df71081",
+        "sha512": "f91fd9d81639364ef13a796fdbfebf9d67ba1ca946d7ddacfade98c085dfac3097d9440ee16fb3f7b7fa22c6a75c6ff5cb0cfd57024144ec41ff12b9036ea11f"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/W6ROj0Hl/versions/OvIyyNh4/iChunUtil-1.21-NeoForge-1.0.3.jar"
+      ],
+      "fileSize": 688343
+    },
+    {
       "path": "mods/Ignition-1.21.1-6.0.1.jar",
       "hashes": {
         "sha1": "0cee9837caee3634ddc38690191483106427fc61",
@@ -4504,6 +4519,21 @@
         "https://cdn.modrinth.com/data/SNVQ2c0g/versions/qYqVf5jP/mru-1.0.19%2BLTS%2B1.21.1%2Bneoforge.jar"
       ],
       "fileSize": 243953
+    },
+    {
+      "path": "mods/MultiplayerServerPause-1.21-NeoForge-1.3.3.jar",
+      "hashes": {
+        "sha1": "c2bc6d3bf8d0f88b8a27fef084d3ddec8f3cdc6a",
+        "sha512": "212be5967d56d86d25aea529924c64cd853dfd4109856f220a39af1c2a72298a2e5a4cb21b9a39825bd48e507e876d306976e23a560ad0c857ad0d113ad89441"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/RPXnAvtA/versions/Lm5vUzOe/MultiplayerServerPause-1.21-NeoForge-1.3.3.jar"
+      ],
+      "fileSize": 70796
     },
     {
       "path": "mods/musketmod-1.21.1-neoforge-1.5.4.jar",
