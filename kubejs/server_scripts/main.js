@@ -105,6 +105,8 @@ ServerEvents.recipes(($) => {
         {output: "create:andesite_alloy", input: "minecraft:andesite"},
         {id: "remin:bronze_ingot_recipe"},
         {id: "remin:aluminium_bronze_ingot_recipe"},
+        {id: "minecraft:bricks"},
+        {id: "minecraft:bread"},
         {output: "minecraft:blast_furnace"},
         {output: "modern_industrialization:fire_clay_dust"},
         {output: "#create_ironworks:tools/paxels"},
@@ -122,12 +124,12 @@ ServerEvents.recipes(($) => {
     $shaped_3x3_blend(Item.of("tfmg:fireproof_bricks"), "minecraft:brick", "tfmg:fireclay_ball")
     $shaped_3x3_blend(Item.of("modern_industrialization:fire_clay_dust"), "tfmg:fireclay_ball", "tfmg:fireclay_ball", "#c:dusts/bauxite")
     $shaped_3x3_blend(Item.of("modern_industrialization:fire_clay_bricks"), "modern_industrialization:fire_clay_brick", "tfmg:fireclay_ball")
-    $shaped_3x3_blend(Item.of("minecraft:furnace"), "minecraft:bricks", "minecraft:bricks", "#c:furnace_cavity")
+    $shaped_3x3_blend(Item.of("minecraft:furnace"), "#c:cobblestones", "#c:cobblestones", "#c:furnace_cavity")
     $shaped_3x3_blend(Item.of("create:andesite_alloy"), "#c:nuggets/titanium", "#c:nuggets/steel", "minecraft:andesite")
 
     $.replaceOutput({output: "minecraft:torch"}, "minecraft:torch", "hardcore_torches:unlit_torch")
 
-    $.campfireCooking("minecraft:brick", "#c:clay_balls", 0.35, 12000)
+    $.campfireCooking("minecraft:brick", "minecraft:clay_ball", 0.35, 2400)
 
     $.blasting("tfmg:fireproof_brick", "tfmg:fireclay_ball", 0.35, 600)
 

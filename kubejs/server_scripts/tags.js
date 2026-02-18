@@ -73,6 +73,7 @@ const unification = {
         magnesium: ["project_echo:magnesium", "megalosaio:magnesium_dust"],
         manganese: "megalosaio:manganese_dust",
         molybdenum: "megalosaio:molybdenum_dust",
+        netherrack: ["create:cinder_flour", "charcoal_pit:cinder_flour"],
         nickel: ["megalosaio:nickel_dust", "remin:nickel_dust"],
         phosphorus: "megalosaio:phosphorus_dust",
         platinum: "megalosaio:platinum_dust",
