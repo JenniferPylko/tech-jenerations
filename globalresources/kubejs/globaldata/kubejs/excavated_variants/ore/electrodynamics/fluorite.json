@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld"],
+    "translations": {"en_us": "Fluorite Ore"},
+    "blocks": {
+        "electrodynamics:orefluorite": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/fluorite"]
+}

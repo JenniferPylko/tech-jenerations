@@ -1,0 +1,6 @@
+{
+    "types": ["excavated_variants:overworld"],
+    "translations": {"en_us": "Sculk Stone"},
+    "block": "deeperdarker:sculk_stone",
+    "ore_tags": ["c:ores_in_ground/sculk"]
+}

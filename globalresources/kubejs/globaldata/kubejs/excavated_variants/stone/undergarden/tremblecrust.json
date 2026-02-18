@@ -1,0 +1,6 @@
+{
+    "types": ["excavated_variants:overworld"],
+    "translations": {"en_us": "Tremblecrust"},
+    "block": "undergarden:tremblecrust",
+    "ore_tags": ["c:ores_in_ground/tremblecrust"]
+}

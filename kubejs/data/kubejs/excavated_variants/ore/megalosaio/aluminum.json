@@ -1,8 +1,0 @@
-{
-    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
-    "translations": {"en_us": "Aluminum Ore"},
-    "blocks": {
-        "megalosaio:aluminium": "excavated_variants:minecraft/stone"
-    },
-    "tags": ["c:ores/aluminum", "minecraft:aluminum_ore", "c:ores/aluminium", "minecraft:aluminuim_ore"]
-}

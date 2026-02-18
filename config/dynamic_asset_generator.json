@@ -1,5 +1,5 @@
 {
-  "full_cache": true,
+  "full_cache": false,
   "palette_extraction_force_clustering_cutoff": 1000000,
   "time_resources": false,
   "keyed_cache": true

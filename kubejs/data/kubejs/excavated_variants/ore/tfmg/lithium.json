@@ -1,9 +1,0 @@
-{
-    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
-    "translations": {"en_us": "Lithium Ore"},
-    "blocks": {
-        "tfmg:lithium_ore": "excavated_variants:minecraft/stone",
-        "tfmg:deepslate_lithium_ore": "excavated_variants:minecraft/deepslate"
-    },
-    "tags": ["c:ores/lithium", "minecraft:lithium_ore"]
-}

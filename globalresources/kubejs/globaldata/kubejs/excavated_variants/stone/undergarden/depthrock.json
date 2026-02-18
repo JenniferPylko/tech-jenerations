@@ -1,0 +1,6 @@
+{
+    "types": ["excavated_variants:overworld"],
+    "translations": {"en_us": "Depthrock"},
+    "block": "undergarden:depthrock",
+    "ore_tags": ["c:ores_in_ground/depthrock"]
+}

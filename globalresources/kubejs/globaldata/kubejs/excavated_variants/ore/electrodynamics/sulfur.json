@@ -1,0 +1,8 @@
+{
+    "types": ["excavated_variants:overworld"],
+    "translations": {"en_us": "Sulfur Ore"},
+    "blocks": {
+        "electrodynamics:oresulfur": "excavated_variants:minecraft/stone"
+    },
+    "tags": ["c:ores/sulfur"]
+}

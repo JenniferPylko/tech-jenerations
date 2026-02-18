@@ -1,9 +1,0 @@
-{
-    "types": ["excavated_variants:overworld", "excavated_variants:nether", "excavated_variants:end"],
-    "translations": {"en_us": "Nickel Ore"},
-    "blocks": {
-        "tfmg:nickel_ore": "excavated_variants:minecraft/stone",
-        "tfmg:deepslate_nickel_ore": "excavated_variants:minecraft/deepslate"
-    },
-    "tags": ["c:ores/nickel", "minecraft:nickel_ore"]
-}

@@ -1,6 +1,0 @@
-{
-    "types": ["excavated_variants:overworld"],
-    "translations": {"en_us": "Kabanyt"},
-    "block": "world_expansion:kabanyt",
-    "ore_tags": ["c:ores_in_ground/kabanyt"]
-}

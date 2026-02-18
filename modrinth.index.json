@@ -861,6 +861,21 @@
       "fileSize": 89489
     },
     {
+      "path": "mods/Chemica-0.5.1.jar",
+      "hashes": {
+        "sha1": "33fa09172998974adf2e71d8fd5f504eb18d3605",
+        "sha512": "2406922fe3a2b13da4a2ff94b56e6bc4bac6c85eed5ecbdadb1cd643d6433a9087b7aa765f91c33ae7436d6f72fbe98aad4b4f77dd8459fe86bdbca2c4aad633"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/E6GusVzz/versions/PeOc8dSN/Chemica-0.5.1.jar"
+      ],
+      "fileSize": 706460
+    },
+    {
       "path": "mods/cherry-monastery-5.4.jar",
       "hashes": {
         "sha1": "857add2db5f7df5dd9e311e30f15fed1b306b248",
@@ -3128,15 +3143,15 @@
     {
       "path": "mods/falling_snow-1.21.1-neoforge-1.1.2.jar",
       "hashes": {
-        "sha1": "1259fd892325fb4b9ca8346f1a107a0b448d905b",
-        "sha512": "4ea3cad425b332133139fabab58a4e1aecbe7837733d534930afd4f36bf9d455e9eff5a650bea8a82a49f300dac3e79306580f3019c23680d26fdb57088d650a"
+        "sha1": "5d1ca244109fb689c5d40f7d5e014b7994c72b27",
+        "sha512": "60b8e71365997e942d4f583deb7c903783ea072d6f2b9eaf2dfb7a867d3cc6f88253448a7659572964f2419f03e1d54669e85b72668a0a7eea6634412f7f9e96"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/soBfQALz/versions/dHPvdhIc/falling_snow-1.21.1-neoforge-1.1.2.jar"
+        "https://cdn.modrinth.com/data/soBfQALz/versions/UFLJWtV8/falling_snow-1.21.1-neoforge-1.1.2.jar"
       ],
       "fileSize": 10540
     },
@@ -5001,21 +5016,6 @@
       "fileSize": 111664
     },
     {
-      "path": "mods/Paxi-1.21.1-NeoForge-5.1.3.jar",
-      "hashes": {
-        "sha1": "7140974a26a2cd79cdc7b85ab4e834916eacc7f1",
-        "sha512": "ed6a33eb9a4ac6ce4dd0cd03a45aba6068536121ab89cd4040d8c53964d59a7a8ceaee2f3bae13a3df3813eaf8d4fc4f82883e28ac4577b53aa26b750a181699"
-      },
-      "env": {
-        "client": "required",
-        "server": "optional"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/CU0PAyzb/versions/CLZfFbCx/Paxi-1.21.1-NeoForge-5.1.3.jar"
-      ],
-      "fileSize": 102980
-    },
-    {
       "path": "mods/Perception-NEOFORGE-0.1.6+1.21.1.jar",
       "hashes": {
         "sha1": "5894b16c9504d25c607b06f50f6d1ebe113d517f",
@@ -5406,6 +5406,21 @@
       "fileSize": 484332
     },
     {
+      "path": "mods/ResourcePackOverrides-v21.1.0-1.21.1-NeoForge.jar",
+      "hashes": {
+        "sha1": "42dddb70cc645a864596439ea95bd56e7a5561ed",
+        "sha512": "9a15db96ffc86bc93624392c22c2aaea4ad4a7267c20ff528ff2dd61d8d84b9db611fc24673fba5b5d0bac318b4ce1e9d1725085ce2fad68f4231afa6bbb43c4"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/YsFycamt/versions/xf3H2eJV/ResourcePackOverrides-v21.1.0-1.21.1-NeoForge.jar"
+      ],
+      "fileSize": 83035
+    },
+    {
       "path": "mods/revampedphantoms-1.1.2-neoforge.jar",
       "hashes": {
         "sha1": "bf1eea15d4eaf3809545a9f74e63775f9886b2af",
@@ -5449,6 +5464,21 @@
         "https://cdn.modrinth.com/data/XFk4dAJX/versions/NKbtWc8O/rsec-neoforge-1.21.1-1.1.jar"
       ],
       "fileSize": 10283
+    },
+    {
+      "path": "mods/saturated-1.1.1.jar",
+      "hashes": {
+        "sha1": "a2d5cac05553c78ce46111d1f7d5883a06f34a12",
+        "sha512": "0ecdb14b68504c95e9eddcf8116e23af0c4134bbd168566678bac2a8d9f744f4c50783275b8cc1f9e8344a312d0e632c5068eebb35b4371d66f3297cec2aa487"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/eBiNxmRM/versions/prz4s70M/saturated-1.1.1.jar"
+      ],
+      "fileSize": 6529037
     },
     {
       "path": "mods/savanna-watchtower-3.4.jar",
@@ -7654,21 +7684,6 @@
         "https://cdn.modrinth.com/data/DqEhiZRm/versions/1Bv8KdkN/tfmg%20Diesel%20Generators.zip"
       ],
       "fileSize": 43575
-    },
-    {
-      "path": "resourcepacks/Visual Effects+.zip",
-      "hashes": {
-        "sha1": "77c0701e2bf82d7a0c8955c384329a64f5f22014",
-        "sha512": "452991069d63cebd151c0e1cd2c01f44952985abc2d53b9a281408320bfe9ef5f606262669edc65c08ed1c11a8eef9c7fa4938589e3b2968fc6196375907f94e"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/ZyZknBVG/versions/gIXEMDhD/Visual%20Effects%2B.zip"
-      ],
-      "fileSize": 58366980
     },
     {
       "path": "resourcepacks/Water Caustics.zip",

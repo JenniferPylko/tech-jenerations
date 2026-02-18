@@ -173,7 +173,6 @@ ItemEvents.modification(($) => {
     $.modify("survivalistessentials:crude_saw", (item) => item.setMaxDamage(12))
     $.modify("survivalistessentials:basic_saw", (item) => item.setMaxDamage(40))
     $.modify("survivalistessentials:sharp_saw", (item) => item.setMaxDamage(200))
-    $.modify("survivalistessentials:crude_saw", (item) => item.setMaxDamage(12))
 
     for (const sleeping_bag of Ingredient.of("@sleeping_bags").getItemIds()) {
         $.modify(sleeping_bag, (item) => item.setMaxDamage(180))
