@@ -18,4 +18,4 @@ modpack.addFolder("config", "overrides/config")
 modpack.addFolder("kubejs", "overrides/kubejs")
 modpack.addFolder("globalresources/kubejs", "overrides/globalresources/kubejs")
 
-modpack.archive("Tech Jenerations.mrpack")
+modpack.archive(`Tech Jenerations ${manifest.versionId}.mrpack`)
