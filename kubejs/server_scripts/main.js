@@ -51,6 +51,14 @@ ServerEvents.recipes(($) => {
     $.replaceInput({output: "survivalistessentials:crude_hatchet"}, "survivalistessentials:rock_stone", "minecraft:flint")
     $.replaceInput({input: "create:shaft"}, "create:shaft", "#c:crafting_shaft")
     $.replaceInput({input: "modern_industrialization:brick_dust", output: "minecraft:brick"}, "modern_industrialization:brick_dust", "minecraft:clay_ball")
+    $.replaceInput({mod: "ae2", input: "#c:gems/quartz"}, "#c:gems/quartz", "minecraft:quartz")
+    $.replaceInput({mod: "remin", input: "#c:gems/quartz"}, "#c:gems/quartz", "minecraft:quartz")
+    $.replaceInput({mod: "electrodynamics", input: "#c:gems/quartz"}, "#c:gems/quartz", "#c:gems/rose_quartz")
+    $.replaceInput({mod: "create", output: "#c:gems/rose_quartz", input: "#c:gems/quartz"}, "#c:gems/quartz", "minecraft:quartz")
+    $.replaceInput({output: "create_new_age:generator_coil"}, "#c:ingots/copper", "#c:em_coil_item")
+    $.replaceInput({output: "fiberopticcables:fiber_optic_cable"}, "#c:gems/quartz", "ae2:quartz_fiber")
+    $.replaceInput({output: "fiberopticcables:fiber_optic_transformer"}, "#c:gems/quartz", "ae2:quartz_fiber")
+    $.replaceInput({input: "ae2:quartz_fiber"}, "ae2:quartz_fiber", "fiberopticcables:fiber_optic_cable")
 
     $.replaceOutput({output: "minecraft:wheat_seeds", mod: "emi_loot"}, "minecraft:wheat", "minecraft:air")
     $.replaceOutput({input: "#c:ingots/aluminum", output: "#c:ingots/bronze"}, "#c:ingots/bronze", "megalosaio:cu_aluminium_bronze_ingot")
@@ -98,7 +106,9 @@ ServerEvents.recipes(($) => {
         {id: "remin:bronze_ingot_recipe"},
         {id: "remin:aluminium_bronze_ingot_recipe"},
         {output: "minecraft:blast_furnace"},
-        {output: "modern_industrialization:fire_clay_dust"}
+        {output: "modern_industrialization:fire_clay_dust"},
+        {output: "#create_ironworks:tools/paxels"},
+        {output: "#c:dusts", mod: "megalosaio"}
     ])
 
     $.shaped(Item.of("tfmg:fireclay_ball", 3), ["AB ", "BA ", "   "], {A: "minecraft:clay_ball", B: "#c:dusts/bauxite"})
