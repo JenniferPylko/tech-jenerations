@@ -43,7 +43,8 @@
   "block_string_blacklist": [
     "diagonalwalls:",
     "diagonalfences:",
-    "diagonalwindows:"
+    "diagonalwindows:",
+    "visualworkbench:"
   ],
   "invalid_dimensions": [],
   "no_gui_charting": false,

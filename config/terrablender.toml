@@ -10,13 +10,13 @@
 
 [end]
 	#The size of edge end biomes.
-	edge_biome_size = 3
+	edge_biome_size = 6
 	#The size of highlands end biomes.
 	highlands_biome_size = 4
 	#The weight of Vanilla end barrens biomes.
 	vanilla_end_barrens_weight = 10
 	#The size of island end biomes.
-	island_biome_size = 2
+	island_biome_size = 4
 	#The weight of Vanilla end highlands biomes.
 	vanilla_end_highlands_weight = 10
 	#The weight of Vanilla end midlands biomes.

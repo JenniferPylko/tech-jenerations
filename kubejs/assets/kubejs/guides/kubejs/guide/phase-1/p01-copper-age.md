@@ -1,4 +1,6 @@
 ---
+item_ids:
+  - charcoal_pit:bloomery_brick
 navigation:
   title: The Copper Age
   icon: minecraft:copper_pickaxe

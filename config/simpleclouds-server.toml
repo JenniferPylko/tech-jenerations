@@ -1,6 +1,6 @@
 #Specifies the allowed dimensions that Simple Clouds is active in
 #Requires restart of WORLD
-dimensionWhitelist = ["minecraft:overworld","wardentools:abyssdim"]
+dimensionWhitelist = ["minecraft:overworld", "northstar:venus"]
 #Specifies if the dimension whitelist should instead be use as a blacklist
 #Requires restart of WORLD
 #Default: false

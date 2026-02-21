@@ -59,6 +59,7 @@ ServerEvents.recipes(($) => {
     $.replaceInput({output: "fiberopticcables:fiber_optic_cable"}, "#c:gems/quartz", "ae2:quartz_fiber")
     $.replaceInput({output: "fiberopticcables:fiber_optic_transformer"}, "#c:gems/quartz", "ae2:quartz_fiber")
     $.replaceInput({input: "ae2:quartz_fiber"}, "ae2:quartz_fiber", "fiberopticcables:fiber_optic_cable")
+    $.replaceInput({output: "operation_starcleave:firmament_rejuvenator"}, Ingredient.of("minecraft:air"), "minecraft:nether_star")
 
     $.replaceOutput({output: "minecraft:wheat_seeds", mod: "emi_loot"}, "minecraft:wheat", "minecraft:air")
     $.replaceOutput({input: "#c:ingots/aluminum", output: "#c:ingots/bronze"}, "#c:ingots/bronze", "megalosaio:cu_aluminium_bronze_ingot")

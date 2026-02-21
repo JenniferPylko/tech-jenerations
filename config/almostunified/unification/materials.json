@@ -68,7 +68,9 @@
     "c:tiny_dusts/{material}",
     "c:wires/{material}",
     "c:crushed_raw_materials/{material}",
-    "c:lumps/{material}"
+    "c:lumps/{material}",
+    "c:gearboxes/{material}/horizontal",
+    "c:gearboxes/{material}/vertical"
   ],
   "ignored_tags": ["c:gems/quartz"],
   "ignored_items": [],

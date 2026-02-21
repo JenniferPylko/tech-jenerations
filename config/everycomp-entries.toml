@@ -152,6 +152,29 @@
 			bloom = true
 			echo = true
 
+		[types.wood_type.betterend]
+			dragon_tree = true
+			end_lotus = true
+			helix_tree = true
+			jellyshroom = true
+			lacugrove = true
+			lucernia = true
+			mossy_glowshroom = true
+			pythadendron = true
+			tenanea = true
+			umbrella_tree = true
+
+		[types.wood_type.betternether]
+			anchor_tree = true
+			mushroom_fir = true
+			nether_mushroom = true
+			nether_reed = true
+			nether_sakura = true
+			rubeus = true
+			stalagnate = true
+			wart = true
+			willow = true
+
 		[types.leaves_type.biomeswevegone]
 			flowering_palo_verde = true
 			aspen = true
@@ -609,6 +632,19 @@
 
 		[types.leaves_type.deeperdarker]
 			echo = true
+
+		[types.leaves_type.betterend]
+			dragon_tree = true
+			lacugrove = true
+			lucernia = true
+			pythadendron = true
+			tenanea = true
+
+		[types.leaves_type.betternether]
+			anchor_tree = true
+			nether_sakura = true
+			rubeus = true
+			willow = true
 
 #Disables specific entries
 [entries]
