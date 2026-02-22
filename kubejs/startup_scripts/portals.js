@@ -7,7 +7,7 @@ StartupEvents.postInit(() => {
         .lightWithItem("operation_starcleave:firmament_rejuvenator")
         .destDimID("undergarden:undergarden")
         .returnDim("deeperdarker:otherside", true)
-        .tintColor(40, 255, 25)
+        .tintColor(2871808)
         .registerPortal()
     
     $CustomPortalBuilder
@@ -15,18 +15,18 @@ StartupEvents.postInit(() => {
         .frameBlock("minecraft:quartz_bricks")
         .lightWithWater()
         .flatPortal()
-        .destDimID("yggdrasil:ginnungagap")
+        .destDimID("minecraft:overworld")
         .returnDim("bro:void", true)
-        .tintColor(255, 255, 255)
+        .tintColor(5223679)
         .registerPortal()
     
     $CustomPortalBuilder
         .beginPortal()
-        .frameBlock("minecraft:end_rod")
+        .frameBlock("operation_starcleave:nucleic_fissureroot")
         .lightWithItem("minecraft:nether_star")
         .flatPortal()
         .destDimID("chronodawn:chronodawn")
         .returnDim("minecraft:the_end", true)
-        .tintColor(0, 0, 0)
+        .tintColor(16777215)
         .registerPortal()
 })

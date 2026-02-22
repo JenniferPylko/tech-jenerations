@@ -31,7 +31,8 @@
     "dimensionFogDistance": {
       "minecraft:overworld": 0,
       "minecraft:the_nether": 0,
-      "minecraft:the_end": 0
+      "minecraft:the_end": 0,
+      "undergarden:undergarden": 0
     },
     "light_updates": true,
     "item_frame": true,

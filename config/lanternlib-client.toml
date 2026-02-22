@@ -1,0 +1,10 @@
+[titleBar]
+	#Whether to show the game client's current memory usage, max, and allocation.
+	memoryTitleBar = true
+	#Custom text to use in the game's title bar. Leave empty for default.
+	customTitleBar = "Minecraft: Tech Jenerations"
+
+[misc]
+	#Disables item tooltips in the creative mode player inventory from containing the tab name of that item.
+	#This fixes the issue where if a mod like ModNameTooltip or JEI is running, the mod names double up in creative.
+	disableTabTooltips = true

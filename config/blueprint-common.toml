@@ -4,4 +4,4 @@
 #To change the slice size for a specific dimension, use the 'blueprint:dimension/modded_biome_slice_sizes' datamap
 # Default: 8
 # Range: > 1
-default_modded_biome_slice_size = 8
+default_modded_biome_slice_size = 16

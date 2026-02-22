@@ -1,7 +1,7 @@
 {
 	"enableMod": true,
 	"disabledBiomes": [
-		"ae2:spatial_storage"
+		"ae2:spatial_storage,northstar:mercury_hills,northstar:mercury_basins,northstar:mercury_icy_caverns,northstar:mercury_magma_caverns"
 	],
 	"rainFogMultiplier": 0.9,
 	"undergroundFogMultiplier": 0.5,
