@@ -4581,19 +4581,19 @@
       "fileSize": 250067
     },
     {
-      "path": "mods/moonlight-1.21-2.29.16-neoforge.jar",
+      "path": "mods/moonlight-1.21-2.29.17-neoforge.jar",
       "hashes": {
-        "sha1": "1d183ee2695e19a461b50ac7801dd17230e66094",
-        "sha512": "563f277c5876cc9e0e4ddf04658c130efe257dba2ac827c37f530d746c9033b9e75a799ebf1b65076c65dbc2d33eab225fd54fd123c9fa84a8a7fffa9ea4569c"
+        "sha1": "345d5b597c1c583ef1ffd571b2d89b63beff47a0",
+        "sha512": "6c7a910f4cbb48601a308da55554b8a60b62d22b836d4777ace0aaa803473e0bafa78139882946c4ba5c027af3104337a9a9f5a4abc237aa7c81cfe24b5f5f56"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/twkfQtEc/versions/xnc12XKg/moonlight-1.21-2.29.16-neoforge.jar"
+        "https://cdn.modrinth.com/data/twkfQtEc/versions/rfSUvZxt/moonlight-1.21-2.29.17-neoforge.jar"
       ],
-      "fileSize": 1575809
+      "fileSize": 1588157
     },
     {
       "path": "mods/morejs-neoforge-1.21.1-0.16.0.jar",
@@ -5466,19 +5466,19 @@
       "fileSize": 98580
     },
     {
-      "path": "mods/repurposed_structures-7.5.17+1.21.1-neoforge.jar",
+      "path": "mods/repurposed_structures-7.5.18+1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "2079a66cda18db8095c27808f95194b752ca704a",
-        "sha512": "a984aee3690f4e3d5e1e56549aac87c5b132eafe811f2144df9361e7fee32b458fed13af14e3db88652cbfecf913d6bee845eefa3d569576e2188267157dfce3"
+        "sha1": "545fafd13197186038191d99c378ac4c04a6504c",
+        "sha512": "5971435442c1c8aa0c252caf0dc4ccb3959fad5e6e67d09ff7c2a66d76d94c76168448b981985b1d6f876cd012fbc2015c44e5deb08e79191301c15ef254f1b0"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/QDNS5oAT/versions/JZcQ5o4Z/repurposed_structures-7.5.17%2B1.21.1-neoforge.jar"
+        "https://cdn.modrinth.com/data/QDNS5oAT/versions/fuRQkVgT/repurposed_structures-7.5.18%2B1.21.1-neoforge.jar"
       ],
-      "fileSize": 8238540
+      "fileSize": 8238563
     },
     {
       "path": "mods/resourcefulconfig-neoforge-1.21-3.0.11.jar",
@@ -6291,19 +6291,19 @@
       "fileSize": 10571
     },
     {
-      "path": "mods/supplementaries-1.21-3.5.20-neoforge.jar",
+      "path": "mods/supplementaries-1.21-3.5.24-neoforge.jar",
       "hashes": {
-        "sha1": "bfdb5234509e6a066d80ac0f7b045534b390d50e",
-        "sha512": "6bf4045e492f623a0440bec860a0506a22d65c57e9d93e925ac9f13a74cdb1e47f5f6d54273289f6bbce3dcdc7ed5c13b21e11cd0c791eeb9dec4d579959f027"
+        "sha1": "06a5eee858a0a3346107710cf6ca51e1bece7c2a",
+        "sha512": "584503a1f190f442a2d9bf25c43a62c2ce1f6d8615bc1a0b37ddee9deb2673c7f36561c24568023d2ea29e24c4bf083365eebce3ef0c95ec429904a5d17b2357"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/fFEIiSDQ/versions/PKjyQRZ0/supplementaries-1.21-3.5.20-neoforge.jar"
+        "https://cdn.modrinth.com/data/fFEIiSDQ/versions/5B2mN7yR/supplementaries-1.21-3.5.24-neoforge.jar"
       ],
-      "fileSize": 13346394
+      "fileSize": 13355415
     },
     {
       "path": "mods/suppsquared-1.21-1.2.17-neoforge.jar",
