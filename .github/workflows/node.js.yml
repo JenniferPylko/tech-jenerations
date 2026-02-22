@@ -34,14 +34,14 @@ jobs:
     - name: Upload Pack
       uses: actions/upload-artifact@v6.0.0
       with:
-        name: Tech Jenerations.mrpack
-        path: Tech Jenerations.mrpack
+        name: Tech Jenerations ${{ env.PACK_VERSION }}.mrpack
+        path: Tech Jenerations ${{ env.PACK_VERSION }}.mrpack
     - name: Load Version
       run: echo "PACK_VERSION=$(cat version)" >> $GITHUB_ENV
     - name: Create Release
       uses: ncipollo/release-action@v1.20.0
       with:
-        artifacts: "Tech Jenerations.mrpack"
+        artifacts: "Tech Jenerations ${{ env.PACK_VERSION }}.mrpack"
         generateReleaseNotes: true
         tag: ${{ env.PACK_VERSION }}
         commit: main
