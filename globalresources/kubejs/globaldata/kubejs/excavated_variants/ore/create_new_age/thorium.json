@@ -1,8 +1,8 @@
 {
     "types": ["excavated_variants:overworld", "excavated_variants:nether"],
-    "translations": {"en_us": "Thorium Ore"},
+    "translations": {"en_us": "Thorianite Ore"},
     "blocks": {
         "create_new_age:thorium_ore": "excavated_variants:minecraft/stone"
     },
-    "tags": ["c:ores/thorium", "minecraft:thorium_ore"]
+    "tags": ["c:ores/thorianite"]
 }

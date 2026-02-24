@@ -1,0 +1,6 @@
+{
+    "types": ["excavated_variants:overworld"],
+    "translations": {"en_us": "Marble"},
+    "block": "charcoal_pit:marble",
+    "ore_tags": ["c:ores_in_ground/marble"]
+}

@@ -1,0 +1,8 @@
+{
+    "types": ["kubejs:remin/electrum", "excavated_variants:overworld", "excavated_variants:nether"],
+    "translations": {"en_us": "Electrum Ore"},
+    "blocks": {
+        "remin:silver_gold_ore": "kubejs:remin/silver"
+    },
+    "tags": ["c:ores/electrum", "minecraft:electrum_ore"]
+}

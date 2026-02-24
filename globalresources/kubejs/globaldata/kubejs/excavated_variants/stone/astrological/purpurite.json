@@ -1,0 +1,6 @@
+{
+    "types": ["excavated_variants:end"],
+    "translations": {"en_us": "Purpurite"},
+    "block": "astrological:purpurite",
+    "ore_tags": ["c:ores_in_ground/purpurite"]
+}
