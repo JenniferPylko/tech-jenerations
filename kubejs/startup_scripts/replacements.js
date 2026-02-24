@@ -1,13 +1,9 @@
 const $BuiltInRegistries = Java.loadClass("net.minecraft.core.registries.BuiltInRegistries")
-const $ReplacerConfig = Java.loadClass("com.redcraft86.blockreplacer.ModConfig")
+//const $ReplacerConfig = Java.loadClass("com.redcraft86.blockreplacer.ModConfig")
 
 const replacement_rules = {
     "BLOCK": [{
-        originals: [
-            "distantlandsmc:pabble_2",
-            "distantlandsmc:pabble_1",
-            "distantlandsmc:pabble"
-        ],
+        originals: [],
         replacement: "survivalistessentials:stone_loose_rock"
     }],
 
@@ -38,7 +34,7 @@ StartupEvents.init(() => {
     for (const registry of Object.keys(replacement_rules)) {
         for (const rule of replacement_rules[registry]) {
             if (registry === "BLOCK") {
-                $ReplacerConfig.get().replaceBlocks.put(rule.replacement, rule.originals)
+                //$ReplacerConfig.get().replaceBlocks.put(rule.replacement, rule.originals)
             }
             for (const original of rule.originals) {
                 console.log(`Replacing ${registry} ${original} with ${rule.replacement}`)

@@ -77,12 +77,6 @@
 			witch_hazel = true
 			zelkova = true
 
-		[types.wood_type.distantlandsmc]
-			haru = true
-			jacaranda = true
-			pau_brasil = true
-			ipe_amarelo = true
-
 		[types.wood_type.regions_unexplored]
 			alpha = true
 			baobab = true
@@ -300,12 +294,6 @@
 			umbran = true
 			hellbark = true
 			empyreal = true
-
-		[types.leaves_type.distantlandsmc]
-			haru = true
-			jacaranda = true
-			pau_brasil = true
-			ipe_amarelo = true
 
 		[types.leaves_type.regions_unexplored]
 			alpha = true
@@ -659,5 +647,17 @@
 		[entries.wood_type.copperagebackport]
 			shelf = true
 
+		[entries.wood_type.woodworks]
+			bookshelf = true
+			chiseled_bookshelf = true
+			boards = true
+			chest = true
+			ladder = true
+			beehive = true
+			trapped_chest = true
+
 		[entries.leaves_type.regions_unexplored]
 			shrub = true
+
+		[entries.leaves_type.woodworks]
+			leaf_pile = true

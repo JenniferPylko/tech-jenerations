@@ -124,7 +124,6 @@ StartupEvents.registry("item", ($) => {
 
 BlockEvents.modification(($) => {
     const $requiresTool = (selector) => $.modify(selector, (block) => block.setRequiresTool(true))
-    const $notRequiresTool = (selector) => $.modify(selector, (block) => block.setRequiresTool(false))
     const $name = (selector, displayName) => $.modify(selector, (block) => block.setNameKey(displayName))
 
     $requiresTool("#minecraft:logs")
@@ -144,10 +143,6 @@ BlockEvents.modification(($) => {
     $requiresTool("#create:roots")
     $requiresTool("#c:stones")
     $requiresTool("minecraft:stone")
-    $notRequiresTool("distantlandsmc:pabble")
-    $notRequiresTool("distantlandsmc:pabble_1")
-    $notRequiresTool("distantlandsmc:pabble_2")
-    $notRequiresTool("distantlandsmc:rock")
     //$.modify("minecraft:stone", (block) => block.block().getBlockBuilder().tag("minecraft:needs_iron_tool").tag("minecraft:incorrect_for_wooden_tool").tag("minecraft:incorrect_for_stone_tool"))
 
     $name("modern_industrialization:fire_clay_bricks", "Refractory Bricks")
@@ -156,8 +151,20 @@ BlockEvents.modification(($) => {
     $name("ecological:wild_wheat", "Wild Wheat")
     $name("ecological:wild_potato", "Wild Potato")
     $name("charcoal_pit:bloom", "Metallurgic Bloom")
+    $name("megalosaio:aluminium_ore", "Bauxite Ore")
+    $name("megalosaio:raw_aluminium", "Bauxite")
+    $name("megalosaio:raw_aluminium_block", "Block of Bauxite")
+    $name("tfmg:bauxite", "Block of Bauxite")
+    $name("create:crushed_raw_aluminum", "Crushed Bauxite")
+    $name("create_sifter:raw_aluminum_piece", "Bauxite Piece")
+    $name("create_new_age:thorium_ore", "Thorianite ore")
+    $name("create_new_age:thorium", "Thorianite")
+    $name("megalosaio:lead_ore", "Galena Ore")
+    $name("megalosaio:raw_lead", "Galena")
+    $name("megalosaio:raw_lead_block", "Block of Galena")
 
     $.modify("minecraft:obsidian", (block) => block.setIsRandomlyTicking(true))
+    $.modify("minecraft:sculk_catalyst", (block) => block.setIsRandomlyTicking(true))
 })
 
 ItemEvents.modification(($) => {
@@ -177,4 +184,8 @@ ItemEvents.modification(($) => {
     for (const sleeping_bag of Ingredient.of("@sleeping_bags").getItemIds()) {
         $.modify(sleeping_bag, (item) => item.setMaxDamage(180))
     }
+
+    $name("createaddition:capacitor", "Zinc Capacitor")
+    $name("tfmg:capacitor", "Ferrous Capacitor")
+    $name("modern_industrialization:capacitor", "Gold Capacitor")
 })

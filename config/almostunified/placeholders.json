@@ -139,5 +139,24 @@
     "wires",
     "insulated_wires",
     "thick_wires"
+  ],
+  "tree": [
+    "pine",
+    "redwood",
+    "willow",
+    "palm",
+    "aspen",
+    "cherry",
+    "baobab",
+    "cypress",
+    "joshua",
+    "maple",
+    "larch",
+    "mahogany",
+    "jacaranda",
+    "fir",
+    "ebony",
+    "wisteria",
+    "dead"
   ]
 }

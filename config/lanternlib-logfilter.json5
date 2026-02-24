@@ -14,6 +14,9 @@
   "regexes": [
     "^.*Invalid path .*: Invalid path ''.*$",
     "^.*Discarding \\@Unique public method.*$",
-    "^.*If this is a development environment you can ignore this message.*$"
+    "^.*If this is a development environment you can ignore this message.*$",
+    "^.*missing model for variant.*$",
+    "^.*Unable to load model.*$",
+    "^.*Missing textures in model.*$"
   ]
 }

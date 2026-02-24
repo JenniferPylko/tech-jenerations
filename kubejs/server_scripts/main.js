@@ -111,7 +111,8 @@ ServerEvents.recipes(($) => {
         {output: "minecraft:blast_furnace"},
         {output: "modern_industrialization:fire_clay_dust"},
         {output: "#create_ironworks:tools/paxels"},
-        {output: "#c:dusts", mod: "megalosaio"}
+        {output: "#c:dusts", mod: "megalosaio"},
+        {output: "minecraft:ender_chest"}
     ])
 
     $.shaped(Item.of("tfmg:fireclay_ball", 3), ["AB ", "BA ", "   "], {A: "minecraft:clay_ball", B: "#c:dusts/bauxite"})
@@ -190,21 +191,106 @@ BlockEvents.randomTick("operation_starcleave:nucleosyntheseed", ($) => {
     }
 })
 /*
+BlockEvents.randomTick("minecraft:sculk_catalyst", ($) => {
+    const neighbors = [
+        $.getBlock().getUp(), $.getBlock().getDown(),
+        $.getBlock().getNorth(), $.getBlock().getSouth(),
+        $.getBlock().getEast(), $.getBlock().getWest()
+    ].filter((neighbor) => neighbor.getId() === "minecraft:sculk")
+    if (neighbors.length > 0) {
+        const position = BlockPos.findClosestMatch(
+            $.getBlock().getPos(),128,128, (testBlock) => testBlock.getId() !== "minecraft:sculk")
+        SculkCatalystBlock.
+    }
+    //SculkCatalystBlock.bloom($.getBlockState(), $.random)
+})
+
+/* not performant enough, rethink algo or be more vanilla
+BlockEvents.randomTick("minecraft:sculk_catalyst", ($) => {
+    if (Math.random() > 0.01) {
+        return
+    }
+    console.log("sculk tick")
+    const neighbors = [
+        $.getBlock().getUp(), $.getBlock().getDown(),
+        $.getBlock().getNorth(), $.getBlock().getSouth(),
+        $.getBlock().getEast(), $.getBlock().getWest()
+    ].filter((neighbor) => neighbor.getId() === "minecraft:sculk")
+    const candidates = []
+    let i = 0
+    let n
+    let sculk_block
+    let no_sculk = true
+    let new_neighbors = []
+    let dupe = false
+    while (i < neighbors.length) {
+        n = neighbors[i]
+        if(n.getId() === "minecraft:sculk") {
+            new_neighbors = [n.getUp(), n.getDown(),
+                n.getNorth(), n.getSouth(),
+                n.getEast(), n.getWest()]
+                for (const neighbor of new_neighbors) {
+                    for (let j = neighbors.length; j > 0; --j) {
+                        if (neighbor.getPos().getX() === neighbors[j-1].getPos().getX()
+                            && neighbor.getPos().getY() === neighbors[j-1].getPos().getY()
+                            && neighbor.getPos().getZ() === neighbors[j-1].getPos().getZ()) {
+                            dupe = true
+                            break
+                        }
+                    }
+                    if (!dupe) {
+                        neighbors.push(neighbor)
+                    } else {
+                        dupe = false
+                    }
+                }
+            if (!sculk_block) {
+                no_sculk = false
+                sculk_block = n.getBlock()
+            }
+        } else if (!n.getId().includes("sculk") && n.getBlockState().isSolid() && !n.getBlockState().isAir()) {
+            candidates.push(n)
+        }
+        ++i
+    }
+    if (no_sculk) { return }
+    for (const block of candidates) {
+        block.set(sculk_block)
+    }
+})
+/*
 BlockEvents.broken("minecraft:stone", ($) => {
     $.block.set("minecraft:cobblestone")
     $.cancel()
 })
 */
 //BlockEvents.drops()
+const ore_loot_overrides = {
+    "electrodynamics:orealuminum": "megalosaio:raw_aluminium",
+    "tfmg:bauxite_powder": "megalosaio:raw_aluminium",
+    "megalosaio:aluminium_ore": "megalosaio:raw_aluminium",
+    "minecraft:glowstone_dust": "northstar:raw_glowstone_ore",
+    "modern_industrialization:monazite_dust": ["umines:monazite-sm", "umines:monazite-ce"]
+}
 
 LootJS.modifiers(($) => {
-    $.addBlockModifier('#c:ores').modifyLoot('#c:raw_materials', (item) => {
-        const replacement = AlmostUnified.getVariantItemTarget(item);
-        if (replacement.isEmpty()) {
-            return item
+    $.addBlockModifier("#c:ores").modifyLoot(ItemFilter.custom(() => true), (item) => {
+        console.log(item.id)
+        const override = ore_loot_overrides[item.id]
+        if (typeof override !== "undefined") {
+            if (Array.isArray(override)) {
+                return LootEntry.of(override[
+                    Math.floor(Math.random() * override.length)
+                ], item.getCount()).getItem()
+            }
+            return LootEntry.of(override, item.getCount()).getItem()
         }
-        replacement.setCount(item.getCount());
-        return replacement
+        const replacement = AlmostUnified.getVariantItemTarget(item);
+        if (!replacement.isEmpty()) {
+            replacement.setCount(item.getCount());
+            return replacement
+        }
+            return item
     })
     $.addTableModifier(LootType.BLOCK).customAction((context, loot) => {
         //console.log(JSON.stringify(context))
@@ -216,8 +302,6 @@ LootJS.modifiers(($) => {
             loot.remove("ecological:mixed_seeds")
         }
     })
-    $.addBlockModifier(["#c:stones", "#c:cobblestones", "distantlandsmc:rock"]).replaceLoot("#c:cobblestones", LootEntry.of("survivalistessentials:rock_stone", [0, 4]), false)
-    $.addBlockModifier(["distantlandsmc:pabble", "distantlandsmc:pabble_1", "distantlandsmc:pabble_2"]).replaceLoot("distantlandsmc:small_stone", LootEntry.of("survivalistessentials:rock_stone", 1), false)
 })
 
 const stone_loot_tables = ["minecraft:blocks/stone", "minecraft:blocks/cobblestone"]

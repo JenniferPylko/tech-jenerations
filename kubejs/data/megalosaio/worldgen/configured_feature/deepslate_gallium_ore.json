@@ -1,3 +1,4 @@
 {
-    "type": "minecraft:no_op"
+    "type": "minecraft:no_op",
+    "config": {}
 }

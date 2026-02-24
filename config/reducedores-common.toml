@@ -9,7 +9,9 @@
 	ore_generation_chance = 0.1
 	#List of custom ore names that should be affected (e.g. ore_ancient_debris)
 	#Format: modid:ore_name or just ore_name for minecraft
-	custom_ores = ["ore_ancient_debris"]
+	custom_ores = [
+		"ore_ancient_debris"
+		]
 	#List of ore names that should be EXCLUDED from reduction.
 	#Format: modid:ore_name or just ore_name for minecraft
 	excluded_ores = []
