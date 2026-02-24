@@ -21,7 +21,12 @@
     "project_echo",
     "umines"
   ],
-  "priority_overrides": {},
+  "priority_overrides": {
+    "c:circuits/analog": "modern_industrialization",
+    "c:circuits/electronic": "modern_industrialization",
+    "c:circuits/digital": "modern_industrialization",
+    "c:circuits/quantum": "modern_industrialization"
+  },
   "stone_variants": [
     "stone",
     "andesite",
@@ -70,7 +75,13 @@
     "c:crushed_raw_materials/{material}",
     "c:lumps/{material}",
     "c:gearboxes/{material}/horizontal",
-    "c:gearboxes/{material}/vertical"
+    "c:gearboxes/{material}/vertical",
+    "c:shards/{material}",
+    "c:circuits/{compute}",
+    "c:circuit_boards/{compute}",
+    "c:{component}/{material}",
+    "c:unfinished_resistors",
+    "c:transistors"
   ],
   "ignored_tags": ["c:gems/quartz"],
   "ignored_items": [],

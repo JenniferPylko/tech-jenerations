@@ -3,7 +3,6 @@
     "aeternium",
     "alexandrite",
     "aluminum",
-    "aluminium",
     "amber",
     "andesite_alloy",
     "antimony",
@@ -12,6 +11,7 @@
     "arsenic",
     "ash",
     "azurite",
+    "bauxite",
     "beryllium",
     "bismuth",
     "bitumen",
@@ -32,13 +32,14 @@
     "cinnabar",
     "coal",
     "cobalt",
+    "cobaltite",
     "coke",
     "constantan",
     "copper",
     "corundum",
     "cuprite",
     "cupronickel",
-    "diamond",
+    "pure_diamond",
     "electrum",
     "elementium",
     "emerald",
@@ -108,6 +109,7 @@
     "technetium",
     "tellurium",
     "thallium",
+    "thorianite",
     "thorium",
     "tin",
     "titanium",
@@ -124,5 +126,18 @@
     "yttrium",
     "zinc",
     "zirconium"
+  ],
+  "compute": [
+    "analog",
+    "electronic",
+    "digital",
+    "quantum"
+  ],
+  "component": [
+    "fluid_pipes",
+    "item_pipes",
+    "wires",
+    "insulated_wires",
+    "thick_wires"
   ]
 }
