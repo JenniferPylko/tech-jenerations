@@ -434,7 +434,7 @@ const $tags_common = ($, project_echo_items, remin_items) => {
 
     for (const category of Object.keys(unification)) {
         for (const material of Object.keys(unification[category])) {
-            console.log(`Adding unity tags for ${material} ${category}`)
+            //console.log(`Adding unity tags for ${material} ${category}`)
             $.add(`c:${category}`, unification[category][material])
             $.add(`c:${material}`, unification[category][material])
             $.add(`c:${category}/${material}`, unification[category][material])

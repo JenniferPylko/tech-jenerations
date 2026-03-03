@@ -2,12 +2,12 @@
 item_ids:
   - kubejs:guide
 navigation:
-  title: Surviving The Early Game
+  title: ∫Surviving The Early Game
   icon: minecraft:grass_block
   position: 0
 ---
 
-# Surviving The Early Game
+# ∫Surviving The Early Game
 
 Pay attention to your oxygen! If you spawned at too high of an altitude the air will be too thin to breathe. If this is the case, find lower ground.
 

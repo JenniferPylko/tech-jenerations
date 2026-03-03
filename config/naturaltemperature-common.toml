@@ -17,7 +17,7 @@ randomize_underground = true
 #Randomize the underground below this y
 # Default: 45.0
 # Range: -6.0E12 ~ 6.0E12
-randomize_underground_below_y = 45.0
+randomize_underground_below_y = 25.0
 # 0: random (total randomness, except under jungles), 1: half_random (some degree of similarity with biomes on the surface), 2: random_plus_jungle (total randomness, include under jungles)
 # Default: 1
 # Range: 0 ~ 2
@@ -31,7 +31,7 @@ global_temperature_modifier_percentage = 0.0
 #A percentage to mitigate the planet climate (this reduce extreme climatic regions). Range (0.0 , 100.0)
 # Default: 0.0
 # Range: 0.0 ~ 100.0
-global_temperature_mitigation_percentage = 0.0
+global_temperature_mitigation_percentage = 1.0
 #This will add a wider transition band between the desert and the jungle in the default mode, this is useful if some modded biomes are not spawning
 extra_bands = true
 #This is a multiplier that will magnify the waving of the climatic bands, the proportion of the wave will stay the same, but it will change the scale of the wave
@@ -51,3 +51,9 @@ temperature_zone_3 = 1.0
 # Default: -1.0
 # Range: -1.0 ~ 8.0
 temperature_zone_4 = -1.0
+#This will enable a humidity (or vegetation) distribution in bands perpendicular to the temperature distribution. It works on simplified mode and linear mode
+enable_humidity_bands = false
+#This is a quarter of the distance between two zones of maximum humidity
+# Default: 1000.0
+# Range: -6.0E12 ~ 6.0E12
+humidity_bands_width = 1000.0

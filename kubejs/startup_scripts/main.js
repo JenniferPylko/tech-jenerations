@@ -1,5 +1,5 @@
 const name_cleanup = {
-    kubejs: "Tech Jenerations",
+    kubejs: "∫Tech Jenerations",
     skinlayers3d: "3D Skin Layers",
     mr_abusimbel: "Abu Simbel Ruins",
     achiopt: "Achievement Optimizer",
@@ -165,6 +165,8 @@ BlockEvents.modification(($) => {
 
     $.modify("minecraft:obsidian", (block) => block.setIsRandomlyTicking(true))
     $.modify("minecraft:sculk_catalyst", (block) => block.setIsRandomlyTicking(true))
+
+    //$.modify("minecraft:dirt", (block) => Java.cast(block, "dev.latvian.mods.kubejs.block.custom.FallingBlockBuilder$KubeJSFallingBlock"))
 })
 
 ItemEvents.modification(($) => {

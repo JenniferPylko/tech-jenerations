@@ -8,7 +8,7 @@ navigation:
   parent: phase-1/index.md
 ---
 
-# The Copper Age
+# ∫The Copper Age
 
 Once you've made a flint pickaxe, you'll be able to mine copper.
 

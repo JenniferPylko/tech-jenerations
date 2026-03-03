@@ -37,7 +37,12 @@
       "file/Biome Dirt.zip",
       "file/Foggy Pale Garden 1.0.0+1.21.zip",
       "file/Standardized Ingots v12.0.zip",
-      "file/Water Caustics.zip"
+      "file/Water Caustics.zip",
+      "file/Connected-Rocks 1.14-1.21.8 v1.1.1.zip",
+      "file/Connected_Polished_Stones(1.20+).zip",
+      "file/Create Touch-Ups v1.0.zip",
+      "file/Create Utility.zip",
+      "file/Stone Brick Overlays 1.2.zip"
     ],
   "pack_overrides": {
     "base": [
@@ -59,13 +64,19 @@
       "file/Enhanced Lightning Sound.zip",
       "file/guiretextures-1.14.4.zip",
       "file/Sounds x Create V1.4.zip",
-      "file/AE2 GUI.zip"
+      "file/AE2 GUI.zip",
+      "file/Connected-Rocks 1.14-1.21.8 v1.1.1.zip",
+      "file/Connected_Polished_Stones(1.20+).zip",
+      "file/Create Touch-Ups v1.0.zip",
+      "file/Create Utility.zip",
+      "file/Stone Brick Overlays 1.2.zip"
     ],
     "pack": [
       "mod/nustone_crafting",
       "mod/natures_spirit:resourcepacks/plank_consistency",
       "mod/item_interactions_mod:resourcepacks/example_gui_particles",
       "file/3D-muskets-1.1.zip",
+      "file/3D Track n Rails.zip",
       "file/3D Vanilla 1.16+.zip",
       "file/Block Damage Fusion 2.zip",
       "file/Fractal Glint.zip",

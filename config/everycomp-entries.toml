@@ -634,6 +634,130 @@
 			rubeus = true
 			willow = true
 
+		[types.stone_type.natures_spirit]
+			white_kaolin = true
+			light_gray_kaolin = true
+			gray_kaolin = true
+			black_kaolin = true
+			brown_kaolin = true
+			red_kaolin = true
+			orange_kaolin = true
+			yellow_kaolin = true
+			lime_kaolin = true
+			green_kaolin = true
+			cyan_kaolin = true
+			light_blue_kaolin = true
+			blue_kaolin = true
+			purple_kaolin = true
+			magenta_kaolin = true
+			pink_kaolin = true
+			pink_sandstone = true
+			white_chalk = true
+			light_gray_chalk = true
+			gray_chalk = true
+			black_chalk = true
+			brown_chalk = true
+			red_chalk = true
+			orange_chalk = true
+			yellow_chalk = true
+			lime_chalk = true
+			green_chalk = true
+			cyan_chalk = true
+			light_blue_chalk = true
+			blue_chalk = true
+			purple_chalk = true
+			magenta_chalk = true
+			pink_chalk = true
+			travertine = true
+			chert = true
+			kaolin = true
+
+		[types.stone_type.atmospheric]
+			ivory_travertine = true
+			peach_travertine = true
+			persimmon_travertine = true
+			saffron_travertine = true
+			dolerite = true
+
+		[types.stone_type.biomeswevegone]
+			white_sandstone = true
+			blue_sandstone = true
+			black_sandstone = true
+			purple_sandstone = true
+			pink_sandstone = true
+			windswept_sandstone = true
+			red_rock = true
+			dacite = true
+
+		[types.stone_type.betterend]
+			azure_jadestone = true
+			sandy_jadestone = true
+			virid_jadestone = true
+			sulphuric_rock = true
+			flavolite = true
+			umbralith = true
+			violecite = true
+
+		[types.stone_type.create]
+			limestone = true
+			asurine = true
+			crimsite = true
+			ochrum = true
+			veridium = true
+			scoria = true
+			scorchia = true
+
+		[types.stone_type.regions_unexplored]
+			argillite = true
+			chalk = true
+
+		[types.stone_type.biomesoplenty]
+			black_sandstone = true
+			orange_sandstone = true
+			white_sandstone = true
+			brimstone = true
+
+		[types.stone_type.charcoal_pit]
+			basalt = true
+			marble = true
+
+		[types.stone_type.blazingbamboo]
+			blazing_stone = true
+
+		[types.stone_type.project_echo]
+			magnesite = true
+
+		[types.stone_type.astrological]
+			jade = true
+
+		[types.stone_type.remin]
+			feldspar = true
+
+		[types.stone_type.undergarden]
+			depthrock = true
+			shiverstone = true
+			dreadrock = true
+			tremblecrust = true
+
+		[types.stone_type.northstar]
+			mars_stone = true
+			moon_stone = true
+			venus_stone = true
+			mercury_stone = true
+
+		[types.stone_type.deeperdarker]
+			sculk_stone = true
+			gloomslate = true
+
+		[types.stone_type.dndecor]
+			cut_stone = true
+
+		[types.mud_type.deeperdarker]
+			sculk_grime = true
+
+		[types.mud_type.biomeswevegone]
+			pale_mud = true
+
 #Disables specific entries
 [entries]
 
@@ -661,3 +785,26 @@
 
 		[entries.leaves_type.woodworks]
 			leaf_pile = true
+
+		[entries.stone_type.create]
+			small_brick_wall = true
+			cut_wall = true
+			small_bricks = true
+			cut_brick_slab = true
+			polished_cut_slab = true
+			small_brick_stairs = true
+			cut_bricks = true
+			cut = true
+			polished_cut = true
+			small_brick_slab = true
+			layered = true
+			polished_cut_stairs = true
+			cut_brick_wall = true
+			pillar = true
+			cut_stairs = true
+			cut_brick_stairs = true
+			polished_cut_wall = true
+			cut_slab = true
+
+		[entries.stone_type.waystones]
+			waystone = true

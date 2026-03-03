@@ -65,6 +65,7 @@
 	diffusionEnclosureWeight: 1.0,
 	diffusionReverbWeight: 1.0,
 	voicechatReverb: true,
+	voicechatReverbSelf: false,
 	voicechatMuffle: true,
 	voicechatMuffleVolume: true
 }

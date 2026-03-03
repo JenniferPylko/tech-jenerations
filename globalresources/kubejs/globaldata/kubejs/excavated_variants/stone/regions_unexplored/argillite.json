@@ -1,0 +1,6 @@
+{
+    "types": ["excavated_variants:overworld"],
+    "translations": {"en_us": "Argillite"},
+    "block": "regions_unexplored:argillite",
+    "ore_tags": ["c:ores_in_ground/argillite"]
+}
