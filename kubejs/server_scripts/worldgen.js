@@ -9,44 +9,117 @@ const get_or_direct = (registry, key_or_object) => {
 }
 
 const inject_features = (biome, features, after) => {
+    console.log("if the next line is a missing registry error you can ignore it")
     const biome_registry = Registry.of("minecraft:worldgen/biome")
     const feature_registry = Registry.of("minecraft:worldgen/placed_feature")
     const generation_settings = biome_registry.get(biome).getGenerationSettings()
     const feature_sets = []
-    const patched_sets = []
     generation_settings.features().listIterator().forEachRemaining((v) => feature_sets.push(v))
-    let set_iterator
-    let feature_holder
-    let after_index
+    const mapped_features = features.map((feature) => $Holder$Direct.direct(get_or_direct(feature_registry, feature)))
+    const patched_list = Utils.newList()
     let $temp_set
     for (const feature_set of feature_sets) {
-        set_iterator = []
-        feature_set.iterator().forEachRemaining((v) => set_iterator.push(v))
-        for (const feature of features) {
-            feature_holder = $Holder$Direct.direct(get_or_direct(feature_registry, feature))
-            after_index = -1
-            set_iterator.forEach((tester, index) => {
-                if (typeof after !== "undefined" && tester.is(after)) { after_index = index}
-            })
-            if (after_index === -1 && typeof after === "undefined") {
-                set_iterator.push(feature_holder)
-            } else {
-                set_iterator.splice(after_index + 1, 0, feature_holder)
+        $temp_set = Utils.newList()
+        feature_set.iterator().forEachRemaining((v) => {
+            $temp_set.add(v)
+            if (typeof after !== "undefined" && v.is(after)) {
+                for (const feature of mapped_features) {
+                    $temp_set.add(feature)
+                }
+            }
+        })
+        if (typeof after === "undefined") {
+            for (const feature of mapped_features) {
+                $temp_set.add(feature)
             }
         }
-        $temp_set = Utils.newList()
-        for (const feature of set_iterator) {
-            $temp_set.add(feature)
-        }
-        patched_sets.push($HolderSet$Direct["direct(java.util.List)"]($temp_set))
-    }
-    const patched_list = Utils.newList()
-    for (const set of patched_sets) {
-        patched_list.add(Java.cast($HolderSet$Direct, set))
+        patched_list.add(Java.cast($HolderSet$Direct, $HolderSet$Direct["direct(java.util.List)"]($temp_set)))
     }
     generation_settings.wover_setFeatures(patched_list)
 }
 
+const terracotta_map = [
+    "black",
+    "orange",
+    "yellow",
+    "white",
+    "magenta",
+    "light_blue",
+    "lime",
+    "pink",
+    "gray",
+    "light_gray",
+    "cyan",
+    "purple",
+    "blue",
+    "brown",
+    "green",
+    "red"
+]
+
 ServerEvents.generateData("after_mods", ($) => {
-    inject_features("terralith:savanna_badlands", ["natures_spirit:kaolin_layers"], "terralith:savanna/terracotta")
+    $.json("kubejs:worldgen/configured_feature/terracotta_replacer", {
+        type: "minecraft:simple_random_selector",
+        config: {features: terracotta_map.map((color) => ({
+                "feature": {
+                    "type": "minecraft:netherrack_replace_blobs",
+                    "config": {
+                        "state": {
+                            "Name": `natures_spirit:${color}_kaolin`
+                        },
+                        "target": {
+                            "Name": `minecraft:${color}_terracotta`
+                        },
+                        "radius": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 0,
+                            "max_inclusive": 12
+                        }
+                    }
+                },
+                "placement": []
+            })).concat({
+                "feature": {
+                    "type": "minecraft:netherrack_replace_blobs",
+                    "config": {
+                        "state": {
+                            "Name": `natures_spirit:kaolin`
+                        },
+                        "target": {
+                            "Name": `minecraft:terracotta`
+                        },
+                        "radius": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 0,
+                            "max_inclusive": 12
+                        }
+                    }
+                },
+                "placement": []
+            })}
+    })
+    $.json("kubejs:worldgen/placed_feature/terracotta_replacer", {
+        "feature": "kubejs:terracotta_replacer",
+        "placement": [
+            {
+                "type": "minecraft:count",
+                "count": 22
+            },
+            {
+                "type": "minecraft:count",
+                "count": 74
+            },
+            {
+                "type": "minecraft:in_square"
+            },
+            {
+                "type": "minecraft:heightmap",
+                "heightmap": "WORLD_SURFACE_WG"
+            }
+	]})
+    inject_features("minecraft:savanna", ["kubejs:terracotta_replacer"], "terralith:savanna/dripstone")
+    inject_features("minecraft:savanna_plateau", ["kubejs:terracotta_replacer"], "terralith:savanna/badlands/grass_reg")
+    inject_features("terralith:savanna_badlands", ["kubejs:terracotta_replacer"], "terralith:savanna/terracotta")
+    inject_features("terralith:white_mesa", ["kubejs:terracotta_replacer"], "terralith:savanna/terracotta")
+    inject_features("biomeswevegone:sierra_badlands", ["kubejs:terracotta_replacer"], "biomeswevegone:orange_terracotta_boulder")
 })

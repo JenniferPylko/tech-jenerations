@@ -634,6 +634,37 @@
 			rubeus = true
 			willow = true
 
+		[types.leaves_type.dtnatures_spirit]
+			yellow_maple = true
+			wisteria = true
+			willow = true
+			white_wisteria = true
+			sugi = true
+			saxaul = true
+			red_maple = true
+			redwood = true
+			purple_wisteria = true
+			pink_wisteria = true
+			part_white_wisteria = true
+			part_purple_wisteria = true
+			part_pink_wisteria = true
+			part_blue_wisteria = true
+			palo_verde = true
+			orange_maple = true
+			olive = true
+			mahogany = true
+			larch = true
+			joshua = true
+			ghaf = true
+			frosty_redwood = true
+			frosty_fir = true
+			fir = true
+			cypress = true
+			coconut = true
+			cedar = true
+			blue_wisteria = true
+			aspen = true
+
 		[types.stone_type.natures_spirit]
 			white_kaolin = true
 			light_gray_kaolin = true
