@@ -4206,19 +4206,19 @@
       "fileSize": 773944
     },
     {
-      "path": "mods/lithostitched-1.6.0-neoforge-1.21.1.jar",
+      "path": "mods/lithostitched-1.5.7-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "a8cd22df358d33a36f3749eac8410dd773ae79c7",
-        "sha512": "a87641ad5d5cb8e94a2c18ca40da850762049f48726ecd2cd5e915df9041e1fadb543234860d6fd328af7d8f2c480d7cab95109f88031877eb060653d8684ff9"
+        "sha1": "aed1e2f4d6db2b3f2d4a1548f97fcaa6b606911e",
+        "sha512": "98792c8ec08ccb5152bf992ef023e89e65f42c7789453cdcb948c2cc96d600b9287d0ec0c52d06e8c851f28b43c84e618562f77da14e1b3d9efa338a89fade95"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/XaDC71GB/versions/u0UUKAE1/lithostitched-1.6.0-neoforge-1.21.1.jar"
+        "https://cdn.modrinth.com/data/XaDC71GB/versions/HsoCbRc0/lithostitched-1.5.7-neoforge-1.21.1.jar"
       ],
-      "fileSize": 787739
+      "fileSize": 567562
     },
     {
       "path": "mods/lit_on_fire-1.3.1.jar",
@@ -5226,19 +5226,19 @@
       "fileSize": 138375
     },
     {
-      "path": "mods/patience-2.2.2.jar",
+      "path": "mods/patience-2.2.3.jar",
       "hashes": {
-        "sha1": "d78208634bd8d58694cbed17ed35b9e15814d9f0",
-        "sha512": "df7c8e66f095f25b778319f35100f63baf37626b7eba6684dd0c75fb5a44121cff96fef7ef1e717eed565b0e26e4182b2a6ab12459d414bf30ddf0db550b80d5"
+        "sha1": "a7fbf10b03877782d5a1db989e25a8e0d5e7d8a0",
+        "sha512": "1360648b651626586f556cd56ffc33fa4b0284278b6ae2fd60f1514638b4ddd18614785c095973fd823130fdcce248e114a055f148c835276cf8f100469d4e4d"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/7nBbkgpT/versions/qtZs84gx/patience-2.2.2.jar"
+        "https://cdn.modrinth.com/data/7nBbkgpT/versions/gElJq5cA/patience-2.2.3.jar"
       ],
-      "fileSize": 118613
+      "fileSize": 118658
     },
     {
       "path": "mods/Perception-NEOFORGE-0.1.6+1.21.1.jar",
@@ -5541,19 +5541,19 @@
       "fileSize": 78451
     },
     {
-      "path": "mods/refm-0.3.7-1.21.1.jar",
+      "path": "mods/refm-0.3.8-1.21.1.jar",
       "hashes": {
-        "sha1": "bf14394690d03a3f6e16d0b40f48b013c5b7b886",
-        "sha512": "1faea08b7b57658fef03bea0527ef1781d0844024c7b98c6c588f7f0d4ba425068571b625cafa30ca8cc31ce6dbd28a2e6073b20795938276540f59ef4572a7a"
+        "sha1": "929194506073ae9237cbfcd4eeac756e763580b5",
+        "sha512": "f4b7e87c6c89976c8d8d99a47a04293b5a17b5335d377ea37cbbd4d7d021b608d118e2e467eac9bfe16d8cc8c2be2649c8cad59894d50a575aaa649b8f16c692"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ivpOJhFM/versions/TIX0S5Zh/refm-0.3.7-1.21.1.jar"
+        "https://cdn.modrinth.com/data/ivpOJhFM/versions/rVcvPueM/refm-0.3.8-1.21.1.jar"
       ],
-      "fileSize": 2823623
+      "fileSize": 2823953
     },
     {
       "path": "mods/regions_unexplored-neoforge-1.21.1-0.5.9.jar",
@@ -5571,19 +5571,19 @@
       "fileSize": 5365182
     },
     {
-      "path": "mods/remin-4.8.5-neoforge-1.21.1.jar",
+      "path": "mods/remin-4.8.6-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "96929436c5a17a5fd03810175160dfb6686e7caf",
-        "sha512": "ddbe33556e573823598a5b560d40824716cac6205f681eebf2f9fa0525046b37a6804c6690f6fcee65d7973894bd97058d5d02dc37ff93420d06cad558647a86"
+        "sha1": "8edcbd65b4abb37f872da66e88e825d3df9ef977",
+        "sha512": "c30aa39562c5d1c4a27a9f262f468feaadc006ec0cca50714fb0e2eeba16e519ed3d41affdf61601d29d845cbc8c8df8a4dbbfafd6a8a02cc79a521251e4b845"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/24IjMnfw/versions/EUPOqKBv/remin-4.8.5-neoforge-1.21.1.jar"
+        "https://cdn.modrinth.com/data/24IjMnfw/versions/UjZcpKA2/remin-4.8.6-neoforge-1.21.1.jar"
       ],
-      "fileSize": 1522382
+      "fileSize": 1566218
     },
     {
       "path": "mods/remove-terralith-intro-message-1.1.jar",
