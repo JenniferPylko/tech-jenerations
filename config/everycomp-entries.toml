@@ -755,9 +755,6 @@
 		[types.stone_type.blazingbamboo]
 			blazing_stone = true
 
-		[types.stone_type.project_echo]
-			magnesite = true
-
 		[types.stone_type.astrological]
 			jade = true
 

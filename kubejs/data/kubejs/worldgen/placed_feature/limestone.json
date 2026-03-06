@@ -1,0 +1,22 @@
+{
+  "feature": "kubejs:limestone",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 27
+    },
+    {
+      "type": "minecraft:count",
+      "count": 74
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:surface_relative_threshold_filter",
+      "heightmap": "WORLD_SURFACE",
+      "min_inclusive": 1,
+      "max_inclusive": 5
+    }
+  ]
+}

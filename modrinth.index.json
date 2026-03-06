@@ -666,6 +666,21 @@
       "fileSize": 38566
     },
     {
+      "path": "mods/birch-watchtower-1.0.jar",
+      "hashes": {
+        "sha1": "7b20e644f5ad7476fdee75e75eb053ac16eab3cb",
+        "sha512": "d9f7a56d46bf7d16207d68ed0a23e91d47a8620b9be7810591c23168eb961af05e1349a2a5bf7e191f1d1c373b65ae0b5df1c8180337378f7bb66b202b617f9b"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/aZ321Jb3/versions/5Yc10LZz/birch-watchtower-1.0.jar"
+      ],
+      "fileSize": 2636501
+    },
+    {
       "path": "mods/blastcraft-1.21.1-0.6.0-1.jar",
       "hashes": {
         "sha1": "7ea6d2bf6968430d7f70dfe6bad4777757db6149",
@@ -1221,19 +1236,19 @@
       "fileSize": 94146
     },
     {
-      "path": "mods/CraftPresence-2.7.0+1.21.1-neoforge.jar",
+      "path": "mods/CraftPresence-2.7.1+1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "53e252f44a2b5c2db8f1a54111ada2c84d6ae55c",
-        "sha512": "88c21a68f0e820fc26c871b981b7b21278a4cc24ae7a62856058e551ab3cb020ef3de41f90db3194c04d1ed05aa6722d7d29824a24b579782932ccc913f385fc"
+        "sha1": "a0629a26ec41099fad1c0f6143d15b5b2c4f3ab2",
+        "sha512": "d032b1699a5c83c144155c44909207bd9e2c4cfe0bc7d0703ecd48a793f6ad792821c68007ae9f8378e88e7a2c2844887edb0f2fce94ecbf9d880b5dfb1529e9"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/DFqQfIBR/versions/2spedB6P/CraftPresence-2.7.0%2B1.21.1-neoforge.jar"
+        "https://cdn.modrinth.com/data/DFqQfIBR/versions/tjZKI2uh/CraftPresence-2.7.1%2B1.21.1-neoforge.jar"
       ],
-      "fileSize": 2055636
+      "fileSize": 1306084
     },
     {
       "path": "mods/Create Encased-1.21.1-1.8-ht2.jar",
@@ -1896,19 +1911,19 @@
       "fileSize": 24239
     },
     {
-      "path": "mods/create_ltab-3.7.3.jar",
+      "path": "mods/create_ltab-3.8.0.jar",
       "hashes": {
-        "sha1": "8a9cfc48d50c17b67493fb2b44ebd1ee42a01e75",
-        "sha512": "c4e64c3c36c1d5e1ad2865abf8c3d0373e08517af873f157e3d9608eb2d2ec76c15fe90d2b48913a9476ba8df0e90fbc703bb0fe2a933010093f9aa235cc021e"
+        "sha1": "a5bfeffa8b7fbb105553b7924ddfc99dcdc824b3",
+        "sha512": "422d64fd40eef3d7a7a4530bced88367670f79afb5f90ac3354346231bac6d35d60fae0d8b23555c90d386f9b319f995ac158a9fc57392492aec359575c3e1ac"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/fUa6OtBG/versions/Nfv2VFmo/create_ltab-3.7.3.jar"
+        "https://cdn.modrinth.com/data/fUa6OtBG/versions/Avv76b3R/create_ltab-3.8.0.jar"
       ],
-      "fileSize": 2309554
+      "fileSize": 2416726
     },
     {
       "path": "mods/create_more_additions-1.9.0-neoforge-1.21.1.jar",
@@ -2061,6 +2076,21 @@
       "fileSize": 3531012
     },
     {
+      "path": "mods/create_train_physics-0.1.jar",
+      "hashes": {
+        "sha1": "5b938eb6b1f94adff66c5fdca5df88709d3b2807",
+        "sha512": "cd41bd9d4fdc4d9c36596dfd166cb70b64fdd9151dcbe68ebffa38ba7ba40d595c2d9671da3073ed38414db90f929d165cdf797a0351a2f9bab3d3ba646a1355"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/5nYnKExR/versions/D6Oe3qC9/create_train_physics-0.1.jar"
+      ],
+      "fileSize": 21689
+    },
+    {
       "path": "mods/create_trimmed.jar",
       "hashes": {
         "sha1": "2a7e00032f611c06f9e5fa2e743052552f5cb5c9",
@@ -2179,6 +2209,21 @@
         "https://cdn.modrinth.com/data/69sSGniy/versions/St718KjZ/Dark%20Orion%201.1%20%28NF1.21.1%29.jar"
       ],
       "fileSize": 1407811
+    },
+    {
+      "path": "mods/dark-forest-watchtower-1.0.jar",
+      "hashes": {
+        "sha1": "8c7f52e7608b2663febbc90a6228cbfcbd3c0c26",
+        "sha512": "d718aecb6bbe9f768f4c992f8a7b202e59c7d9b4cf69e20c9464b3b1c28af8f966d7895e5ad0dcd154355910abadd6d33b88105db5b5e1b1f7b9a94f048ba2e0"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/86vilBMd/versions/3ebjeFcH/dark-forest-watchtower-1.0.jar"
+      ],
+      "fileSize": 2965601
     },
     {
       "path": "mods/DarkAroundMe-1.21.1-1.0.0.jar",
@@ -2569,6 +2614,21 @@
         "https://cdn.modrinth.com/data/ZsrrjDbP/versions/erk04BGa/DungeonsAriseSevenSeas-1.21.x-1.0.4-neoforge.jar"
       ],
       "fileSize": 244981
+    },
+    {
+      "path": "mods/Dynamic Trees for Nature's Spirit-1.21.1-neoforge-1.3.jar",
+      "hashes": {
+        "sha1": "8f8a5aafd10e3da3e0657c3d74706741adc4a7b7",
+        "sha512": "054e5fe10d5d19f564d6a3be0a0e21ca7440bc360ccb40ae91d5f5fdbe1206e50831cd339f34a030f46da0c2404e9b986e0d35a16f07e74b1d6c89362bf36cef"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/RenmoBVn/versions/h4NLmhR2/Dynamic%20Trees%20for%20Nature%27s%20Spirit-1.21.1-neoforge-1.3.jar"
+      ],
+      "fileSize": 394005
     },
     {
       "path": "mods/dynamicassetgenerator-6.1.2-neoforge.jar",
@@ -3066,19 +3126,19 @@
       "fileSize": 142104
     },
     {
-      "path": "mods/exposure-neoforge-1.21.1-1.9.13.jar",
+      "path": "mods/exposure-neoforge-1.21.1-1.9.14.jar",
       "hashes": {
-        "sha1": "dbee05b7a892d70acfd3d4c45494a9407bdedcfe",
-        "sha512": "4df1c6a6b52794a64826a247d5ca33cb50f94d83e11b5a20ca90ffc84c85021f522040cf0602231f196d08106069f72507049051a418ff111cad0b24d3e49d7a"
+        "sha1": "db03f4d015e69154a5f3861148f46065a9aecc6c",
+        "sha512": "799df58fbd9e9d66883a1093b2ee32b006399de59de89f69a034a9e3d33250b833814d8d43999046e4783635079ccfa2e409d195c5c581bfc37ce4ab49569049"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/hB899VmG/versions/WYaaE1QE/exposure-neoforge-1.21.1-1.9.13.jar"
+        "https://cdn.modrinth.com/data/hB899VmG/versions/R3SnApmY/exposure-neoforge-1.21.1-1.9.14.jar"
       ],
-      "fileSize": 2179861
+      "fileSize": 2183987
     },
     {
       "path": "mods/exposure_expanded-neoforge-1.0.1.jar",
@@ -3351,6 +3411,21 @@
       "fileSize": 300280
     },
     {
+      "path": "mods/forest-watchtower-structure--1.0.jar",
+      "hashes": {
+        "sha1": "b309def164e0a770ad23236635e8a3dcd3aa3862",
+        "sha512": "57032f59bea51057eb06c92c04d17e093ea2bb923118732229778623f8cdba10bbd6e5fd6e5db83b3476ee04cad760842a309e11b71bc02dd3dc43d4e25304bb"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/SE7UGBSC/versions/chU9ym8P/forest-watchtower-structure--1.0.jar"
+      ],
+      "fileSize": 2524365
+    },
+    {
       "path": "mods/forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar",
       "hashes": {
         "sha1": "459b5f4c7297b2f7649d43137f3e5a069b69b707",
@@ -3441,19 +3516,19 @@
       "fileSize": 23578
     },
     {
-      "path": "mods/geckolib-neoforge-1.21.1-4.8.3.jar",
+      "path": "mods/geckolib-neoforge-1.21.1-4.8.4.jar",
       "hashes": {
-        "sha1": "fb0ac6ad63dc5f401c15c66a037c08e9709d1c42",
-        "sha512": "4b8f3bcdc04450aa97af136353341f136921259f16f2363f3cfe77956860455f27c38f9701b3f0e8a78ea86067411ecd35d391803b753276934057481e770556"
+        "sha1": "eb854c8ec53ef922a5f3877a1aa4c1ce1352e0ce",
+        "sha512": "340d96149a04c57c09485f5b1c69e7f8ec3b68223c618e38b7d84c58f4280dcba3d0e9480b8fc79735d9ef5fd7da5fc8f3081d575bf4bbcd2c44b6dcf21d98c0"
       },
       "env": {
         "client": "required",
         "server": "optional"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/8BmcQJ2H/versions/lWsXauBN/geckolib-neoforge-1.21.1-4.8.3.jar"
+        "https://cdn.modrinth.com/data/8BmcQJ2H/versions/gFmrC8Ru/geckolib-neoforge-1.21.1-4.8.4.jar"
       ],
-      "fileSize": 622121
+      "fileSize": 622582
     },
     {
       "path": "mods/giant_lily_pads-1.0.0-neoforge-1.21.1.jar",
@@ -3891,6 +3966,21 @@
       "fileSize": 3042379
     },
     {
+      "path": "mods/jungle-watchtower-structure--1.0.jar",
+      "hashes": {
+        "sha1": "c6973d1b4fcc6ec55bd7474878d00f427c23625c",
+        "sha512": "a1d6bfb3385f0abc3c37b417f469fdd95562ff9b7c44a4a201005a0a20da3c5b4f0a8a8f9e7caf096ddb0ff0cefa91d59392b24f3cbb96bcb0e0fa27ad99a80c"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/MUQOlPbn/versions/Ug79mAua/jungle-watchtower-structure--1.0.jar"
+      ],
+      "fileSize": 2573348
+    },
+    {
       "path": "mods/justenoughbreeding-neoforge-1.21-1.21.1-1.6.2.jar",
       "hashes": {
         "sha1": "4f47678f57e2cadebd42484897bf5417d7fa344a",
@@ -4116,19 +4206,19 @@
       "fileSize": 773944
     },
     {
-      "path": "mods/lithostitched-1.5.7-neoforge-1.21.1.jar",
+      "path": "mods/lithostitched-1.6.0-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "aed1e2f4d6db2b3f2d4a1548f97fcaa6b606911e",
-        "sha512": "98792c8ec08ccb5152bf992ef023e89e65f42c7789453cdcb948c2cc96d600b9287d0ec0c52d06e8c851f28b43c84e618562f77da14e1b3d9efa338a89fade95"
+        "sha1": "a8cd22df358d33a36f3749eac8410dd773ae79c7",
+        "sha512": "a87641ad5d5cb8e94a2c18ca40da850762049f48726ecd2cd5e915df9041e1fadb543234860d6fd328af7d8f2c480d7cab95109f88031877eb060653d8684ff9"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/XaDC71GB/versions/HsoCbRc0/lithostitched-1.5.7-neoforge-1.21.1.jar"
+        "https://cdn.modrinth.com/data/XaDC71GB/versions/u0UUKAE1/lithostitched-1.6.0-neoforge-1.21.1.jar"
       ],
-      "fileSize": 567562
+      "fileSize": 787739
     },
     {
       "path": "mods/lit_on_fire-1.3.1.jar",
@@ -4613,17 +4703,17 @@
     {
       "path": "mods/moonlight-1.21-2.29.20-neoforge.jar",
       "hashes": {
-        "sha1": "07a5ff9e0a1b05cd78ecfcade4754978f62e3725",
-        "sha512": "d458623ceba37345a17f0177cd5b2bcebfec2fce88106b3f08be81a84949fe5f7ba23caae7fdc4d5618a8f467f3774dbde2062a08211eb1e7d3a372403cb5fb4"
+        "sha1": "99f9973f69460a772a4e8beccb9ca3f69e0a1291",
+        "sha512": "29889fe15f80fbc3f1793289572a8c9dad15d4439a81ac8db5f1ab3b6d347877fc403c96a2021869f24df6f8c2af35b7160bd548a258004f3e59799da4864297"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/twkfQtEc/versions/tvtZQ9Pp/moonlight-1.21-2.29.20-neoforge.jar"
+        "https://cdn.modrinth.com/data/twkfQtEc/versions/X7j32itX/moonlight-1.21-2.29.20-neoforge.jar"
       ],
-      "fileSize": 1584603
+      "fileSize": 1586350
     },
     {
       "path": "mods/morejs-neoforge-1.21.1-0.16.0.jar",
@@ -5211,6 +5301,21 @@
       "fileSize": 10039316
     },
     {
+      "path": "mods/plains-watchtower-structure--1.0.jar",
+      "hashes": {
+        "sha1": "1e8b93940aa0d5d6fa11af3c086473498f13524a",
+        "sha512": "f2ba3118d18241b8b62a86917e432a6013686ece4326ee0557d9fc63a8e9a19aa9dce80aa31416631a8c125d24ba130c8e20a6f9ad0856559f5b02a1d5abb155"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/aEpZmA3E/versions/zT19A2qW/plains-watchtower-structure--1.0.jar"
+      ],
+      "fileSize": 2562319
+    },
+    {
       "path": "mods/polymorph-neoforge-1.1.0+1.21.1.jar",
       "hashes": {
         "sha1": "84f8c539fa326dc723ae62b7a6916d6b01982d07",
@@ -5269,21 +5374,6 @@
         "https://cdn.modrinth.com/data/aaRl8GiW/versions/EE1FHDyD/prickle-neoforge-1.21.1-21.1.11.jar"
       ],
       "fileSize": 84812
-    },
-    {
-      "path": "mods/project_echo-1.1.0-neoforge-1.21.1.jar",
-      "hashes": {
-        "sha1": "a102dd7280ca582e42d9aff9f401b3e10eea3d91",
-        "sha512": "b72e2353a34dee4d7f6bef453f4d022de920f422d02a2af1cdb62ac978cf83f1ea183c8a772ec750569e6d18c074255e38b80e2b8f5623a9598078ed170f1c61"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/koGoJaVH/versions/HCzVtG5R/project_echo-1.1.0-neoforge-1.21.1.jar"
-      ],
-      "fileSize": 450242
     },
     {
       "path": "mods/puffish_biome_dither-1.0.0-1.21-neoforge.jar",
@@ -5449,6 +5539,21 @@
         "https://cdn.modrinth.com/data/Bh37bMuy/versions/xAiCe6w8/reeses-sodium-options-neoforge-1.8.3%2Bmc1.21.4.jar"
       ],
       "fileSize": 78451
+    },
+    {
+      "path": "mods/refm-0.3.7-1.21.1.jar",
+      "hashes": {
+        "sha1": "bf14394690d03a3f6e16d0b40f48b013c5b7b886",
+        "sha512": "1faea08b7b57658fef03bea0527ef1781d0844024c7b98c6c588f7f0d4ba425068571b625cafa30ca8cc31ce6dbd28a2e6073b20795938276540f59ef4572a7a"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ivpOJhFM/versions/TIX0S5Zh/refm-0.3.7-1.21.1.jar"
+      ],
+      "fileSize": 2823623
     },
     {
       "path": "mods/regions_unexplored-neoforge-1.21.1-0.5.9.jar",
@@ -5629,6 +5734,21 @@
         "https://cdn.modrinth.com/data/dV25N64J/versions/x4AYfAPu/rusted-1.1.0.jar"
       ],
       "fileSize": 109588
+    },
+    {
+      "path": "mods/savanna-watchtower-structure--1.0.jar",
+      "hashes": {
+        "sha1": "0581e870f80a20891eab87ab2ec8394ad2ac5d3a",
+        "sha512": "5597554e3c85266feaf37660ecd2fc368472813cd2ceb82550a4a063b08dab8e3f6479bddc9a5c869875fcccac133fd4470b7165b6cdf274611b00233ee339f5"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/xtfHYK6B/versions/BTJrAo4e/savanna-watchtower-structure--1.0.jar"
+      ],
+      "fileSize": 2334701
     },
     {
       "path": "mods/schematicenergistics-1.21.1-1.5.0.jar",
@@ -6111,19 +6231,19 @@
       "fileSize": 315515
     },
     {
-      "path": "mods/sound_physics_perfected-1.16.0+1.21.1-neoforge.jar",
+      "path": "mods/sound_physics_perfected-1.16.1+1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "da5555b828ef896d3697b98acc2363cc061824cf",
-        "sha512": "74849e1c8327f48e3a2e9ce0ff02c7157ead481c369656d27eaac571401283a37c3386f15294d30ff75ade62f7651079d75f91c39253b40273362bff33c25f59"
+        "sha1": "bc583d7d670c11efa39aa5d554a53ea70a4f3cca",
+        "sha512": "2945cef02036c63182e51cabb102a9e0c192a99a7bd602fa3196dbb214167405f97315de1a7842b436ecc1108f2b60372948ad2629509ac1e73e5b6174e39c5c"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/KS6Hbu9Z/versions/m8sRGwG0/sound_physics_perfected-1.16.0%2B1.21.1-neoforge.jar"
+        "https://cdn.modrinth.com/data/KS6Hbu9Z/versions/Mpe6IDd5/sound_physics_perfected-1.16.1%2B1.21.1-neoforge.jar"
       ],
-      "fileSize": 429145
+      "fileSize": 429147
     },
     {
       "path": "mods/spark-1.10.124-neoforge.jar",
@@ -6321,19 +6441,19 @@
       "fileSize": 10571
     },
     {
-      "path": "mods/supplementaries-1.21-3.5.26-neoforge.jar",
+      "path": "mods/supplementaries-1.21-3.5.27-neoforge.jar",
       "hashes": {
-        "sha1": "14e5539225e45764200e56091507a9220efda9be",
-        "sha512": "5413fa2d34a54475c01fa29ba6cf4b76f4d44834b5ba0ea4eaabb049c9445758cf23cd75591131ce9694d33f15bf1c757ef57d02b73e0aeabebd836838ecb06b"
+        "sha1": "ddc7007ca224ec367d9ffe0516d0f9978c0e6d18",
+        "sha512": "0060b8a7225858bb9134c803a33f3fbcf8448e1ea1eaf12225928305041539c1d38a4319be4d6b6bf35142eb09f37e5fb79960a8014a182d4747403bc15d8e7c"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/fFEIiSDQ/versions/MSKshgx9/supplementaries-1.21-3.5.26-neoforge.jar"
+        "https://cdn.modrinth.com/data/fFEIiSDQ/versions/B4k8qIJB/supplementaries-1.21-3.5.27-neoforge.jar"
       ],
-      "fileSize": 13354404
+      "fileSize": 13354405
     },
     {
       "path": "mods/suppsquared-1.21-1.2.17-neoforge.jar",
@@ -6364,6 +6484,21 @@
         "https://cdn.modrinth.com/data/hFW7KOhm/versions/25aeKbOU/survivalistessentials-1.21.1-6.3.1.2-NEOFORGE.jar"
       ],
       "fileSize": 1742148
+    },
+    {
+      "path": "mods/taiga-watchtower-1.0.jar",
+      "hashes": {
+        "sha1": "74043cc6446a7bd76ad8ee95add1fdfa744fa460",
+        "sha512": "c39aac86e5c8647a4765ea56fc1b66ab7f04e44d80b993041636d17f5fc45c61894e1b1f160c86329456957a2f36bf43cc173f22f95713af86cd9747658bcf61"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Qz4RJqxH/versions/u1qpYVKt/taiga-watchtower-1.0.jar"
+      ],
+      "fileSize": 2125089
     },
     {
       "path": "mods/tectonic-3.0.19-neoforge-1.21.1.jar",

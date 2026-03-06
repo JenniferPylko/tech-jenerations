@@ -6,32 +6,24 @@ const unification = {
     "armors/head": {
         brass: ["create_ironworks:brass_armor_helmet", "create_sa:brass_helmet"],
         copper: ["minecraft:copper_helmet", "charcoal_pit:copper_helmet", "create_ironworks:copper_armor_helmet", "create_sa:copper_helmet"],
-        emerald: ["project_echo:emeral_d_armor_helmet"],
-        ruby: ["project_echo:ruby_armor_helmet"],
         steel: ["remin:steel_armour_helmet", "charcoal_pit:steel_helmet", "create_ironworks:steel_armor_helmet"],
         titanium: ["remin:titanium_armour_helmet", "megalosaio:titanium_helmet"]
     },
     "armors/chest": {
         brass: ["create_ironworks:brass_armor_chestplate", "create_sa:brass_chestplate"],
         copper: ["minecraft:copper_chestplate", "charcoal_pit:copper_chestplate", "create_ironworks:copper_armor_chestplate", "create_sa:copper_chestplate"],
-        emerald: ["project_echo:emeral_d_armor_chestplate"],
-        ruby: ["project_echo:ruby_armor_chestplate"],
         steel: ["remin:steel_armour_chestplate", "charcoal_pit:steel_chestplate", "create_ironworks:steel_armor_chestplate"],
         titanium: ["remin:titanium_armour_chestplate", "megalosaio:titanium_chestplate"]
     },
     "armors/leg": {
         brass: ["create_ironworks:brass_armor_leggings", "create_sa:brass_leggings"],
         copper: ["minecraft:copper_leggings", "charcoal_pit:copper_leggings", "create_ironworks:copper_armor_leggings", "create_sa:copper_leggings"],
-        emerald: ["project_echo:emeral_d_armor_leggings"],
-        ruby: ["project_echo:ruby_armor_leggings"],
         steel: ["remin:steel_armour_leggings", "charcoal_pit:steel_leggings", "create_ironworks:steel_armor_leggings"],
         titanium: ["remin:titanium_armour_leggings", "megalosaio:titanium_leggings"]
     },
     "armors/foot": {
         brass: ["create_ironworks:brass_armor_boots", "create_sa:brass_boots"],
         copper: ["minecraft:copper_boots", "charcoal_pit:copper_boots", "create_ironworks:copper_armor_boots", "create_sa:copper_boots"],
-        emerald: ["project_echo:emeral_d_armor_boots"],
-        ruby: ["project_echo:ruby_armor_boots"],
         steel: ["remin:steel_armour_boots", "charcoal_pit:steel_boots", "create_ironworks:steel_armor_boots"],
         titanium: ["remin:titanium_armour_boots", "megalosaio:titanium_boots"]
     },
@@ -39,8 +31,6 @@ const unification = {
         aluminum: ["megalosaio:aluminium_axe", "tfmg:aluminum_axe"],
         brass: ["create_ironworks:brass_axe", "create_sa:brass_axe"],
         copper: ["minecraft:copper_axe", "charcoal_pit:copper_axe", "create_ironworks:copper_axe", "create_sa:copper_axe"],
-        emerald: ["project_echo:emeral_d_axe"],
-        ruby: ["project_echo:ruby_axe"],
         steel: ["remin:steel_axe", "charcoal_pit:steel_axe", "create_ironworks:steel_axe", "tfmg:steel_axe"],
         titanium: ["remin:titanium_axe", "megalosaio:titanium_axe"]
     },
@@ -76,7 +66,7 @@ const unification = {
         kanthal: "megalosaio:fe_kanthal_dust",
         lead: "megalosaio:lead_dust",
         lithium: "megalosaio:lithium_dust",
-        magnesium: ["project_echo:magnesium", "megalosaio:magnesium_dust"],
+        magnesium: ["megalosaio:magnesium_dust"],
         manganese: "megalosaio:manganese_dust",
         molybdenum: "megalosaio:molybdenum_dust",
         netherrack: ["create:cinder_flour", "charcoal_pit:cinder_flour"],
@@ -85,7 +75,6 @@ const unification = {
         platinum: "megalosaio:platinum_dust",
         purpurite: "astrological:popped_purpurite",
         ruthenium: "megalosaio:ruthenium_dust",
-        salt: "project_echo:salt",
         silicon: "megalosaio:silicon_dust",
         silver: "megalosaio:silver_dust",
         sodium: "megalosaio:sodium_dust",
@@ -108,17 +97,12 @@ const unification = {
     },
     gems: {
         rose_quartz: ["remin:rose_quartz", "create:rose_quartz"],
-        ruby: [
-            "remin:ruby",
-            "project_echo:ruby"
-        ]
+        ruby: ["remin:ruby"]
     },
     hoes: {
         aluminum: ["megalosaio:aluminium_hoe", "tfmg:aluminum_hoe"],
         brass: ["create_ironworks:brass_hoe", "create_sa:brass_hoe"],
         copper: ["minecraft:copper_hoe", "charcoal_pit:copper_hoe", "create_ironworks:copper_hoe", "create_sa:copper_hoe"],
-        emerald: ["project_echo:emeral_d_hoe"],
-        ruby: ["project_echo:ruby_hoe"],
         steel: ["remin:steel_hoe", "charcoal_pit:steel_hoe", "create_ironworks:steel_hoe", "tfmg:steel_hoe"],
         titanium: ["remin:titanium_hoe", "megalosaio:titanium_hoe"]
     },
@@ -130,7 +114,7 @@ const unification = {
         bronze: "megalosaio:cu_bronze_ingot",
         cadmium: "megalosaio:cadmium_ingot",
         chromium: "megalosaio:chromium_ingot",
-        cobalt: ["megalosaio:cobalt_ingot", "project_echo:cobalt_ingot"],
+        cobalt: ["megalosaio:cobalt_ingot"],
         cupronickel: "megalosaio:ni_cupronickel_nugget",
         electrum: "megalosaio:au_electrum_ingot",
         germanium: "megalosaio:germanium_ingot",
@@ -144,7 +128,7 @@ const unification = {
         molybdenum: "megalosaio:molybdenum_ingot",
         nickel: ["megalosaio:nickel_ingot", "remin:nickel_ingot"],
         platinum: "megalosaio:platinum_ingot",
-        rose_gold: ["megalosaio:au_rose_gold_ingot", "project_echo:rose_gold_ingot"],
+        rose_gold: ["megalosaio:au_rose_gold_ingot"],
         silicon: "megalosaio:silicon_ingot",
         silver: "megalosaio:silver_ingot",
         sodium: "megalosaio:sodium_ingot",
@@ -166,7 +150,7 @@ const unification = {
         beryllium: "megalosaio:beryllium_nugget",
         brass: "megalosaio:cu_brass_nugget",
         chromium: "megalosaio:chromium_nugget",
-        cobalt: ["megalosaio:cobalt_nugget", "project_echo:cobalt_nugget"],
+        cobalt: ["megalosaio:cobalt_nugget"],
         cupronickel: "megalosaio:ni_cupronickel_nugget",
         electrum: "megalosaio:au_electrum_nugget",
         germanium: "megalosaio:germanium_nugget",
@@ -179,7 +163,7 @@ const unification = {
         magnesium: "megalosaio:magnesium_nugget",
         molybdenum: "megalosaio:molybdenum_nugget",
         platinum: "megalosaio:platinum_nugget",
-        rose_gold: ["megalosaio:au_rose_gold_nugget", "project_echo:rose_gold_nugget"],
+        rose_gold: ["megalosaio:au_rose_gold_nugget"],
         silicon: "megalosaio:silicon_nugget",
         silver: "megalosaio:silver_nugget",
         stainless_steel: "megalosaio:fe_stainless_steel_nugget",
@@ -198,7 +182,7 @@ const unification = {
         arsenic: "megalosaio:arsenic_ore",
         chromium: ["remin:chromite_ore", "megalosaio:chromium_ore", "chemica:deepslate_chromite_ore"],
         cinnabar: ["remin:cinnabar_ore", "megalosaio:cinnabar_ore"],
-        cobalt: ["project_echo:cobalt_ore", "megalosaio:cobalt_ore", "chemica:deepslate_cobalt_ore"],
+        cobalt: ["megalosaio:cobalt_ore", "chemica:deepslate_cobalt_ore"],
         electrum: ["remin:silver_gold_ore"],
         emerald: ["minecraft:emerald_ore", "remin:emerald_ore"],
         fluorite: "chemica:deepslate_fluorite_ore",
@@ -213,11 +197,7 @@ const unification = {
         phosphorus: ["megalosaio:phosphorus_ore", "chemica:phosphorus_ore", "chemica:deepslate_phosphorus_ore"],
         platinum: ["remin:platinum_ore", "megalosaio:platinum_ore", "modern_industrialization:platinum_ore", "chemica:deepslate_platinum_ore"],
         redstone: "betternether:nether_redstone_ore",
-        ruby: [
-            "remin:ruby_ore",
-            "project_echo:ruby_ore",
-            "betternether:nether_ruby_ore"
-        ],
+        ruby: ["remin:ruby_ore","betternether:nether_ruby_ore"],
         silver: ["create_more_additions:silver_ore", "create_more_additions:deepslate_silver_ore", "megalosaio:silver_ore", "chemica:deepslate_silver_ore"],
         sulfur: ["createchemistry:sulfur_ore", "createchemistry:deepslate_sulfur_ore"],
         thorianite: "create_new_age:thorium_ore",
@@ -232,8 +212,6 @@ const unification = {
         brass: ["create_ironworks:brass_pickaxe", "create_sa:brass_pickaxe"],
         bronze: ["charcoal_pit:bronze_pickaxe", "remin:bronze_pickaxe", "create_ironworks:bronze_pickaxe"],
         copper: ["minecraft:copper_pickaxe", "charcoal_pit:copper_pickaxe", "create_ironworks:copper_pickaxe", "create_sa:copper_pickaxe"],
-        emerald: ["project_echo:emeral_d_pickaxe"],
-        ruby: ["project_echo:ruby_pickaxe"],
         steel: ["remin:steel_pickaxe", "charcoal_pit:steel_pickaxe", "create_ironworks:steel_pickaxe", "tfmg:steel_pickaxe"],
         titanium: ["remin:titanium_pickaxe", "megalosaio:titanium_pickaxe"]
     },
@@ -267,9 +245,6 @@ const unification = {
         vanadium: "megalosaio:raw_vanadium",
         zinc: "megalosaio:raw_zinc"
     },
-    rods: {
-        steel: "project_echo:steel_stick"
-    },
     shards: {
         ender: ["create_compat_core:ender_shard", "betterend:ender_shard"]
     },
@@ -278,13 +253,9 @@ const unification = {
         brass: ["create_ironworks:brass_shovel", "create_sa:brass_shovel"],
         cinnabar: ["remin:cinnabar_block", "megalosaio:raw_cinnabar_block"],
         copper: ["minecraft:copper_shovel", "charcoal_pit:copper_shovel", "create_ironworks:copper_shovel", "create_sa:copper_shovel"],
-        emerald: ["project_echo:emeral_d_shovel"],
-        ruby: ["project_echo:ruby_shovel", "remin:ruby_shovel"],
+        ruby: ["remin:ruby_shovel"],
         lignite_coal: ["modern_industrialization:lignite_coal_block", "tfmg:lignite"],
-        ruby: [
-            "remin:ruby_block",
-            "project_echo:ruby_block"
-        ],
+        ruby: ["remin:ruby_block"],
         steel: ["remin:steel_shovel", "charcoal_pit:steel_shovel", "create_ironworks:steel_shovel", "tfmg:steel_shovel"],
         titanium: ["remin:titanium_shovel", "megalosaio:titanium_shovel"]
     },
@@ -296,7 +267,7 @@ const unification = {
     },
     storage_blocks: {
         aluminum: ["remin:aluminium_block", "megalosaio:aluminium_block"],
-        amethyst: ["minecraft:amethyst_block", "project_echo:amethyst_block", "remin:amethyst_block"],
+        amethyst: ["minecraft:amethyst_block", "remin:amethyst_block"],
         antimony: "megalosaio:antimony_block",
         arsenic: "megalosaio:arsenic_block",
         ash: ["charcoal_pit:ash_block", "regions_unexplored:ash"],
@@ -304,7 +275,7 @@ const unification = {
         beryllium: "megalosaio:beryllium_block",
         brass: "megalosaio:cu_brass_block",
         chromium: "megalosaio:chromium_block",
-        cobalt: ["megalosaio:cobalt_block", "project_echo:cobalt_block"],
+        cobalt: ["megalosaio:cobalt_block"],
         cobaltite: "megalosaio:raw_cobalt_block",
         coke: "tfmg:coal_coke_block",
         cupronickel: "megalosaio:ni_cupronickel_block",
@@ -316,16 +287,16 @@ const unification = {
         kanthal: "megalosaio:fe_kanthal_block",
         lead: "megalosaio:lead_block",
         lithium: "megalosaio:lithium_block",
-        magnesium: ["project_echo:magnesium_block", "megalosaio:magnesium_block"],
+        magnesium: ["megalosaio:magnesium_block"],
         nickel: ["megalosaio:nickel_block", "remin:nickel_block"],
         obsidian: ["remin:obsidian", "minecraft:obsidian"],
         platinum: ["megalosaio:platinum_block", "chemica:platinum_block"],
         purpurite: "astrological:purpurite",
-        rose_gold: ["megalosaio:au_rose_gold_block", "project_echo:rose_gold_block"],
+        rose_gold: ["megalosaio:au_rose_gold_block"],
         rose_quartz: ["remin:rose_quartz_block", "create_ironworks:rose_quartz_block", "create:rose_quartz_block"],
         silver: "megalosaio:silver_block",
         stainless_steel: ["megalosaio:fe_stainless_steel_block", "electrodynamics:resourceblockstainlesssteel"],
-        steel: ["megalosaio:fe_steel_block", "project_echo:steel_block"],
+        steel: ["megalosaio:fe_steel_block"],
         sulfur: "tfmg:sulfur",
         thorianite: ["nuclearscience:raworeblockthorium"],
         titanium: ["megalosaio:titanium_block"],
@@ -353,8 +324,6 @@ const unification = {
         aluminum: ["megalosaio:aluminium_sword", "tfmg:aluminum_sword"],
         brass: ["create_ironworks:brass_sword", "create_sa:brass_sword"],
         copper: ["minecraft:copper_sword", "charcoal_pit:copper_sword", "create_ironworks:copper_sword", "create_sa:copper_sword"],
-        emerald: ["project_echo:emeral_d_sword"],
-        ruby: ["project_echo:ruby_sword"],
         steel: ["remin:steel_sword", "charcoal_pit:steel_sword", "create_ironworks:steel_sword", "tfmg:steel_sword"],
         titanium: ["remin:titanium_sword", "megalosaio:titanium_sword"]
     },
@@ -419,18 +388,26 @@ const unification = {
     },
     item_pipes: {
         iron: ["modern_dynamics:iron_pipe"]
+    },
+    //colors
+    pink: {
+        sand: ["natures_spirit:pink_sand", "biomeswevegone:pink_sand"]
+    },
+    white: {
+        sand: ["biomesoplenty:white_sand", "biomeswevegone:white_sand"]
+    },
+    black: {
+        sand: ["biomesoplenty:black_sand", "biomeswevegone:black_sand"]
     }
 }
 
 const $common_items = () => [
     Ingredient.of("@megalosaio").getItemIds().toArray(),
-    Ingredient.of("@project_echo").getItemIds().toArray(),
     Ingredient.of("@remin").getItemIds().toArray()
 ]
 
-const $tags_common = ($, project_echo_items, remin_items) => {
+const $tags_common = ($, remin_items) => {
     $.add("c:ores", remin_items.filter((v) => v.match(/.*ore.*/)))
-    $.add("c:ores", project_echo_items.filter((v) => v.match(/.*ore.*/)))
 
     for (const category of Object.keys(unification)) {
         for (const material of Object.keys(unification[category])) {
@@ -461,14 +438,12 @@ const $tags_common = ($, project_echo_items, remin_items) => {
 }
 
 ServerEvents.tags("item", ($) => {
-    const [megalos_items, project_echo_items, remin_items] = $common_items()
+    const [megalos_items, remin_items] = $common_items()
 
-    $tags_common($, project_echo_items, remin_items)
+    $tags_common($, remin_items)
 
     $.add("c:ingots", megalos_items.filter((v) => v.match(/.*ingot.*/)))
     $.add("c:nuggets", megalos_items.filter((v) => v.match(/.*nugget.*/)))
-    $.add("c:ingots", project_echo_items.filter((v) => v.match(/.*ingot.*/)))
-    $.add("c:nuggets", project_echo_items.filter((v) => v.match(/.*nugget.*/)))
 
     $.add("c:ingots", "remin:aluminium_ingot")
     $.add("c:ingots", "remin:albemet_ingot")
@@ -569,9 +544,9 @@ ServerEvents.tags("item", ($) => {
 })
 
 ServerEvents.tags("block", ($) => {
-    const [megalos_items, project_echo_items, remin_items] = $common_items()
+    const [megalos_items, remin_items] = $common_items()
 
-    $tags_common($, project_echo_items, remin_items)
+    $tags_common($, remin_items)
 
     $.add("minecraft:needs_diamond_tool", "#waystones:waystones")
     $.add("minecraft:needs_diamond_tool", "waystones:waystone")

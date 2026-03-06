@@ -18,6 +18,7 @@ const inject_features = (biome, features, after) => {
     const mapped_features = features.map((feature) => $Holder$Direct.direct(get_or_direct(feature_registry, feature)))
     const patched_list = Utils.newList()
     let $temp_set
+    let stage = 0
     for (const feature_set of feature_sets) {
         $temp_set = Utils.newList()
         feature_set.iterator().forEachRemaining((v) => {
@@ -28,12 +29,13 @@ const inject_features = (biome, features, after) => {
                 }
             }
         })
-        if (typeof after === "undefined") {
+        if (typeof after === "undefined" || (typeof after === "number" && after === stage)) {
             for (const feature of mapped_features) {
                 $temp_set.add(feature)
             }
         }
         patched_list.add(Java.cast($HolderSet$Direct, $HolderSet$Direct["direct(java.util.List)"]($temp_set)))
+        ++stage
     }
     generation_settings.wover_setFeatures(patched_list)
 }
@@ -58,6 +60,14 @@ const terracotta_map = [
 ]
 
 ServerEvents.generateData("after_mods", ($) => {
+    $.json("kubejs:worldgen/configured_feature/limestone", {
+        type: "minecraft:netherrack_replace_blobs",
+        config: {
+            state: {Name: "create:limestone"},
+            target: {Name: "minecraft:stone"},
+            radius: 12
+        }
+    })
     $.json("kubejs:worldgen/configured_feature/terracotta_replacer", {
         type: "minecraft:simple_random_selector",
         config: {features: terracotta_map.map((color) => ({
@@ -103,7 +113,7 @@ ServerEvents.generateData("after_mods", ($) => {
         "placement": [
             {
                 "type": "minecraft:count",
-                "count": 22
+                "count": 27
             },
             {
                 "type": "minecraft:count",
@@ -121,5 +131,9 @@ ServerEvents.generateData("after_mods", ($) => {
     inject_features("minecraft:savanna_plateau", ["kubejs:terracotta_replacer"], "terralith:savanna/badlands/grass_reg")
     inject_features("terralith:savanna_badlands", ["kubejs:terracotta_replacer"], "terralith:savanna/terracotta")
     inject_features("terralith:white_mesa", ["kubejs:terracotta_replacer"], "terralith:savanna/terracotta")
+    inject_features("terralith:hot_shrubland", ["kubejs:terracotta_replacer"], "terralith:shrubland/disk_terracotta")
+    inject_features("terralith:bryce_canyon", ["kubejs:terracotta_replacer"], 6)
     inject_features("biomeswevegone:sierra_badlands", ["kubejs:terracotta_replacer"], "biomeswevegone:orange_terracotta_boulder")
+
+    inject_features("terralith:arid_highlands", ["kubejs:limestone"], "terralith:highlands/arid/cliff")
 })

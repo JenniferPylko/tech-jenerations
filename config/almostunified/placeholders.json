@@ -158,5 +158,19 @@
     "ebony",
     "wisteria",
     "dead"
+  ],
+  "colors": [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "purple",
+    "pink",
+    "cyan",
+    "brown",
+    "black",
+    "white",
+    "gray"
   ]
 }
