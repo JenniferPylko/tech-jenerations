@@ -158,14 +158,20 @@ ServerEvents.generateData("after_mods", ($) => {
     $.json("kubejs:worldgen/configured_feature/kaolin_4", configured_replace("minecraft:stone", "natures_spirit:brown_kaolin", 8))
     $.json("kubejs:worldgen/placed_feature/kaolin_4", placed_stratum("kubejs:kaolin_4", 4))
 
-    $.json("kubejs:worldgen/configured_feature/shale_1", configured_replace("minecraft:stone", "kubejs:shale", 4))
+    $.json("kubejs:worldgen/configured_feature/shale_1", configured_replace("minecraft:stone", "kubejs:shale", 2))
     $.json("kubejs:worldgen/placed_feature/shale_1", placed_stratum("kubejs:shale_1", 1))
 
     $.json("kubejs:worldgen/configured_feature/shale_2", configured_replace("minecraft:stone", "kubejs:shale", 6))
     $.json("kubejs:worldgen/placed_feature/shale_2", placed_stratum("kubejs:shale_2", 2))
 
     $.json("kubejs:worldgen/configured_feature/mud", configured_replace("minecraft:dirt", "minecraft:mud", 6))
-    $.json("kubejs:worldgen/placed_feature/mud", placed_stratum("kubejs:mud", 8))
+    $.json("kubejs:worldgen/placed_feature/mud", placed_fill("kubejs:mud"))
+
+    $.json("kubejs:worldgen/configured_feature/peat", configured_replace("minecraft:dirt", "regions_unexplored:peat_dirt", 6))
+    $.json("kubejs:worldgen/placed_feature/peat", placed_fill("kubejs:peat"))
+
+    $.json("kubejs:worldgen/configured_feature/peat_grass", configured_replace("minecraft:grass_block", "regions_unexplored:peat_grass_block", 6))
+    $.json("kubejs:worldgen/placed_feature/peat_grass", placed_fill("kubejs:peat_grass"))
 
     $.json("kubejs:worldgen/configured_feature/slab_to_pebbles", configured_replace("minecraft:stone_slab", "survivalistessentials:rock_stone_block"))
     $.json("kubejs:worldgen/placed_feature/slab_to_pebbles", placed_fill("kubejs:slab_to_pebbles"))
@@ -200,12 +206,15 @@ ServerEvents.generateData("after_mods", ($) => {
     inject_features("environmental:marsh", ["kubejs:standing_water"], 6)
     inject_features("biomesoplenty:volcanic_plains", ["kubejs:volcanic_rock", "kubejs:volcanic_ash", "kubejs:mossy_black_sand"], 6)
     inject_features("biomesoplenty:floodplain", ["kubejs:shale_2", "kubejs:mud"], 6)
+    inject_features("biomesoplenty:moor", ["kubejs:peat", "kubejs:peat_grass"], 6)
 
     const shale_kaolin_limestone_biomes = [
         "atmospheric:rainforest",
         "atmospheric:rainforest_basin",
         "biomesoplenty:grassland",
+        "biomesoplenty:jade_cliffs",
         "biomesoplenty:lavender_field",
+        "biomesoplenty:moor",
         "biomesoplenty:orchard",
         "biomesoplenty:overgrown_greens",
         "biomesoplenty:pasture",
@@ -214,12 +223,15 @@ ServerEvents.generateData("after_mods", ($) => {
         "biomesoplenty:rocky_shrubland",
         "biomeswevegone:allium_shrubland",
         "biomeswevegone:araucaria_savanna",
+        "biomeswevegone:aspen_boreal",
         "biomeswevegone:fragment_jungle",
         "biomeswevegone:lush_stacks",
+        "biomeswevegone:rose_fields",
         "biomeswevegone:temperate_grove",
         "environmental:marsh",
         "environmental:pine_slopes",
         "minecraft:bamboo_jungle",
+        "minecraft:beach",
         "minecraft:birch_forest",
         "minecraft:dark_forest",
         "minecraft:forest",
@@ -230,6 +242,7 @@ ServerEvents.generateData("after_mods", ($) => {
         "minecraft:old_growth_pine_taiga",
         "minecraft:old_growth_spruce_taiga",
         "minecraft:plains",
+        "minecraft:snowy_slopes",
         "minecraft:snowy_taiga",
         "minecraft:stony_peaks",
         "minecraft:taiga",
@@ -243,6 +256,8 @@ ServerEvents.generateData("after_mods", ($) => {
         "regions_unexplored:deciduous_forest",
         "regions_unexplored:magnolia_woodland",
         "regions_unexplored:mauve_hills",
+        "regions_unexplored:mountains",
+        "regions_unexplored:pine_slopes",
         "regions_unexplored:pine_taiga",
         "regions_unexplored:prairie",
         "regions_unexplored:redwoods",
