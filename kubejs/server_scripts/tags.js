@@ -405,9 +405,22 @@ const $common_items = () => [
     Ingredient.of("@megalosaio").getItemIds().toArray(),
     Ingredient.of("@remin").getItemIds().toArray()
 ]
+const copy_tags = ($, source, dest) => {
+    const blockTags = Block.getBlock(source).getTags()
+    const itemTags = Block.getBlock(source).asItem().getTags()
+
+    for (const tag of blockTags) {
+        $.add(tag, dest)
+    }
+    for (const tag of itemTags) {
+        $.add(tag, dest)
+    }
+}
 
 const $tags_common = ($, remin_items) => {
     $.add("c:ores", remin_items.filter((v) => v.match(/.*ore.*/)))
+
+    copy_tags($, "minecraft:stone", "kubejs:shale")
 
     for (const category of Object.keys(unification)) {
         for (const material of Object.keys(unification[category])) {

@@ -2,7 +2,7 @@
 	#Whether to show the game client's current memory usage, max, and allocation.
 	memoryTitleBar = true
 	#Custom text to use in the game's title bar. Leave empty for default.
-	customTitleBar = "Minecraft: Tech Jenerations"
+	customTitleBar = "Minecraft: ∫Tech Jenerations"
 
 [misc]
 	#Disables item tooltips in the creative mode player inventory from containing the tab name of that item.

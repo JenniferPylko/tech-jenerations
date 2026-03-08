@@ -107,7 +107,7 @@
 	sleepSpeedMax = 200.0
 	#The minimum speed at which time passes when only 1 player is sleeping in a full server.
 	#Range: 0.0 ~ 24000.0
-	sleepSpeedMin = 10.0
+	sleepSpeedMin = 100.0
 	#The speed at which time passes when all players are sleeping.
 	#Set to -1 to disable this feature (sleepSpeedMax will be used when all players are sleeping).
 	#Range: -1.0 ~ 24000.0

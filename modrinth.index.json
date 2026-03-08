@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "0.1.0",
+  "versionId": "0.2.0",
   "name": "Tech Jenerations",
   "summary": "",
   "files": [
@@ -1581,19 +1581,19 @@
       "fileSize": 173276
     },
     {
-      "path": "mods/createmetalogistics-1.21.1-0.4.5c.jar",
+      "path": "mods/createmetalogistics-1.21.1-0.4.6.jar",
       "hashes": {
-        "sha1": "05059bc441031e7a96c33a447ff3165f52686cc4",
-        "sha512": "1edfca60acba7b6eeeca7a78217710adaf896d4324893e6ebb59b6fc97bd8e3e0a1aa25f02cbdbecf2d10ed62e79905e58647b231599a1e145f5db070b97e9be"
+        "sha1": "470189d5362fdde16e56254b1b48d2dee9ab441f",
+        "sha512": "c9b4082ae10e1b560c8775d5768e0d3b9b5c72251281684e1b102bfe9e63e5003eb68bcbca58ee24ea65d2d8a338e4131c4fb774e62599425c7b1de3a222795e"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/2ACRRn3U/versions/uzwMJLLM/createmetalogistics-1.21.1-0.4.5c.jar"
+        "https://cdn.modrinth.com/data/2ACRRn3U/versions/22gj5jAT/createmetalogistics-1.21.1-0.4.6.jar"
       ],
-      "fileSize": 830851
+      "fileSize": 846199
     },
     {
       "path": "mods/createnewbeg-0.1.0-1.21.1.jar",
@@ -1911,19 +1911,19 @@
       "fileSize": 24239
     },
     {
-      "path": "mods/create_ltab-3.8.0.jar",
+      "path": "mods/create_ltab-3.8.1.jar",
       "hashes": {
-        "sha1": "a5bfeffa8b7fbb105553b7924ddfc99dcdc824b3",
-        "sha512": "422d64fd40eef3d7a7a4530bced88367670f79afb5f90ac3354346231bac6d35d60fae0d8b23555c90d386f9b319f995ac158a9fc57392492aec359575c3e1ac"
+        "sha1": "e40ede0bb8908ba080a07fbc9953710604ba3315",
+        "sha512": "b7f135c16e9ca5cc44d96208734fcd43f5605c92e89270938f7ab266a127b63077a8cae69c0a48bf365fdf2877ca4e3615d42493c5b1e80cf16024c9181448b4"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/fUa6OtBG/versions/Avv76b3R/create_ltab-3.8.0.jar"
+        "https://cdn.modrinth.com/data/fUa6OtBG/versions/B0635kI7/create_ltab-3.8.1.jar"
       ],
-      "fileSize": 2416726
+      "fileSize": 2417939
     },
     {
       "path": "mods/create_more_additions-1.9.0-neoforge-1.21.1.jar",
@@ -3171,19 +3171,19 @@
       "fileSize": 358586
     },
     {
-      "path": "mods/extended-industrialization-1.15.32-1.21.1.jar",
+      "path": "mods/extended-industrialization-1.15.33-1.21.1.jar",
       "hashes": {
-        "sha1": "3bfdb9f73088511e595dbe54e9595054012e1d5b",
-        "sha512": "d66e374bb395df63335e3f9c52d946ed93ca6f52bd3ab93290e2d08e94becd24fad02fbf7f57e0cf0aabb73f25cd3ea2ee1b405f9c1db0265a9a54a3bf1538ce"
+        "sha1": "fd154838c37cd01908caba60faf9fca94c1b39f5",
+        "sha512": "dafc0fe5a285b7e038bc1aad58cb8f6e225887044e16244a2821729c683b750b572843d8807c83e01188a1c45a41df5e45107d83571504b2269a99a5b2dd2556"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/CCM0U9YU/versions/ZiSlAQ8k/extended-industrialization-1.15.32-1.21.1.jar"
+        "https://cdn.modrinth.com/data/CCM0U9YU/versions/gmBd7u9i/extended-industrialization-1.15.33-1.21.1.jar"
       ],
-      "fileSize": 2255302
+      "fileSize": 2255289
     },
     {
       "path": "mods/extra-mod-integrations-all-neoforge-1.0.3+1.21.1.jar",
@@ -3816,19 +3816,19 @@
       "fileSize": 368598
     },
     {
-      "path": "mods/immersive_aircraft-1.4.2+1.21.1-neoforge.jar",
+      "path": "mods/immersive_aircraft-1.4.3+1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "196aaca1152a93696c0898d070edb044d63e7c92",
-        "sha512": "b5c3ca8b93c8ebb4a97472e07ff7b2f15192eee065b70886cb2c35626d24d2accb9ad1a55249123677103abd4a79fe6ee36811bafd2efb21e1ff712577caa851"
+        "sha1": "ba66e5fa04484bd95a1002b03f44da41ebe27f23",
+        "sha512": "b97ab8da190209187f2fa22ad85d874b106cea60fc21a211245699e84d2f4178da264d0d84842ebccf63f4bda37211ec694bf9369103fd89bf89f70b19b140f4"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/x3HZvrj6/versions/87aetyeI/immersive_aircraft-1.4.2%2B1.21.1-neoforge.jar"
+        "https://cdn.modrinth.com/data/x3HZvrj6/versions/lEyfKM50/immersive_aircraft-1.4.3%2B1.21.1-neoforge.jar"
       ],
-      "fileSize": 2444157
+      "fileSize": 2444626
     },
     {
       "path": "mods/Incendium_1.21.x_v5.4.4.jar",
@@ -5106,19 +5106,19 @@
       "fileSize": 495382
     },
     {
-      "path": "mods/OctoLib-NEOFORGE-0.6.0.4+1.21.jar",
+      "path": "mods/OctoLib-NEOFORGE-0.6.1+1.21.jar",
       "hashes": {
-        "sha1": "106ca4d0a3597e1a5c6489e98361c81436c528e0",
-        "sha512": "66b27e29aa3c15b1beef24f219cb1f3ed442aad4cdca2d276fc0516131b65dc977cacd17d6555433bad062ddb9feb8145d71ca87d7b99e70d9c5091542818785"
+        "sha1": "052b71b4897b3a76b4b10afda4d9342e66fb19f1",
+        "sha512": "6e0194da00ae7cc1e67f0033b97965acc460edaa86e204e5f8498ea83be94a2019cb5a3254e07b59562e66297f12f3ea2262f9f0005a52c12b9a680b6f218c4d"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/RH2KUdKJ/versions/cSBObQER/OctoLib-NEOFORGE-0.6.0.4%2B1.21.jar"
+        "https://cdn.modrinth.com/data/RH2KUdKJ/versions/AbiyvpxR/OctoLib-NEOFORGE-0.6.1%2B1.21.jar"
       ],
-      "fileSize": 507443
+      "fileSize": 540285
     },
     {
       "path": "mods/Oh-The-Biomes-Weve-Gone-NeoForge-2.5.4.jar",
@@ -5136,19 +5136,19 @@
       "fileSize": 20743236
     },
     {
-      "path": "mods/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.2.0.jar",
+      "path": "mods/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.2.1.jar",
       "hashes": {
-        "sha1": "82e14106325bebd5a536493aee90873a6cfb38fb",
-        "sha512": "047fa35493fa2ba0806ddf4dcabf33e05161cee0aa10546cb1b05c6e730862f37d7d4280d24d76a0b97421301fbc617660bf40ba5269e8655c58d8b3c7a0adc9"
+        "sha1": "26ce6de922a81f3104e95a126cc948c46ef629b7",
+        "sha512": "fee757648cfb577a3c5dca9217655d0ffa7467133d01e2f2b5e1aa0e098f385e55f2e294d425e7690a5bd77f41cda7aacdf07a2b0f5b863ec26bb23bae8285c0"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/g8NOG5OR/versions/8i7uvcZx/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.2.0.jar"
+        "https://cdn.modrinth.com/data/g8NOG5OR/versions/oKAgwPD0/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.2.1.jar"
       ],
-      "fileSize": 165280
+      "fileSize": 165009
     },
     {
       "path": "mods/old_infrastructure-1.2.1-neoforge-1.21.1.jar",
@@ -5541,19 +5541,19 @@
       "fileSize": 78451
     },
     {
-      "path": "mods/refm-0.3.8-1.21.1.jar",
+      "path": "mods/refm-0.3.9-1.21.1.jar",
       "hashes": {
-        "sha1": "929194506073ae9237cbfcd4eeac756e763580b5",
-        "sha512": "f4b7e87c6c89976c8d8d99a47a04293b5a17b5335d377ea37cbbd4d7d021b608d118e2e467eac9bfe16d8cc8c2be2649c8cad59894d50a575aaa649b8f16c692"
+        "sha1": "b5fcd3827d52d972b249ea83d5d0e56b5fb911b9",
+        "sha512": "2e2eb85e013205b2c3f269adc4d5c3704871f43c5b9952644be100f537ee0aa628f6448c66485be7088e0faced557db884b0cb1b1fb821c8a80b8c59cfa147b7"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ivpOJhFM/versions/rVcvPueM/refm-0.3.8-1.21.1.jar"
+        "https://cdn.modrinth.com/data/ivpOJhFM/versions/zmGM98JB/refm-0.3.9-1.21.1.jar"
       ],
-      "fileSize": 2823953
+      "fileSize": 2824052
     },
     {
       "path": "mods/regions_unexplored-neoforge-1.21.1-0.5.9.jar",
@@ -6231,19 +6231,19 @@
       "fileSize": 315515
     },
     {
-      "path": "mods/sound_physics_perfected-1.16.1+1.21.1-neoforge.jar",
+      "path": "mods/sound_physics_perfected-1.16.3-hotfix+1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "bc583d7d670c11efa39aa5d554a53ea70a4f3cca",
-        "sha512": "2945cef02036c63182e51cabb102a9e0c192a99a7bd602fa3196dbb214167405f97315de1a7842b436ecc1108f2b60372948ad2629509ac1e73e5b6174e39c5c"
+        "sha1": "b8e58e2000f0d5e28d9c510aa6b317d13796e473",
+        "sha512": "52fd50cdb70c72899d6a23354e28071d7710c86fe0223cbce67af873058ebfab27a19e17a196523507ec0b1139534bca83ef1696c9805cd6bb8493f5599a695a"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/KS6Hbu9Z/versions/Mpe6IDd5/sound_physics_perfected-1.16.1%2B1.21.1-neoforge.jar"
+        "https://cdn.modrinth.com/data/KS6Hbu9Z/versions/xcoemJcf/sound_physics_perfected-1.16.3-hotfix%2B1.21.1-neoforge.jar"
       ],
-      "fileSize": 429147
+      "fileSize": 429852
     },
     {
       "path": "mods/spark-1.10.124-neoforge.jar",

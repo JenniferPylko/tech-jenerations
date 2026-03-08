@@ -777,6 +777,9 @@
 			sculk_stone = true
 			gloomslate = true
 
+		[types.stone_type.kubejs]
+			shale = true
+
 		[types.stone_type.dndecor]
 			cut_stone = true
 

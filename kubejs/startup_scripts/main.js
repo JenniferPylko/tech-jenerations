@@ -122,6 +122,16 @@ StartupEvents.registry("item", ($) => {
         })
 })
 
+const custom_stone = (builder) => builder
+    .requiresTool(true)
+    .stoneSoundType()
+    .hardness(12)
+
+StartupEvents.registry("block", ($) => {
+    custom_stone($.create("shale"))
+    .parentModel("kubejs:block/shale")
+})
+
 BlockEvents.modification(($) => {
     const $requiresTool = (selector) => $.modify(selector, (block) => block.setRequiresTool(true))
     const $name = (selector, displayName) => $.modify(selector, (block) => block.setNameKey(displayName))
@@ -162,6 +172,16 @@ BlockEvents.modification(($) => {
     $name("megalosaio:lead_ore", "Galena Ore")
     $name("megalosaio:raw_lead", "Galena")
     $name("megalosaio:raw_lead_block", "Block of Galena")
+    $name("minecraft:stone", "Slate")
+    $name("minecraft:infested_stone", "Infested Slate")
+    $name("minecraft:stone_slab", "Slate Slab")
+    $name("minecraft:smooth_stone", "Smooth Slate")
+    $name("minecraft:smooth_stone_slab", "Smooth Slate Slab")
+    $name("minecraft:stone_stairs", "Slate Stairs")
+    $name("minecraft:stone_button", "Slate Button")
+    $name("minecraft:stone_pressure_plate", "Slate Pressure Plate")
+    $name("regions_unexlprode:mossy_stone", "Mossy Slate")
+    $name("regions_unexplored:stone_grass_block", "Slate Grass Block")
 
     $.modify("minecraft:obsidian", (block) => block.setIsRandomlyTicking(true))
     $.modify("minecraft:sculk_catalyst", (block) => block.setIsRandomlyTicking(true))
