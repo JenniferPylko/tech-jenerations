@@ -1,3 +1,4 @@
+setworldspawn ~ 63 -100000
 gamerule disableElytraMovementCheck true
 gamerule spawnChunkRadius 0
 gamerule waterSourceConversion false

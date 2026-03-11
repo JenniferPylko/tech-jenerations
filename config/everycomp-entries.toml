@@ -169,6 +169,9 @@
 			wart = true
 			willow = true
 
+		[types.wood_type.hybrid-aquatic]
+			driftwood = true
+
 		[types.leaves_type.biomeswevegone]
 			flowering_palo_verde = true
 			aspen = true
@@ -530,47 +533,6 @@
 			acacia_bush = true
 			acacia_amethyst = true
 
-		[types.leaves_type.dtru]
-			willow = true
-			white_magnolia = true
-			twisting_birch = true
-			spruce_twiglet = true
-			socotra = true
-			silver_birch = true
-			reef_jungle = true
-			red_maple = true
-			redwood = true
-			pink_magnolia = true
-			pine_twiglet = true
-			pine = true
-			palm = true
-			orange_maple = true
-			oak_twiglet = true
-			oak_poplar = true
-			mauve = true
-			maple = true
-			magnolia = true
-			larch = true
-			kapok = true
-			joshua = true
-			golden_larch = true
-			flowering_undergrowth = true
-			flowering = true
-			eucalyptus = true
-			enchanted_birch = true
-			dead_pine = true
-			dead = true
-			cypress = true
-			cobalt = true
-			brimwood = true
-			blue_magnolia = true
-			blackwood = true
-			baobab = true
-			bamboo = true
-			ashen_pine = true
-			ashen = true
-			acacia_twiglet = true
-
 		[types.leaves_type.undergarden]
 			smogstem = true
 			wigglewood = true
@@ -664,6 +626,47 @@
 			cedar = true
 			blue_wisteria = true
 			aspen = true
+
+		[types.leaves_type.dtru]
+			willow = true
+			white_magnolia = true
+			twisting_birch = true
+			spruce_twiglet = true
+			socotra = true
+			silver_birch = true
+			reef_jungle = true
+			red_maple = true
+			redwood = true
+			pink_magnolia = true
+			pine_twiglet = true
+			pine = true
+			palm = true
+			orange_maple = true
+			oak_twiglet = true
+			oak_poplar = true
+			mauve = true
+			maple = true
+			magnolia = true
+			larch = true
+			kapok = true
+			joshua = true
+			golden_larch = true
+			flowering_undergrowth = true
+			flowering = true
+			eucalyptus = true
+			enchanted_birch = true
+			dead_pine = true
+			dead = true
+			cypress = true
+			cobalt = true
+			brimwood = true
+			blue_magnolia = true
+			blackwood = true
+			baobab = true
+			bamboo = true
+			ashen_pine = true
+			ashen = true
+			acacia_twiglet = true
 
 		[types.stone_type.natures_spirit]
 			white_kaolin = true

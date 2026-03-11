@@ -21,19 +21,19 @@
       "fileSize": 102468
     },
     {
-      "path": "mods/abridged-2.0.0-neoforge-1.21.1.jar",
+      "path": "mods/abridged-2.0.1-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "68bacbd48d5b74ba5b103d4d98978de82d0ead24",
-        "sha512": "52bc3732640d21372e31d12ec486de0a9e69793be36598b4f823ad22d92b24432aff3a9ee1a5533b78b00a79cda211d6adcba99dd0b8b23e90705d372261855d"
+        "sha1": "384233591af31211433fc5636a3fa453dbfe87c6",
+        "sha512": "e2d27b52f294e09201874d97315ab29530943d6b989a2f64ba91632cd483d83403f4d9805f889377f78c3900b393425b187bbfa0fc6e124806c03643ac735119"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/tb5O1ssC/versions/955TTsaY/abridged-2.0.0-neoforge-1.21.1.jar"
+        "https://cdn.modrinth.com/data/tb5O1ssC/versions/l5RJ4t5s/abridged-2.0.1-neoforge-1.21.1.jar"
       ],
-      "fileSize": 120355
+      "fileSize": 120683
     },
     {
       "path": "mods/abusimbel-1.21.1.jar",
@@ -2976,34 +2976,34 @@
       "fileSize": 7834244
     },
     {
-      "path": "mods/epic-fight-21.15.6-mc1.21.1-neoforge.jar",
+      "path": "mods/epic-fight-21.15.7-mc1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "962bb811802d8c50f8a63be282067dc0c4611566",
-        "sha512": "03a11457033df4e0d94392bdaef07e3f0cbb41ec081294038b7d9da70810a6999a63fb0e74e4925ed13dde073daa2415b78176940383392437ef00d0daee3f35"
+        "sha1": "f118ff46e1cf28c0a1e0d4945228fcd54c3a0015",
+        "sha512": "7b57ffa0ca5ecbd3451771595aabfe27035d7345a4c3b07e8a4f1441efd92aad909c7d2bbb98e544ccf2db94c3939c77f2494f67c86a03b1ff214eae03ec12af"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/71Ed7Y1v/epic-fight-21.15.6-mc1.21.1-neoforge.jar"
+        "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/lLbngDD1/epic-fight-21.15.7-mc1.21.1-neoforge.jar"
       ],
-      "fileSize": 8329171
+      "fileSize": 8332558
     },
     {
-      "path": "mods/epicfight-skilltree-neoforge-21.3.1-1.21.1.jar",
+      "path": "mods/epicfight-skilltree-neoforge-21.3.2-1.21.1.jar",
       "hashes": {
-        "sha1": "fde633dbb975740a8a669605546ed7d39794049e",
-        "sha512": "46ecb78a8f6c896e3b1388bae17bd105d59de1eeb76dbc24cb81fe8bc95408d106cd569b98402a44c149e6280da0e0e861f331511efa0122daa0fe315d6fd4f1"
+        "sha1": "8d78af6ee9ff8b9b4bfd7e3fc4240a5f8778e586",
+        "sha512": "7726a76d6d520486a017470b36fa6632b736ca3004f36aadb6e6a14c28a4c0afdf10c7fc86910de11dd09eb418df0c5c4df4362b96b2e1c111eb7e9dd3c4bd80"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/PezbUFun/versions/ohPR33fY/epicfight-skilltree-neoforge-21.3.1-1.21.1.jar"
+        "https://cdn.modrinth.com/data/PezbUFun/versions/kW4bdi3K/epicfight-skilltree-neoforge-21.3.2-1.21.1.jar"
       ],
-      "fileSize": 315403
+      "fileSize": 316024
     },
     {
       "path": "mods/epictweaks-neoforge-1.21.1-1.2.0.jar",
@@ -3036,19 +3036,19 @@
       "fileSize": 44308407
     },
     {
-      "path": "mods/everycomp-1.21-2.11.29-neoforge.jar",
+      "path": "mods/everycomp-1.21-2.11.30-neoforge.jar",
       "hashes": {
-        "sha1": "6a1184016ebaa0df4acdbeced802fb97c9a4683f",
-        "sha512": "9b8f161407621d9579fb15cf7efed3aa3e8ba2b046b204011c864400d959466df78a5f3c232a3925de2a95376bb4a45408b7a772da4afa4e6f4d4b3ed227f283"
+        "sha1": "abcb516dee55d74110e88be9f6426329405f943d",
+        "sha512": "368c14e6859355f74f10fa01a2ada412fb424c1dc36c076217890ef9c8c7ddff2bdf4e87891fee549389a342b7efb1ac822eaeabb74fdfaa501677be8a711cb7"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/eiktJyw1/versions/u6PmiTvJ/everycomp-1.21-2.11.29-neoforge.jar"
+        "https://cdn.modrinth.com/data/eiktJyw1/versions/uvJ8XuwL/everycomp-1.21-2.11.30-neoforge.jar"
       ],
-      "fileSize": 2642799
+      "fileSize": 2642768
     },
     {
       "path": "mods/excavatedvariants-4.3.1-neoforge.jar",
@@ -4146,21 +4146,6 @@
       "fileSize": 186522
     },
     {
-      "path": "mods/larger-biomes-1.0.jar",
-      "hashes": {
-        "sha1": "1f183434d440b6cf34673e9417b1cdd8d8f0528c",
-        "sha512": "f794ab3d2f758cee769daf144fcaeeb6803fbddfb8fcce3df71d6910d70ad0e1742db16598f7c199107af6c20a1b1d676c13f35354794f91520eb2431c120566"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Ky9qVx8u/versions/aggQncMa/larger-biomes-1.0.jar"
-      ],
-      "fileSize": 5893
-    },
-    {
       "path": "mods/lavasand-1.21.1-neoforge-2.1.jar",
       "hashes": {
         "sha1": "6430229c545746f66838d860be5049896d5158e5",
@@ -4206,19 +4191,19 @@
       "fileSize": 773944
     },
     {
-      "path": "mods/lithostitched-1.5.7-neoforge-1.21.1.jar",
+      "path": "mods/lithostitched-1.6.1-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "aed1e2f4d6db2b3f2d4a1548f97fcaa6b606911e",
-        "sha512": "98792c8ec08ccb5152bf992ef023e89e65f42c7789453cdcb948c2cc96d600b9287d0ec0c52d06e8c851f28b43c84e618562f77da14e1b3d9efa338a89fade95"
+        "sha1": "dfb387c23106f07ed58d2d3f7682663aa7aac53a",
+        "sha512": "0ac4dbd5d2fbe5fbc2413b101ca4353363923ac14de74743a32509874f08eeb42a839bbd0c57da85a4143e0c35ebe87acec027620b6e040dddaff9a770bae0cd"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/XaDC71GB/versions/HsoCbRc0/lithostitched-1.5.7-neoforge-1.21.1.jar"
+        "https://cdn.modrinth.com/data/XaDC71GB/versions/bVdEj2PN/lithostitched-1.6.1-neoforge-1.21.1.jar"
       ],
-      "fileSize": 567562
+      "fileSize": 791070
     },
     {
       "path": "mods/lit_on_fire-1.3.1.jar",
@@ -6231,19 +6216,19 @@
       "fileSize": 315515
     },
     {
-      "path": "mods/sound_physics_perfected-1.16.3-hotfix+1.21.1-neoforge.jar",
+      "path": "mods/sound_physics_perfected-1.17.0-alpha+1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "b8e58e2000f0d5e28d9c510aa6b317d13796e473",
-        "sha512": "52fd50cdb70c72899d6a23354e28071d7710c86fe0223cbce67af873058ebfab27a19e17a196523507ec0b1139534bca83ef1696c9805cd6bb8493f5599a695a"
+        "sha1": "abca15eeeb0c128cb19c95f0b345bfe999695a75",
+        "sha512": "350eae74da44dc88f064af67bd688f72c9df7e0dd380196f824abb6d3cab6242e8089e0c4e791739e6ed0cf4f5b27cb2764a11ae8dd3d375ba559448e8b6aece"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/KS6Hbu9Z/versions/xcoemJcf/sound_physics_perfected-1.16.3-hotfix%2B1.21.1-neoforge.jar"
+        "https://cdn.modrinth.com/data/KS6Hbu9Z/versions/ae0cjF9w/sound_physics_perfected-1.17.0-alpha%2B1.21.1-neoforge.jar"
       ],
-      "fileSize": 429852
+      "fileSize": 430089
     },
     {
       "path": "mods/spark-1.10.124-neoforge.jar",
@@ -6351,19 +6336,19 @@
       "fileSize": 2832078
     },
     {
-      "path": "mods/stonezone-1.21-2.11.11-neoforge.jar",
+      "path": "mods/stonezone-1.21-2.11.12-neoforge.jar",
       "hashes": {
-        "sha1": "eb710b7968cf1977648ce4f2a3ecd87d46909499",
-        "sha512": "fe95b85031550e830129a8adb989ec5adbc074a7403c5e2737afc9b1316bc1ddaa9b97525bb1060892bcb0e9de23e4cc7d94da2f68d9adff29204f829a3fcaac"
+        "sha1": "1ee98842bf01b40960872e82aae1c4a6e9245afc",
+        "sha512": "67c378d49262b8a003042b8a308d9ce48317a14ca6631cc4cf12d7177b26d2b54d16436757c6853ce018fb1c9ecda351e50a1baa8b1cbe8fe6129692f88e6c98"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/uYwn8IP5/versions/n0tKS3j0/stonezone-1.21-2.11.11-neoforge.jar"
+        "https://cdn.modrinth.com/data/uYwn8IP5/versions/fdvPlAxm/stonezone-1.21-2.11.12-neoforge.jar"
       ],
-      "fileSize": 799888
+      "fileSize": 817599
     },
     {
       "path": "mods/strayed-fates-forsaken-v2.0.0.2.jar",

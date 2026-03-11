@@ -271,6 +271,9 @@ const unification = {
         antimony: "megalosaio:antimony_block",
         arsenic: "megalosaio:arsenic_block",
         ash: ["charcoal_pit:ash_block", "regions_unexplored:ash"],
+        basalt: ["minecraft:basalt", "charcoal_pit:basalt"],
+        basalt_smooth: ["minecraft:smooth_basalt", "charcoal_pit:basalt_polished"],
+        basalt_pillar: ["minecraft:polished_basalt", "charcoal_pit:basalt_pillar"],
         bauxite: ["tfmg:bauxite", "megalosaio:raw_aluminium_block"],
         beryllium: "megalosaio:beryllium_block",
         brass: "megalosaio:cu_brass_block",
@@ -421,6 +424,7 @@ const $tags_common = ($, remin_items) => {
     $.add("c:ores", remin_items.filter((v) => v.match(/.*ore.*/)))
 
     copy_tags($, "minecraft:stone", "kubejs:shale")
+    copy_tags($, "minecraft:stone", "kubejs:quartzite")
 
     for (const category of Object.keys(unification)) {
         for (const material of Object.keys(unification[category])) {
@@ -577,6 +581,14 @@ ServerEvents.tags("block", ($) => {
     $.add("c:thorianite_bearing", "remin:feldspar")
     $.add("c:thorianite_bearing", "yungscavebiomes:ancient_sandstone")
     $.add("c:thorianite_bearing", "yungscavebiomes:layered_ancient_sandstone")
+
+    $.add("c:chests", "copperagebackport:copper_chests")
+    $.add("deeperdarker:transmittable", ["#c:chests",
+        "ae2:terminal", "ae2:crafting_terminal", "ae2:pattern_access_terminal", "ae2:pattern_encoding_terminal",
+        "fulleng:terminal", "fulleng:crafting_terminal", "fulleng:pattern_access_terminal", "fulleng:pattern_encoding_terminal",
+        "ae2:pattern_provider", "ae2:cable_pattern_provider", "ae2:molecular_assembler", "ae2:chest", "ae2:import_bus", "ae2:export_bus",
+        "ae2:inscriber", "ae2:drive", "ae2:interface", "ae2:cell_workbench", "ae2:io_port"
+    ])
 })
 
 ServerEvents.tags("structure", ($) => {

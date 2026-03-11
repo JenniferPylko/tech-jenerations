@@ -130,6 +130,14 @@ const custom_stone = (builder) => builder
 StartupEvents.registry("block", ($) => {
     custom_stone($.create("shale"))
     .parentModel("kubejs:block/shale")
+    .mapColor("color_gray")
+
+    custom_stone($.create("quartzite"))
+    .parentModel("kubejs:block/granite")
+    .mapColor("dirt")
+
+    $.create("become_wet")
+    .parentModel("minecraft:air")
 })
 
 BlockEvents.modification(($) => {
@@ -182,6 +190,7 @@ BlockEvents.modification(($) => {
     $name("minecraft:stone_pressure_plate", "Slate Pressure Plate")
     $name("regions_unexlprode:mossy_stone", "Mossy Slate")
     $name("regions_unexplored:stone_grass_block", "Slate Grass Block")
+    $name("deeperdarker:sculk_transmitter", "Sculk Radio")
 
     $.modify("minecraft:obsidian", (block) => block.setIsRandomlyTicking(true))
     $.modify("minecraft:sculk_catalyst", (block) => block.setIsRandomlyTicking(true))
