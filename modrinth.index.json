@@ -1,8 +1,8 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "0.2.0",
-  "name": "Tech Jenerations",
+  "versionId": "0.3.0",
+  "name": "∫Tech Jenerations",
   "summary": "",
   "files": [
     {
@@ -214,21 +214,6 @@
         "https://cdn.modrinth.com/data/6iTJugQR/versions/8xf6Wpxs/amendments-1.21-2.0.15-neoforge.jar"
       ],
       "fileSize": 1143659
-    },
-    {
-      "path": "mods/amethyst-1.0.1-neoforge-1.21.1.jar",
-      "hashes": {
-        "sha1": "47b1a64f1e0078b27ddb5b64ac08d0eabb1f415b",
-        "sha512": "3103f6a3d5c01b9ed1fbbdcfc8d40ff52990d248f01ecad1f60c8f512390e07a73a1320f1698715d23619081f94c221ea2945332695abcbe761594ed88cd4429"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/VPjCOVl6/versions/C9cSSLB5/amethyst-1.0.1-neoforge-1.21.1.jar"
-      ],
-      "fileSize": 4392582
     },
     {
       "path": "mods/ancient-jungle-ring-1.0.jar",
@@ -994,6 +979,21 @@
         "https://cdn.modrinth.com/data/E6GusVzz/versions/PeOc8dSN/Chemica-0.5.1.jar"
       ],
       "fileSize": 706460
+    },
+    {
+      "path": "mods/chemicalscience-1.21.1-3.1.1.jar",
+      "hashes": {
+        "sha1": "ae7c4d22ac84bca854b6c9e86444af8e9081d8dd",
+        "sha512": "94005ee842464e17714e1df9626c3a970dc091ec995ec251a0a416d2e0d3f042950851e18af3fb5def277e43bee9c6ea9754f9f12aecbbff04a16235381ae58b"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ToQbVMfg/versions/QJi8kYQN/chemicalscience-1.21.1-3.1.1.jar"
+      ],
+      "fileSize": 3464236
     },
     {
       "path": "mods/chronodawn-0.5.0+1.21.1-neoforge.jar",
@@ -4896,19 +4896,19 @@
       "fileSize": 568878
     },
     {
-      "path": "mods/naturaltemperature-1.0.18-NEOFORGE-MC-1.21.1.jar",
+      "path": "mods/naturaltemperature-1.0.18.1-NEOFORGE-MC-1.21.1.jar",
       "hashes": {
-        "sha1": "27a599d5734213ea168294096ca2021a6ca95e7d",
-        "sha512": "6a5f5b4726aad9a124966639d7bf1d809f72c0988b3c373ad4b1dc72e0a8978d642c06f073ee5e64555e8261a2af70a0ff99cf2a7a4c563e7076aa244199ba08"
+        "sha1": "2f9ab5555efb690949f7c27f0a14ab4691cad71e",
+        "sha512": "7817189900fa897d3406ea7463856044355d859e89709debc46ca353bb16906dff866a8efaba5afaf2649c0dcbf4acd42a6d71d7de2d511984e596b75ce3cad8"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/QZt2fevq/versions/AXIKfiuF/naturaltemperature-1.0.18-NEOFORGE-MC-1.21.1.jar"
+        "https://cdn.modrinth.com/data/QZt2fevq/versions/D1gFBcTk/naturaltemperature-1.0.18.1-NEOFORGE-MC-1.21.1.jar"
       ],
-      "fileSize": 56144
+      "fileSize": 56187
     },
     {
       "path": "mods/natures_spirit-2.2.5-1.21.1.jar",
@@ -5226,19 +5226,19 @@
       "fileSize": 540285
     },
     {
-      "path": "mods/Oh-The-Biomes-Weve-Gone-NeoForge-2.5.4.jar",
+      "path": "mods/Oh-The-Biomes-Weve-Gone-NeoForge-2.5.5.jar",
       "hashes": {
-        "sha1": "b8b2aa46b3987a6ee2f7f34593fd243e647d8c9e",
-        "sha512": "6ad3fb5bee6b6701e465baa5c1db2cfbc80fca9e0e8c08d7c48b8d911c68479c0b33399f8a960565060ae6c94d82750d28daf66de7269f3fa096f014554aef8b"
+        "sha1": "b7d028def9c15698dff076e1c606d4496f0a2730",
+        "sha512": "c71db94abe31f563f44b6384cdf562ed32fe93d27d7b9dbe6b0e85e043b0da7373bd49c1f430ff4fed81da1c6bece04cfba66ab53407a834d307f241b6ddd596"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/NTi7d3Xc/versions/JXws7ZiS/Oh-The-Biomes-Weve-Gone-NeoForge-2.5.4.jar"
+        "https://cdn.modrinth.com/data/NTi7d3Xc/versions/6cLkgRgD/Oh-The-Biomes-Weve-Gone-NeoForge-2.5.5.jar"
       ],
-      "fileSize": 20743236
+      "fileSize": 20759732
     },
     {
       "path": "mods/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.2.1.jar",
@@ -5511,19 +5511,19 @@
       "fileSize": 1080389
     },
     {
-      "path": "mods/questlog-neoforge-1.21.1-2.0.0.jar",
+      "path": "mods/questlog-neoforge-1.21.1-2.0.2.jar",
       "hashes": {
-        "sha1": "33385ef8215f8d34b57862f8e060cad669deb8f5",
-        "sha512": "da1eb42d28963a4376e6a0a38180c10c80268c0b8ba0cc0f544fc99ccaeed3e74d392dadabe238d6aa4b5fffeb844038782bde6d88a4c382d8dc4b9c1036b9a6"
+        "sha1": "77bf8b54b73f3f0fcbfb58057abeb298794748a8",
+        "sha512": "94a87104c4ff846a6e598e70fbe3576a16878f87b4bba3b5f3ef7e304320eda1037e0a00ad116382d8b417cdbf2f44b107402df982095142479bc2f29c2196cd"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ufQYCY6N/versions/owCT5jxt/questlog-neoforge-1.21.1-2.0.0.jar"
+        "https://cdn.modrinth.com/data/ufQYCY6N/versions/Xk64RZCT/questlog-neoforge-1.21.1-2.0.2.jar"
       ],
-      "fileSize": 310452
+      "fileSize": 310383
     },
     {
       "path": "mods/quick-pack-neoforge-1.2.0+1.21.10.jar",
@@ -6681,19 +6681,19 @@
       "fileSize": 3115385
     },
     {
-      "path": "mods/tesseract-api-neoforge-1.11.8-1.21.1.jar",
+      "path": "mods/tesseract-api-neoforge-1.11.9-1.21.1.jar",
       "hashes": {
-        "sha1": "0df0445517710e30f4d43461fece8e783c8135d8",
-        "sha512": "e801e09be9fce0310e990afe3b3ba00f65bd9212d0f59d527de18f8f7a6d991fa82de12037ca98705fb3f72634e73c505078e4f9017f0d453790a6b71f98d68a"
+        "sha1": "f2214b6e50199e6ebfaebed868bd895baee5c0a0",
+        "sha512": "a16058a573655871a3b24fa2324da25f5d805ab81262e9684071f48d7498af18e610c44da613f2b9033b7edef13f8f93c2c8372ef87ebd994be0dbe0b7b942b3"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/pHNT1iyc/versions/54xoMRty/tesseract-api-neoforge-1.11.8-1.21.1.jar"
+        "https://cdn.modrinth.com/data/pHNT1iyc/versions/ENvUVXez/tesseract-api-neoforge-1.11.9-1.21.1.jar"
       ],
-      "fileSize": 726170
+      "fileSize": 726149
     },
     {
       "path": "mods/tfmg-1.2.0.jar",
@@ -6846,19 +6846,19 @@
       "fileSize": 14648
     },
     {
-      "path": "mods/toastysmobs-2.4.6-neoforge-1.21.1.jar",
+      "path": "mods/toastysmobs-2.4.9-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "753f3a5d7aaed0f0f109f0294898d9e07ae7b80b",
-        "sha512": "0016402b4347f6542a1c72be1d7a6fcd539eeb35c1503cfb4081de4c6e901bc4606c40cea79f75711b90749177ea78ea3db18b5201b66f8da32e411b7a953b2d"
+        "sha1": "3b8a0d0801f136de57b9e243cc556c89144452d5",
+        "sha512": "7e446fad6f043cca73cc42be9fbe7b3fc1b081c759ce1406e62eb9b5626969a3ce625ad2c54cb72d539e1ebff4e4d2602770218e019a5e1a4365a93883f12206"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/Ho9VjoF5/versions/9vjv0V6X/toastysmobs-2.4.6-neoforge-1.21.1.jar"
+        "https://cdn.modrinth.com/data/Ho9VjoF5/versions/5ZgPNnsM/toastysmobs-2.4.9-neoforge-1.21.1.jar"
       ],
-      "fileSize": 1020877
+      "fileSize": 1089588
     },
     {
       "path": "mods/toomanypaintings-25.10.20-1.21-neoforge.jar",
@@ -7894,6 +7894,21 @@
         "https://cdn.modrinth.com/data/jb0MbxKP/versions/t5ZwscjJ/Connected_Polished_Stones%281.20%2B%29.zip"
       ],
       "fileSize": 251402
+    },
+    {
+      "path": "resourcepacks/Connected_Sculk.zip",
+      "hashes": {
+        "sha1": "9cb75cd8330c4b3321b161716e36982169d751c0",
+        "sha512": "3972e934eac1bb23b9e123f565059ae7baadfd1aa14f9e04f8e8a812eee456629b325a0b08f5a8222b790b75b3972cee1b628b682671df20e2d2da05b3c39f07"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/rnizo4sx/versions/XH4i64Hz/Connected_Sculk.zip"
+      ],
+      "fileSize": 127011
     },
     {
       "path": "resourcepacks/Create Touch-Ups v1.0.zip",

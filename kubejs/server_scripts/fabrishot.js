@@ -1,5 +1,3 @@
-try {
-
 const $fabrishot = Java.loadClass("me.ramidzkh.fabrishot.Fabrishot")
 
 const fabrishot = () => {
@@ -58,7 +56,3 @@ ServerEvents.basicCommand("panoramashot", ($) => {
         }, delay)
     }, delay)
 })
-
-} catch (e) {
-    console.warn("not registering fabrishot commands, this is probably a dedicated server")
-}

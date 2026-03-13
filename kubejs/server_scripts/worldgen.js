@@ -1,18 +1,15 @@
 const $HolderSet$Direct = Java.loadClass("net.minecraft.core.HolderSet$Direct")
 const $Holder$Direct = Java.loadClass("net.minecraft.core.Holder$Direct")
 
-const get_or_direct = (registry, key_or_object) => {
-    if (typeof key_or_object === "string") {
-        return registry.get(key_or_object)
-    }
-    return key_or_object
-}
+const { get_or_direct, open_registry } = global.utils
 
 const inject_features = (biome, features, after) => {
-    console.log("if the next line is a missing registry error you can ignore it")
-    const biome_registry = Registry.of("minecraft:worldgen/biome")
-    const feature_registry = Registry.of("minecraft:worldgen/placed_feature")
-    console.log(`^^^ nope, we're good, loading ${biome}`)
+    const biome_registry = open_registry("minecraft:worldgen/biome")
+    const feature_registry = open_registry("minecraft:worldgen/placed_feature")
+    if (!biome_registry || !feature_registry) {
+        return
+    }
+    console.log(`feature injector loading ${biome}`)
     const biome_loaded = biome_registry.get(biome)
     if (!biome_loaded) {
         console.log("error loading biome")
@@ -46,6 +43,15 @@ const inject_features = (biome, features, after) => {
     generation_settings.wover_setFeatures(patched_list)
 }
 
+const features = {
+    in_square: {type: "minecraft:in_square"},
+    biome: {type: "minecraft:biome"},
+    count: (count) => ({type: "minecraft:count", count: count}),
+    heightmap: (heightmap) => ({type: "minecraft:heightmap", heightmap: heightmap})
+}
+
+const { biomes } = global
+
 const configured_replace_blobs = (target, replacement, radius) => ({
     type: "minecraft:netherrack_replace_blobs",
     config: {
@@ -71,42 +77,14 @@ const configured_replace_single = (target, replacement) => ({
 const placed_fill = (feature_name) => ({
     "feature": feature_name,
     "placement": [
-        {
-            "type": "minecraft:count",
-            "count": 27
-        },
-        {
-            "type": "minecraft:count",
-            "count": 74
-        },
-        {
-            "type": "minecraft:in_square"
-        },
-        {
-            "type": "minecraft:heightmap",
-            "heightmap": "WORLD_SURFACE_WG"
-        }
+        features.count(27), features.count(74), features.in_square, features.heightmap("WORLD_SURFACE_WG")
     ]
 })
 
 const placed_stratum = (feature, depth, target) => ({
     "feature": feature,
     "placement": [
-        {
-            "type": "minecraft:count",
-            "count": 27
-        },
-        {
-            "type": "minecraft:count",
-            "count": 74
-        },
-        {
-            "type": "minecraft:in_square"
-        },
-        {
-            "type": "minecraft:heightmap",
-            "heightmap": "WORLD_SURFACE_WG"
-        },
+        features.count(27), features.count(74), features.in_square, features.heightmap("WORLD_SURFACE_WG"),
         {
             "type": "minecraft:environment_scan",
             "direction_of_search": "down",
@@ -145,7 +123,53 @@ const terracotta_map = [
     "red"
 ]
 
+const build_feature = ($, id, configured, placed) => {
+    $.json(`kubejs:worldgen/configured_feature/${id}`, configured)
+    $.json(`kubejs:worldgen/placed_feature/${id}`, Object.assign({}, placed, {feature: `kubejs:${id}`}))
+    return `kubejs:${id}`
+}
+
+const build_strata = ($, target, replacement) => {
+    const strata = []
+    for (let depth = 1; depth < 32; ++depth) {
+        for (let radius = 1; radius < 13; ++radius) {
+            strata.push(
+                build_feature($, 
+                    `stratum_${depth}_${target.split(":").pop()}_${radius}`,
+                    configured_replace_blobs(target, replacement, radius),
+                    placed_stratum("", depth, target)
+                )
+            )
+        }
+    }
+    return strata
+}
+
+const stratum_name = (block, depth, radius) => `kubejs:stratum_${depth}_${block}_${radius}`
+
 ServerEvents.generateData("after_mods", ($) => {
+
+    build_feature($, "molten_echo",
+        configured_replace_blobs("minecraft:water", "create_deep_dark:molten_echo"),
+        {
+            placement: [
+                features.count(32), features.in_square,
+                {
+                    "type": "minecraft:height_range",
+                    "height": {
+                        "type": "minecraft:uniform",
+                        "min_inclusive": {
+                        "absolute": -128
+                        },
+                        "max_inclusive": {
+                        "absolute": -64
+                        }
+                    }
+                }, features.biome
+            ]
+        }
+    )
+
     $.json("kubejs:worldgen/configured_feature/standing_water", {
         type: "minecraft:spring_feature",
         config: {
@@ -168,15 +192,6 @@ ServerEvents.generateData("after_mods", ($) => {
     $.json("kubejs:worldgen/configured_feature/mystic_stone", configured_replace_blobs("minecraft:stone", "ae2:smooth_quartz_block", 3))
     $.json("kubejs:worldgen/placed_feature/mystic_stone", placed_stratum("kubejs:mystic_stone", 2))
 
-    $.json("kubejs:worldgen/configured_feature/volcanic_rock", configured_replace_blobs("minecraft:stone", "northstar:volcanic_rock"))
-    $.json("kubejs:worldgen/placed_feature/volcanic_rock", placed_stratum("kubejs:volcanic_rock", 16))
-
-    $.json("kubejs:worldgen/configured_feature/volcanic_ash", configured_replace_blobs("minecraft:dirt", "northstar:volcanic_ash"))
-    $.json("kubejs:worldgen/placed_feature/volcanic_ash", placed_stratum("kubejs:volcanic_ash", 16))
-
-    $.json("kubejs:worldgen/configured_feature/mossy_black_sand", configured_replace_blobs("minecraft:grass_block", "biomesoplenty:mossy_black_sand"))
-    $.json("kubejs:worldgen/placed_feature/mossy_black_sand", placed_stratum("kubejs:mossy_black_sand", 12))
-
     $.json("kubejs:worldgen/configured_feature/kaolin_4", configured_replace_blobs("minecraft:stone", "natures_spirit:brown_kaolin", 4))
     $.json("kubejs:worldgen/placed_feature/kaolin_4", placed_stratum("kubejs:kaolin_4", 4))
 
@@ -185,6 +200,15 @@ ServerEvents.generateData("after_mods", ($) => {
 
     $.json("kubejs:worldgen/configured_feature/shale_2", configured_replace_blobs("minecraft:stone", "kubejs:shale", 3))
     $.json("kubejs:worldgen/placed_feature/shale_2", placed_stratum("kubejs:shale_2", 2))
+
+    $.json("kubejs:worldgen/configured_feature/volcanic_rock", configured_replace_blobs("minecraft:stone", "northstar:volcanic_rock"))
+    $.json("kubejs:worldgen/placed_feature/volcanic_rock", placed_stratum("kubejs:volcanic_rock", 16))
+
+    $.json("kubejs:worldgen/configured_feature/volcanic_ash", configured_replace_blobs("minecraft:dirt", "northstar:volcanic_ash"))
+    $.json("kubejs:worldgen/placed_feature/volcanic_ash", placed_stratum("kubejs:volcanic_ash", 16))
+
+    $.json("kubejs:worldgen/configured_feature/mossy_black_sand", configured_replace_blobs("minecraft:grass_block", "biomesoplenty:mossy_black_sand"))
+    $.json("kubejs:worldgen/placed_feature/mossy_black_sand", placed_stratum("kubejs:mossy_black_sand", 12))
 
     $.json("kubejs:worldgen/configured_feature/mud", configured_replace_blobs("minecraft:dirt", "minecraft:mud", 6))
     $.json("kubejs:worldgen/placed_feature/mud", placed_fill("kubejs:mud"))
@@ -205,21 +229,8 @@ ServerEvents.generateData("after_mods", ($) => {
     $.json("kubejs:worldgen/placed_feature/caldera_basalt", {
         "feature": "kubejs:caldera_basalt",
         "placement": [
+            features.count(27), features.count(74), features.in_square, features.heightmap("WORLD_SURFACE_WG"),
             {
-                "type": "minecraft:count",
-                "count": 27
-            },
-            {
-                "type": "minecraft:count",
-                "count": 74
-            },
-            {
-                "type": "minecraft:in_square"
-            },
-            {
-                "type": "minecraft:heightmap",
-                "heightmap": "WORLD_SURFACE_WG"
-            }, {
                 type: "minecraft:block_predicate_filter",
                 predicate: {
                     type: "minecraft:any_of",
@@ -289,41 +300,25 @@ ServerEvents.generateData("after_mods", ($) => {
     $.json("kubejs:worldgen/placed_feature/make_wetter", {
         feature: "kubejs:make_wetter",
         placement: [
+            features.count(8), features.in_square, features.heightmap("WORLD_SURFACE_WG"),
             {
-                "type": "minecraft:count",
-                "count": 8
-            },
-            {
-                "type": "minecraft:in_square"
-            },
-            {
-                "type": "minecraft:heightmap",
-                "heightmap": "WORLD_SURFACE_WG"
-            }, {
                 "type": "minecraft:height_range",
                 "height": {
                     "above_bottom": 64
                 }
-            },
-            {
-                type: "minecraft:biome"
-            }
+            }, features.biome
         ]
     })
 
     $.json("kubejs:worldgen/configured_feature/make_drier", configured_replace_blobs("minecraft:water", "minecraft:air", 5))
     $.json("kubejs:worldgen/placed_feature/make_drier", {
         feature: "kubejs:make_drier",
-        placement: [{
-            "type": "minecraft:count",
-            "count": 128
-        },
-        {
-            type: "minecraft:in_square"
-        }, {
+        placement: [
+            features.count(128), features.in_square,
+            {
             "type": "minecraft:height_range",
             "height": {
-                type: "minecraft:biased_to_bottom",
+                type: "minecraft:uniform",
                 min_inclusive: {absolute: -100},
                 max_inclusive: {absolute: -10}
             }
@@ -372,141 +367,19 @@ ServerEvents.generateData("after_mods", ($) => {
     inject_features("biomeswevegone:mojave_desert", ["kubejs:mojave_sand", "kubejs:mojave_cracked_sand", "kubejs:mojave_sandstone"], 6)
     inject_features("biomeswevegone:mojave_desert", ["atmospheric:patch_agave_large", "atmospheric:single_agave"], 8)
 
-    const deep_cave_biomes = ["minecraft:deep_dark", "terralith:cave/mantle_caves"]
+    inject_features("minecraft:deep_dark", ["kubejs:molten_echo"], 8)
+
+    const deep_cave_biomes = ["minecraft:deep_dark", "terralith:cave/mantle_caves", "infinity_cave:molten_caves"]
 
     for (const biome of deep_cave_biomes) {
         inject_features(biome, ["kubejs:make_drier"], 10)
     }
 
-    const swampy_biomes = [
-        "biomesoplenty:bayou",
-        "biomesoplenty:floodplain",
-        "biomesoplenty:wetland",
-        "biomeswevegone:cypress_swamplands",
-        "biomeswevegone:white_mangrove_marshes",
-        "environmental:marsh",
-        "minecraft:mangrove_swamp",
-        "minecraft:swamp",
-        "natures_spirit:marsh",
-        "regions_unexplored:marsh",
-        "terralith:orchid_swamp"
-    ]
-    for (const biome of swampy_biomes) {
+    for (const biome of biomes.swampy) {
         inject_features(biome, ["kubejs:make_wetter"], "minecraft:freeze_top_layer")
     }
 
-    const shale_kaolin_limestone_biomes = [
-        "atmospheric:rainforest",
-        "atmospheric:rainforest_basin",
-        "atmospheric:aspen_parkland",
-        "biomesoplenty:bayou",
-        "biomesoplenty:crag",
-        "biomesoplenty:dryland",
-        "biomesoplenty:grassland",
-        "biomesoplenty:jade_cliffs",
-        "biomesoplenty:lavender_field",
-        "biomesoplenty:maple_woods",
-        "biomesoplenty:moor",
-        "biomesoplenty:orchard",
-        "biomesoplenty:overgrown_greens",
-        "biomesoplenty:pasture",
-        "biomesoplenty:pumpkin_patch",
-        "biomesoplenty:rainforest",
-        "biomesoplenty:redwood_forest",
-        "biomesoplenty:rocky_shrubland",
-        "biomesoplenty:seasonal_forest",
-        "biomesoplenty:tropics",
-        "biomeswevegone:allium_shrubland",
-        "biomeswevegone:araucaria_savanna",
-        "biomeswevegone:aspen_boreal",
-        "biomeswevegone:baobab_savanna",
-        "biomeswevegone:black_forest",
-        "biomeswevegone:forgotten_forest",
-        "biomeswevegone:fragment_jungle",
-        "biomeswevegone:howling_peaks",
-        "biomeswevegone:lush_stacks",
-        "biomeswevegone:maple_taiga",
-        "biomeswevegone:prairie",
-        "biomeswevegone:rose_fields",
-        "biomeswevegone:skyris_vale",
-        "biomeswevegone:temperate_grove",
-        "environmental:marsh",
-        "environmental:pine_barrens",
-        "environmental:pine_slopes",
-        "fishofthieves:tropical_island",
-        "minecraft:bamboo_jungle",
-        "minecraft:beach",
-        "minecraft:birch_forest",
-        "minecraft:cherry_grove",
-        "minecraft:dark_forest",
-        "minecraft:flower_forest",
-        "minecraft:forest",
-        "minecraft:grove",
-        "minecraft:meadow",
-        "minecraft:mushroom_fields",
-        "minecraft:old_growth_birch_forest",
-        "minecraft:old_growth_pine_taiga",
-        "minecraft:old_growth_spruce_taiga",
-        "minecraft:plains",
-        "minecraft:snowy_slopes",
-        "minecraft:snowy_taiga",
-        "minecraft:stony_peaks",
-        "minecraft:stony_shore",
-        "minecraft:sunflower_plains",
-        "minecraft:taiga",
-        "minecraft:windswept_forest",
-        "minecraft:windswept_hills",
-        "minecraft:windswept_savanna",
-        "minecraft:wooded_badlands",
-        "natures_spirit:alpine_clearings",
-        "natures_spirit:cedar_thicket",
-        "natures_spirit:coniferous_covert",
-        "natures_spirit:golden_wilds",
-        "natures_spirit:maple_woodlands",
-        "natures_spirit:marsh",
-        "natures_spirit:oak_savanna",
-        "natures_spirit:sparse_tropical_woods",
-        "natures_spirit:tropical_woods",
-        "regions_unexplored:autumnal_maple_forest",
-        "regions_unexplored:barley_fields",
-        "regions_unexplored:blackwood_taiga",
-        "regions_unexplored:boreal_taiga",
-        "regions_unexplored:deciduous_forest",
-        "regions_unexplored:dry_bushland",
-        "regions_unexplored:eucalyptus_forest",
-        "regions_unexplored:flower_fields",
-        "regions_unexplored:highland_fields",
-        "regions_unexplored:magnolia_woodland",
-        "regions_unexplored:mauve_hills",
-        "regions_unexplored:mountains",
-        "regions_unexplored:orchard",
-        "regions_unexplored:outback",
-        "regions_unexplored:pine_slopes",
-        "regions_unexplored:pine_taiga",
-        "regions_unexplored:poppy_fields",
-        "regions_unexplored:prairie",
-        "regions_unexplored:redwoods",
-        "regions_unexplored:silver_birch_forest",
-        "regions_unexplored:sparse_redwoods",
-        "regions_unexplored:temperate_grove",
-        "terralith:birch_taiga",
-        "terralith:blooming_plateau",
-        "terralith:blooming_valley",
-        "terralith:forested_highlands",
-        "terralith:fractured_savanna",
-        "terralith:highlands",
-        "terralith:jungle_mountains",
-        "terralith:orchid_swamp",
-        "terralith:painted_mountains",
-        "terralith:sakura_valley",
-        "terralith:steppe",
-        "terralith:temperate_highlands",
-        "terralith:yosemite_cliffs",
-        "terralith:yosemite_lowlands"
-    ]
-
-    for (const biome of shale_kaolin_limestone_biomes) {
-        console.log(biome)
+    for (const biome of biomes.standard_strata) {
         inject_features(biome, standard_features, 6)
     }
 })

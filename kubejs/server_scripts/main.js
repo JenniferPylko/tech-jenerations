@@ -26,13 +26,6 @@ ServerEvents.recipes(($) => {
 //        }
 //    })
 
-    for (const rule of global.replacement_rules.ITEM) {
-        for (const original of rule.originals) {
-            try { $.replaceInput({input: original}, original, rule.replacement) } catch (e) {}
-            try { $.replaceOutput({output: original}, original, rule.replacement) } catch (e) {}
-        }
-    }
-
     $shaped_2x2(Item.of("kubejs:basic_mesh", 1), "minecraft:stick")
 
     $.recipes.createsifter.sifting([Output.of("minecraft:coarse_dirt", 0.15)], "minecraft:dirt", "kubejs:basic_mesh")
@@ -340,12 +333,35 @@ const sleeping_bag_colors = [
 ]
 
 PlayerEvents.loggedIn(($) => {
-    if (!$.player.stages.has("first_login")) {
-        $.player.stages.add("first_login")
-        $.server.runCommandSilent(`give ${$.entity.username} minecraft:stick`)
+    const difficulty = $.server.getWorldData().getDifficulty().name()
+    if (!$.player.stages.has("first_login_all")) {
+        $.player.stages.add("first_login_all")
         $.server.runCommandSilent(`give ${$.entity.username} kubejs:guide`)
+    }
+    if ((difficulty === "NORMAL" || difficulty === "EASY" || difficulty === "PEACEFUL") && !$.player.stages.has("first_login_normal")) {
+        $.player.stages.add("first_login_normal")
+        $.server.runCommandSilent(`give ${$.entity.username} minecraft:stick`)
         $.server.runCommandSilent(`give ${$.entity.username} sleeping_bags:${sleeping_bag_colors[Math.floor(Math.random() * sleeping_bag_colors.length)]}_sleeping_bag`)
         $.server.runCommandSilent(`give ${$.entity.username} hardcore_torches:lit_lantern`)
+    }
+    if ((difficulty === "EASY" || difficulty === "PEACEFUL") && !$.player.stages.has("first_login_easy")) {
+        $.player.stages.add("first_login_easy")
+        $.server.runCommandSilent(`give ${$.entity.username} minecraft:iron_pickaxe`)
+        $.server.runCommandSilent(`give ${$.entity.username} minecraft:iron_axe`)
+        $.server.runCommandSilent(`give ${$.entity.username} minecraft:iron_sword`)
+        $.server.runCommandSilent(`give ${$.entity.username} minecraft:flint_and_steel`)
+        $.server.runCommandSilent(`give ${$.entity.username} minecraft:cooked_beef 64`)
+        $.server.runCommandSilent(`give ${$.entity.username} minecraft:crafting_table`)
+        $.server.runCommandSilent(`give ${$.entity.username} charcoal_pit:bloomery_brick`)
+        $.server.runCommandSilent(`give ${$.entity.username} minecraft:coal 64`)
+        $.server.runCommandSilent(`give ${$.entity.username} minecraft:iron_ingot 64`)
+        $.server.runCommandSilent(`give ${$.entity.username} minecraft:copper_ingot 64`)
+        $.server.runCommandSilent(`give ${$.entity.username} chemica:tin_ingot 64`)
+        $.server.runCommandSilent(`give ${$.entity.username} createhorsepower:hores_crank`)
+        $.server.runCommandSilent(`give ${$.entity.username} minecraft:lead`)
+        $.server.runCommandSilent(`give ${$.entity.username} modern_industrialization:bronze_boiler`)
+        $.server.runCommandSilent(`give ${$.entity.username} moderndynamics:fluid_pipe 64`)
+        $.server.runCommandSilent(`give ${$.entity.username} sculktransporting:sculk_barrel`)
     }
 })
 

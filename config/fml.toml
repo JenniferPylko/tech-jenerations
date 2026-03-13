@@ -34,3 +34,4 @@ earlyWindowSquir = false
 	extendedwrenches = ["-create"]
 	bclib = ["+wover"]
 	lithostitched = ["+wover"]
+	modernfix = ["+lithium"]
