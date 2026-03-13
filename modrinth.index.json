@@ -246,19 +246,19 @@
       "fileSize": 16594
     },
     {
-      "path": "mods/animalgenders-1.0.0.jar",
+      "path": "mods/animalgenders-1.0.1.jar",
       "hashes": {
-        "sha1": "b693183585938c4375ba1e150e6faefb138f89cd",
-        "sha512": "2453ea617df7d0df697f2e6d901cdee36758b2250880d6e07f3b28805c01f717860439ab0a2ffb3c61301efdbc38195ae94abf5a8128cf605521352a4434791b"
+        "sha1": "892cf145f37a15c7a970119eb597b4b35db58834",
+        "sha512": "e84fb2ec4236f0db6a05ad9a64dedb86b39fc05e11862facbcd1dbd5121ed4db116f04fa789a5855d5f96ac14831388d3fcb6e8bc3bed6b8be6041352186a2cc"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/qONca06E/versions/fUSRxVgX/animalgenders-1.0.0.jar"
+        "https://cdn.modrinth.com/data/qONca06E/versions/EM8WkSOP/animalgenders-1.0.1.jar"
       ],
-      "fileSize": 41916
+      "fileSize": 45350
     },
     {
       "path": "mods/appleskin-neoforge-mc1.21-3.0.8.jar",
@@ -1986,19 +1986,19 @@
       "fileSize": 24239
     },
     {
-      "path": "mods/create_ltab-3.8.1.jar",
+      "path": "mods/create_ltab-3.8.2.jar",
       "hashes": {
-        "sha1": "e40ede0bb8908ba080a07fbc9953710604ba3315",
-        "sha512": "b7f135c16e9ca5cc44d96208734fcd43f5605c92e89270938f7ab266a127b63077a8cae69c0a48bf365fdf2877ca4e3615d42493c5b1e80cf16024c9181448b4"
+        "sha1": "b0c9e204c224ab684f93fe037aea7ba25b3ad6f6",
+        "sha512": "cc754cb0038af5e93a7e4e318ed8ea9db64170baf0f9d0c2171ad8714c7e998501bb7612616f012b44ef2dbcf66c38aa490b332c1207c9767cb1e27457bb2a6c"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/fUa6OtBG/versions/B0635kI7/create_ltab-3.8.1.jar"
+        "https://cdn.modrinth.com/data/fUa6OtBG/versions/DvcjLYIA/create_ltab-3.8.2.jar"
       ],
-      "fileSize": 2417939
+      "fileSize": 2420629
     },
     {
       "path": "mods/create_more_additions-1.9.0-neoforge-1.21.1.jar",
@@ -2616,19 +2616,19 @@
       "fileSize": 1369416
     },
     {
-      "path": "mods/dtru-1.1.0.jar",
+      "path": "mods/dtru-1.1.1.jar",
       "hashes": {
-        "sha1": "66f4e402c8622eb17e7e49c560096de86512b07f",
-        "sha512": "d69357e00f658dbdb56a661c74a2ef6c67bd0c79246f599121f4cc65ea87b7cfac1e97d62a05aec63b0403392c24cb5cc45d322b807197b73e9dc2a83db82bb1"
+        "sha1": "8be2f54a80edd6e4af4fc08262c04db5b4d86d12",
+        "sha512": "d4bb4d58b53666f5c406a9bbed1bc9581d63bb5b55347103bccfe5664fc14b01390156fdef9f907eb3cdf85113d4444223301529974a26d013032f82a407e891"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/IOcN8dvy/versions/7Pdqg6DG/dtru-1.1.0.jar"
+        "https://cdn.modrinth.com/data/IOcN8dvy/versions/mjiUwbRt/dtru-1.1.1.jar"
       ],
-      "fileSize": 766245
+      "fileSize": 764594
     },
     {
       "path": "mods/dtterralith-1.3.0.jar",
@@ -5511,19 +5511,19 @@
       "fileSize": 1080389
     },
     {
-      "path": "mods/questlog-neoforge-1.21.1-2.0.2.jar",
+      "path": "mods/questlog-neoforge-1.21.1-2.0.4.jar",
       "hashes": {
-        "sha1": "77bf8b54b73f3f0fcbfb58057abeb298794748a8",
-        "sha512": "94a87104c4ff846a6e598e70fbe3576a16878f87b4bba3b5f3ef7e304320eda1037e0a00ad116382d8b417cdbf2f44b107402df982095142479bc2f29c2196cd"
+        "sha1": "9267dca1a8904cca531ed3822e0fdb1f3123e91e",
+        "sha512": "cddc0efe7b69bc82778fe19783e069a72854d241bcb45ad4555c909db5406f27dd70e28c9ac98704cb90de21be9c1842199b31edd4069e573f27066618515a67"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ufQYCY6N/versions/Xk64RZCT/questlog-neoforge-1.21.1-2.0.2.jar"
+        "https://cdn.modrinth.com/data/ufQYCY6N/versions/DN9ahK5L/questlog-neoforge-1.21.1-2.0.4.jar"
       ],
-      "fileSize": 310383
+      "fileSize": 310513
     },
     {
       "path": "mods/quick-pack-neoforge-1.2.0+1.21.10.jar",
@@ -5661,19 +5661,19 @@
       "fileSize": 2824052
     },
     {
-      "path": "mods/regions_unexplored-neoforge-1.21.1-0.5.9.jar",
+      "path": "mods/regions-unexplored-0.6+beta3-neoforge-21.1.jar",
       "hashes": {
-        "sha1": "064c2da020731fadd07e095707320431df12288d",
-        "sha512": "df3e1b95734ec259c6c1ef9e1ce08df96a40868efa171a2009e2b1ea5c9410e86cbcdccc37256e3bd3dbafe77994ad65c801536302bc41d55b3e7915fa0d8a17"
+        "sha1": "5d18ae48fcefc229107d45e61d4966bdcbd0dd49",
+        "sha512": "8b01d4f0e547ae1f1362256674fabbfca878ac281cfbfeeef0833d1d0bd0e01373575b37c9031c0c4930e7c54ab11b8d89c1f32509ea7d61bc670be4c900fc0e"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/Tkikq67H/versions/KrbwbPuJ/regions_unexplored-neoforge-1.21.1-0.5.9.jar"
+        "https://cdn.modrinth.com/data/Tkikq67H/versions/3qWB25z2/regions-unexplored-0.6%2Bbeta3-neoforge-21.1.jar"
       ],
-      "fileSize": 5365182
+      "fileSize": 6154377
     },
     {
       "path": "mods/remin-4.8.6-neoforge-1.21.1.jar",
@@ -5691,19 +5691,19 @@
       "fileSize": 1566218
     },
     {
-      "path": "mods/remove-terralith-intro-message-1.1.jar",
+      "path": "mods/Remove_SDL_Intro_v1.2.jar",
       "hashes": {
-        "sha1": "709d1300b4b35bf6a8c6bfc0d5c9d918484ba462",
-        "sha512": "62391dc2948f14ea0bebab89bdd88bf768bacf458a1832dcd53f95b709c1caf3dde3470cb5b12f3efe5d6904c72410452c56fce952b03f474d9d7a5dc932dfbb"
+        "sha1": "785f1b0aa937fc6cc0ce39ac00228bee61f1db17",
+        "sha512": "bc78d8c2827753b2ecb66264a3ef2d6db043e2222fce4ff647bcbd45d77b40ff011dd3785bce65d054aa3c7408602e5b233aa4681750ffb3ae1d3996c2baba99"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/sk4iFZGy/versions/Ad77N3iX/remove-terralith-intro-message-1.1.jar"
+        "https://cdn.modrinth.com/data/sk4iFZGy/versions/lUaG7adu/Remove_SDL_Intro_v1.2.jar"
       ],
-      "fileSize": 98580
+      "fileSize": 12008
     },
     {
       "path": "mods/repurposed_structures-7.5.18+1.21.1-neoforge.jar",
@@ -5931,19 +5931,19 @@
       "fileSize": 77326
     },
     {
-      "path": "mods/Seasonal Integration-v1.4.2-Mc1.21.1+.jar",
+      "path": "mods/Seasonal Integration-v1.5.0-Mc1.21.1+.jar",
       "hashes": {
-        "sha1": "a2c50e3a033ed423cb3c6bdcc3295890adab535e",
-        "sha512": "03b8331a7719059d2e5edab9d476bd4cc22558852c6b6d30ef5241e84a2b773a9ff78b21a1ef896e7dbdaa48074962ed53f5883d05c57e3855ffbf86590f7006"
+        "sha1": "5dcdd21bbd0cfc305ed387d98612b236e01334f9",
+        "sha512": "f274b7c85db2089e4c7ab207c32bcef73f58e3cd56a4fd7cbccb28ce7386aa4afc9188ca5ae8669fef419f5447cb899c944b5915ed626bebf07d9259e70f6eeb"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/w3gipv9f/versions/Hk40UlCd/Seasonal%20Integration-v1.4.2-Mc1.21.1%2B.jar"
+        "https://cdn.modrinth.com/data/w3gipv9f/versions/FDvk58fO/Seasonal%20Integration-v1.5.0-Mc1.21.1%2B.jar"
       ],
-      "fileSize": 252438
+      "fileSize": 253147
     },
     {
       "path": "mods/SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
@@ -7266,19 +7266,19 @@
       "fileSize": 38192
     },
     {
-      "path": "mods/waystones-neoforge-1.21.1-21.1.28.jar",
+      "path": "mods/waystones-neoforge-1.21.1-21.1.29.jar",
       "hashes": {
-        "sha1": "dae6c9c647e13f97602d51ce29d7069769dbb1a7",
-        "sha512": "c5c75dc801769625e4cb341baf132458f393d8754e03dd4a052798fa26d4f38147595bbc3c2bd17d54eca31e77648e01fa9f2cb1f3cb748e607bb2b6ff192b89"
+        "sha1": "7bd06fb7dfd6904a0f4ec5b9b46da2325e247aa3",
+        "sha512": "87230fd132e281ba66baa40d2f367a584deb78ac6e693aa97355c90f26ef2607365621c297e29c180a289b93aedc84fa92aa37d350e358a3220ef21b1cc45a30"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/LOpKHB2A/versions/ShK7Iy1S/waystones-neoforge-1.21.1-21.1.28.jar"
+        "https://cdn.modrinth.com/data/LOpKHB2A/versions/Ayolso4x/waystones-neoforge-1.21.1-21.1.29.jar"
       ],
-      "fileSize": 875969
+      "fileSize": 876329
     },
     {
       "path": "mods/whats-that-slot-neoforge-1.3.6+1.21.jar",

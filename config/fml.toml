@@ -35,3 +35,4 @@ earlyWindowSquir = false
 	bclib = ["+wover"]
 	lithostitched = ["+wover"]
 	modernfix = ["+lithium"]
+	remove_sdl_intro = ["-incendium", "-nullscape"]
