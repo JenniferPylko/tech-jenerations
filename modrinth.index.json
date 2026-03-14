@@ -5511,19 +5511,19 @@
       "fileSize": 1080389
     },
     {
-      "path": "mods/questlog-neoforge-1.21.1-2.0.4.jar",
+      "path": "mods/questlog-neoforge-1.21.1-2.0.5.jar",
       "hashes": {
-        "sha1": "9267dca1a8904cca531ed3822e0fdb1f3123e91e",
-        "sha512": "cddc0efe7b69bc82778fe19783e069a72854d241bcb45ad4555c909db5406f27dd70e28c9ac98704cb90de21be9c1842199b31edd4069e573f27066618515a67"
+        "sha1": "e65e2f98840ac20b27c9aad300e5899e3be70d19",
+        "sha512": "866accaf679b28e69e429d43f87875d9bc279fad60facf0826d162af2b7018824407989490ead8c4be0dfd36cfc3bc1eb73530210dab8a78bc0f96962e818eec"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ufQYCY6N/versions/DN9ahK5L/questlog-neoforge-1.21.1-2.0.4.jar"
+        "https://cdn.modrinth.com/data/ufQYCY6N/versions/geWDjT70/questlog-neoforge-1.21.1-2.0.5.jar"
       ],
-      "fileSize": 310513
+      "fileSize": 312016
     },
     {
       "path": "mods/quick-pack-neoforge-1.2.0+1.21.10.jar",
