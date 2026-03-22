@@ -3096,19 +3096,19 @@
       "fileSize": 7834244
     },
     {
-      "path": "mods/epic-fight-21.15.7-mc1.21.1-neoforge.jar",
+      "path": "mods/epic-fight-21.15.8-mc1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "f118ff46e1cf28c0a1e0d4945228fcd54c3a0015",
-        "sha512": "7b57ffa0ca5ecbd3451771595aabfe27035d7345a4c3b07e8a4f1441efd92aad909c7d2bbb98e544ccf2db94c3939c77f2494f67c86a03b1ff214eae03ec12af"
+        "sha1": "dd7cb61a9175d35e3864fca890f6135f25b7419a",
+        "sha512": "eee9ef4e04b2affb7a4ba2aacbbe3b7ac03ac19db8cdba868681cf00b38f57e17c8f6992a4eb01d803a3f9f56ec5807a949a2274c789684d96646da2908e8191"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/lLbngDD1/epic-fight-21.15.7-mc1.21.1-neoforge.jar"
+        "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/w4FWTyEV/epic-fight-21.15.8-mc1.21.1-neoforge.jar"
       ],
-      "fileSize": 8332558
+      "fileSize": 8333984
     },
     {
       "path": "mods/epicfight-skilltree-neoforge-21.3.2-1.21.1.jar",
@@ -3124,21 +3124,6 @@
         "https://cdn.modrinth.com/data/PezbUFun/versions/kW4bdi3K/epicfight-skilltree-neoforge-21.3.2-1.21.1.jar"
       ],
       "fileSize": 316024
-    },
-    {
-      "path": "mods/epictweaks-neoforge-1.21.1-1.2.0.jar",
-      "hashes": {
-        "sha1": "812c7356191a020fd0b32609d166ea299924d16c",
-        "sha512": "fa59bf0c5c68614b3ac4e92eb38585022b63b4ca5fc605480656bb5f9dfe181912520c6c766dac98213002838a8f5a149ffde3d1e36878018bcef40ae1102246"
-      },
-      "env": {
-        "client": "required",
-        "server": "optional"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/YHY8IhRT/versions/5P8UAifV/epictweaks-neoforge-1.21.1-1.2.0.jar"
-      ],
-      "fileSize": 15123
     },
     {
       "path": "mods/euphonium-1.0.3+1.21.jar",
