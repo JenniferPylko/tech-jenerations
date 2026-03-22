@@ -1986,19 +1986,19 @@
       "fileSize": 24239
     },
     {
-      "path": "mods/create_ltab-3.8.2.jar",
+      "path": "mods/create_ltab-3.8.3.jar",
       "hashes": {
-        "sha1": "b0c9e204c224ab684f93fe037aea7ba25b3ad6f6",
-        "sha512": "cc754cb0038af5e93a7e4e318ed8ea9db64170baf0f9d0c2171ad8714c7e998501bb7612616f012b44ef2dbcf66c38aa490b332c1207c9767cb1e27457bb2a6c"
+        "sha1": "66f70977e01af4b4338362c4fe89e1341840664d",
+        "sha512": "d5515fe3a9b6542b4924a9fe86a503d110493c7f7637f5a725e612f4acbf12eabf2d79b04dfb77e09e17ee015376cd4090591e1521daa95f9a1d76112b6e613c"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/fUa6OtBG/versions/DvcjLYIA/create_ltab-3.8.2.jar"
+        "https://cdn.modrinth.com/data/fUa6OtBG/versions/LbilGOG9/create_ltab-3.8.3.jar"
       ],
-      "fileSize": 2420629
+      "fileSize": 2425347
     },
     {
       "path": "mods/create_more_additions-1.9.0-neoforge-1.21.1.jar",
@@ -3096,19 +3096,19 @@
       "fileSize": 7834244
     },
     {
-      "path": "mods/epic-fight-21.15.8-mc1.21.1-neoforge.jar",
+      "path": "mods/epic-fight-21.15.7-mc1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "dd7cb61a9175d35e3864fca890f6135f25b7419a",
-        "sha512": "eee9ef4e04b2affb7a4ba2aacbbe3b7ac03ac19db8cdba868681cf00b38f57e17c8f6992a4eb01d803a3f9f56ec5807a949a2274c789684d96646da2908e8191"
+        "sha1": "f118ff46e1cf28c0a1e0d4945228fcd54c3a0015",
+        "sha512": "7b57ffa0ca5ecbd3451771595aabfe27035d7345a4c3b07e8a4f1441efd92aad909c7d2bbb98e544ccf2db94c3939c77f2494f67c86a03b1ff214eae03ec12af"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/w4FWTyEV/epic-fight-21.15.8-mc1.21.1-neoforge.jar"
+        "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/lLbngDD1/epic-fight-21.15.7-mc1.21.1-neoforge.jar"
       ],
-      "fileSize": 8333984
+      "fileSize": 8332558
     },
     {
       "path": "mods/epicfight-skilltree-neoforge-21.3.2-1.21.1.jar",
@@ -4926,19 +4926,19 @@
       "fileSize": 568878
     },
     {
-      "path": "mods/naturaltemperature-1.1.0-NEOFORGE-MC-1.21.1.jar",
+      "path": "mods/naturaltemperature-1.1.1-NEOFORGE-MC-1.21.1.jar",
       "hashes": {
-        "sha1": "10acfec7c64177517ad0bc9f0348a39a5617d9ef",
-        "sha512": "f128b1d595f3b4c191b0fe0323a09550078877fac124a47acba20a68ce0d121ee4677bc4478e1153ed486064024b28aa4529e7daee2f38a294c8a3c5808d2076"
+        "sha1": "dca010cebbcd0b611441f83eedce442c14ea5730",
+        "sha512": "adcbafda12a0b464779cc7b222105cc48351c2ef1cb06703f6025e2b3be0f2f5ee2fb5d3ea7b912bd50fd751f9f54bff80b607836591e29daa2e3c5e7b593fa5"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/QZt2fevq/versions/DoApZELm/naturaltemperature-1.1.0-NEOFORGE-MC-1.21.1.jar"
+        "https://cdn.modrinth.com/data/QZt2fevq/versions/9NWa8oOO/naturaltemperature-1.1.1-NEOFORGE-MC-1.21.1.jar"
       ],
-      "fileSize": 87295
+      "fileSize": 87279
     },
     {
       "path": "mods/natures_spirit-2.2.5-1.21.1.jar",
