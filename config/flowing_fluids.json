@@ -10,7 +10,7 @@
   "printRandomTicks": false,
   "hideFlowingTexture": true,
   "fullLiquidHeight": "REGULAR",
-  "farmlandDrainWaterChance": 0.1,
+  "farmlandDrainWaterChance": 0.01,
   "debugWaterLevelColours": false,
   "waterLogFlowMode": "IN_FROM_TOP_ELSE_OUT",
   "waterFlowDistance": 2,

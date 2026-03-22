@@ -44,9 +44,6 @@ StartupEvents.registry("block", ($) => {
     custom_stone($.create("quartzite"))
     .parentModel("kubejs:block/granite")
     .mapColor("dirt")
-
-    $.create("become_wet")
-    .parentModel("minecraft:air")
 })
 
 BlockEvents.modification(($) => {

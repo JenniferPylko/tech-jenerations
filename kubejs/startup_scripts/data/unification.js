@@ -382,16 +382,13 @@ global.unification = {
         ]
     },
     //components
-    fluid_pipes: {
-        aluminum: ["tfmg:aluminum_pipe"],
-        brass: ["create_mpnt:brass_fluid_pipe", "tfmg:brass_pipe"],
-        copper: ["create:fluid_pipe", "moderndynamics:fluid_pipe"],
-        gold: "create_mpnt:golden_fluid_pipe",
-        iron: "create_mpnt:iron_fluid_pipe",
-        plastic: "tfmg:plastic_pipe"
-    },
-    item_pipes: {
-        iron: ["modern_dynamics:iron_pipe"]
+    components: {
+        fluid_pipes: ["tfmg:aluminum_pipe", "create_mpnt:brass_fluid_pipe",
+            "tfmg:brass_pipe", "create:fluid_pipe", "moderndynamics:fluid_pipe",
+            "create:fluid_pipe", "create_mpnt:golden_fluid_pipe",
+            "create_mpnt:iron_fluid_pipe", "create_mpnt:zinc_fluid_pipe",
+            "create_mpnt:rose_golden_fluid_pipe", "tfmg:plastic_pipe"],
+        item_pipes: ["moderndynamics:item_pipe", "#modern_industrialization:item_pipes"]
     },
     //colors
     pink: {

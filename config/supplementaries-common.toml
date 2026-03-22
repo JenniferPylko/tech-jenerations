@@ -227,7 +227,7 @@
 		music_disc_heave_ho = true
 
 		[functional.cannon.cannon_boat]
-			enabled = true
+			enabled = false
 			#Cannon boat recoil multiplier. Higher values will make the cannon boat recoil more when firing a cannonball
 			# Default: 0.5
 			# Range: 0.0 ~ 5.0
@@ -409,7 +409,7 @@
 		sepia_globe = true
 
 	[building.way_sign]
-		enabled = true
+		enabled = false
 
 		[building.way_sign.road_signs]
 			#Entirely disables them from spawning
@@ -618,9 +618,9 @@
 #General settings
 [general]
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
-	dynamic_assets_generation_mode = "CACHED"
+	dynamic_assets_generation_mode = "CACHED_ZIPPED"
 	#Enable Creative Tab
-	creative_tab = false
+	creative_tab = true
 	#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
 	dispensers = true
 	#Disable startup messages and sanity check that the mod performs to inform of possible detected crashes that might occur due to issues

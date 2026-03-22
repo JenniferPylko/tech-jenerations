@@ -36,3 +36,4 @@ earlyWindowSquir = false
 	lithostitched = ["+wover"]
 	modernfix = ["+lithium"]
 	remove_sdl_intro = ["-incendium", "-nullscape"]
+	regions_unexplored = ["+supplementaries"]

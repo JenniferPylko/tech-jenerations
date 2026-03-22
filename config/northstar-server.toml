@@ -4,7 +4,7 @@
 	#Base maximum blocks tested per tick, higher values increase the speed at which seals updates but decreases performance, value increases dynamically with additional blocks that might add volume.
 	# Default: 128
 	# Range: > 1
-	baseCheckBlocksPerTick = 128
+	baseCheckBlocksPerTick = 64
 	#.
 	#Absolute maximum blocks tested per tick
 	# Default: 4096

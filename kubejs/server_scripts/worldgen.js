@@ -75,7 +75,7 @@ const configured_replace_single = (target, replacement) => ({
 })
 
 const placed_fill = (feature_name) => ({
-    "feature": feature_name,
+    "feature": feature_name || "",
     "placement": [
         features.count(27), features.count(74), features.in_square, features.heightmap("WORLD_SURFACE_WG")
     ]
@@ -276,7 +276,12 @@ ServerEvents.generateData("after_mods", ($) => {
         ]
     })
 
-    $.json("kubejs:worldgen/configured_feature/yellowstone_terracotta", configured_replace_blobs("natures_spirit:yellow_kaolin", "biomesoplenty:thermal_calcite", 2))
+    build_feature($, "yellowstone_sand",
+        configured_replace_blobs("minecraft:red_sand", "biomesoplenty:thermal_calcite"),
+        placed_fill()
+
+    )
+    $.json("kubejs:worldgen/configured_feature/yellowstone_terracotta", configured_replace_blobs("natures_spirit:yellow_kaolin", "biomesoplenty:thermal_calcite"))
     $.json("kubejs:worldgen/placed_feature/yellowstone_terracotta", placed_fill("kubejs:yellowstone_terracotta"))
     $.json("kubejs:worldgen/configured_feature/yellowstone_magma", configured_replace_blobs("minecraft:magma_block", "biomesoplenty:thermal_calcite_vent"))
     $.json("kubejs:worldgen/placed_feature/yellowstone_magma", placed_fill("kubejs:yellowstone_magma"))
@@ -314,7 +319,7 @@ ServerEvents.generateData("after_mods", ($) => {
     $.json("kubejs:worldgen/placed_feature/make_drier", {
         feature: "kubejs:make_drier",
         placement: [
-            features.count(128), features.in_square,
+            features.count(64), features.in_square,
             {
             "type": "minecraft:height_range",
             "height": {
@@ -359,7 +364,7 @@ ServerEvents.generateData("after_mods", ($) => {
     inject_features("biomesoplenty:moor", ["kubejs:peat", "kubejs:peat_grass"], 6)
     inject_features("terralith:caldera", ["kubejs:caldera_basalt", "kubejs:caldera_rock"], 9)
     inject_features("biomesoplenty:mystic_grove", ["kubejs:mystic_stone"], 6)
-    inject_features("terralith:yellowstone", terracotta_replacer_features.concat(["kubejs:yellowstone_terracotta", "kubejs:yellowstone_magma"]), "terralith:yellowstone/vents")
+    inject_features("terralith:yellowstone", terracotta_replacer_features.concat(["kubejs:yellowstone_sand", "kubejs:yellowstone_terracotta", "kubejs:yellowstone_magma"]), 9)
     inject_features("minecraft:stony_shore", ["kubejs:rocky_stone"], 2)
     inject_features("minecraft:stony_peaks", ["kubejs:rocky_stone"], 2)
     inject_features("terralith:rocky_mountains", ["kubejs:rocky_stone", "kubejs:loose_cobblestone"], 2)
@@ -367,13 +372,13 @@ ServerEvents.generateData("after_mods", ($) => {
     inject_features("biomeswevegone:mojave_desert", ["kubejs:mojave_sand", "kubejs:mojave_cracked_sand", "kubejs:mojave_sandstone"], 6)
     inject_features("biomeswevegone:mojave_desert", ["atmospheric:patch_agave_large", "atmospheric:single_agave"], 8)
 
-    inject_features("minecraft:deep_dark", ["kubejs:molten_echo"], 8)
-
     const deep_cave_biomes = ["minecraft:deep_dark", "terralith:cave/mantle_caves", "infinity_cave:molten_caves"]
 
     for (const biome of deep_cave_biomes) {
         inject_features(biome, ["kubejs:make_drier"], 10)
     }
+
+    inject_features("minecraft:deep_dark", ["kubejs:molten_echo"], 10)
 
     for (const biome of biomes.swampy) {
         inject_features(biome, ["kubejs:make_wetter"], "minecraft:freeze_top_layer")

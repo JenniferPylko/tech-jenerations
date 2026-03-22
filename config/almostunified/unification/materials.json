@@ -1,5 +1,6 @@
 {
   "mod_priorities": [
+    "moderndynamics",
     "chemica",
     "megalosaio",
     "minecraft",
@@ -77,6 +78,7 @@
     "c:shards/{material}",
     "c:circuits/{compute}",
     "c:circuit_boards/{compute}",
+    "c:components/{component}",
     "c:{component}/{material}",
     "c:unfinished_resistors",
     "c:transistors"
