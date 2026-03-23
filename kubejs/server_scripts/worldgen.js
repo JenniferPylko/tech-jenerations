@@ -230,50 +230,10 @@ ServerEvents.generateData("before_mods", ($) => {
     $.json("kubejs:worldgen/placed_feature/caldera_basalt", {
         "feature": "kubejs:caldera_basalt",
         "placement": [
-            features.count(27), features.count(74), features.in_square, features.heightmap("WORLD_SURFACE_WG"),
-            {
-                type: "minecraft:block_predicate_filter",
-                predicate: {
-                    type: "minecraft:any_of",
-                    predicates: [{
-                        type: "minecraft:matching_fluids",
-                        offset: [0, 1, 0],
-                        fluids: "minecraft:water"
-                    }, {
-                        type: "minecraft:matching_fluids",
-                        offset: [1, 0, 1],
-                        fluids: "minecraft:water"
-                    }, {
-                        type: "minecraft:matching_fluids",
-                        offset: [1, 0, 0],
-                        fluids: "minecraft:water"
-                    }, {
-                        type: "minecraft:matching_fluids",
-                        offset: [1, 0, -1],
-                        fluids: "minecraft:water"
-                    }, {
-                        type: "minecraft:matching_fluids",
-                        offset: [-1, 0, 1],
-                        fluids: "minecraft:water"
-                    }, {
-                        type: "minecraft:matching_fluids",
-                        offset: [-1, 0, 0],
-                        fluids: "minecraft:water"
-                    }, {
-                        type: "minecraft:matching_fluids",
-                        offset: [-1, 0, -1],
-                        fluids: "minecraft:water"
-                    }, {
-                        type: "minecraft:matching_fluids",
-                        offset: [0, 0, 1],
-                        fluids: "minecraft:water"
-                    }, {
-                        type: "minecraft:matching_fluids",
-                        offset: [0, 0, -1],
-                        fluids: "minecraft:water"
-                    }]
-                }
-            }
+            features.count(27),
+            features.count(74),
+            features.in_square,
+            features.heightmap("WORLD_SURFACE_WG")
         ]
     })
 
@@ -281,6 +241,10 @@ ServerEvents.generateData("before_mods", ($) => {
         configured_replace_blobs("minecraft:red_sand", "biomesoplenty:thermal_calcite"),
         placed_fill()
 
+    )
+    build_feature($, "yellowstone_campfire",
+        configured_replace_blobs("minecraft:campfire", "biomesoplenty:thermal_calcite_vent"),
+        placed_fill()
     )
     $.json("kubejs:worldgen/configured_feature/yellowstone_terracotta", configured_replace_blobs("natures_spirit:yellow_kaolin", "biomesoplenty:thermal_calcite"))
     $.json("kubejs:worldgen/placed_feature/yellowstone_terracotta", placed_fill("kubejs:yellowstone_terracotta"))
@@ -339,7 +303,7 @@ ServerEvents.generateData("before_mods", ($) => {
     }
 })
 
-ServerEvents.registry("minecraft:worldgen/biome", ($) => {
+ServerEvents.afterRecipes(() => {
     const terracotta_replacer_features = ["kubejs:terracotta_replacer"]
     for (const color of terracotta_map) {
         terracotta_replacer_features.push(`kubejs:terracotta_replacer_${color}`)

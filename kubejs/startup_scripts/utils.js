@@ -14,7 +14,7 @@ global.utils.open_registry = (registry) => {
     try {
         return Registry.of(registry)
     } catch (e) {
-        console.warn(`couldn't access the ${registry} registry, either it's fine or something is horribly wrong and it's not our problem 💅`)
+        console.warn(`couldn't access the ${registry} registry, either it's fine or something is horribly wrong`)
         console.debug(e)
         return
     }
