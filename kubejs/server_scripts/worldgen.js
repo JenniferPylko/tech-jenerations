@@ -147,8 +147,9 @@ const build_strata = ($, target, replacement) => {
 
 const stratum_name = (block, depth, radius) => `kubejs:stratum_${depth}_${block}_${radius}`
 
-ServerEvents.generateData("after_mods", ($) => {
-
+ServerEvents.generateData("before_mods", ($) => {
+    console.log("generating data")
+    console.log($)
     build_feature($, "molten_echo",
         configured_replace_blobs("minecraft:water", "create_deep_dark:molten_echo"),
         {
@@ -332,10 +333,15 @@ ServerEvents.generateData("after_mods", ($) => {
 
     $.json("kubejs:worldgen/configured_feature/terracotta_replacer", configured_replace_blobs("minecraft:terracotta", "natures_spirit:kaolin"))
     $.json("kubejs:worldgen/placed_feature/terracotta_replacer", placed_fill("kubejs:terracotta_replacer"))
-    const terracotta_replacer_features = ["kubejs:terracotta_replacer"]
     for (const color of terracotta_map) {
         $.json(`kubejs:worldgen/configured_feature/terracotta_replacer_${color}`, configured_replace_blobs(`minecraft:${color}_terracotta`, `natures_spirit:${color}_kaolin`))
         $.json(`kubejs:worldgen/placed_feature/terracotta_replacer_${color}`, placed_fill(`kubejs:terracotta_replacer_${color}`))
+    }
+})
+
+ServerEvents.registry("minecraft:worldgen/biome", ($) => {
+    const terracotta_replacer_features = ["kubejs:terracotta_replacer"]
+    for (const color of terracotta_map) {
         terracotta_replacer_features.push(`kubejs:terracotta_replacer_${color}`)
     }
 
@@ -387,4 +393,5 @@ ServerEvents.generateData("after_mods", ($) => {
     for (const biome of biomes.standard_strata) {
         inject_features(biome, standard_features, 6)
     }
+
 })
