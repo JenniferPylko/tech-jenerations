@@ -1896,19 +1896,19 @@
       "fileSize": 50307
     },
     {
-      "path": "mods/create_configured-1.3.2a.jar",
+      "path": "mods/create_configured-1.3.3.jar",
       "hashes": {
-        "sha1": "95066665f1d93a3530303706936f0a418e42506f",
-        "sha512": "ce80d06f230ed93590be96b9f1c7b6b6e54fcd1b5d3aa417fab3d5fb1ace304f89fef3a254a8c7e9947ed81593a05410d29668bdb6da06220eff0d7bce80194d"
+        "sha1": "4cd3d45897b83207a309dca0844851061755e805",
+        "sha512": "aabf0a0ace94f0a510b1485431e02adf94860f49027c8ab841a768393672320c5b51121fee8ed736845c62b1a94df6cfe7e8e6c732a058b3b5969cff083797ad"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/TFEgPM26/versions/LxQ24guq/create_configured-1.3.2a.jar"
+        "https://cdn.modrinth.com/data/TFEgPM26/versions/TnA8mWSb/create_configured-1.3.3.jar"
       ],
-      "fileSize": 2112761
+      "fileSize": 2112915
     },
     {
       "path": "mods/create_connected-1.1.13-mc1.21.1.jar",
@@ -4656,19 +4656,19 @@
       "fileSize": 707745
     },
     {
-      "path": "mods/Modern-Industrialization-2.4.1.jar",
+      "path": "mods/Modern-Industrialization-2.4.2.jar",
       "hashes": {
-        "sha1": "54db0f8e9481205459a2b4a55ce0fcd87a6cd51e",
-        "sha512": "a1c52be839f0378194f6c57710cba6f1752bfef4aaf5fbc0136dc20c24dac50c8311b75d161ae01f65ea33a885da24dc08dd93da7d3cfd8ba4f184b5928a4d4c"
+        "sha1": "2c4bf83dab1ea907d0bbcdaae99a0e54447841fc",
+        "sha512": "f758c8740f767c9ad6866667b1dce52fc013c00ea99a7c039a5f705e62ff4940ef8965d946570fe8c976fa69ff7a533736d8a08e981a41a8463aa2c6bbe7739d"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/Gov5Dboq/versions/JgaMsKoh/Modern-Industrialization-2.4.1.jar"
+        "https://cdn.modrinth.com/data/Gov5Dboq/versions/FZXo81n7/Modern-Industrialization-2.4.2.jar"
       ],
-      "fileSize": 7076859
+      "fileSize": 7083805
     },
     {
       "path": "mods/modernfix-neoforge-5.26.1+mc1.21.1.jar",
@@ -4806,19 +4806,19 @@
       "fileSize": 250067
     },
     {
-      "path": "mods/moonlight-1.21-2.29.20-neoforge.jar",
+      "path": "mods/moonlight-1.21-2.29.21-neoforge.jar",
       "hashes": {
-        "sha1": "99f9973f69460a772a4e8beccb9ca3f69e0a1291",
-        "sha512": "29889fe15f80fbc3f1793289572a8c9dad15d4439a81ac8db5f1ab3b6d347877fc403c96a2021869f24df6f8c2af35b7160bd548a258004f3e59799da4864297"
+        "sha1": "ce1af003066170ad6528a94244bc596eee90c3b8",
+        "sha512": "4cf2f6e8a9a42ca22d1cc8a4322d0f1dd134611aa809976429aeda5fb3da08398b2bc22a3be7810db0a3b640b9692066e59d842abfcab3fa8ca37cd3c969f923"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/twkfQtEc/versions/X7j32itX/moonlight-1.21-2.29.20-neoforge.jar"
+        "https://cdn.modrinth.com/data/twkfQtEc/versions/tXP9FWh2/moonlight-1.21-2.29.21-neoforge.jar"
       ],
-      "fileSize": 1586350
+      "fileSize": 1585398
     },
     {
       "path": "mods/morejs-neoforge-1.21.1-0.16.0.jar",
@@ -6666,19 +6666,19 @@
       "fileSize": 3115385
     },
     {
-      "path": "mods/tesseract-api-neoforge-1.11.9-1.21.1.jar",
+      "path": "mods/tesseract-api-neoforge-1.11.10-1.21.1.jar",
       "hashes": {
-        "sha1": "f2214b6e50199e6ebfaebed868bd895baee5c0a0",
-        "sha512": "a16058a573655871a3b24fa2324da25f5d805ab81262e9684071f48d7498af18e610c44da613f2b9033b7edef13f8f93c2c8372ef87ebd994be0dbe0b7b942b3"
+        "sha1": "250d7fa9cb3ee7211404c44a7f21d59b54f33b17",
+        "sha512": "28588f3501350cc903453a560832c9b55879ab28db1c8faadf4eb3026b21f67a541108ccb6706db2227a47172ed255333dba7b551817e3e8dfdd384815c0a378"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/pHNT1iyc/versions/ENvUVXez/tesseract-api-neoforge-1.11.9-1.21.1.jar"
+        "https://cdn.modrinth.com/data/pHNT1iyc/versions/ciyDFgWt/tesseract-api-neoforge-1.11.10-1.21.1.jar"
       ],
-      "fileSize": 726149
+      "fileSize": 726159
     },
     {
       "path": "mods/tfmg-1.2.0.jar",

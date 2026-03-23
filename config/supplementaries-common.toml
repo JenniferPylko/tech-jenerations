@@ -126,11 +126,11 @@
 		capacity = 12
 		#Allow right click to instantly eat or drink food or potions inside a placed jar.
 		#Disable if you think this ability is op (honey for example). Cookies are excluded
-		drink_from_jar = false
+		drink_from_jar = true
 		#Allows the player to directly drink from jar items
-		drink_from_jar_item = false
+		drink_from_jar_item = true
 		#Dynamically allows all small mobs inside jars depending on their hitbox size
-		jar_auto_detect = false
+		jar_auto_detect = true
 		#Allow Jars to capture small mobs
 		jar_capture = true
 		#Allow Jars to hold cookies
@@ -145,7 +145,7 @@
 		#Allows all baby mobs to be captured by cages
 		cage_allow_all_babies = false
 		#Dynamically allows all small mobs inside cages depending on their hitbox size
-		cage_auto_detect = false
+		cage_auto_detect = true
 		#Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
 		persistent_mobs = false
 		#Health percentage under which mobs will be allowed to be captured by cages and jars. Leave at 100 to accept any health level
@@ -180,7 +180,7 @@
 		enabled = true
 		tipped_spikes = true
 		#Allows entities killed by spikes to drop loot as if they were killed by a player
-		player_loot = false
+		player_loot = true
 		#Alternative mode for bamboo spikes. Allows only harmful effects to be applied on them and they obtain infinite durability
 		only_allow_harmful_effects = true
 		#Populate the creative inventory with all tipped spikes variations
@@ -227,7 +227,7 @@
 		music_disc_heave_ho = true
 
 		[functional.cannon.cannon_boat]
-			enabled = false
+			enabled = true
 			#Cannon boat recoil multiplier. Higher values will make the cannon boat recoil more when firing a cannonball
 			# Default: 0.5
 			# Range: 0.0 ~ 5.0
@@ -409,7 +409,7 @@
 		sepia_globe = true
 
 	[building.way_sign]
-		enabled = false
+		enabled = true
 
 		[building.way_sign.road_signs]
 			#Entirely disables them from spawning
@@ -720,7 +720,7 @@
 		#Allow books and enchanted books to be placed on the ground
 		enabled = true
 		#Allow all books to be placed both vertically and horizontally
-		mixed_books = false
+		mixed_books = true
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
