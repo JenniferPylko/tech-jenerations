@@ -1,3 +1,6 @@
+(() => { // stop polluting my scope!
+const {manual_unification} = global
+
 ServerEvents.recipes(($) => {
     const $forEachRecipe = (filter, callback) => {
         try { $.forEachRecipe(filter, (recipe) => {
@@ -7,6 +10,20 @@ ServerEvents.recipes(($) => {
 
     const $shaped_2x2 = (output, input) => $.shaped(output, ["AA ", "AA ", "   "], {A: input})
     const $shaped_3x3_blend = (output, axis_input, diagonal_input, center_input) => $.shaped(output, ["ABA", "BCB", "ABA"], {A: diagonal_input, B: axis_input, C: center_input ?? diagonal_input})
+
+    for (const rule of manual_unification.items) {
+        for (const ingredient of rule.replace) {
+            $.replaceInput({input: ingredient}, ingredient, rule.main)
+            $.replaceOutput({output: ingredient}, ingredient, rule.main)
+        }
+    }
+    for (const rule of manual_unification.fluids) {
+        for (const ingredient of rule.replace) {
+            console.log(`processing ${ingredient}`)
+            $.replaceInput({input: Fluid.of(ingredient, 1)}, Fluid.of(ingredient, 1), Fluid.of(rule.main, 1))
+            $.replaceOutput({output: Fluid.of(ingredient, 1)}, Fluid.of(ingredient, 1), Fluid.of(rule.main, 1))
+        }
+    }
 
     $forEachRecipe({
         output: "#minecraft:planks",
@@ -105,7 +122,9 @@ ServerEvents.recipes(($) => {
         {output: "modern_industrialization:fire_clay_dust"},
         {output: "#create_ironworks:tools/paxels"},
         {output: "#c:dusts", mod: "megalosaio"},
-        {output: "minecraft:ender_chest"}
+        {output: "minecraft:ender_chest"},
+        {output: "moderndynamics:item_pipe", type: "minecraft:crafting", not: {id: "modern_industrialization:steam_age/item_pipe_asbl"}},
+        {output: "moderndynamics:fluid_pipe", type: "minecraft:crafting", not: {mod: "moderndynamics"}}
     ])
 
     $.shaped(Item.of("tfmg:fireclay_ball", 3), ["AB ", "BA ", "   "], {A: "minecraft:clay_ball", B: "#c:dusts/bauxite"})
@@ -377,3 +396,4 @@ for (const sleeping_bag of Ingredient.of("@sleeping_bags").getItemIds()) {
         }
     })
 }
+})()

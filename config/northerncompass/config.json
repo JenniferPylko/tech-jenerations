@@ -2,12 +2,9 @@
   "dimensionTypeFallback": true,
   "dimensionTypes": {
     "northstar:mercury": null,
-    "minecraft:overworld_caves": null,
     "northstar:earth_orbit": null,
     "northstar:venus": null,
     "northstar:moon": null,
-    "project_echo:emerald_haven": null,
-    "yggdrasil:ginnungagap": null,
     "northstar:mars": null,
     "minecraft:overworld": null,
     "ae2:spatial_storage": null,
@@ -16,8 +13,7 @@
     "undergarden:undergarden": null,
     "deeperdarker:otherside": null,
     "bro:void": null,
-    "wardentools:abyssdim_type": null,
     "chronodawn:chronodawn": null,
-    "bro:saturated": null
+    "minecraft:overworld_caves": null
   }
 }

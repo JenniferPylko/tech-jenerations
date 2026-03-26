@@ -4,11 +4,11 @@
 	"Disable Vanilla Mineshafts" = true
 	# The lowest a mineshaft can spawn.
 	# Default: -55
-	"Minimum y-coordinate" = -55
+	"Minimum y-coordinate" = -100
 	# The highest a mineshaft can spawn.
 	# Default: 30
 	#
-	"Maximum y-coordinate" = 30
+	"Maximum y-coordinate" = 40
 
 	###########################################################################################################
 	## Ore deposit settings.

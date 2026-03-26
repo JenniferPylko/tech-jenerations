@@ -63,17 +63,17 @@
 	# Default: 0.75
 	# Range: 0.0 ~ 1.7976931348623157E308
 	windmillPenalty = 0.75
-	#The minimum floor area required. Default: 1/4 of the max area [PI * 32 ^ 2].
+	#The minimum floor area required. Default: 1/4 of the max area [PI * 32 ^ 2]. Set this and windmillRequiredRangePoints to zero, to disable area check.
 	# Default: 804
-	# Range: > 1
+	# Range: > 0
 	windmillThreshold = 804
-	#The minimum length of air current required.
+	#The minimum distance for it to consider a valid air current source.
 	# Default: 24
 	# Range: > 1
 	windmillRequiredRange = 24
-	#The minimum amount of points that must hit windmillRequiredRange.
+	#The minimum amount of points that must hit windmillRequiredRange. Set this and windmillThreshold to zero, to disable area check.
 	# Default: 128
-	# Range: > 1
+	# Range: > 0
 	windmillRequiredRangePoints = 128
 	#The maximum distance a windmill can consider air blocks from.
 	# Default: 32

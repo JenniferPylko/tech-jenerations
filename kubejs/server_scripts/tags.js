@@ -1,5 +1,5 @@
-const {unification} = global
-
+(() => { // stop polluting my scope!
+const { unification, manual_unification, utils } = global
 const $common_items = () => [
     Ingredient.of("@megalosaio").getItemIds().toArray(),
     Ingredient.of("@remin").getItemIds().toArray()
@@ -48,12 +48,106 @@ const $tags_common = ($, remin_items) => {
 
     $.add("amendments:sets_on_fire", "#hardcore_torches:active_torches")
     $.add("lit_on_fire:can_lit_campfire", "#hardcore_torches:active_torches")
+
+    $.add("c:hidden_from_recipe_viewers", [
+        "#create_mpnt:fluid_pipes",
+        "#create_mpnt:pumps",
+        "#modern_industrialization:fluid_pipes",
+        "create_mpnt:copper_encased_shaft",
+        "create_mpnt:railway_encased_shaft",
+        "create_mpnt:zinc_encased_shaft",
+        "create_mpnt:gold_encased_shaft",
+        "create_mpnt:iron_encased_shaft",
+        "create_mpnt:netherite_encased_shaft",
+        "create_mpnt:rose_gold_encased_shaft",
+        "create_mpnt:rosarite_encased_shaft",
+        "create_mpnt:valkyrum_encased_shaft",
+        "create_mpnt:pyral_encased_shaft",
+        "create_mpnt:zinc_ladder",
+        "create_mpnt:golden_ladder",
+        "create_mpnt:iron_ladder",
+        "create_mpnt:netherite_ladder",
+        "create_mpnt:rose_golden_ladder",
+        "create_mpnt:rosarite_ladder",
+        "create_mpnt:pyral_fluid_pipe",
+        "create_mpnt:pyral_mechanical_pump",
+        "create:smart_fluid_pipe",
+        "copycats:copycat_fluid_pipe",
+        "tfmg:electric_pump",
+        "tfmg:brass_mechanical_pump",
+        "tfmg:steel_mechanical_pump",
+        "tfmg:aluminum_mechanical_pump",
+        "tfmg:cast_iron_mechanical_pump",
+        "tfmg:plastic_mechanical_pump",
+        "tfmg:steel_pipe",
+        "tfmg:brass_smart_fluid_pipe",
+        "tfmg:steel_smart_fluid_pipe",
+        "tfmg:aluminum_smart_fluid_pipe",
+        "tfmg:cast_iron_pipe",
+        "tfmg:cast_iron_smart_fluid_pipe",
+        "tfmg:plastic_smart_fluid_pipe"
+    ])
 }
+
+ServerEvents.tags("fluid", ($) => {
+    utils.hide_all($, manual_unification.fluids)
+})
 
 ServerEvents.tags("item", ($) => {
     const [megalos_items, remin_items] = $common_items()
 
     $tags_common($, remin_items)
+
+    $.add("c:hidden_from_recipe_viewers", [
+        "createdieselgenerators:ethanol_bucket",
+        "charcoal_pit:ethanol_bucket",
+        "charcoal_pit:ethanol_bottle",
+        "createaddition:bioethanol_bucket",
+        "createchemistry:ethanol_bottle",
+        "modern_industrialization:ethanol_bucket",
+        "megacells:mega_emc_interface",
+        "megacells:cable_mega_emc_interface",
+        "fulleng:transmutation_terminal",
+        "fulleng:requester_terminal",
+        "fulleng:extended_pattern_access_terminal",
+        "megacells:sky_osmium_ingot",
+        "megacells:mega_chemical_cell_housing",
+        "megacells:chemical_storage_cell_1m",
+        "megacells:chemical_storage_cell_4m",
+        "megacells:chemical_storage_cell_16m",
+        "megacells:chemical_storage_cell_64m",
+        "megacells:chemical_storage_cell_256m",
+        "megacells:portable_chemical_cell_1m",
+        "megacells:portable_chemical_cell_4m",
+        "megacells:portable_chemical_cell_16m",
+        "megacells:portable_chemical_cell_64m",
+        "megacells:portable_chemical_cell_256m",
+        "megacells:radioactive_cell_component",
+        "megacells:radioactive_chemical_cell",
+        "megacells:mega_source_cell_housing",
+        "megacells:source_storage_cell_1m",
+        "megacells:source_storage_cell_4m",
+        "megacells:source_storage_cell_16m",
+        "megacells:source_storage_cell_64m",
+        "megacells:source_storage_cell_256m",
+        "megacells:portable_source_cell_1m",
+        "megacells:portable_source_cell_4m",
+        "megacells:portable_source_cell_16m",
+        "megacells:portable_source_cell_64m",
+        "megacells:portable_source_cell_256m",
+        "megacells:mega_experience_cell_housing",
+        "megacells:experience_storage_cell_1m",
+        "megacells:experience_storage_cell_4m",
+        "megacells:experience_storage_cell_16m",
+        "megacells:experience_storage_cell_64m",
+        "megacells:experience_storage_cell_256m",
+        "megacells:portable_experience_cell_1m",
+        "megacells:portable_experience_cell_4m",
+        "megacells:portable_experience_cell_16m",
+        "megacells:portable_experience_cell_64m",
+        "megacells:portable_experience_cell_256m",
+        "megacells:sky_osmium_block"
+    ])
 
     $.add("c:ingots", megalos_items.filter((v) => v.match(/.*ingot.*/)))
     $.add("c:nuggets", megalos_items.filter((v) => v.match(/.*nugget.*/)))
@@ -148,12 +242,6 @@ ServerEvents.tags("item", ($) => {
     $.add("c:em_coil_item", "modern_industrialization:cupronickel_coil")
     $.add("c:em_coil_item", "modern_industrialization:kanthal_coil")
     $.add("c:em_coil_item", "modern_industrialization:superconductor_coil")
-
-    $.add("c:unfinished_resistors", "tfmg:unfinished_resistor")
-    $.add("c:unfinished_resistors", "modern_industrialization:resistor")
-    $.add("c:transistors", "trainutilities:transistor")
-    $.add("c:transistors", "modern_industrialization:transistor")
-    $.add("c:transistors", "tfmg:transistor_item")
 })
 
 ServerEvents.tags("block", ($) => {
@@ -191,3 +279,4 @@ ServerEvents.tags("structure", ($) => {
     $.add("minecraft:villages", "minecraft:village_plains")
     $.add("minecraft:villages", "natures_spirit:village_desert")
 })
+})()

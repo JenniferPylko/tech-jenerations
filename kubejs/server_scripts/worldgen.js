@@ -148,8 +148,6 @@ const build_strata = ($, target, replacement) => {
 const stratum_name = (block, depth, radius) => `kubejs:stratum_${depth}_${block}_${radius}`
 
 ServerEvents.generateData("before_mods", ($) => {
-    console.log("generating data")
-    console.log($)
     build_feature($, "molten_echo",
         configured_replace_blobs("minecraft:water", "create_deep_dark:molten_echo"),
         {
@@ -334,7 +332,7 @@ ServerEvents.afterRecipes(() => {
     inject_features("biomesoplenty:moor", ["kubejs:peat", "kubejs:peat_grass"], 6)
     inject_features("terralith:caldera", ["kubejs:caldera_basalt", "kubejs:caldera_rock"], 9)
     inject_features("biomesoplenty:mystic_grove", ["kubejs:mystic_stone"], 6)
-    inject_features("terralith:yellowstone", terracotta_replacer_features.concat(["kubejs:yellowstone_sand", "kubejs:yellowstone_terracotta", "kubejs:yellowstone_magma"]), 9)
+    inject_features("terralith:yellowstone", terracotta_replacer_features.concat(["kubejs:yellowstone_sand", "kubejs:yellowstone_terracotta", "kubejs:yellowstone_magma", "kubejs:yellowstone_campfire"]), 9)
     inject_features("minecraft:stony_shore", ["kubejs:rocky_stone"], 2)
     inject_features("minecraft:stony_peaks", ["kubejs:rocky_stone"], 2)
     inject_features("terralith:rocky_mountains", ["kubejs:rocky_stone", "kubejs:loose_cobblestone"], 2)
@@ -342,13 +340,16 @@ ServerEvents.afterRecipes(() => {
     inject_features("biomeswevegone:mojave_desert", ["kubejs:mojave_sand", "kubejs:mojave_cracked_sand", "kubejs:mojave_sandstone"], 6)
     inject_features("biomeswevegone:mojave_desert", ["atmospheric:patch_agave_large", "atmospheric:single_agave"], 8)
 
-    const deep_cave_biomes = ["minecraft:deep_dark", "terralith:cave/mantle_caves", "infinity_cave:molten_caves"]
+    const deep_cave_biomes = ["minecraft:deep_dark", "terralith:cave/mantle_caves", "infinity_cave:molten_caves", "terralith:cave/frostfire_caves"]
 
     for (const biome of deep_cave_biomes) {
         inject_features(biome, ["kubejs:make_drier"], 10)
     }
 
-    inject_features("minecraft:deep_dark", ["kubejs:molten_echo"], 10)
+    const echo_cave_biomes = ["minecraft:deep_dark", "terralith:cave/frostfire_caves"]
+    for (const biome of echo_cave_biomes) {
+        inject_features(biome, ["kubejs:molten_echo"], 10)
+    }
 
     for (const biome of biomes.swampy) {
         inject_features(biome, ["kubejs:make_wetter"], "minecraft:freeze_top_layer")

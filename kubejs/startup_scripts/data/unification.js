@@ -40,13 +40,16 @@ global.unification = {
     },
     dusts: {
         aluminum: "megalosaio:aluminium_dust",
-        antimony: "megalosaio:antimony_dust",
+        antimony: ["megalosaio:antimony_dust", "chemicalscience:dust_antimony"],
         arsenic: "megalosaio:arsenic_dust",
+        barium: ["megalosaio:barium_dust"],
         bauxite: "tfmg:bauxite_powder",
         beryllium: "megalosaio:beryllium_dust",
+        bismuth: ["megalosaio:bismuth_dust"],
         brass: "megalosaio:cu_brass_dust",
-        cadmium: "megalosaio:cadmium_dust",
+        cadmium: ["megalosaio:cadmium_dust", "chemicalscience:dust_cadmium"],
         calcium: ["megalosaio:calcium_dust", "createchemistry:calcium_dust"],
+        cesium: ["megalosaio:caesium_dust"],
         chromium: "megalosaio:chromium_dust",
         cobalt: "megalosaio:cobalt_dust",
         coke: "tfmg:coal_coke_dust",
@@ -59,6 +62,7 @@ global.unification = {
         gallium: "megalosaio:gallium_dust",
         germanium: "megalosaio:germanium_dust",
         gold: "megalosaio:gold_dust",
+        hafnium: ["megalosaio:hafnium_dust", "chemicalscience:dust_hafnium"],
         hsla_steel: "megalosaio:fe_hsla_steel_dust",
         indium: "megalosaio:indium_dust",
         invar: "megalosaio:fe_invar_dust",
@@ -71,23 +75,32 @@ global.unification = {
         molybdenum: "megalosaio:molybdenum_dust",
         netherrack: ["create:cinder_flour", "charcoal_pit:cinder_flour"],
         nickel: ["megalosaio:nickel_dust", "remin:nickel_dust"],
+        niobium: ["megalosaio:niobium_dust"],
+        osmium: ["megalosaio:osmium_dust", "chemicalscience:dust_osmium"],
+        palladium: ["megalosaio:palladium_dust"],
         phosphorus: "megalosaio:phosphorus_dust",
         platinum: "megalosaio:platinum_dust",
         purpurite: "astrological:popped_purpurite",
+        rhenium: ["megalosaio:rhenium_dust", "chemicalscience:dust_rhenium"],
+        rubidium: ["megalosaio:rubidium_dust", "chemicalscience:dust_rubidium"],
         ruthenium: "megalosaio:ruthenium_dust",
+        scandium: ["megalosaio:scandium_dust"],
         sculk: "create_deep_dark:sculk_flour",
         silicon: "megalosaio:silicon_dust",
         silver: "megalosaio:silver_dust",
         sodium: "megalosaio:sodium_dust",
         stainless_steel: "megalosaio:fe_stainless_steel_dust",
         steel: "megalosaio:fe_steel_dust",
-        sulfur: "createchemistry:sulfur_dust",
+        strontium: "megalosaio:strontium_dust",
+        sulfur: ["createchemistry:sulfur_dust", "hybrid-aquatic:sulfur"],
         tantalum: "megalosaio:tantalum_dust",
         technetium: "megalosaio:technetium_dust",
+        tellurium: ["megalosaio:tellurium_dust", "chemicalscience:dust_tellurium"],
         thorianite: "nuclearscience:thorianite_dust",
         tin: "megalosaio:tin_dust",
         titanium: "megalosaio:titanium_dust",
         tungsten: "megalosaio:tungsten_dust",
+        tungsten_carbide: ["chemicalscience:dust_tungstencarbide"],
         vanadium: "megalosaio:vanadium_dust",
         yttrium: "megalosaio:yttrium_dust",
         zinc: "megalosaio:zinc_dust"
@@ -128,6 +141,8 @@ global.unification = {
         magnesium: "megalosaio:magnesium_ingot",
         molybdenum: "megalosaio:molybdenum_ingot",
         nickel: ["megalosaio:nickel_ingot", "remin:nickel_ingot"],
+        osmium: ["megalosaio:osmium_ingot"],
+        palladium: ["megalosaio:paladium_ingot"],
         platinum: "megalosaio:platinum_ingot",
         rose_gold: ["megalosaio:au_rose_gold_ingot"],
         silicon: "megalosaio:silicon_ingot",
@@ -139,6 +154,7 @@ global.unification = {
         tin: "megalosaio:tin_ingot",
         titanium: "megalosaio:titanium_ingot",
         tungsten: "megalosaio:tungsten_ingot",
+        tungsten_carbide: ["chemicalscience:ingot_tungstencarbide"],
         vanadium: "megalosaio:vanadium_ingot",
         zinc: "megalosaio:zinc_ingot"
     },
@@ -238,8 +254,9 @@ global.unification = {
         phosphorus: "megalosaio:raw_phosphorus",
         purpurite: "astrological:purpurite_blob",
         salt: "umines:halite",
+        silicon: ["megalosaio:raw_silicon"],
         silver: ["create_more_additions:raw_silver", "megalosaio:raw_silver"],
-        thorianite: "create_new_age:thorium",
+        thorianite: ["create_new_age:thorium", "electrodynamics:raworethorium"],
         tin: ["remin:raw_tin", "megalosaio:raw_tin", "umines:cassiterite"],
         titanium: ["megalosaio:raw_titanium", "umines:rutile"],
         tungsten: ["megalosaio:raw_tungsten"],
@@ -330,7 +347,7 @@ global.unification = {
         copper: ["minecraft:copper_sword", "charcoal_pit:copper_sword", "create_ironworks:copper_sword", "create_sa:copper_sword"],
         steel: ["remin:steel_sword", "charcoal_pit:steel_sword", "create_ironworks:steel_sword", "tfmg:steel_sword"],
         titanium: ["remin:titanium_sword", "megalosaio:titanium_sword"]
-    },
+    },/*
     //compute tiers
     circuits: {
         analog: [
@@ -380,7 +397,7 @@ global.unification = {
             "ae2:printed_engineering_processor",
             "modern_industrialization:quantum_circuit_board"
         ]
-    },
+    },*/
     //components
     components: {
         fluid_pipes: ["tfmg:aluminum_pipe", "create_mpnt:brass_fluid_pipe",
@@ -400,4 +417,167 @@ global.unification = {
     black: {
         sand: ["biomesoplenty:black_sand", "biomeswevegone:black_sand"]
     }
+}
+
+global.manual_unification = {
+    blocks: [],
+    items: [],
+    // almostunified said unifying fluids is hard
+    // i said i have a theoretical degree in physics
+    fluids: [{
+        main: "chemica:ethanol",
+        replace: [
+            "electrodynamics:fluidethanol",
+            "modern_industrialization:ethanol",
+            "createchemistry:ethanol",
+            "createaddition:bioethanol",
+            "charcoal_pit:ethanol",
+            "createdieselgenerators:ethanol",
+            "northstar:biofuel"
+        ]
+    }, {
+        main: "chemicalscience:methanol",
+        replace: ["nuclearscience:methanol"]
+    }, {
+        main: "modern_industrialization:steam",
+        replace: ["chemica:steam"]
+    }, {
+        main: "northstar:hydrogen",
+        replace: ["tfmg:hydrogen", "modern_industrialization:hydrogen", "chemica:hydrogen_fuel"]
+    }, {
+        main: "northstar:liquid_hydrogen",
+        replace: ["chemica:liquid_hydrogen", "electrodynamics:fluidhydrogen"]
+    }, {
+        main: "modern_industrialization:helium",
+        replace: ["chemica:helium", "chemicalscience:helium"]
+    }, {
+        main: "chemica:carbon_monoxide",
+        replace: ["chemicalscience:carbonmonoxide"]
+    }, {
+        main: "chemica:nitrogen",
+        replace: ["modern_industrialization:nitrogen"]
+    }, {
+        main: "northstar:oxygen",
+        replace: ["chemica:oxygen", "modern_industrialization:oxygen"]
+    }, {
+        main: "northstar:liquid_oxygen",
+        replace: ["electrodynamics:fluidoxygen"]
+    }, {
+        main: "chemica:fluorine",
+        replace: ["chemicalscience:fluorine"]
+    }, {
+        main: "chemicalscience:neon",
+        replace: ["tfmg:neon"]
+    }, {
+        main: "modern_industrialization:sodium_hydroxide",
+        replace: []
+    }, {
+        main: "chemica:phosphoric_acid",
+        replace: ["extended_industrialization:phosphoric_acid", "chemicalscience:phosphoricacid"]
+    }, {
+        main: "tfmg:sulfuric_acid",
+        replace: ["createchemistry:sulfuric_acid", "northstar:sulfuric_acid", "modern_industrialization:sulfuric_acid", "electrodynamics:fluidsulfuricacid"]
+    }, {
+        main: "modern_industrialization:chlorine",
+        replace: ["northstar:chlorine", "chemica:chlorine", "chemicalscience:chlorine"]
+    }, {
+        main: "chemica:argon",
+        replace: ["modern_industrialization:argon"]
+    }, {
+        main: "extended_industrialization:potassium_chloride",
+        replace: ["chemicalscience:potassiumchloride"]
+    }, {
+        main: "northstar:titanium_tetrachloride",
+        replace: ["chemica:titanium_tetrachloride", "chemicalscience:titaniumchloride"]
+    }, {
+        main: "remin:mercury",
+        replace: ["chemica:mercury", "chemicalscience:mercury"]
+    }, {
+        main: "chemica:hydrochloric_acid",
+        replace: ["modern_industrialization:hydrochloric_acid", "electrodynamics:fluidhydrochloricacid"]
+    }, {
+        main: "chemica:nitric_acid",
+        replace: ["createchemistry:nitric_acid", "electrodynamics:fluidnitricacid"]
+    }, {
+        main: "chemica:hydrofluoric_acid",
+        replace: ["electrodynamics:fluidhydrofluoricacid"]
+    }, {
+        main: "modern_industrialization:sodium_hydroxide",
+        replace: ["chemicalscience:sodiumhydroxide"]
+    }, {
+        main: "chemica:ammonia",
+        replace: ["electrodynamics:fluidammonia"]
+    }, {
+        main: "modern_industrialization:diesel",
+        replace: ["createdieselgenerators:diesel", "tfmg:diesel", "chemicalscience:diesel"]
+    }, {
+        main: "chemica:biodiesel",
+        replace: ["createdieselgenerators:biodiesel", "charcoal_pit:biodiesel", "modern_industrialization:biodiesel"]
+    }, {
+        main: "tfmg:gasoline",
+        replace: ["createdieselgenerators:gasoline", "chemicalscience:fuel"]
+    }, {
+        main: "modern_industrialization:naphtha",
+        replace: ["tfmg:naphtha", "chemicalscience:naphta"]
+    }, {
+        main: "charcoal_pit:creosote",
+        replace: ["tfmg:creosote", "modern_industrialization:creosote"]
+    }, {
+        main: "tfmg:crude_oil",
+        replace: ["createdieselgenerators:crude_oil", "modern_industrialization:crude_oil", "chemicalscience:crudeoil"]
+    }, {
+        main: "chemica:polyvinyl_chloride",
+        replace: ["modern_industrialization:polyvinyl_chloride"]
+    }, {
+        main: "chemica:vinyl_chloride_monomer",
+        replace: ["modern_industrialization:vinyl_chloride", "chemicalscience:vinylchloride"]
+    }, {
+        main: "chemica:brine",
+        replace: ["northstar:brine"]
+    }, {
+        main: "chemica:methane",
+        replace: ["northstar:methane", "modern_industrialization:methane", "chemicalscience:methane"]
+    }, {
+        main: "tfmg:butane",
+        replace: ["chemicalscience:butane"]
+    }, {
+        main: "tfmg:propane",
+        replace: ["chemicalscience:propane"]
+    }, {
+        main: "chemica:toluene",
+        replace: ["modern_industrialization:toluene", "chemicalscience:toluene"]
+    }, {
+        main: "chemicalscience:benzene",
+        replace: ["modern_industrialization:benzene", "chemica:benzene"]
+    }, {
+        main: "chemica:ethylbenzene",
+        replace: ["modern_industrialization:ethylbenzene", "chemicalscience:ethylbenzene"]
+    }, {
+        main: "tfmg:ethylene",
+        replace: ["modern_industrialization:ethylene", "chemicalscience:ethylene"]
+    }, {
+        main: "electrodynamics:fluidpolyethylene",
+        replace: ["modern_industrialization:polyethylene", "chemica:polyethylene"]
+    }, {
+        main: "modern_industrialization:acetylene",
+        replace: ["chemicalscience:acetylene"]
+    }, {
+        main: "chemica:propene",
+        replace: ["modern_industrialization:propene"]
+    }, {
+        main: "tfmg:propylene",
+        replace: ["chemicalscience:propylene"]
+    }, {
+        main: "modern_industrialization:styrene",
+        replace: ["chemicalscience:styrene"]
+    }, {
+        main: "chemica:acetone",
+        replace: ["chemicalscience:acetone"]
+    }, {
+        main: "create:honey",
+        replace: ["extended_industrialization:honey"]
+    }, {
+        main: "chemica:sucrose_solution",
+        replace: ["modern_industrialization:sugar_solution"]
+    }]
 }

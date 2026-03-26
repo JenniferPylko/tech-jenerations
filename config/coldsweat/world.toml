@@ -158,7 +158,7 @@
 	    ["terralith:rocky_mountains", 45, 73, "F"],
 	    ["terralith:blooming_plateau", 49, 78, "F"],
 	    ["terralith:alpine_grove", 16, 53, "F"],
-	    ["terralith:yellowstone", 47, 68, "F", 80],
+	    ["terralith:yellowstone", 47, 68, "F", 10],
 	    ["terralith:forested_highlands", 43, 70, "F"],
 	    ["terralith:temperate_highlands", 54, 80, "F"],
 	    ["terralith:amethyst_rainforest", 69, 84, "F"],

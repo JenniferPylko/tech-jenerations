@@ -98,6 +98,8 @@ BlockEvents.modification(($) => {
     $name("regions_unexplored:stone_grass_block", "Slate Grass Block")
     $name("deeperdarker:sculk_transmitter", "Sculk Radio")
     $name("create_deep_dark:sculk_flour", "Sculk Dust")
+    $name("northstar:circuit", "Shielded Circuit")
+    $name("northstar:advanced_circuit", "SOI Shielded Circuit")
 
     $.modify("minecraft:obsidian", (block) => block.setIsRandomlyTicking(true))
     $.modify("minecraft:sculk_catalyst", (block) => block.setIsRandomlyTicking(true))

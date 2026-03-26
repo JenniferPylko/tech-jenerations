@@ -19,3 +19,10 @@ global.utils.open_registry = (registry) => {
         return
     }
 }
+
+global.utils.hide_all = ($, set) => {
+    const hidden_sets = set.map((v) => v.replace)
+    for (const hidden_set of hidden_sets) {
+        $.add("c:hidden_from_recipe_viewers", hidden_set)
+    }
+}
