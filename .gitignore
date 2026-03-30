@@ -4,6 +4,7 @@
 !/kubejs
 /kubejs/README.txt
 /kubejs/documentation
+!/modlist.md
 !/modrinth.index.json
 !/package.json
 !/package-lock.json
@@ -15,6 +16,7 @@
 !/config/bclib
 !/config/biomesoplenty
 !/config/biomeswevegone
+!/config/burnt_basic_config.toml
 !/config/coldsweat
 /config/coldsweat/*
 !/config/coldsweat/*.toml

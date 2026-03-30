@@ -18,10 +18,12 @@ const base_index = {
     summary: "",
     files: [],
     dependencies: {
-        neoforge: "21.1.219",
+        neoforge: "21.1.221",
         minecraft: "1.21.1"
     }
 }
+
+const modlist = ["# ∫Comprehensive Mod List", "", "This information is pulled directly from Modrinth's API when building the mrpack index.", ""]
 
 const loader_folders = {
     neoforge: "mods",
@@ -70,6 +72,7 @@ const index = JSON.parse(JSON.stringify(base_index))
 
 for (const hash of hashes) {
     if (version_info[hash]) {
+        modlist.push(`- \`${project_info[version_info[hash].project_id].title.replace("`", "\\`")}\``)
         const version_file = version_info[hash].files.find((file) => file.primary ?? true)
         const placement_directory = loader_folders[
                                         version_info[hash].loaders.find((loader) => loader === "neoforge")
@@ -101,3 +104,4 @@ for (const hash of hashes) {
 }
 
 writeFile("modrinth.index.json", JSON.stringify(index, null, 2))
+writeFile("modlist.md", modlist.join("\n"))

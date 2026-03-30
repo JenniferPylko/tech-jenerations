@@ -1,0 +1,574 @@
+# ∫Comprehensive Mod List
+
+This information is pulled directly from Modrinth's API when building the mrpack index.
+
+- `Abandoned Watchtowers`
+- `Abridged`
+- `Abu Simbel - Ruins Structure ✅`
+- `Accessories`
+- `Accessories Compatibility Layer`
+- `Additional Structures`
+- `AE2 Dynamic Trees Fix`
+- `AE2 Tangible Bookmarks`
+- `Applied Energistics 2 Wireless Terminals`
+- `Almanac`
+- `Almost Unified`
+- `Alternate Current`
+- `Ambient Environment`
+- `Amendments`
+- `Ancient Jungle Ring - Ruins Structure ✅`
+- `Ancient Enchantment Temple`
+- `Animal Genders`
+- `AppleSkin`
+- `Applied Create`
+- `Applied Energistics 2`
+- `AppFlux`
+- `Architectury API`
+- `Ash API`
+- `AStages`
+- `Astrological (End Terrain & Biomes)`
+- `Atmospheric`
+- `AlmostUnifiedDrops`
+- `Auth Me`
+- `Automatic Operator`
+- `Backported Animal Variants`
+- `BaguetteLib`
+- `Balm`
+- `BCLib Neoforge`
+- `Create: Bells & Whistles`
+- `Better Compatibility Checker`
+- `Snowy Biomes: Enhanced`
+- `Better Beds`
+- `Better Biome Reblend`
+- `Better Days`
+- `BetterEnd Neoforge`
+- `BetterNether Neoforge`
+- `Better Falling`
+- `Better Tooltips`
+- `Create: Big Contraptions`
+- `Biolith`
+- `Biomes O' Plenty`
+- `Biomes O' Remin`
+- `BiomeSpy`
+- `Birch Watchtower - Structure ✅`
+- `Create: Bits 'n' Bobs`
+- `Blastcraft`
+- `Blazing Bamboo Continued`
+- `Blueprint`
+- `Boids`
+- `Bookshelf`
+- `Bridging Mod`
+- `BucketLib`
+- `Burn By Soul Fire`
+- `Burnt Basic`
+- `Concurrent Chunk Management Engine (NeoForge)`
+- `Cable Facades`
+- `Ceramic Bucket`
+- `C: FMG and C: DG Compatibility`
+- `Chalk`
+- `Charcoal Pit 4`
+- `Chat Heads`
+- `Chemica`
+- `Chemical Science`
+- `Chrono Dawn`
+- `CIT: Hotfix for Enchanted Books`
+- `CIT Resewn`
+- `CITResewnNeoPatcher`
+- `Climate Rivers`
+- `Cloth Config API`
+- `Create More: Parallel Pipes`
+- `Cobweb`
+- `Cold Sweat`
+- `Collective`
+- `Colorful Hearts`
+- `Compat API`
+- `Compat Structure`
+- `Sinytra Connector`
+- `Connector Extras`
+- `Continuity`
+- `Controlify (Controller support)`
+- `Controlling`
+- `Copper Age Backport`
+- `Create: Copycats+`
+- `CorgiLib`
+- `Custom Portal API Reforged`
+- `CraftPresence`
+- `Create Encased`
+- `Create`
+- `Create: Dynamic Lights`
+- `Create: EasyFilling`
+- `Create: Extended Wrenches`
+- `Create Man of Many Planes`
+- `Create: More Girder`
+- `Create: New Age`
+- `Create Stuff 'N Additions`
+- `Create touchpad scrolling fix`
+- `Create: Wrencheable Planes`
+- `Create Crafts & Additions`
+- `Create: Applied Kinetics`
+- `CreateTagsFix`
+- `Create: Chemistry`
+- `Create Deco`
+- `Create: Diesel Generators`
+- `Create: Ender Gateway`
+- `Create: Ender Link`
+- `Create: Ender Transmission`
+- `Create: Filters Anywhere`
+- `Create Horse Power`
+- `Create: Improved Display Link Experience`
+- `Create Low-Heated`
+- `Create: Meta Logistics`
+- `Create: New Beginnings`
+- `Create: Create O' Plenty (Create + Biomes O' Plenty Mod compat)`
+- `Create Ore Excavation`
+- `Create Picky Wheels`
+- `Create: Pure Glass`
+- `Create Railways Navigator`
+- `Create: Recipe Conflict Fixer`
+- `Create: Stuff 'N Additions - Tank Fix (Spout, Curios & Upgrade)`
+- `Create Sifting`
+- `Create Stock Bridge`
+- `Create: Threaded Trains`
+- `Create: real stack size`
+- `Create: Blocks & Bogies`
+- `Create: Blazing Hot`
+- `Create: Cold Sweat`
+- `Create: Compat Core`
+- `Create Configured`
+- `Create: Connected`
+- `Create: Deep Dark`
+- `Create: Easy Structures`
+- `Create: Ironworks`
+- `Create: Limited`
+- `Create: Let The Adventure Begin`
+- `Create: Melodies & Mechanisms`
+- `Create: Crafts & (More) Additions`
+- `Create: More Pipes n' Things`
+- `Create: Oxidized`
+- `Create: Pattern Schematics`
+- `Create: Pillager Arise`
+- `Create: Polymer`
+- `Create: Reactive Stress (CRS)`
+- `Create: Rustic Structures`
+- `Create: structures overhaul`
+- `Create Train Parts`
+- `Create Train Physics`
+- `Create: Trimmed`
+- `Create Waystones Recipes`
+- `Zinc Macerate`
+- `Cristel Lib`
+- `Crops Love Rain`
+- `Curios API`
+- `CustomMeteorJS`
+- `Custom Nether Portal`
+- `Dark Orion`
+- `Dark Forest Watchtower - Structure ✅`
+- `darkaroundme`
+- `Dark Paintings`
+- `Data Anchor`
+- `Deeper and Darker`
+- `Deep Dark Trader`
+- `Deimos`
+- `Delfos - Ruins Structure ✅`
+- `Create: Design n' Decor`
+- `KubeJS Diesel Generators`
+- `Diagonal Fences`
+- `Diagonal Walls`
+- `Diagonal Windows`
+- `Dimensional Leap`
+- `Dissonance`
+- `Distant Friends`
+- `Distant Horizons`
+- `Create: Dreams & Desires`
+- `Doppler`
+- `Cree's Dynamic Doors`
+- `DragonLib`
+- `Dynamic Trees - Biomes O' Plenty`
+- `Dynamic Trees - Oh The Biomes We've Gone`
+- `Dynamic Trees - Regions Unexplored`
+- `Dynamic Trees - Terralith`
+- `Dungeons and Taverns Ancient City Overhaul`
+- `Dungeons and Taverns`
+- `When Dungeons Arise`
+- `When Dungeons Arise: Seven Seas`
+- `Dynamic Trees for Nature's Spirit`
+- `Dynamic Asset Generator`
+- `Dynamic Electricity`
+- `Dynamic Trees Addon Lib`
+- `Dynamic Trees`
+- `Dynamic Trees Plus`
+- `Echoes`
+- `Echoes of The End ( Structures)`
+- `Ecological`
+- `ED Wires Plus`
+- `Electrodynamics`
+- `EMI`
+- `EMIffect`
+- `EMI professions (EMIP)`
+- `EMI++`
+- `EMI: Create Schematics`
+- `EMI Enchanting`
+- `EMI Loot`
+- `EMI Ores`
+- `Enchantment Descriptions`
+- `Enderpearl Backport`
+- `Entity Culling`
+- `[EMF] Entity Model Features`
+- `[ETF] Entity Texture Features`
+- `Environmental`
+- `Epic Fight`
+- `Epic Fight: Skill Tree`
+- `Euphonium`
+- `Every Compat (Wood Good)`
+- `Excavated Variants`
+- `You Wouldn't Put Gunpowder In A Furnace`
+- `Explorify`
+- `Explosive Enhancement: Reforged`
+- `Exposure: Detective`
+- `Exposure`
+- `Exposure: Expanded`
+- `Exposure: Polaroid`
+- `Extended Industrialization`
+- `EMI Addon: Extra Mod Integrations`
+- `Fabric API`
+- `Fabrishot`
+- `Falling Leaves (NeoForge/Forge)`
+- `Falling Snow`
+- `FancyMenu`
+- `Fast Paintings`
+- `Feature Recycler`
+- `Female Gender Mod`
+- `FerriteCore`
+- `Fiber-Optic Cables`
+- `First-person Model`
+- `Fish of Thieves`
+- `Flowing Fluids`
+- `Create: Fluid`
+- `Fog`
+- `Forest Watchtower - Structure ✅`
+- `Forge Config API Port`
+- `Forgified Fabric API`
+- `Forgotten Church`
+- `Fullblock Energistics`
+- `Fusion (Connected Textures)`
+- `Fzzy Config`
+- `Gabou's Libs`
+- `Geckolib`
+- `Giant Lily Pads`
+- `Giant Natural Additions`
+- `Giant Nether Tree`
+- `Giant Ruined Portals`
+- `GlitchCore`
+- `Glodium`
+- `Glow`
+- `GraveStone Mod`
+- `Gravestone x Curios API Compat`
+- `Greeneries`
+- `GuideME`
+- `Hardcore Torches`
+- `Highlight`
+- `Hopo Better Mineshaft`
+- `HRTF Fix`
+- `Icebreak`
+- `iChunUtil`
+- `Ignition`
+- `ImmediatelyFast`
+- `Immersive Aircraft`
+- `Incendium`
+- `Industrialization Overdrive`
+- `Infinity Cave`
+- `Info Tools`
+- `Item interactions mod`
+- `Jade 🔍`
+- `Jade Addons (Neo/Forge)`
+- `Japanese Castle - Structure ✅`
+- `Japanese Offering Shrines`
+- `Japanese Temple - Structure ✅`
+- `Jungle Watchtower - Structure ✅`
+- `Just Enough Breeding (JEBr)`
+- `keybindjs`
+- `Keychains: Supplementaries`
+- `Kiwi 🥝`
+- `Konkrete`
+- `Kotlin for Forge`
+- `KubeJS Create`
+- `KubeJS`
+- `KubeJS Offline`
+- `Labyrythm`
+- `LanternLib`
+- `Lava Turns Sand into Glass`
+- `Let Me Despawn`
+- `Lithium`
+- `Lithostitched`
+- `Lit on fire`
+- `Living Things`
+- `Load My F***ing Tags`
+- `LootJS: KubeJS Addon`
+- `Lost Libraries`
+- `Luki's Ancient Cities`
+- `Man of Many Planes`
+- `Macaw's Paintings`
+- `Mechanicals Lib`
+- `Medieval Buildings`
+- `Medieval Buildings [End Edition]`
+- `Medieval Buildings [Nether Edition]`
+- `MEGA Cells`
+- `Megalo's AIO - NeoForge Edition`
+- `Melody`
+- `ME-Beam-Former`
+- `MidnightLib`
+- `Mindful Darkness`
+- `MixinTrace Reforged`
+- `Model Gap Fix`
+- `Modern Dynamics`
+- `Modern Industrialization`
+- `ModernFix`
+- `Modern Nuclearization`
+- `MES - Moog's End Structures`
+- `MMV - Moog's Missing Villages`
+- `MNS - Moog's Nether Structures`
+- `MSS - Moog's Soaring Structures`
+- `MTR - Moog's Temples Reimagined`
+- `MVS - Moog's Voyager Structures`
+- `Moog's Structure Lib (moogs_structures)`
+- `Moonlight Lib`
+- `More Create Burners`
+- `MoreJS: KubeJS Addon`
+- `Mouse Tweaks`
+- `M.R.U`
+- `Multiplayer Server Pause`
+- `Musket Mod`
+- `Mycenae - Ruins Structure ✅`
+- `Natural Temperature`
+- `Nature's Spirit`
+- `NBT Autocomplete`
+- `Nemo's Inventory Sorting`
+- `Serene Seasons Plus`
+- `NetherPortalFix`
+- `Nether Portal Spread`
+- `Nether Skeletons`
+- `Newgrange - Ruins Structure ✅`
+- `Noisiumed`
+- `NoPackCompatCheck`
+- `Northern Compass`
+- `Create: Northstar - Redux`
+- `Not Enough Recipe Book [NERB]`
+- `Not Enough Animations`
+- `Not Enough Crashes`
+- `Nuclear Science`
+- `Nullscape`
+- `NuStone Crafting`
+- `Ocean Villager Trader`
+- `Ocean Lily Pad Village`
+- `ShatterLib | OctoLib`
+- `Oh The Biomes We've Gone`
+- `Oh The Trees You'll Grow`
+- `Create: Old Infrastructure`
+- `Operation: Starcleave`
+- `OreFix`
+- `oωo (owo-lib)`
+- `Particle Core`
+- `Patience`
+- `Perception`
+- `Petra - Ruins Structure ✅`
+- `Philips Ruins`
+- `Piglin Conservatory v3.0`
+- `Plains Watchtower - Structure ✅`
+- `Polymorph`
+- `Polytone`
+- `Create: Power Grid`
+- `Presence Footsteps [FORGE]`
+- `Prickle`
+- `Prometheus`
+- `Pufferfish's Biome Dither`
+- `Puzzles Lib`
+- `Questlog`
+- `quick pack`
+- `Steam 'n' Rails Neoforge`
+- `Recipe Fixer`
+- `Recipe Integration`
+- `Redstone Pen`
+- `ReducedLoot`
+- `ReducedOres`
+- `Reese's Sodium Options`
+- `Epic Fight - Rapier Moveset Addon`
+- `Regions Unexplored`
+- `Remin: Realistic Minerals`
+- `Repurposed Structures - Neoforge/Forge`
+- `Resourceful Config`
+- `Resourceful Lib`
+- `Resource Pack Overrides`
+- `Restless Legions`
+- `Revamped Phantoms`
+- `Rhino`
+- `Rain should extinguish campfires`
+- `Rusted`
+- `Savanna Watchtower - Structure ✅`
+- `Schematic Energistics`
+- `Sculk Muffler`
+- `Sculk Transporting`
+- `Seamless Loading Screen `
+- `Searchables`
+- `Seasonal Integration`
+- `Serene Seasons`
+- `ServerCore`
+- `Server Heater`
+- `Shared Advancements`
+- `Simple Clouds`
+- `Simple Custom Early Loading`
+- `Simple Fog Control`
+- `Skippy Pearls`
+- `Sleeping Bags`
+- `Small Biome Towers`
+- `Small Ships`
+- `Small Villager Greenhouse`
+- `Create Smart Bounds`
+- `Smithing Template Viewer`
+- `Smooth Skies`
+- `Snow! Real Magic! ⛄`
+- `Snowy Villager Hotel`
+- `Sodium Extra`
+- `Sodium`
+- `Sodium Core Shader Support`
+- `Sodium Dynamic Lights`
+- `Sodium Options API`
+- `Sodium Options Mod Compat`
+- `Sonic Break`
+- `Soul Fire'd`
+- `Attract to Sound ([NEO]Forge/Fabric): Sound & Stealth.`
+- `Sound Physics Perfected`
+- `spark`
+- `Sparse Structures`
+- `Spawn Animations Compats`
+- `Spawn Animations`
+- `Spring to Life Backport`
+- `Spyglass Improvements`
+- `Stonehenge - Ruins Structure ✅`
+- `Every Compat (Stone Zone)`
+- `STRAYED FATES: Forsaken`
+- `Structure Expansion`
+- `Structure Layout Optimizer`
+- `Subsurface`
+- `Subterranean Expansion | Cave Update`
+- `Sunken Spires`
+- `Sunken Warrior Statue`
+- `Supplementaries`
+- `Supplementaries Squared`
+- `Survivalist Essentials`
+- `Taiga Watchtower - Structure ✅`
+- `Tectonic`
+- `TerraBlender`
+- `Terralith`
+- `Tesseract API`
+- `Create: The Factory Must Grow`
+- `The Biomes We've Gone  waystones compat`
+- `The Undergarden`
+- `Thick Air`
+- `Thief`
+- `ThirstWasFixed`
+- `Thirst Was Taken`
+- `Tidal Towns`
+- `Tidy Binds`
+- `TLib`
+- `Toasty's Mobs`
+- `Too Many Paintings!`
+- `TooManyRecipeViewers`
+- `Towers of the Wild Modded`
+- `Towers of the Wild Modded - Extra Towers`
+- `Create Train Utilities`
+- `Transparent`
+- `Traveler's Titles`
+- `Trek`
+- `Create: Trial & Error`
+- `Trimmed`
+- `Towns and Towers`
+- `Unmovable Mines`
+- `Unbreakables`
+- `Unified Crops`
+- `UniLib`
+- `Unkindled`
+- `Updating World Icon`
+- `Vanillin`
+- `Variants&Ventures`
+- `Via Romana: Infrastructure-Driven Fast Travel`
+- `Villager Clock Tower`
+- `Villages&Pillages`
+- `Visual Workbench`
+- `Void: Expansion`
+- `Voltaic`
+- `What Am I Listening To?`
+- `Warpstack`
+- `Waystones`
+- `What's That Slot?`
+- `WITS (What Is This Structure?)`
+- `Wooden Bucket`
+- `Woodworks`
+- `Worldgen Patches`
+- `WorldgenFeatureFix`
+- `WorldWeaver Neoforge`
+- `WunderLib Neoforge`
+- `Xaero's Minimap`
+- `Xaero's Map Server Utils`
+- `Xaero Train Map`
+- `Xaero's World Map`
+- `YetAnotherConfigLib (YACL)`
+- `Yggdrasil`
+- `Yori3o's Grappling Hooks`
+- `YUNG's API`
+- `YUNG's Better Caves`
+- `YUNG's Better Desert Temples`
+- `YUNG's Better Dungeons`
+- `YUNG's Better End Island`
+- `YUNG's Better Jungle Temples`
+- `YUNG's Better Mineshafts`
+- `YUNG's Better Nether Fortresses`
+- `YUNG's Better Ocean Monuments`
+- `YUNG's Better Strongholds`
+- `YUNG's Better Witch Huts`
+- `YUNG's Bridges`
+- `YUNG's Cave Biomes`
+- `YUNG's Extras`
+- `Remove Stardust Labs Intro Message`
+- `Hybrid Aquatic`
+- `Applied Kinetic recipe fix`
+- `Typewriter Day Counter`
+- `Mob Variations`
+- `3D Create mod track items`
+- `3D Vanilla`
+- `3D Muskets`
+- `AE2 GUI`
+- `Atmospheric Skies & Fog`
+- `Biome Dirt`
+- `Block Damage Fusion`
+- `Connected Rocks`
+- `Connected Polished Stones`
+- `Create Touch-Ups`
+- `Create: Vanilla Reimagined`
+- `Create Waystones Texture + GUI`
+- `create style hopper`
+- `Crushed ores for Modern Industrialization`
+- `Enhanced Audio: Ambience (Sound Pack)`
+- `Enhanced Lightning Sound`
+- `Foggy Pale Garden (FPG) x Polytone`
+- `Fractal Enchantment Glint`
+- `Fusion 3D Items`
+- `Fusion Block Transitions`
+- `Fusion Connected Blocks`
+- `Fusion Connected Glass`
+- `Fusion Stacking Items`
+- `Fusion Arid Glass`
+- `GUI Retextures`
+- `Hatsune Miku Created Minecraft`
+- `No Crosshair`
+- `No Z-Fighting`
+- `Purity was Shown`
+- `Snowy Sounds and Rain add-on!❄️`
+- `Sounds X Create`
+- `Sparkles: Stardust Labs Resourcepack`
+- `Standardized Ingots - Create and More!`
+- `Stone Brick Overlays`
+- `Create: Diesel Generators x TFMG`
+- `Water Caustics`
+- `Emissive Shaders`
+- `BiomeBloom`
+- `Better Pressure Plates`
