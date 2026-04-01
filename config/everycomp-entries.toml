@@ -172,6 +172,22 @@
 		[types.wood_type.hybrid-aquatic]
 			driftwood = true
 
+		[types.wood_type.burnt]
+			smoldering_bamboo = true
+			burnt = true
+			smoldering = true
+			burnt_bamboo = true
+			ember = true
+			sooty_oak = true
+			sooty_dark_oak = true
+			sooty_spruce = true
+			sooty_birch = true
+			sooty_acacia = true
+			sooty_mangrove = true
+			sooty_cherry = true
+			sooty_jungle = true
+			blazing = true
+
 		[types.leaves_type.biomeswevegone]
 			flowering_palo_verde = true
 			aspen = true
@@ -668,6 +684,19 @@
 			ashen = true
 			acacia_twiglet = true
 
+		[types.leaves_type.burnt]
+			burnt = true
+			smoldering = true
+			smoldering_oak = true
+			smoldering_dark_oak = true
+			smoldering_spruce = true
+			smoldering_birch = true
+			smoldering_jungle = true
+			smoldering_mangrove = true
+			smoldering_cherry = true
+			smoldering_acacia = true
+			blast = true
+
 		[types.stone_type.natures_spirit]
 			white_kaolin = true
 			light_gray_kaolin = true
@@ -782,6 +811,9 @@
 
 		[types.stone_type.dndecor]
 			cut_stone = true
+
+		[types.stone_type.burnt]
+			sooty_stone = true
 
 		[types.mud_type.deeperdarker]
 			sculk_grime = true

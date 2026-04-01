@@ -185,7 +185,7 @@
 
 [ores]
 	disable_all_ores = false
-	disable_stone_ores = true
+	disable_stone_ores = false
 	spawn_aluminum_ore = true
 	spawn_chromium_ore = true
 	spawn_fluorite_ore = true
@@ -223,4 +223,4 @@
 	spawn_deep_vanadium_ore = true
 	# Default: 1.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	ore_generation_multiplier = 1.0
+	ore_generation_multiplier = 0.5

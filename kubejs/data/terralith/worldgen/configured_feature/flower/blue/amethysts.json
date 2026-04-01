@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "northstar:large_lunar_sapphire_bud",
+            "Properties": {
+              "facing": "up",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "northstar:medium_lunar_sapphire_bud",
+            "Properties": {
+              "facing": "up",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "northstar:small_lunar_sapphire_bud",
+            "Properties": {
+              "facing": "up",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 3
+        }
+      ]
+    }
+  }
+}

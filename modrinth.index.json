@@ -261,19 +261,19 @@
       "fileSize": 49299
     },
     {
-      "path": "mods/appleskin-neoforge-mc1.21-3.0.8.jar",
+      "path": "mods/appleskin-neoforge-mc1.21-3.0.9.jar",
       "hashes": {
-        "sha1": "32be58815905e472016b6413175a27e6cbf05b90",
-        "sha512": "f47c7228cb06693f118abfbd545c2cbacbe3ac4c779281d4464380dc4310de8a47e1ba73df3c7c6b8b670cca6ef49d9c14ccb93ba5a6705da9e3cf651eb63486"
+        "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246",
+        "sha512": "f4ea46273e407334b63e262e2555c9a8204f7b5e60f23f272fbaa83ad9e88800e0ee186aca840710df2dbe0a18b37758695fef2ae1a902c10b3706e3de772937"
       },
       "env": {
         "client": "required",
         "server": "optional"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/EsAfCjCV/versions/8X2x5cPC/appleskin-neoforge-mc1.21-3.0.8.jar"
+        "https://cdn.modrinth.com/data/EsAfCjCV/versions/uAKA6Laj/appleskin-neoforge-mc1.21-3.0.9.jar"
       ],
-      "fileSize": 75595
+      "fileSize": 75804
     },
     {
       "path": "mods/appliedcreate-1.21.1-1.1.4.jar",
@@ -1148,17 +1148,17 @@
     {
       "path": "mods/ColdSweat-2.4-b06g.jar",
       "hashes": {
-        "sha1": "a9f73f7870e60b29c7bc80c5e8a3372e405f2878",
-        "sha512": "d72c352367f8eb7fa9974b8d3773ef79e608af97e43d5eb7545008c054db91f618d987525f7ef3bfb3f55778ce6a7081e02bfd5beeca5dcaeec1a29bbcbd75a4"
+        "sha1": "30ab45daf7de17103e53c403169be65ae5834296",
+        "sha512": "29da8bb58e4116be1e1a7ae4df13d0fa56aa29fea85eaf9ea581bfc737b10776b2834fffcee86c8d6d990880fbef6bd87317db24c600f33223aa1e4d99351d63"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/uXhSmPjd/versions/ZXiK049K/ColdSweat-2.4-b06g.jar"
+        "https://cdn.modrinth.com/data/uXhSmPjd/versions/mwrLcRKl/ColdSweat-2.4-b06g.jar"
       ],
-      "fileSize": 2583176
+      "fileSize": 2585474
     },
     {
       "path": "mods/collective-1.21.1-8.13.jar",
@@ -1463,17 +1463,17 @@
     {
       "path": "mods/create-more-girder-1.1.2-neo.jar",
       "hashes": {
-        "sha1": "3825d06939ba3797f4587803bb26db2a8ac3a228",
-        "sha512": "926a2a55890dda8258654a04c870a965b8f4dd76e61450deaa2d110a359406bd1a1e0b6e8202abb9d174c3b41a02c6d7ecadd559033347dbe0f42e86c13b2503"
+        "sha1": "f609e5de5369b4743874aa01f6ffd296efaeb3e1",
+        "sha512": "de782fbbbfc71c2ce3db24bf35f27659b19cfcac1d4d33733656efb2bebded524586669d66d53ac864b6a75d40adc75024bde1c0b828301f90e21d09797d10fa"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/sPg2LVAd/versions/MNWrjEEm/create-more-girder-1.1.2-neo.jar"
+        "https://cdn.modrinth.com/data/sPg2LVAd/versions/1spWMoKj/create-more-girder-1.1.2-neo.jar"
       ],
-      "fileSize": 1649633
+      "fileSize": 1651414
     },
     {
       "path": "mods/create-new-age-1.1.7c+neoforge-mc1.21.1.jar",
@@ -2976,21 +2976,6 @@
       "fileSize": 95543
     },
     {
-      "path": "mods/edwiresplus-1.21.1-1.0.0.jar",
-      "hashes": {
-        "sha1": "c90130d8fbc3fdba02fa13e2c95a1e59b694dd0a",
-        "sha512": "9c06bf2689ac50fd61b3495794e2a0365432dc2e43401506ae2f3d377a92cc8c046ae1d20d5abce304c7f62508be5f1ddddcd1caa56808aefc96e64d55154eb6"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/ZwRgzfUL/versions/ANu6t7Px/edwiresplus-1.21.1-1.0.0.jar"
-      ],
-      "fileSize": 13124318
-    },
-    {
       "path": "mods/electrodynamics-1.21.1-1.0.2.jar",
       "hashes": {
         "sha1": "9a286234f39dbac726709ca30291895d83819892",
@@ -3261,19 +3246,19 @@
       "fileSize": 44308407
     },
     {
-      "path": "mods/everycomp-1.21-2.11.35-neoforge.jar",
+      "path": "mods/everycomp-1.21-2.11.36-neoforge.jar",
       "hashes": {
-        "sha1": "6346179b26177df64d905f33eb64f0d7b4b63269",
-        "sha512": "dd4edcad15ef5e6755d22f20269d05461544657c7d7b78b591fddad6d22ed8279fb2e24bdd16ce60afba750eb2ecd023d6a1b6efc4f1e60b5e11872383e3335d"
+        "sha1": "b413caa7e2b7db184121c7c95b7075a3a32ab5a4",
+        "sha512": "86c5ab5e3f843f5a04d247903337e22d6c232e28738c507132bf2feb5078c1e764a021c3485f883f9e3abb21dd4213566d433e585c1d551e699b613ad33c4d81"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/eiktJyw1/versions/x5lJs0no/everycomp-1.21-2.11.35-neoforge.jar"
+        "https://cdn.modrinth.com/data/eiktJyw1/versions/bL6BEDji/everycomp-1.21-2.11.36-neoforge.jar"
       ],
-      "fileSize": 2634233
+      "fileSize": 2635906
     },
     {
       "path": "mods/excavatedvariants-4.3.1-neoforge.jar",
@@ -4401,19 +4386,19 @@
       "fileSize": 147728
     },
     {
-      "path": "mods/lanternlib-1.21.1-2.2.1.jar",
+      "path": "mods/lanternlib-1.21.1-2.3.0.jar",
       "hashes": {
-        "sha1": "37a193c300fe8278725815a34cd9abc2568a8443",
-        "sha512": "59a6f20405ae69465892c106d347d23690cc239dd36759d7744b42c19366fea79e3984f184a55cd87b34eaf507768498dbe40e8b6a7496f1b29818269ad1fac1"
+        "sha1": "0dd951b65a63ae0bb407de4aab553fa32b604e04",
+        "sha512": "8f17c70794681f297b0d67cb933b68b9c8e849ff59687dcab6cbf2fba569f92824d8ef82e2cd4b13e407263a52a5264247198121a10a02f28fbd07cb11988965"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/EjPZtbu2/versions/TVsCFiyR/lanternlib-1.21.1-2.2.1.jar"
+        "https://cdn.modrinth.com/data/EjPZtbu2/versions/WXWt8xEf/lanternlib-1.21.1-2.3.0.jar"
       ],
-      "fileSize": 186318
+      "fileSize": 188137
     },
     {
       "path": "mods/lavasand-1.21.1-neoforge-2.2.jar",

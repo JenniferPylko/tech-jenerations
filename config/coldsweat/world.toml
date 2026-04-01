@@ -158,7 +158,7 @@
 	    ["terralith:rocky_mountains", 45, 73, "F"],
 	    ["terralith:blooming_plateau", 49, 78, "F"],
 	    ["terralith:alpine_grove", 16, 53, "F"],
-	    ["terralith:yellowstone", 47, 68, "F", 10],
+	    ["terralith:yellowstone", 47, 68, "F", 27],
 	    ["terralith:forested_highlands", 43, 70, "F"],
 	    ["terralith:temperate_highlands", 54, 80, "F"],
 	    ["terralith:amethyst_rainforest", 69, 84, "F"],
@@ -275,7 +275,7 @@
 	    ["cold_sweat:boiler", 12, 7, "f", 36, "lit=true", "", 212],
 	    ["cold_sweat:icebox", -12, 7, "f", 36, "frosted=true", "", 32],
 	    ["minecraft:lava", 20, 7, "f", 200, "", "", 1000, true],
-	    ["biomesoplenty:thermal_calcite_vent", 15, 7, "f", 212, "", "", 400, true],
+	    ["biomesoplenty:thermal_calcite_vent", 19, 7, "f", 212, "", "", 400, true],
 	    ["#minecraft:fire", 15, 7, "f", 45, "", "", 400],
 	    ["#minecraft:campfires", 15, 7, "f", 45, "lit=true", " ", 400],
 	    ["minecraft:magma_block", 12, 3, "f", 48],
@@ -287,7 +287,8 @@
 	    ["create:blaze_burner", 5, 3, "f", 30, "blaze=smouldering", "", 400],
 	    ["create:blaze_burner", 10, 4, "f", 30, "blaze=fading", "", 400],
 	    ["create:blaze_burner", 15, 5, "f", 45, "blaze=kindled", "", 400],
-	    ["create:blaze_burner", 20, 6, "f", 60, "blaze=seething", "", 400]
+	    ["create:blaze_burner", 20, 6, "f", 60, "blaze=seething", "", 400],
+	    ["#burnt:on_fire", 18, 6, "f", 200, "", "", 500]
 	]
 	#─────────────────────────────────────────────────────────────────────────
 	# The maximum range of blocks' area of effect

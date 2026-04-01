@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:delta_feature",
+  "config": {
+    "contents": {
+      "Name": "northstar:sulfuric_acid",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    "rim": {
+      "Name": "tfmg:sulfur"
+    },
+    "rim_size": {
+      "type": "minecraft:uniform",
+        "max_inclusive": 2,
+        "min_inclusive": 1
+    },
+    "size": {
+      "type": "minecraft:uniform",
+        "max_inclusive": 12,
+        "min_inclusive": 6
+    }
+  }
+}
