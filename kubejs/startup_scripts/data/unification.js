@@ -200,7 +200,7 @@ global.unification = {
         chromium: ["remin:chromite_ore", "megalosaio:chromium_ore", "chemica:deepslate_chromite_ore"],
         cinnabar: ["remin:cinnabar_ore", "megalosaio:cinnabar_ore"],
         cobalt: ["megalosaio:cobalt_ore", "chemica:deepslate_cobalt_ore"],
-        electrum: ["remin:silver_gold_ore"],
+        electrum: [],
         emerald: ["minecraft:emerald_ore", "remin:emerald_ore"],
         fluorite: "chemica:deepslate_fluorite_ore",
         germanium: "megalosaio:germanium_ore",
@@ -295,6 +295,7 @@ global.unification = {
         bauxite: ["tfmg:bauxite", "megalosaio:raw_aluminium_block"],
         beryllium: "megalosaio:beryllium_block",
         brass: "megalosaio:cu_brass_block",
+        bronze: "megalosaio:cu_bronze_block",
         chromium: "megalosaio:chromium_block",
         cobalt: ["megalosaio:cobalt_block"],
         cobaltite: "megalosaio:raw_cobalt_block",
@@ -420,11 +421,11 @@ global.unification = {
 }
 
 global.manual_unification = {
-    blocks: [],
-    items: [],
+    block: [],
+    item: [],
     // almostunified said unifying fluids is hard
     // i said i have a theoretical degree in physics
-    fluids: [{
+    fluid: [{
         main: "chemica:ethanol",
         replace: [
             "electrodynamics:fluidethanol",
@@ -475,8 +476,8 @@ global.manual_unification = {
         main: "chemica:phosphoric_acid",
         replace: ["extended_industrialization:phosphoric_acid", "chemicalscience:phosphoricacid"]
     }, {
-        main: "tfmg:sulfuric_acid",
-        replace: ["createchemistry:sulfuric_acid", "northstar:sulfuric_acid", "modern_industrialization:sulfuric_acid", "electrodynamics:fluidsulfuricacid"]
+        main: "northstar:sulfuric_acid",
+        replace: ["createchemistry:sulfuric_acid", "tfmg:sulfuric_acid", "modern_industrialization:sulfuric_acid", "electrodynamics:fluidsulfuricacid"]
     }, {
         main: "modern_industrialization:chlorine",
         replace: ["northstar:chlorine", "chemica:chlorine", "chemicalscience:chlorine"]

@@ -11,13 +11,13 @@ ServerEvents.recipes(($) => {
     const $shaped_2x2 = (output, input) => $.shaped(output, ["AA ", "AA ", "   "], {A: input})
     const $shaped_3x3_blend = (output, axis_input, diagonal_input, center_input) => $.shaped(output, ["ABA", "BCB", "ABA"], {A: diagonal_input, B: axis_input, C: center_input ?? diagonal_input})
 
-    for (const rule of manual_unification.items) {
+    for (const rule of manual_unification.item) {
         for (const ingredient of rule.replace) {
             $.replaceInput({input: ingredient}, ingredient, rule.main)
             $.replaceOutput({output: ingredient}, ingredient, rule.main)
         }
     }
-    for (const rule of manual_unification.fluids) {
+    for (const rule of manual_unification.fluid) {
         for (const ingredient of rule.replace) {
             console.log(`processing ${ingredient}`)
             $.replaceInput({input: Fluid.of(ingredient, 1)}, Fluid.of(ingredient, 1), Fluid.of(rule.main, 1))

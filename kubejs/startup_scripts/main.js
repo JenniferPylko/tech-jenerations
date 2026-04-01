@@ -69,7 +69,7 @@ BlockEvents.modification(($) => {
     $requiresTool("minecraft:stone")
     //$.modify("minecraft:stone", (block) => block.block().getBlockBuilder().tag("minecraft:needs_iron_tool").tag("minecraft:incorrect_for_wooden_tool").tag("minecraft:incorrect_for_stone_tool"))
 
-    $name("modern_industrialization:fire_clay_bricks", "Refractory Bricks")
+    //$name("modern_industrialization:fire_clay_bricks", "Refractory Bricks")
     $name("ecological:wild_carrot", "Wild Carrot")
     $name("ecological:wild_beetroot", "Wild Beetroot")
     $name("ecological:wild_wheat", "Wild Wheat")
@@ -96,10 +96,15 @@ BlockEvents.modification(($) => {
     $name("minecraft:stone_pressure_plate", "Slate Pressure Plate")
     $name("regions_unexlprode:mossy_stone", "Mossy Slate")
     $name("regions_unexplored:stone_grass_block", "Slate Grass Block")
-    $name("deeperdarker:sculk_transmitter", "Sculk Radio")
-    $name("create_deep_dark:sculk_flour", "Sculk Dust")
-    $name("northstar:circuit", "Shielded Circuit")
-    $name("northstar:advanced_circuit", "SOI Shielded Circuit")
+    $name("charcoal_pit:basalt", "Rift Basalt")
+    $name("charcoal_pit:basalt_bricks", "Rift Basalt Bricks")
+    $name("charcoal_pit:basalt_slab", "Rift Basalt Slab")
+    $name("charcoal_pit:basalt_stairs", "Rift Basalt Stairs")
+    $name("charcoal_pit:basalt_wall", "Rift Basalt Wall")
+    $name("charcoal_pit:basalt_polished", "Polished Rift Basalt")
+    $name("charcoal_pit:basalt_pillar", "Rift Basalt Pillar")
+    $name("sub_expansion:stone_stalagmite", "Slate Stalagmite")
+    $name("sub_expansion:stone_stalactite", "Slate Stalactite")
 
     $.modify("minecraft:obsidian", (block) => block.setIsRandomlyTicking(true))
     $.modify("minecraft:sculk_catalyst", (block) => block.setIsRandomlyTicking(true))
@@ -108,13 +113,7 @@ BlockEvents.modification(($) => {
 })
 
 ItemEvents.modification(($) => {
-    const $name = (name) => (item) => item.setItemName(name)
-
-    $.modify("modern_industrialization:fire_clay_dust", $name("Refractory Compound"))
-    $.modify("modern_industrialization:fire_clay_brick", $name("Refractory Brick"))
-    $.modify("modern_industrialization:fire_clay_bricks", $name("Refractory Bricks"))
-
-    $.modify("create:cinder_flour", $name("Netherrack Dust"))
+    const $name = (id, name) => $.modify(id, (item) => item.setItemName(name))
 
     $.modify("minecraft:stone_pickaxe", (item) => item.setMaxDamage(8))
     $.modify("survivalistessentials:crude_saw", (item) => item.setMaxDamage(12))
@@ -126,6 +125,28 @@ ItemEvents.modification(($) => {
     }
 
     $name("createaddition:capacitor", "Zinc Capacitor")
-    $name("tfmg:capacitor", "Ferrous Capacitor")
+    $name("tfmg:capacitor_item", "Ferrous Capacitor")
     $name("modern_industrialization:capacitor", "Gold Capacitor")
+
+    $name("powergrid:resistor", "Ferrous Resistor")
+    $name("tfmg:resistor", "Constantan Resistor")
+    $name("modern_industrialization:resistor", "Copper Resistor")
+
+    //$name("train_utilities:transistor", "Thyratron")
+    $name("tfmg:transistor_item", "Bipolar Junction Transistor")
+    $name("modern_industrialization:transistor", "Field Effect Transistor")
+    
+    $name("northstar:circuit", "Shielded Circuit")
+    $name("northstar:advanced_circuit", "SOI Shielded Circuit")
+
+    $name("deeperdarker:sculk_transmitter", "Sculk Radio")
+    $name("create_deep_dark:sculk_flour", "Sculk Dust")
+
+    $name("modern_industrialization:fire_clay_dust", "Refractory Compound")
+    $name("modern_industrialization:fire_clay_brick", "Refractory Brick")
+    $name("modern_industrialization:fire_clay_bricks", "Refractory Bricks")
+
+    $name("create:cinder_flour", "Netherrack Dust")
+
+    $name("tfmg:heavy_plate", "Steel Plate")
 })

@@ -89,9 +89,9 @@ const $tags_common = ($, remin_items) => {
     ])
 }
 
-ServerEvents.tags("fluid", ($) => {
-    utils.hide_all($, manual_unification.fluids)
-})
+for (const [k, v] of Object.entries(manual_unification)) {
+    ServerEvents.tags(k, ($) => utils.hide_all($, v))
+}
 
 ServerEvents.tags("item", ($) => {
     const [megalos_items, remin_items] = $common_items()
@@ -146,7 +146,8 @@ ServerEvents.tags("item", ($) => {
         "megacells:portable_experience_cell_16m",
         "megacells:portable_experience_cell_64m",
         "megacells:portable_experience_cell_256m",
-        "megacells:sky_osmium_block"
+        "megacells:sky_osmium_block",
+        "remin:silver_gold_ore"
     ])
 
     $.add("c:ingots", megalos_items.filter((v) => v.match(/.*ingot.*/)))
@@ -273,10 +274,56 @@ ServerEvents.tags("block", ($) => {
         "ae2:pattern_provider", "ae2:cable_pattern_provider", "ae2:molecular_assembler", "ae2:chest", "ae2:import_bus", "ae2:export_bus",
         "ae2:inscriber", "ae2:drive", "ae2:interface", "ae2:cell_workbench", "ae2:io_port"
     ])
+
+    $.add("thickair:red_air_providers", "#burnt:on_fire")
+    $.add("burnt:will_burn", [
+        "biomesoplenty:hanging_cobweb", "biomesoplenty:hanging_cobweb_strand", "biomesoplenty:stringy_cobweb",
+        "regions_unexplored:cobalt_webbing", "atmospheric:grimweb", "#woodworks:leaf_piles", "#dynamictrees:foliage",
+        "#greeneries:reeds", "#wover:vegetation/plant", "#wover:vegetation/vine", "#wover:vegetation/seeds",
+        "#c:lignite_coal", "#c:ores/lignite_coal", "#c:coke", "#c:ores/oil", "tfmg:oil_deposit",
+        "minecraft:cartography_table", "minecraft:crafting_table", "minecraft:loom"
+    ])
+    $.add("survivalistessentials:fiber_plants", [
+        "#dynamictrees:foliage", "#greeneries:grass", "#greeneries:fern", "#greeneries:reeds", "#wover:vegetation/vine"
+    ])
 })
 
 ServerEvents.tags("structure", ($) => {
     $.add("minecraft:villages", "minecraft:village_plains")
     $.add("minecraft:villages", "natures_spirit:village_desert")
+})
+
+ServerEvents.tags("worldgen/biome", ($) => {
+    $.add("stellaris:mercury_biomes", [
+        "northstar:mercury_basins",
+        "northstar:mercury_hills",
+        "northstar:mercury_icy_caverns",
+        "northstar:mercury_magmatic_caverns"
+    ])
+    $.add("stellaris:venus_biomes", [
+        "northstar:venus_fungal_caverns",
+        "northstar:venus_fungal_forest",
+        "northstar:venus_lava_caves",
+        "northstar:venus_sulfuric_caverns",
+        "northstar:venusian_plains",
+        "northstar:venusian_wastes"
+    ])
+    $.add("stellaris:moon_biomes", [
+        "northstar:lunar_asurine_caves",
+        "northstar:lunar_cooled_lava_cave",
+        "northstar:lunar_crater_fields",
+        "northstar:lunar_glowstone_cavern",
+        "northstar:lunar_hills",
+        "northstar:lunar_ice_caves",
+        "northstar:lunar_plains"
+    ])
+    $.add("stellaris:mars_biomes", [
+        "northstar:martian_crimsite_caverns",
+        "northstar:martian_dunes",
+        "northstar:martian_highlands",
+        "northstar:martian_magmatic_caves",
+        "northstar:martian_overgrown_caverns",
+        "northstar:martian_peaks"
+    ])
 })
 })()

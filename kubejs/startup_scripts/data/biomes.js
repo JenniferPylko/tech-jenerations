@@ -15,6 +15,18 @@ global.biomes.swampy = [
     "terralith:orchid_swamp"
 ]
 
+global.biomes.rivers = [
+    "minecraft:river",
+    "climaterivers:cold_river",
+    "climaterivers:lukewarm_river",
+    "climaterivers:warm_river",
+    "minecraft:frozen_river",
+    "regions_unexplored:cold_river",
+    "regions_unexplored:muddy_river",
+    "regions_unexplored:tropical_river",
+    "terralith:warm_river"
+]
+
 global.biomes.terracotta = []
 
 global.biomes.standard_strata = [
@@ -26,11 +38,15 @@ global.biomes.standard_strata = [
     "biomesoplenty:crag",
     "biomesoplenty:dryland",
     "biomesoplenty:field",
+    "biomesoplenty:fir_clearing",
+    "biomesoplenty:forested_field",
     "biomesoplenty:grassland",
+    "biomesoplenty:gravel_beach",
     "biomesoplenty:jade_cliffs",
     "biomesoplenty:lavender_field",
     "biomesoplenty:maple_woods",
     "biomesoplenty:moor",
+    "biomesoplenty:muskeg",
     "biomesoplenty:ominous_woods",
     "biomesoplenty:orchard",
     "biomesoplenty:overgrown_greens",
@@ -50,6 +66,7 @@ global.biomes.standard_strata = [
     "biomeswevegone:coconino_meadow",
     "biomeswevegone:cypress_swamplands",
     "biomeswevegone:cypress_wetlands",
+    "biomeswevegone:dacite_ridges",
     "biomeswevegone:forgotten_forest",
     "biomeswevegone:fragment_jungle",
     "biomeswevegone:howling_peaks",
@@ -61,6 +78,9 @@ global.biomes.standard_strata = [
     "biomeswevegone:rose_fields",
     "biomeswevegone:skyris_vale",
     "biomeswevegone:temperate_grove",
+    "biomeswevegone:zelkova_forest",
+    "environmental:blossom_valleys",
+    "environmental:blossom_woods",
     "environmental:marsh",
     "environmental:pine_barrens",
     "environmental:pine_slopes",
@@ -101,6 +121,7 @@ global.biomes.standard_strata = [
     "natures_spirit:marsh",
     "natures_spirit:oak_savanna",
     "natures_spirit:prairie",
+    "natures_spirit:redwood_forest",
     "natures_spirit:sparse_tropical_woods",
     "natures_spirit:tropical_woods",
     "regions_unexplored:autumnal_maple_forest",
@@ -126,6 +147,7 @@ global.biomes.standard_strata = [
     "regions_unexplored:prairie",
     "regions_unexplored:pumpkin_fields",
     "regions_unexplored:redwoods",
+    "regions_unexplored:rocky_meadow",
     "regions_unexplored:silver_birch_forest",
     "regions_unexplored:sparse_redwoods",
     "regions_unexplored:temperate_grove",
@@ -137,6 +159,7 @@ global.biomes.standard_strata = [
     "terralith:fractured_savanna",
     "terralith:highlands",
     "terralith:jungle_mountains",
+    "terralith:lavender_forest",
     "terralith:orchid_swamp",
     "terralith:painted_mountains",
     "terralith:sakura_valley",
