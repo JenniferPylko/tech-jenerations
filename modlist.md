@@ -200,7 +200,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Echoes`
 - `Echoes of The End ( Structures)`
 - `Ecological`
-- `ED Wires Plus`
 - `Electrodynamics`
 - `EMI`
 - `EMIffect`
