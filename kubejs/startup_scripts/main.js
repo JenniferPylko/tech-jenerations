@@ -69,7 +69,7 @@ BlockEvents.modification(($) => {
     $requiresTool("minecraft:stone")
     //$.modify("minecraft:stone", (block) => block.block().getBlockBuilder().tag("minecraft:needs_iron_tool").tag("minecraft:incorrect_for_wooden_tool").tag("minecraft:incorrect_for_stone_tool"))
 
-    //$name("modern_industrialization:fire_clay_bricks", "Refractory Bricks")
+    $name("modern_industrialization:fire_clay_bricks", "Refractory Bricks")
     $name("ecological:wild_carrot", "Wild Carrot")
     $name("ecological:wild_beetroot", "Wild Beetroot")
     $name("ecological:wild_wheat", "Wild Wheat")
@@ -103,6 +103,7 @@ BlockEvents.modification(($) => {
     $name("charcoal_pit:basalt_wall", "Rift Basalt Wall")
     $name("charcoal_pit:basalt_polished", "Polished Rift Basalt")
     $name("charcoal_pit:basalt_pillar", "Rift Basalt Pillar")
+    $name("charcoal_pit:barrel", "Fluid Barrel")
     $name("sub_expansion:stone_stalagmite", "Slate Stalagmite")
     $name("sub_expansion:stone_stalactite", "Slate Stalactite")
 
@@ -132,7 +133,7 @@ ItemEvents.modification(($) => {
     $name("tfmg:resistor", "Constantan Resistor")
     $name("modern_industrialization:resistor", "Copper Resistor")
 
-    //$name("train_utilities:transistor", "Thyratron")
+    $name("trainutilities:transistor", "Thyristor")
     $name("tfmg:transistor_item", "Bipolar Junction Transistor")
     $name("modern_industrialization:transistor", "Field Effect Transistor")
     
@@ -144,7 +145,6 @@ ItemEvents.modification(($) => {
 
     $name("modern_industrialization:fire_clay_dust", "Refractory Compound")
     $name("modern_industrialization:fire_clay_brick", "Refractory Brick")
-    $name("modern_industrialization:fire_clay_bricks", "Refractory Bricks")
 
     $name("create:cinder_flour", "Netherrack Dust")
 

@@ -2,3 +2,4 @@
 #[in Stress Units]
 [impact]
 	pipette = 2.0
+	centrifugal_pump = 8.0

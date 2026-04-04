@@ -57,12 +57,12 @@
 		#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
 		[kinetics.stressValues.impact]
 			hydraulic_press = 16.0
-			omni_speed_controller = 0.0
-			inverse_gearshift = 0.0
-			omni_gearbox = 0.0
+			omni_speed_controller = 0.1
+			inverse_gearshift = 0.1
+			omni_gearbox = 0.1
 			gold_mixer = 8.0
 			industrial_fan = 4.0
-			multimeter = 0.0
+			multimeter = 0.1
 
 		#.
 		#[in Stress Units]

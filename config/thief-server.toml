@@ -87,7 +87,7 @@
 [hero_of_the_village]
 	# Players with 'Hero of the Village' buff can commit crimes without consequences.
 	# Default: true
-	hero_immunity = true
+	hero_immunity = false
 	# 'Major Positive' reputation increase with nearby villagers when raid is defeated.
 	# Default: 2
 	# Default: 2

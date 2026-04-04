@@ -3,7 +3,7 @@
 	#Enable waterwheels modifications?
 	waterwheelsEnabled = true
 	#Only enable pickyness onPlacement, if the water wheel was instead generated during worldgen, it works as default.
-	waterwheelsPickyOnPlacement = true
+	waterwheelsPickyOnPlacement = false
 
 	#Biome impact on waterwheel
 	[waterwheels."biome efficiency"]
@@ -53,7 +53,7 @@
 		# Range: > 1
 		waterwheelSourceRange = 64
 		#When enabled boosted waterwheels require correct flow (like in TerraFirmaCraft's water river)
-		waterwheelsSourceRequiresFlow = false
+		waterwheelsSourceRequiresFlow = true
 
 ##Windmill requirements
 [windmills]

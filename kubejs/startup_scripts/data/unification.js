@@ -422,7 +422,13 @@ global.unification = {
 
 global.manual_unification = {
     block: [],
-    item: [],
+    item: [{
+        main: "tfmg:steel_cogwheel",
+        replace: ["northstar:iron_cogwheel"]
+    }, {
+        main: "tfmg:large_steel_cogwheel",
+        replace: ["northstar:iron_large_cogwheel"]
+    }],
     // almostunified said unifying fluids is hard
     // i said i have a theoretical degree in physics
     fluid: [{

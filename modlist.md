@@ -9,7 +9,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Accessories Compatibility Layer`
 - `Additional Structures`
 - `AE2 Dynamic Trees Fix`
-- `AE2 Tangible Bookmarks`
 - `Applied Energistics 2 Wireless Terminals`
 - `Almanac`
 - `Almost Unified`
@@ -31,7 +30,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `AlmostUnifiedDrops`
 - `Auth Me`
 - `Automatic Operator`
-- `Backported Animal Variants`
 - `BaguetteLib`
 - `Balm`
 - `BCLib Neoforge`
@@ -154,7 +152,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create Train Parts`
 - `Create Train Physics`
 - `Create: Trimmed`
-- `Create Waystones Recipes`
 - `Zinc Macerate`
 - `Cristel Lib`
 - `Crops Love Rain`
@@ -229,7 +226,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Exposure: Polaroid`
 - `Extended Industrialization`
 - `EMI Addon: Extra Mod Integrations`
-- `Fabric API`
 - `Fabrishot`
 - `Falling Leaves (NeoForge/Forge)`
 - `Falling Snow`

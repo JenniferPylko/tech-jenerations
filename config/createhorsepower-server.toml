@@ -29,12 +29,18 @@ greatMultiplier = 2.0
 #Types of blocks valid as "Poor" quality
 poorPathBlock = ["minecraft:dirt", "minecraft:grass_block"]
 #Types of blocks valid as "Normal" quality
-normalPathBlock = ["minecraft:dirt_path", "minecraft:gravel"]
+normalPathBlock = ["minecraft:dirt_path", "minecraft:gravel", "minecraft:stone", "kubejs:shale", "minecraft:calcite"]
 #Types of blocks valid as "Great" quality
 greatPathBlock = ["minecraft:ice", "minecraft:packed_ice", "minecraft:blue_ice"]
 #Valid "Small" creatures
-smallCreatures = ["minecraft:wolf"]
+smallCreatures = ["minecraft:wolf", "spring_to_life:cold_pig", "spring_to_life:warm_pig", "atmospheric:cochineal", "betternether:flying_pig",
+                    "chronodawn:pulse_hog", "chronodawn:ticking_sheep", "deeperdarker:sculk_snapper", "minecraft:fox", "minecraft:ocelot",
+                    "minecraft:sheep", "undergarden:mog", "yungscavebiomes:sand_snapper"]
 #Valid "Medium" creatures
-mediumCreatures = ["minecraft:cow"]
+mediumCreatures = ["minecraft:cow", "environmental:deer", "spring_to_life:cold_cow", "spring_to_life:warm_cow", "environmental:tapir",
+                    "environmental:zonkey", "livingthings:lion", "minecraft:donkey", "minecraft:goat", "minecraft:mooshroom",
+                    "toastysmobs:bear", "toastysmobs:okapi"]
 #Valid "Large" creatures
-largeCreatures = ["minecraft:horse"]
+largeCreatures = ["minecraft:horse", "environmental:reindeer", "environmental:yak", "environmental:zebra", "environmental:zorse",
+                    "livingthings:elephant", "livingthings:giraffe", "minecraft:camel", "minecraft:llama", "minecraft:mule",
+                    "minecraft:polar_bear", "minecraft:skeleton_horse", "minecraft:trader_llama", "minecraft:zombie_horse"]

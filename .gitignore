@@ -53,12 +53,15 @@
 !/config/betterstrongholds*.toml
 !/config/betterwitchhuts*.toml
 !/config/betterworldloadingnf21.json
+!/config/bits_n_bobs-server.toml
 !/config/blazinghot-server.toml
 !/config/blockreplacer.json5
 !/config/blueprint-common.toml
 !/config/bridgingmod.json
 !/config/c2me.toml
+!/config/ceramicbucket-server.toml
 !/config/connectorextras_energy_bridge-common.toml
+!/config/copycats-common.toml
 !/config/copycats-server.toml
 !/config/craftpresence.json
 !/config/create_cold_sweat-server.toml
@@ -66,6 +69,7 @@
 !/config/create_connected-server.toml
 !/config/create_new_age-common.toml
 !/config/create_reactive_stress-common.toml
+!/config/create_train_physics-common.toml
 !/config/createaddition-common.toml
 !/config/createappliedkinetics-common.toml
 !/config/createcasing-common.toml
@@ -80,12 +84,14 @@
 !/config/createrailwaysnavigator-common.toml
 !/config/create-server.toml
 !/config/createsifter-server.toml
+!/config/custommeteor-common.toml
 !/config/dark-common.toml
 !/config/deeperdarker-common.toml
 !/config/DistantHorizons.toml
 !/config/dndecor-server.toml
 !/config/dndesires-server.toml
 !/config/doppler.cfg
+!/config/dragonlib-server.toml
 !/config/dynamic_asset_generator.json
 !/config/dynamicelectricity-server.toml
 !/config/dynamictrees-common.toml
@@ -137,6 +143,7 @@
 !/config/notenoughcrashes.json
 !/config/nuclearscience-common.toml
 !/config/patience.json
+!/config/powergrid-server.toml
 !/config/railways-server.toml
 !/config/reducedloot-common.toml
 !/config/reducedores-common.toml

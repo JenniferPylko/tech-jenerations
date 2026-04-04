@@ -385,13 +385,7 @@ ServerEvents.generateData("before_mods", ($) => {
     $.json("kubejs:worldgen/placed_feature/make_wetter", {
         feature: "kubejs:make_wetter",
         placement: [
-            features.count(8), features.in_square, features.heightmap("WORLD_SURFACE_WG"),
-            {
-                "type": "minecraft:surface_relative_threshold_filter",
-                heightmap: "WORLD_SURFACE_WG",
-                min_inclusive: 64,
-                max_inclusive: 128
-            }, features.biome
+            features.count(8), features.in_square, features.heightmap("WORLD_SURFACE_WG"), features.biome
         ]
     })
 
