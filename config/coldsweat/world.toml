@@ -275,6 +275,7 @@
 	    ["cold_sweat:boiler", 12, 7, "f", 36, "lit=true", "", 212],
 	    ["cold_sweat:icebox", -12, 7, "f", 36, "frosted=true", "", 32],
 	    ["minecraft:lava", 20, 7, "f", 200, "", "", 1000, true],
+	    ["betterend:hydrothermal_vent", 20, 7, "f", 200, "", "", 1000, true],
 	    ["biomesoplenty:thermal_calcite_vent", 19, 7, "f", 212, "", "", 400, true],
 	    ["#minecraft:fire", 15, 7, "f", 45, "", "", 400],
 	    ["#minecraft:campfires", 15, 7, "f", 45, "lit=true", " ", 400],
