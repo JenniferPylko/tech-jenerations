@@ -1,5 +1,5 @@
 {
-    "types": ["excavated_variants:overworld", "excavated_variants:nether", "excavated_variants:end"],
+    "types": ["excavated_variants:overworld", "excavated_variants:nether"],
     "translations": {"en_us": "Nickel Ore"},
     "blocks": {
         "megalosaio:nickel_ore": "excavated_variants:minecraft/stone"

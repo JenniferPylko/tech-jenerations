@@ -1,6 +1,0 @@
-{
-    "types": ["kubejs:remin/electrum"],
-    "translations": {"en_us": "Silver"},
-    "block": "remin:silver_block",
-    "ore_tags": ["c:ores_in_ground/silver"]
-}
