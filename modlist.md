@@ -74,7 +74,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `CITResewnNeoPatcher`
 - `Climate Rivers`
 - `Cloth Config API`
-- `Create More: Parallel Pipes`
 - `Cobweb`
 - `Cold Sweat`
 - `Collective`
@@ -218,6 +217,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Every Compat (Wood Good)`
 - `Excavated Variants`
 - `You Wouldn't Put Gunpowder In A Furnace`
+- `Explorer's Compass`
 - `Explorify`
 - `Explosive Enhancement: Reforged`
 - `Exposure: Detective`
@@ -335,6 +335,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Musket Mod`
 - `Mycenae - Ruins Structure ✅`
 - `Natural Temperature`
+- `Nature's Compass`
 - `Nature's Spirit`
 - `NBT Autocomplete`
 - `Nemo's Inventory Sorting`

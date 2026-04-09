@@ -22,3 +22,5 @@
 	fanSpeedRequired = 256
 	#Fan direction preference.
 	fanHorizontalOnly = true
+	#Dispenser interacts with burner.
+	dispenserBurner = true
