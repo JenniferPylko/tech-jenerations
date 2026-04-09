@@ -7,6 +7,8 @@ navigation:
   position: 0
 ---
 
+<CommandLink command="/questlog open questlog:main">Quests</CommandLink>
+
 # ∫Surviving The Early Game
 
 Pay attention to your oxygen! If you spawned at too high of an altitude the air will be too thin to breathe. If this is the case, find lower ground.

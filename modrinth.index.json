@@ -3831,6 +3831,21 @@
       "fileSize": 318685
     },
     {
+      "path": "mods/gravestonecurioscompat-1.21.1-NeoForge-4.0.2.jar",
+      "hashes": {
+        "sha1": "3674669dcacef907369219ed3869c83889e4f1ee",
+        "sha512": "c8e93920179c13f1b147a405f7726d74fd12c2b7e46286b8bf52070446230e0fc15962f9b9ea2134c2da580cee6381279bbb67fb987969f253cfab350b77dee7"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/NaiL8bPN/versions/ugBtElN2/gravestonecurioscompat-1.21.1-NeoForge-4.0.2.jar"
+      ],
+      "fileSize": 17532
+    },
+    {
       "path": "mods/greeneries-neoforge-1.21.1-1.0.2.jar",
       "hashes": {
         "sha1": "dbe789cd140f5f167f44e8723b6cf77065f50fd7",

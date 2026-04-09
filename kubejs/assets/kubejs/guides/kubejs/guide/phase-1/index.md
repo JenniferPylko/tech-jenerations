@@ -5,6 +5,9 @@ navigation:
   position: 1
 ---
 
+
+<CommandLink command="/questlog open questlog:main">Quests</CommandLink>
+
 # ∫A Proper Introduction
 
 Now that you have shelter, sit down on your most comfortable item of furniture and let's talk about this modpack. This is a progression modpack focused on science and technology, with a (nearly) completely custom crafting tree and many additional mechanics.

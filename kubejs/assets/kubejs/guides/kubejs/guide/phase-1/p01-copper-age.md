@@ -8,6 +8,8 @@ navigation:
   parent: phase-1/index.md
 ---
 
+<CommandLink command="/questlog open questlog:copper_age">Quests</CommandLink>
+
 # ∫The Copper Age
 
 Once you've made a flint pickaxe, you'll be able to mine copper.

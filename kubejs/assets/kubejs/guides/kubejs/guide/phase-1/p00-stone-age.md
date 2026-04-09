@@ -8,6 +8,8 @@ navigation:
   parent: phase-1/index.md
 ---
 
+<CommandLink command="/questlog open questlog:stone_age">Quests</CommandLink>
+
 # ∫The Stone Age
 
 The main goal to advance out of the stone age is building a bloomery. You'll need to collect a lot of clay and stone. Now would also be a good time to set up a reliable source of food and clean water.
