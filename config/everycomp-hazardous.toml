@@ -63,7 +63,7 @@
 	#        "variantvanillablocks"
 	#    ]
 	#
-	blacklist = []
+	blacklist = ["burnt"]
 
 [other]
 	#Disable all of Supported Mods on EveryCompat's side. This feature is same as Library-Section which do not have any Wood Modules.
