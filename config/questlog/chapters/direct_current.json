@@ -1,0 +1,8 @@
+{
+  "icon": {
+    "item": "powergrid:potato_battery"
+  },
+  "default_chapter": false,
+  "hidden": false,
+  "order": 700
+}

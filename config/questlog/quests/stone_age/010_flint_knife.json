@@ -1,0 +1,30 @@
+{
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "survivalistessentials:crude_knife",
+      "required_amount": 1,
+      "name": "Craft the flint knife"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "display": {
+        "name": "Quest Reward",
+        "icon": {
+          "item": "minecraft:bottle"
+        }
+      }
+    }
+  ],
+  "title": "Craft your first tool",
+  "description": "Pick up sticks and stones to make a flint knife",
+  "icon": {
+    "item": "minecraft:flint"
+  },
+  "chapter": "stone_age",
+  "sort_order": 10
+}

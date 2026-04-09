@@ -1,0 +1,8 @@
+{
+  "icon": {
+    "item": "minecraft:copper_ingot"
+  },
+  "default_chapter": false,
+  "hidden": false,
+  "order": 200
+}

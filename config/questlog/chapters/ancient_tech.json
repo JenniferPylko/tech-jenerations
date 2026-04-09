@@ -1,0 +1,8 @@
+{
+  "icon": {
+    "item": "sculktransporting:sculk_emitter"
+  },
+  "default_chapter": false,
+  "hidden": false,
+  "order": 350
+}

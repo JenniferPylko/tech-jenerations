@@ -1,0 +1,8 @@
+{
+  "icon": {
+    "item": "electrodynamics:upgradetransformer"
+  },
+  "default_chapter": false,
+  "hidden": false,
+  "order": 850
+}

@@ -1,0 +1,55 @@
+{
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "#c:pebbles",
+      "required_amount": 40,
+      "name": "Collect stones"
+    }, {
+      "type": "questlog:item_obtain",
+      "item": "#c:clay_balls",
+      "required_amount": 35,
+      "name": "Collect clay"
+    }, {
+      "type": "questlog:item_obtain",
+      "item": "ceramicbucket:unfired_clay_bucket",
+      "required_amount": 1,
+      "name": "Mold a bucket"
+    }, {
+      "type": "questlog:item_obtain",
+      "item": "ceramicbucket:ceramic_bucket",
+      "required_amount": 1,
+      "name": "Fire the bucket"
+    }, {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:cobblestone",
+      "required_amount": 8,
+      "name": "Cobble the stones"
+    }, {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:furnace",
+      "required_amount": 1,
+      "name": "Craft the furnace"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "display": {
+        "name": "Quest Reward",
+        "icon": {
+          "item": "minecraft:bottle"
+        }
+      }
+    }
+  ],
+  "title": "Build a furnace",
+  "description": "The furnace processes items significantly faster than a campfire, and is needed to build the bloomery",
+  "icon": {
+    "item": "minecraft:furnace"
+  },
+  "chapter": "stone_age",
+  "sort_order": 250
+}

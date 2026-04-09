@@ -1,0 +1,40 @@
+{
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "survivalistessentials:saw_handle",
+      "required_amount": 1,
+      "name": "Craft the saw handle"
+    }, {
+      "type": "questlog:item_obtain",
+      "item": "survivalistessentials:crude_saw_blade",
+      "required_amount": 1,
+      "name": "Craft the flint blade"
+    }, {
+      "type": "questlog:item_obtain",
+      "item": "survivalistessentials:crude_saw",
+      "required_amount": 1,
+      "name": "Craft the flint saw"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "display": {
+        "name": "Quest Reward",
+        "icon": {
+          "item": "minecraft:bottle"
+        }
+      }
+    }
+  ],
+  "title": "Craft a saw",
+  "description": "The saw uses materials you're familiar with",
+  "icon": {
+    "item": "survivalistessentials:crude_saw"
+  },
+  "chapter": "stone_age",
+  "sort_order": 100
+}

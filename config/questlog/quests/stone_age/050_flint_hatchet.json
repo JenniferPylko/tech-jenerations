@@ -1,0 +1,30 @@
+{
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "survivalistessentials:crude_hatchet",
+      "required_amount": 1,
+      "name": "Craft the flint hatchet"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "display": {
+        "name": "Quest Reward",
+        "icon": {
+          "item": "minecraft:bottle"
+        }
+      }
+    }
+  ],
+  "title": "Craft a hatchet",
+  "description": "Use the flint knife to harvest plant fiber",
+  "icon": {
+    "item": "survivalistessentials:crude_hatchet"
+  },
+  "chapter": "stone_age",
+  "sort_order": 50
+}

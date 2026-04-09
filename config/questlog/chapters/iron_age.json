@@ -1,0 +1,8 @@
+{
+  "icon": {
+    "item": "epicfight:iron_greatsword"
+  },
+  "default_chapter": false,
+  "hidden": false,
+  "order": 300
+}

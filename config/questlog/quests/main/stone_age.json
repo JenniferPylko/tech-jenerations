@@ -3,9 +3,9 @@
   "objectives": [
     {
       "type": "questlog:item_obtain",
-      "item": "survivalistessentials:crude_knife",
+      "item": "charcoal_pit:bloom",
       "required_amount": 1,
-      "name": "Craft the flint knife"
+      "name": "Metallurgic Bloom"
     }
   ],
   "rewards": [
@@ -20,9 +20,9 @@
       }
     }
   ],
-  "title": "Craft your first tool",
-  "description": "Pick up stones to make a flint knife",
+  "title": "Advance beyond the stone age",
+  "description": "Process some copper in a bloomery",
   "icon": {
-    "item": "minecraft:flint"
+    "item": "survivalistessentials:rock_stone"
   }
 }

@@ -1,0 +1,40 @@
+{
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "charcoal_pit:log_pile",
+      "required_amount": 1,
+      "name": "Make a log pile"
+    }, {
+      "type": "questlog:item_obtain",
+      "item": "hardcore_torches:fire_starter",
+      "required_amount": 1,
+      "name": "Craft a fire starter"
+    }, {
+      "type": "questlog:block_mine",
+      "block": "charcoal_pit:wood_ash",
+      "required_amount": 1,
+      "name": "Dig through the ash"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "display": {
+        "name": "Quest Reward",
+        "icon": {
+          "item": "minecraft:bottle"
+        }
+      }
+    }
+  ],
+  "title": "Burn wood into charcoal",
+  "description": "You'll need to set up a charcoal pit for this one",
+  "icon": {
+    "item": "minecraft:charcoal"
+  },
+  "chapter": "stone_age",
+  "sort_order": 200
+}

@@ -1,0 +1,35 @@
+{
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:planks",
+      "required_amount": 4,
+      "name": "Cut planks from logs"
+    }, {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:crafting_table",
+      "required_amount": 1,
+      "name": "Craft the crafting table"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "display": {
+        "name": "Quest Reward",
+        "icon": {
+          "item": "minecraft:bottle"
+        }
+      }
+    }
+  ],
+  "title": "Build a crafting table",
+  "description": "Crafting tables are twice as fast as inventory crafting",
+  "icon": {
+    "item": "minecraft:crafting_table"
+  },
+  "chapter": "stone_age",
+  "sort_order": 150
+}

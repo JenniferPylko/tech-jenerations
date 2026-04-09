@@ -1,0 +1,35 @@
+{
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "hardcore_torches:unlit_campfire",
+      "required_amount": 1,
+      "name": "Craft a campfire"
+    }, {
+      "type": "questlog:block_place",
+      "block": "hardcore_torches:unlit_campfire",
+      "required_amount": 1,
+      "name": "Place the campfire"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "display": {
+        "name": "Quest Reward",
+        "icon": {
+          "item": "minecraft:bottle"
+        }
+      }
+    }
+  ],
+  "title": "Build a campfire",
+  "description": "You can use this as a light source, to stay warm, and for cooking",
+  "icon": {
+    "item": "minecraft:campfire"
+  },
+  "chapter": "stone_age",
+  "sort_order": 225
+}

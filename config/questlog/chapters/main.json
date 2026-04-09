@@ -1,6 +1,6 @@
 {
   "icon": {
-    "item": "minecraft:knowledge_book"
+    "item": "minecraft:redstone"
   },
   "default_chapter": true,
   "hidden": false

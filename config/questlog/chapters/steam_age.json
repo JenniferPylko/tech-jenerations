@@ -1,0 +1,8 @@
+{
+  "icon": {
+    "item": "burnt:tall_smoke_sprite"
+  },
+  "default_chapter": false,
+  "hidden": false,
+  "order": 400
+}

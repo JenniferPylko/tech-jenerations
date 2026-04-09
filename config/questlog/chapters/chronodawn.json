@@ -1,0 +1,8 @@
+{
+  "icon": {
+    "item": "chronodawn:time_hourglass"
+  },
+  "default_chapter": false,
+  "hidden": false,
+  "order": 9000
+}
