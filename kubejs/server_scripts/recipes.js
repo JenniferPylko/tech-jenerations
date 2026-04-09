@@ -92,7 +92,6 @@ ServerEvents.recipes(($) => {
         {output: "#c:glass", type: "minecraft:smelting"},
         {output: "#c:ingots", type: "minecraft:smelting"},
         {output: "#c:nuggets", type: "minecraft:smelting"},
-        {output: "ceramicbucket:ceramic_bucket", type: "minecraft:smelting"},
         {output: "minecraft:charcoal", type: "minecraft:smelting"},
         {output: "minecraft:diamond", type: "create:automatic_shapeless"},
         {output: "minecraft:diamond", type: "minecraft:smelting"},
@@ -183,11 +182,12 @@ ServerEvents.recipes(($) => {
     $shaped_3x3_blend(Item.of("modern_industrialization:fire_clay_dust"), "tfmg:fireclay_ball", "tfmg:fireclay_ball", "#c:dusts/bauxite")
     $shaped_3x3_blend(Item.of("modern_industrialization:fire_clay_bricks"), "modern_industrialization:fire_clay_brick", "tfmg:fireclay_ball")
     $shaped_3x3_blend(Item.of("minecraft:furnace"), "#c:cobblestones", "#c:cobblestones", "#c:furnace_cavity")
-    $shaped_3x3_blend(Item.of("create:andesite_alloy"), "#c:nuggets/titanium", "#c:nuggets/steel", "minecraft:andesite")
+    $shaped_3x3_blend(Item.of("create:andesite_alloy"), "#c:raw_materials/tin", "#c:clay_balls", "minecraft:andesite")
 
     $.replaceOutput({output: "minecraft:torch"}, "minecraft:torch", "hardcore_torches:unlit_torch")
 
-    $.campfireCooking("minecraft:brick", "minecraft:clay_ball", 0.35, 2400)
+    $.campfireCooking("minecraft:brick", "minecraft:clay_ball", 0.35, 1800)
+    $.campfireCooking("ceramicbucket:ceramic_bucket", "ceramicbucket:unfired_clay_bucket", 0.35, 2400)
 
     $.blasting("tfmg:fireproof_brick", "tfmg:fireclay_ball", 0.35, 600)
 
@@ -197,11 +197,11 @@ ServerEvents.recipes(($) => {
         "cooking_time": 1600,
         "experience": 0.7,
         "ingredient": {
-            "tag": "c:storage_blocks/raw_copper"
+            "tag": "c:crushed_raw_materials/copper"
         },
         "result": {
-            "count": 9,
-            "id": "remin:copper_ingot"
+            "count": 1,
+            "id": "minecraft:copper_ingot"
         }
     })
     $.custom({
@@ -210,12 +210,31 @@ ServerEvents.recipes(($) => {
         "cooking_time": 600,
         "experience": 0.7,
         "ingredient": {
-            "tag": "c:storage_blocks/raw_tin"
+            "tag": "c:crushed_raw_materials/tin"
         },
         "result": {
-            "count": 9,
-            "id": "remin:tin_ingot"
+            "count": 1,
+            "id": "chemica:tin_ingot"
         }
+    })
+    $.custom({
+        "type": "charcoal_pit:alloy_mold",
+        "category": "misc",
+        "ingredients": [{
+            "item": "minecraft:copper_ingot"
+        }, {
+            "item": "minecraft:copper_ingot"
+        }, {
+            "item": "minecraft:copper_ingot"
+        }, {
+            "tag": "c:crushed_raw_materials/tin"
+        }, {
+            "item": "charcoal_pit:alloy_mold"
+        }],
+        "result": {
+            "item": "charcoal_pit:alloy_bronze"
+        },
+        "count": 4
     })
 })
 })()

@@ -29,12 +29,18 @@ StartupEvents.registry("item", ($) => {
             $GuidesCommon.openGuide(player, "kubejs:guide")
             return true
         })
+
+    $.create("andesite_dust")
+        .displayName("Andesite Dust")
+        .parentModel("blazinghot:item/stone_dust")
+        .tag("c:dusts/andesite")
 })
 
 const custom_stone = (builder) => builder
     .requiresTool(true)
     .stoneSoundType()
-    .hardness(12)
+    .hardness(4)
+    .tag("minecraft:needs_stone_tool")
 
 StartupEvents.registry("block", ($) => {
     custom_stone($.create("shale"))
@@ -44,6 +50,14 @@ StartupEvents.registry("block", ($) => {
     custom_stone($.create("quartzite"))
     .parentModel("kubejs:block/granite")
     .mapColor("dirt")
+})
+
+StartupEvents.registry("fluid", ($) => {
+    $.create("ammonium_chloride", "thin")
+        .tint(0xddf0ff)
+        .translucent()
+        .displayName("Ammonium Chloride Solution")
+        .tag("c:acidic")
 })
 
 BlockEvents.modification(($) => {
@@ -66,7 +80,10 @@ BlockEvents.modification(($) => {
     $requiresTool("#dynamictrees:roots")
     $requiresTool("#create:roots")
     $requiresTool("#c:stones")
+    $requiresTool("#c:ores")
     $requiresTool("minecraft:stone")
+    $requiresTool("ae2:smooth_quartz_block")
+    $requiresTool("astrological:purpurite")
     //$.modify("minecraft:stone", (block) => block.block().getBlockBuilder().tag("minecraft:needs_iron_tool").tag("minecraft:incorrect_for_wooden_tool").tag("minecraft:incorrect_for_stone_tool"))
 
     $name("modern_industrialization:fire_clay_bricks", "Refractory Bricks")
@@ -106,9 +123,19 @@ BlockEvents.modification(($) => {
     $name("charcoal_pit:barrel", "Fluid Barrel")
     $name("sub_expansion:stone_stalagmite", "Slate Stalagmite")
     $name("sub_expansion:stone_stalactite", "Slate Stalactite")
+    /*$name("create:andesite_casing", "Andesite Ceramic Casing")
+    $name("create:andesite_alloy_block", "Andesite Ceramic Block")*/
 
     $.modify("minecraft:obsidian", (block) => block.setIsRandomlyTicking(true))
+    $.modify("minecraft:crying_obsidian", (block) => block.setIsRandomlyTicking(true))
     $.modify("minecraft:sculk_catalyst", (block) => block.setIsRandomlyTicking(true))
+    $.modify("biomesoplenty:anomaly", (block) => block.setIsRandomlyTicking(true))
+    $.modify("betterend:brimstone", (block) => block.setIsRandomlyTicking(true))
+    $.modify("betterend:aurora_crystal", (block) => block.setIsRandomlyTicking(true))
+    $.modify("betterend:neon_cactus", (block) => block.setIsRandomlyTicking(true))
+    $.modify("betterend:pallidium_full", (block) => block.setIsRandomlyTicking(true))
+    $.modify("astrological:pearlescent_selenite", (block) => block.setIsRandomlyTicking(true))
+    $.modify("northstar:venus_plume", (block) => block.setIsRandomlyTicking(true))
 
     //$.modify("minecraft:dirt", (block) => Java.cast(block, "dev.latvian.mods.kubejs.block.custom.FallingBlockBuilder$KubeJSFallingBlock"))
 })
@@ -149,4 +176,6 @@ ItemEvents.modification(($) => {
     $name("create:cinder_flour", "Netherrack Dust")
 
     $name("tfmg:heavy_plate", "Steel Plate")
+    /*$name("create:andesite_alloy", "Andesite Ceramic")
+    $name("create_mpnt:andesite_alloy_sheet", "Andesite Ceramic Sheet")*/
 })

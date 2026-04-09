@@ -1,14 +1,12 @@
 (() => { // stop polluting my scope!
 const { unification, manual_unification, utils } = global
-const $common_items = () => [
-    Ingredient.of("@megalosaio").getItemIds().toArray(),
-    Ingredient.of("@remin").getItemIds().toArray()
-]
-const copy_tags = ($, source, dest) => {
+
+const copy_block_tags = ($, source, dest) => {
     const blockTags = Block.getBlock(source).getTags()
     const itemTags = Block.getBlock(source).asItem().getTags()
 
     for (const tag of blockTags) {
+        console.log(tag)
         $.add(tag, dest)
     }
     for (const tag of itemTags) {
@@ -16,12 +14,7 @@ const copy_tags = ($, source, dest) => {
     }
 }
 
-const $tags_common = ($, remin_items) => {
-    $.add("c:ores", remin_items.filter((v) => v.match(/.*ore.*/)))
-
-    copy_tags($, "minecraft:stone", "kubejs:shale")
-    copy_tags($, "minecraft:stone", "kubejs:quartzite")
-
+const tags_common = ($) => {
     for (const category of Object.keys(unification)) {
         for (const material of Object.keys(unification[category])) {
             //console.log(`Adding unity tags for ${material} ${category}`)
@@ -36,7 +29,6 @@ const $tags_common = ($, remin_items) => {
 
     $.remove("c:raw_materials/aluminum", "#c:raw_materials/aluminum")
     $.remove("c:raw_materials/aluminium", "#c:raw_materials/aluminium")
-
 
     $.add("c:planks", "#forge/planks")
 
@@ -88,15 +80,29 @@ const $tags_common = ($, remin_items) => {
         "tfmg:plastic_smart_fluid_pipe"
     ])
 }
-
+/*
+// what is kubejs even about?
+const manual_unification_functions = {}
 for (const [k, v] of Object.entries(manual_unification)) {
-    ServerEvents.tags(k, ($) => utils.hide_all($, v))
+    console.log(k, v)
+    manual_unification_functions[k] = ($) => utils.hide_all($, v)
 }
+*/
+const $KnownTiers = Java.loadClass("dev.lukebemish.excavatedvariants.impl.KnownTiers")
+ServerEvents.tags("fluid", ($) => {
+    ///////////////////               LOAD BEARING CODE AHEAD                 ////////////////////
+    /*///////////////*/$KnownTiers.KNOWN_TIERS.remove(null) // haha sometimes /*////////////////*/
+    ///////////// NO SERIOUSLY EXCAVATED VARIANTS COMPLETELY BREAKS WITHOUT THAT /////////////////
+
+    utils.hide_all($, manual_unification.fluid)
+    //manual_unification_functions["fluid"]($)
+})
 
 ServerEvents.tags("item", ($) => {
-    const [megalos_items, remin_items] = $common_items()
-
-    $tags_common($, remin_items)
+    tags_common($)
+    console.log("huh", manual_unification.item)
+    utils.hide_all($, manual_unification.item)
+    //manual_unification_functions["item"]($)
 
     $.add("c:hidden_from_recipe_viewers", [
         "createdieselgenerators:ethanol_bucket",
@@ -150,9 +156,6 @@ ServerEvents.tags("item", ($) => {
         "remin:silver_gold_ore"
     ])
 
-    $.add("c:ingots", megalos_items.filter((v) => v.match(/.*ingot.*/)))
-    $.add("c:nuggets", megalos_items.filter((v) => v.match(/.*nugget.*/)))
-
     $.add("c:ingots", "remin:aluminium_ingot")
     $.add("c:ingots", "remin:albemet_ingot")
     $.add("c:ingots", "tfmg:magnetic_alloy_ingot")
@@ -183,12 +186,10 @@ ServerEvents.tags("item", ($) => {
     $.add("c:furnace_cavity", "minecraft:bucket")
     $.add("c:furnace_cavity", "remin:bronze_bucket")
     $.add("c:furnace_cavity", "ceramicbucket:ceramic_bucket")
-    $.add("c:furnace_cavity", "ceramicbucket:unfired_clay_bucket")
     $.add("c:furnace_cavity", "undergarden:cloggrum_bucket")
     $.add("c:furnace_cavity", "#minecraft:copper_chests")
     $.add("c:furnace_cavity", "ae2:sky_stone_chest")
     $.add("c:furnace_cavity", "ae2:smooth_sky_stone_chest")
-    $.add("c:furnace_cavity", "pneumaticcraft:reinforced_chest")
     $.add("c:furnace_cavity", "minecraft:cauldron")
     $.add("c:furnace_cavity", "create:basin")
 
@@ -246,18 +247,20 @@ ServerEvents.tags("item", ($) => {
 })
 
 ServerEvents.tags("block", ($) => {
-    const [megalos_items, remin_items] = $common_items()
+    tags_common($)
 
-    $tags_common($, remin_items)
+    //manual_unification_functions["block"]($)
+
+    $.add("c:stones", ["kubejs:shale", "astrological:purpurite", "natures_spirit:travertine"])
+    $.add("minecraft:mineable/pickaxe", ["kubejs:shale", "astrological:purpurite"])
 
     $.add("minecraft:needs_diamond_tool", "#waystones:waystones")
     $.add("minecraft:needs_diamond_tool", "waystones:waystone")
     $.add("minecraft:needs_iron_tool", "minecraft:stone")
-    $.add("minecraft:incorrect_for_gold_tool", "minecraft:stone")
+    $.add("minecraft:needs_stone_tool", ["ae2:smooth_quartz_block", "biomeswevegone:red_rock", "yungscavebiomes:ancient_sandstone", "yungscavebiomes:layered_ancient_sandstone"])
+    $.add("minecraft:needs_stone_tool", "#c:ores")
+    $.add("minecraft:needs_stone_tool", "#c:stones")
     $.add("minecraft:incorrect_for_stone_tool", "minecraft:stone")
-    $.add("minecraft.incorrect_for_wooden_tool", "minecraft:stone")
-    $.add("megalosaio:incorrect_for_technetium_tool", "minecraft:stone")
-    $.add("megalosaio:incorrect_for_silver_tool", "minecraft:stone")
     $.remove("megalosaio:needs_aluminium_tool", "minecraft:stone")
 
     $.add("sculktransporting:sculk_emitter_can_extract_from", "minecraft:ender_chest")
@@ -286,6 +289,9 @@ ServerEvents.tags("block", ($) => {
     $.add("survivalistessentials:fiber_plants", [
         "#dynamictrees:foliage", "#greeneries:grass", "#greeneries:fern", "#greeneries:reeds", "#wover:vegetation/vine"
     ])
+
+    copy_block_tags($, "minecraft:stone", "kubejs:shale")
+    copy_block_tags($, "minecraft:stone", "kubejs:quartzite")
 })
 
 ServerEvents.tags("structure", ($) => {

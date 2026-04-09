@@ -363,7 +363,7 @@ ServerEvents.generateData("before_mods", ($) => {
     "use_alternate_layer0_chance": 0.083,
     "use_potential_placements_chance": 0.35
         }
-    }, [features.in_square, features.height_range(-64, 0), features.rarity(2), features.biome])
+    }, [features.in_square, features.height_range(-64, 0), features.rarity(2)])
 
     build_feature($, "limestone_grotto_concrete", configured_replace_blobs("minecraft:brown_concrete", "create:limestone"),
         [features.count(27), features.count(74), features.in_square, features.count(74), features.height_range(-127, -40)])

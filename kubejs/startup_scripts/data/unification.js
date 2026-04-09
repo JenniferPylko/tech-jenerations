@@ -89,6 +89,7 @@ global.unification = {
         silicon: "megalosaio:silicon_dust",
         silver: "megalosaio:silver_dust",
         sodium: "megalosaio:sodium_dust",
+        solder: ["megalosaio:pb_solder_dust", "modern_industrialization:soldering_alloy_dust"],
         stainless_steel: "megalosaio:fe_stainless_steel_dust",
         steel: "megalosaio:fe_steel_dust",
         strontium: "megalosaio:strontium_dust",
@@ -317,6 +318,7 @@ global.unification = {
         rose_gold: ["megalosaio:au_rose_gold_block"],
         rose_quartz: ["remin:rose_quartz_block", "create_ironworks:rose_quartz_block", "create:rose_quartz_block"],
         silver: "megalosaio:silver_block",
+        solder: ["megalosaio:pb_solder_block", "modern_industrialization:soldering_alloy_block"],
         stainless_steel: ["megalosaio:fe_stainless_steel_block", "electrodynamics:resourceblockstainlesssteel"],
         steel: ["megalosaio:fe_steel_block"],
         sulfur: "tfmg:sulfur",
@@ -428,6 +430,9 @@ global.manual_unification = {
     }, {
         main: "tfmg:large_steel_cogwheel",
         replace: ["northstar:iron_large_cogwheel"]
+    }, {
+        main: "create_mpnt:andesite_alloy_sheet",
+        replace: ["createdeco:andesite_sheet"]
     }],
     // almostunified said unifying fluids is hard
     // i said i have a theoretical degree in physics

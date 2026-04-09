@@ -1,5 +1,11 @@
 (() => { // stop polluting my scope!
 
+const lightning_summon = (dimension, chance) => ($) => {
+    if ($.getLevel().dimension.toString().endsWith(dimension) && Math.random() < chance) {
+        $.getBlock().spawnLightning()
+    }
+}
+
 BlockEvents.randomTick("minecraft:obsidian", ($) => {
     if (Math.random() < 0.02) {
         const neighbors = [
@@ -11,6 +17,31 @@ BlockEvents.randomTick("minecraft:obsidian", ($) => {
             if (neighbor.getId().endsWith("nether_portal")) {
                 $.getBlock().spawnLightning()
                 $.getLevel().destroyBlock($.getBlock().getPos(), false)
+            }
+        }
+    }
+})
+
+BlockEvents.randomTick("northstar:venus_plume", lightning_summon("venus", 1))
+BlockEvents.randomTick("betterend:aurora_crystal", lightning_summon("end", 0.05))
+BlockEvents.randomTick("betterend:neon_cactus", lightning_summon("end", 0.05))
+BlockEvents.randomTick("betterend:pallidium_full", lightning_summon("end", 0.1))
+BlockEvents.randomTick("biomesoplenty:anomaly", lightning_summon("end", 0.05))
+BlockEvents.randomTick("astrological:pearlescent_selenite", lightning_summon("end", 0.1))
+BlockEvents.randomTick("minecraft:crying_obsidian", lightning_summon("end", 0.1))
+
+BlockEvents.randomTick("betterend:brimstone", ($) => {
+    if (Math.random() < 0.01) {
+        const neighbors = [
+            $.getBlock().getNorth(), $.getBlock().getSouth(),
+            $.getBlock().getEast(), $.getBlock().getWest()
+        ]
+        for (const neighbor of neighbors) {
+            if (neighbor.getId().endsWith("water") || neighbor.getId().endsWith("air")) {
+                neighbor.spawnLightning()
+                $.getLevel().destroyBlock(neighbor.getPos(), false)
+                $.getLevel().setBlock(neighbor.getPos(), "northstar:sulfuric_acid", 10)
+                return
             }
         }
     }
@@ -176,6 +207,11 @@ const sleeping_bag_colors = [
     "red",
     "black"
 ]
+/*
+const $KnownTiers = Java.loadClass("dev.lukebemish.excavatedvariants.impl.KnownTiers")
+    $KnownTiers.KNOWN_TIERS.remove(null)
+    console.log($KnownTiers.KNOWN_TIERS.keySet())
+    console.log(JSON.stringify($KnownTiers.KNOWN_TIERS))*/
 
 PlayerEvents.loggedIn(($) => {
     const difficulty = $.server.getWorldData().getDifficulty().name()
