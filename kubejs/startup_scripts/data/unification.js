@@ -36,7 +36,8 @@ global.unification = {
     },
     crushed_raw_materials: {
         silver: ["create:crushed_raw_silver", "create_more_additions:crushed_raw_silver"],
-        tin: ["create:crushed_raw_tin", "create_ironworks:crushed_raw_tin"]
+        tin: ["create:crushed_raw_tin", "create_ironworks:crushed_raw_tin"],
+        copper: ["create:crushed_raw_copper"]
     },
     dusts: {
         aluminum: "megalosaio:aluminium_dust",
