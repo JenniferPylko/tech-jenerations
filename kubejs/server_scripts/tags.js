@@ -250,6 +250,7 @@ ServerEvents.tags("block", ($) => {
     tags_common($)
 
     //manual_unification_functions["block"]($)
+    utils.hide_all($, manual_unification.block)
 
     $.add("c:stones", ["kubejs:shale", "astrological:purpurite", "natures_spirit:travertine"])
     $.add("minecraft:mineable/pickaxe", ["kubejs:shale", "astrological:purpurite"])
