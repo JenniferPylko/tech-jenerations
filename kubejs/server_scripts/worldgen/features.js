@@ -470,7 +470,7 @@ ServerEvents.afterRecipes(() => {
         inject_features(biome, ["kubejs:make_drier"], 10)
     }
 
-    const echo_cave_biomes = ["minecraft:deep_dark", "terralith:cave/frostfire_caves", "caves_and_creatures:ancient_lush_caves"]
+    const echo_cave_biomes = ["minecraft:deep_dark", "terralith:cave/frostfire_caves"]
     for (const biome of echo_cave_biomes) {
         inject_features(biome, ["kubejs:molten_echo"], 10)
     }
