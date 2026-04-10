@@ -66,13 +66,14 @@ ServerEvents.recipes(($) => {
     $.replaceInput({mod: "electrodynamics", input: "#c:gems/quartz"}, "#c:gems/quartz", "#c:gems/rose_quartz")
     $.replaceInput({mod: "create", output: "#c:gems/rose_quartz", input: "#c:gems/quartz"}, "#c:gems/quartz", "minecraft:quartz")
     $.replaceInput({output: "create_new_age:generator_coil"}, "#c:ingots/copper", "#c:em_coil_item")
+    $.replaceInput({input: "ae2:quartz_fiber", not: {output: "fiberopticcables:fiber_optic_cable"}}, "ae2:quartz_fiber", "fiberopticcables:fiber_optic_cable")
     $.replaceInput({output: "fiberopticcables:fiber_optic_cable"}, "#c:gems/quartz", "ae2:quartz_fiber")
     $.replaceInput({output: "fiberopticcables:fiber_optic_transformer"}, "#c:gems/quartz", "ae2:quartz_fiber")
-    $.replaceInput({input: "ae2:quartz_fiber"}, "ae2:quartz_fiber", "fiberopticcables:fiber_optic_cable")
     $.replaceInput({output: "operation_starcleave:firmament_rejuvenator"}, Ingredient.of("minecraft:air"), "minecraft:nether_star")
 
     $.replaceOutput({output: "minecraft:wheat_seeds", mod: "emi_loot"}, "minecraft:wheat", "minecraft:air")
     $.replaceOutput({input: "#c:ingots/aluminum", output: "#c:ingots/bronze"}, "#c:ingots/bronze", "megalosaio:cu_aluminium_bronze_ingot")
+    $.replaceOutput({input: "minecraft:granite", output: "minecraft:red_sand"}, "minecraft:red_sand", "biomesoplenty:white_sand")
 
     $.remove([
         {input: "#c:cobblestones", type: "minecraft:smelting"},
@@ -128,7 +129,8 @@ ServerEvents.recipes(($) => {
         {output: "create:large_water_wheel"},
         {output: "create:mechanical_crafter"},
         {mod: "electrodynamics", output: "#c:gears"},
-        {type: "create:crushing", output: "minecraft:redstone"}
+        {type: "create:crushing", output: "minecraft:redstone"},
+        {output: "create:millstone"}
     ])
 
     $.shaped(Item.of("create:mechanical_crafter", 9), [
@@ -173,8 +175,14 @@ ServerEvents.recipes(($) => {
     $.shaped(Item.of("tfmg:fireclay_ball", 3), ["AB ", "BA ", "   "], {A: "minecraft:clay_ball", B: "#c:dusts/bauxite"})
     $.shaped(Item.of("minecraft:blast_furnace"), ["AAA", "ABA", "CCC"], {A: "tfmg:fireproof_bricks", B: "minecraft:furnace", C: "#c:cobblestones"})
     $.shaped(Item.of("createhorsepower:horse_crank"), [" A ", "BAB", "CCC"], {A: "#c:weak_crafting_shaft", B: "survivalistessentials:rock_stone", C: "#c:cobblestones"})
+    $.shaped(Item.of("create:millstone"), [" A ", "BCB", "DDD"], {A: "#c:weak_crafting_shaft", B: "survivalistessentials:rock_stone", C: "#c:chests", D: "#c:cobblestones"})
 
     $.recipes.create.crushing("waystones:warp_dust", "waystones:warp_stone")
+    $.recipes.create.milling("waystones:warp_dust", "waystones:warp_stone")
+    $.recipes.create.crushing(Output.of("kubejs:andesite_dust", 4), "minecraft:andesite")
+    $.recipes.create.milling(Output.of("kubejs:andesite_dust", 4), "minecraft:andesite")
+    $.recipes.create.crushing("kubejs:andesite_dust", "createsifter:andesite_pebble")
+    $.recipes.create.milling("kubejs:andesite_dust", "createsifter:andesite_pebble")
 
     $shaped_3x3_blend(Item.of("minecraft:cobblestone"), "#c:clay_balls", "#c:pebbles")
     $shaped_3x3_blend(Item.of("minecraft:bricks"), "#c:clay_balls", "minecraft:brick")
@@ -221,18 +229,18 @@ ServerEvents.recipes(($) => {
         "type": "charcoal_pit:alloy_mold",
         "category": "misc",
         "ingredients": [{
-            "item": "minecraft:copper_ingot"
+            "tag": "c:crushed_raw_materials/copper"
         }, {
-            "item": "minecraft:copper_ingot"
-        }, {
-            "item": "minecraft:copper_ingot"
+            "tag": "c:crushed_raw_materials/copper"
         }, {
             "tag": "c:crushed_raw_materials/tin"
+        }, {
+            "tag": "c:dusts/andesite"
         }, {
             "item": "charcoal_pit:alloy_mold"
         }],
         "result": {
-            "item": "charcoal_pit:alloy_bronze"
+            "item": "create:andesite_alloy"
         },
         "count": 4
     })
