@@ -139,20 +139,25 @@ const ore_loot_overrides = {
     "megalosaio:aluminium_ore": "megalosaio:raw_aluminium",
     "minecraft:glowstone_dust": "northstar:raw_glowstone_ore",
     "modern_industrialization:monazite_dust": ["umines:monazite-sm", "umines:monazite-ce"],
-    "minecraft:redstone": ["createoreexcavation:raw_redstone"]
+    "minecraft:redstone": "createoreexcavation:raw_redstone",
+    "minecraft:andesite": "createsifter:andesite_pebble"
+}
+
+const count_overrides = {
+    "minecraft:andesite": 4
 }
 
 LootJS.modifiers(($) => {
-    $.addBlockModifier("#c:ores").modifyLoot(ItemFilter.custom(() => true), (item) => {
+    $.addBlockModifier("#minecraft:mineable/pickaxe").modifyLoot(ItemFilter.custom(() => true), (item) => {
         console.log(item.id)
         const override = ore_loot_overrides[item.id]
         if (typeof override !== "undefined") {
             if (Array.isArray(override)) {
                 return LootEntry.of(override[
                     Math.floor(Math.random() * override.length)
-                ], item.getCount()).getItem()
+                ], count_overrides[item.id] || item.getCount()).getItem()
             }
-            return LootEntry.of(override, item.getCount()).getItem()
+            return LootEntry.of(override, count_overrides[item.id] || item.getCount()).getItem()
         }
         const replacement = AlmostUnified.getVariantItemTarget(item);
         if (!replacement.isEmpty()) {
