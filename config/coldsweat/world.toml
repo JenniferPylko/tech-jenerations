@@ -18,7 +18,8 @@
 	# • *units: The units of the temperature ("f", "c", or "mc"). Defaults to Minecraft units (mc))
 	"Dimension Temperature Offsets" = [
 	    ["minecraft:the_nether", 32, "f"],
-	    ["minecraft:the_end", -5, "f"]
+	    ["minecraft:the_end", -15, "f"],
+	    ["minecraft:overworld", -5, "c"]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the temperature of a dimension, overriding biome and elevation temperature
