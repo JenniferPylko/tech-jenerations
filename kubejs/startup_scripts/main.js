@@ -33,6 +33,7 @@ StartupEvents.registry("item", ($) => {
     $.create("andesite_dust")
         .displayName("Andesite Dust")
         .parentModel("blazinghot:item/stone_dust")
+        .texture("blazinghot:item/stone_dust")
         .tag("c:dusts/andesite")
 })
 
@@ -121,10 +122,9 @@ BlockEvents.modification(($) => {
     $name("charcoal_pit:basalt_polished", "Polished Rift Basalt")
     $name("charcoal_pit:basalt_pillar", "Rift Basalt Pillar")
     $name("charcoal_pit:barrel", "Fluid Barrel")
+    $name("charcoal_pit:chimney_brick", "Bloomery Chimney")
     $name("sub_expansion:stone_stalagmite", "Slate Stalagmite")
     $name("sub_expansion:stone_stalactite", "Slate Stalactite")
-    /*$name("create:andesite_casing", "Andesite Ceramic Casing")
-    $name("create:andesite_alloy_block", "Andesite Ceramic Block")*/
 
     $.modify("minecraft:obsidian", (block) => block.setIsRandomlyTicking(true))
     $.modify("minecraft:crying_obsidian", (block) => block.setIsRandomlyTicking(true))
@@ -176,6 +176,4 @@ ItemEvents.modification(($) => {
     $name("create:cinder_flour", "Netherrack Dust")
 
     $name("tfmg:heavy_plate", "Steel Plate")
-    /*$name("create:andesite_alloy", "Andesite Ceramic")
-    $name("create_mpnt:andesite_alloy_sheet", "Andesite Ceramic Sheet")*/
 })

@@ -336,19 +336,19 @@
       "fileSize": 30484
     },
     {
-      "path": "mods/astages-2.0.0-1.21.1.jar",
+      "path": "mods/astages-2.0.1-1.21.1.jar",
       "hashes": {
-        "sha1": "3d3991096b4882fd0ea1b50832ad626d8115edf7",
-        "sha512": "88dce8a9b66b29f9f4583140d5d93aa4beecf167b7818d7c931215c75ab8bf040be8d8febca40b3c87635d93abeb980093d1acb4feacf6d0d1c74b57f65c9a23"
+        "sha1": "7f3d1995fd032f0075d719d6e579a27ab36f4a28",
+        "sha512": "59bdde34aaa1561da1243aa90c3bdb65638753248c15d95ad86ae200bd79d0e3373ff02e51ee4058a069cdd3c6305c85c81f9044fe71f4ceab172ae641bc283f"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/6wy8fmIk/versions/g8x1aCuD/astages-2.0.0-1.21.1.jar"
+        "https://cdn.modrinth.com/data/6wy8fmIk/versions/kzywMqUW/astages-2.0.1-1.21.1.jar"
       ],
-      "fileSize": 744398
+      "fileSize": 744916
     },
     {
       "path": "mods/astrological-1.21.1-1.6.0.jar",
@@ -1116,19 +1116,19 @@
       "fileSize": 2585474
     },
     {
-      "path": "mods/collective-1.21.1-8.13.jar",
+      "path": "mods/collective-1.21.1-8.17.jar",
       "hashes": {
-        "sha1": "a31359f980453a838a7e854d86f485314fda91ad",
-        "sha512": "20ade6d666440659d38ec43202624993f47681a844c7f9e3e66a462e9f88f5d98bdd9a0a26278b1ed94bd4836b3c9cdbcfef73ad8515555f239e84bfea45d938"
+        "sha1": "379ca89266ba1651d6b4ca24891c5c5f8fcc4631",
+        "sha512": "3d2c414ad7cf9e857c8936331a62c41dd5256e5e32729389a2dd2d0509d4fcada389f9756f91067b823c5cb82ff4e5c4a83258a1c6e87e411ab1b924d1de5b23"
       },
       "env": {
         "client": "required",
         "server": "optional"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/e0M1UDsY/versions/VTg6femX/collective-1.21.1-8.13.jar"
+        "https://cdn.modrinth.com/data/e0M1UDsY/versions/bmhlgYst/collective-1.21.1-8.17.jar"
       ],
-      "fileSize": 946726
+      "fileSize": 942775
     },
     {
       "path": "mods/colorfulhearts-neoforge-1.21.1-10.5.9.jar",
@@ -3081,19 +3081,19 @@
       "fileSize": 16730
     },
     {
-      "path": "mods/entityculling-neoforge-1.10.0-mc1.21.1.jar",
+      "path": "mods/entityculling-neoforge-1.10.1-mc1.21.1.jar",
       "hashes": {
-        "sha1": "3ed524d21dfc679e8f1b9de148c26d49eaf89475",
-        "sha512": "98406c96eb7d2314d23bfc51c1bb68730d06c5ce668fdf8edc0e1a87f2e1c061aef6f96ad9244fc8eece07c1dceff6a45b5d1401e1abf0920bafd2543bd410b2"
+        "sha1": "68759da313caf8990bcd5d961bc691fa85fa3f0e",
+        "sha512": "dc3c746929c454ca0bebf0b06788f20896a0f3a477150b4ce23399054eecd831ee6b0bd14edadf6a3f921eb695ae13c1a20b70d72d7f78bd6dda07ffa6e0e304"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/NNAgCjsB/versions/f771UfeW/entityculling-neoforge-1.10.0-mc1.21.1.jar"
+        "https://cdn.modrinth.com/data/NNAgCjsB/versions/LrKSuU8e/entityculling-neoforge-1.10.1-mc1.21.1.jar"
       ],
-      "fileSize": 1573130
+      "fileSize": 1578350
     },
     {
       "path": "mods/entity_model_features_1.21-neoforge-3.0.17.jar",
@@ -5211,19 +5211,19 @@
       "fileSize": 23830
     },
     {
-      "path": "mods/notenoughanimations-neoforge-1.12.0-mc1.21.1.jar",
+      "path": "mods/notenoughanimations-neoforge-1.12.1-mc1.21.1.jar",
       "hashes": {
-        "sha1": "98ad737aae797120f88e92824cc6e91b9e6215a4",
-        "sha512": "05aed0312e5fe4ef6cb374d59e563d02f87b742aeb2ec87b89a607bdaae8350e9f030a9ce354998b83bbf10592a14f827ab1bd8fee911daeed3a8e24e88181ff"
+        "sha1": "a580982b94a6f1305aa3771de19a66d490599018",
+        "sha512": "32bfcdd660369e03964636c5fb5568c91e7126e4cdfa3ac82c0e05c0909e810c3ace73001f4b0e64de922deec94ddab64a3b10d552cc8974c0f20b80c41bb4a2"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/MPCX6s5C/versions/8MOP3TGm/notenoughanimations-neoforge-1.12.0-mc1.21.1.jar"
+        "https://cdn.modrinth.com/data/MPCX6s5C/versions/zXGBk6Ec/notenoughanimations-neoforge-1.12.1-mc1.21.1.jar"
       ],
-      "fileSize": 1932791
+      "fileSize": 1932795
     },
     {
       "path": "mods/notenoughcrashes-neoforge-4.4.9+1.21.1.jar",
@@ -5646,19 +5646,19 @@
       "fileSize": 1080389
     },
     {
-      "path": "mods/questlog-neoforge-1.21.1-2.2.0.jar",
+      "path": "mods/questlog-neoforge-1.21.1-2.2.1.jar",
       "hashes": {
-        "sha1": "c854b941919f4399b874b931d00a9430866173e8",
-        "sha512": "51f10c457f98c7f45bc0ae116ecd981c25f9014b48de9029a405e3ce32d77f788caa46aa1021c8a3ac777ab00e9a5f0d4dbd3613d93989611e59d5d42e78235b"
+        "sha1": "9a4cf9b6531943dcee706d1c1e34cff56b256a04",
+        "sha512": "6a7eba1d92674c553210c6ab5549a11e97de77ba7d950faced3deadb07e9fdfbb3ba3636e160ae0418eecd1dc66597b795e897cde7df32a388f390c0c6e5f844"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ufQYCY6N/versions/WxI3Pnwu/questlog-neoforge-1.21.1-2.2.0.jar"
+        "https://cdn.modrinth.com/data/ufQYCY6N/versions/vaz2iO3l/questlog-neoforge-1.21.1-2.2.1.jar"
       ],
-      "fileSize": 325920
+      "fileSize": 325778
     },
     {
       "path": "mods/quick-pack-neoforge-1.2.0+1.21.10.jar",
@@ -7086,19 +7086,19 @@
       "fileSize": 235345
     },
     {
-      "path": "mods/trek-B0.6.1.jar",
+      "path": "mods/trek-B0.6.1.1.jar",
       "hashes": {
-        "sha1": "8cb8d241b93df914a33790fbf6d41ef4c13fe9a7",
-        "sha512": "5871e46b6c4b0d360e2f285a04eeb3306598a9c80aff4a735c37df48b908b85771fa243df0e68e6b726625397fac598454a4fa3e69eeba1825d6dee1d1800ee1"
+        "sha1": "c8f8c09263b2c14090a3c0ef11d3f7e0616b230c",
+        "sha512": "766ec02b8a5e633ac5017e55c25fed548305b893be2264e73ae0d3e0c63eee906239c2aad515fe0a915f0ee4eda2bd48fa9f5fc20fd94d5afdf5899a18f55c0a"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/h2jngREY/versions/WWeeYKPf/trek-B0.6.1.jar"
+        "https://cdn.modrinth.com/data/h2jngREY/versions/O1utQuJh/trek-B0.6.1.1.jar"
       ],
-      "fileSize": 23500676
+      "fileSize": 12256491
     },
     {
       "path": "mods/trialanderror-1.3.2.jar",
