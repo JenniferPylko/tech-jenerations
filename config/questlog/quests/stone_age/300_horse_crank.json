@@ -1,0 +1,45 @@
+{
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "#c:pebbles",
+      "required_amount": 17,
+      "name": "Collect stones"
+    }, {
+      "type": "questlog:item_obtain",
+      "item": "#c:clay_balls",
+      "required_amount": 12,
+      "name": "Collect clay"
+    }, {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:stick",
+      "required_amount": 2,
+      "name": "Collect sticks"
+    }, {
+      "type": "questlog:item_obtain",
+      "item": "createhorsepower:horse_crank",
+      "required_amount": 1,
+      "name": "Craft the horse crank"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "display": {
+        "name": "Quest Reward",
+        "icon": {
+          "item": "minecraft:bottle"
+        }
+      }
+    }
+  ],
+  "title": "Build a horse crank",
+  "description": "This will be your first continuous source of rotational power",
+  "icon": {
+    "item": "createhorsepower:horse_crank"
+  },
+  "chapter": "stone_age",
+  "sort_order": 300
+}
