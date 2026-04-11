@@ -18,7 +18,7 @@ const base_index = {
     summary: "",
     files: [],
     dependencies: {
-        neoforge: "21.1.222",
+        neoforge: "21.1.224",
         minecraft: "1.21.1"
     }
 }
