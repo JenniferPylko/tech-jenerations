@@ -32,6 +32,8 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Automatic Operator`
 - `BaguetteLib`
 - `Balm`
+- `Battle Arts API`
+- `Epic Fight - Battle Arts`
 - `BCLib Neoforge`
 - `Create: Bells & Whistles`
 - `Better Compatibility Checker`
@@ -42,6 +44,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `BetterEnd Neoforge`
 - `BetterNether Neoforge`
 - `Better Falling`
+- `Better Library`
 - `Better Tooltips`
 - `Create: Big Contraptions`
 - `Biolith`
@@ -61,6 +64,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Burnt Basic`
 - `Concurrent Chunk Management Engine (NeoForge)`
 - `Cable Facades`
+- `Castle Shift`
 - `Ceramic Bucket`
 - `C: FMG and C: DG Compatibility`
 - `Chalk`
@@ -92,8 +96,10 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `CraftPresence`
 - `Create Encased`
 - `Create`
+- `Create: Dragons Plus`
 - `Create: Dynamic Lights`
 - `Create: EasyFilling`
+- `Create: Enchantment Industry`
 - `Create: Extended Wrenches`
 - `Create Man of Many Planes`
 - `Create: More Girder`
@@ -107,6 +113,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create: Chemistry`
 - `Create Deco`
 - `Create: Diesel Generators`
+- `Create: Enchantable Machinery`
 - `Create: Ender Gateway`
 - `Create: Ender Link`
 - `Create: Ender Transmission`
@@ -115,6 +122,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create: Improved Display Link Experience`
 - `Create Low-Heated`
 - `Create: Meta Logistics`
+- `Create: Nether Industry`
 - `Create: New Beginnings`
 - `Create: Create O' Plenty (Create + Biomes O' Plenty Mod compat)`
 - `Create Ore Excavation`
@@ -122,12 +130,14 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create: Pure Glass`
 - `Create Railways Navigator`
 - `Create: Recipe Conflict Fixer`
+- `Create: More Sandpapers`
 - `Create: Stuff 'N Additions - Tank Fix (Spout, Curios & Upgrade)`
 - `Create Sifting`
 - `Create Stock Bridge`
 - `Create: Threaded Trains`
 - `Create: real stack size`
 - `Create: Blocks & Bogies`
+- `Create: Better Motors`
 - `Create: Blazing Hot`
 - `Create: Cold Sweat`
 - `Create: Compat Core`
@@ -146,7 +156,9 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create: Pillager Arise`
 - `Create: Polymer`
 - `Create: Reactive Stress (CRS)`
+- `Create: Rock & Stone`
 - `Create: Rustic Structures`
+- `Create Regions Unexplored Compat: Crushing`
 - `Create: structures overhaul`
 - `Create Train Parts`
 - `Create Train Physics`
@@ -189,6 +201,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `When Dungeons Arise: Seven Seas`
 - `Dynamic Trees for Nature's Spirit`
 - `Dynamic Asset Generator`
+- `Dynamic Crops`
 - `Dynamic Electricity`
 - `Dynamic Trees Addon Lib`
 - `Dynamic Trees`
@@ -196,6 +209,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Echoes`
 - `Echoes of The End ( Structures)`
 - `Ecological`
+- `Gender Mod Epic Fight Compat`
 - `Electrodynamics`
 - `EMI`
 - `EMIffect`
@@ -317,6 +331,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Model Gap Fix`
 - `Modern Dynamics`
 - `Modern Industrialization`
+- `Modern Elements`
 - `ModernFix`
 - `Modern Nuclearization`
 - `MES - Moog's End Structures`
@@ -330,6 +345,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `More Create Burners`
 - `MoreJS: KubeJS Addon`
 - `Mouse Tweaks`
+- `Create: Movable Tracks`
 - `M.R.U`
 - `Multiplayer Server Pause`
 - `Musket Mod`
@@ -339,6 +355,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Nature's Spirit`
 - `NBT Autocomplete`
 - `Nemo's Inventory Sorting`
+- `Nemo's Blooming Blossom`
 - `Serene Seasons Plus`
 - `NetherPortalFix`
 - `Nether Portal Spread`
@@ -363,6 +380,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Operation: Starcleave`
 - `OreFix`
 - `oωo (owo-lib)`
+- `Create: Pantographs & Wires`
 - `Particle Core`
 - `Patience`
 - `Perception`
@@ -439,6 +457,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Spawn Animations`
 - `Spring to Life Backport`
 - `Spyglass Improvements`
+- `Create: Steam Powered`
 - `Stonehenge - Ruins Structure ✅`
 - `Every Compat (Stone Zone)`
 - `STRAYED FATES: Forsaken`
@@ -454,6 +473,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Taiga Watchtower - Structure ✅`
 - `Tectonic`
 - `TerraBlender`
+- `Custom Biome Saplings`
 - `Terralith`
 - `Tesseract API`
 - `Create: The Factory Must Grow`
@@ -502,6 +522,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Worldgen Patches`
 - `WorldgenFeatureFix`
 - `WorldWeaver Neoforge`
+- `Would`
 - `WunderLib Neoforge`
 - `Xaero's Minimap`
 - `Xaero's Map Server Utils`
@@ -526,6 +547,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `YUNG's Extras`
 - `Remove Stardust Labs Intro Message`
 - `Hybrid Aquatic`
+- `Just Enough Crafting Tree`
 - `Applied Kinetic recipe fix`
 - `Typewriter Day Counter`
 - `Mob Variations`
