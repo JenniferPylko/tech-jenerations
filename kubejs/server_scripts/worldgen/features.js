@@ -380,6 +380,9 @@ ServerEvents.generateData("before_mods", ($) => {
 
     build_feature($, "river_water", configured_replace_blobs("minecraft:air", "minecraft:water", 5),
         [features.count(81), features.in_square, features.heightmap("OCEAN_FLOOR_WG"), features.biome])
+    
+    build_feature($, "loose_rocks", configured_replace_single("minecraft:air", "survivalistessentials:stone_loose_rock"),
+        [features.count(4), features.in_square, features.heightmap("OCEAN_FLOOR_WG")])
 
     $.json("kubejs:worldgen/configured_feature/make_wetter", configured_replace_single("minecraft:air", "minecraft:water"))
     $.json("kubejs:worldgen/placed_feature/make_wetter", {
@@ -418,7 +421,7 @@ ServerEvents.afterRecipes(() => {
         terracotta_replacer_features.push(`kubejs:terracotta_replacer_${color}`)
     }
 
-    const standard_features = ["kubejs:loose_cobblestone", "kubejs:underground_loose_cobblestone", "kubejs:slab_to_pebbles", "kubejs:shale_1", "kubejs:kaolin_4", "kubejs:limestone_6", "kubejs:shale_2"].concat(terracotta_replacer_features)
+    const standard_features = ["kubejs:loose_cobblestone", "kubejs:underground_loose_cobblestone", "kubejs:slab_to_pebbles", "kubejs:shale_1", "kubejs:kaolin_4", "kubejs:limestone_6", "kubejs:shale_2", "kubejs:loose_rocks"].concat(terracotta_replacer_features)
     inject_features("minecraft:savanna", terracotta_replacer_features, "terralith:savanna/dripstone")
     inject_features("minecraft:savanna_plateau", terracotta_replacer_features, 8)
     inject_features("minecraft:jungle", terracotta_replacer_features, 6)
@@ -481,6 +484,7 @@ ServerEvents.afterRecipes(() => {
 
     for (const biome of biomes.standard_strata) {
         inject_features(biome, standard_features, 6)
+        inject_features(biome, ["survivalistessentials:loose_rocks"], 9)
     }
 
 })

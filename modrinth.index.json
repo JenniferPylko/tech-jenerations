@@ -456,6 +456,36 @@
       "fileSize": 739709
     },
     {
+      "path": "mods/battlearts_api-21.15.8.3a.jar",
+      "hashes": {
+        "sha1": "3df0aea926f5fa274cf4964efa71ef9092520c0e",
+        "sha512": "61a1e0711c16f6371c29a39d2347e75379f88f2c6b252ca9a780a19006069384de5df016e4d820ded78629a90daaa83f1e41ac9a10b68dc8414edacb0e0f368b"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/7baP43pD/versions/JTWEl2rC/battlearts_api-21.15.8.3a.jar"
+      ],
+      "fileSize": 224272
+    },
+    {
+      "path": "mods/battle_arts-21.16.1.3.jar",
+      "hashes": {
+        "sha1": "494010b71cbeb52699f773630ec54d0fe07771d6",
+        "sha512": "a4a4459bfd89d8444d2ac473aff6dd7379e04818d340f1c0963bab1f191cde57440b199b7a491e6f8dfa67eea909cbbbdad263f9ba23a2ba6b5c5e57651e36f7"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Dd6vT4jF/versions/rOV7gOal/battle_arts-21.16.1.3.jar"
+      ],
+      "fileSize": 11418588
+    },
+    {
       "path": "mods/bclib-21.0.20.jar",
       "hashes": {
         "sha1": "ddeb239d00fe5ece6352778726e4f599c7f20b49",
@@ -604,6 +634,21 @@
         "https://cdn.modrinth.com/data/OOe8spQX/versions/5mqzZwNh/better_falling-2.2.0-neoforge-1.21.1.jar"
       ],
       "fileSize": 4720282
+    },
+    {
+      "path": "mods/better_lib-neoforge-1.21.1-1.0.109.jar",
+      "hashes": {
+        "sha1": "8437f2f2f8292752af3ccae1bf6526db1ed87b8b",
+        "sha512": "c645fc4915e71540ca8e3edd68fe270dcfc60d554f41529af06a5c499a02c623387feebb1319abd21fdae8146ec777718d870194dcd14ebb56adef66882eac2a"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/2x0ULgTj/versions/KANB3D2i/better_lib-neoforge-1.21.1-1.0.109.jar"
+      ],
+      "fileSize": 256724
     },
     {
       "path": "mods/better_tooltips-1.0.3.jar",
@@ -889,6 +934,21 @@
         "https://cdn.modrinth.com/data/twipgzWx/versions/vKBacIwb/cable_facades-1.21.1-NeoForge-2.0.0.jar"
       ],
       "fileSize": 271384
+    },
+    {
+      "path": "mods/castleshift-0.2.0+1.21.1-neoforge.jar",
+      "hashes": {
+        "sha1": "8d570d7c8be7145a3df8b025ad67e2c1dd0a8973",
+        "sha512": "e6e52da2c4c2fd100eb06b8e68cae80f9bfd10e49749a21f7f7f9a65c2350668e4e0ad161603490e6f6b2f682ba75ba2de6069e75c46f2bc194f8441d617f12c"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/YD7K9Qmq/versions/cFjLjsMg/castleshift-0.2.0%2B1.21.1-neoforge.jar"
+      ],
+      "fileSize": 167771
     },
     {
       "path": "mods/ceramicbucket-neoforge-1.21-6.1.1.0.jar",
@@ -1356,6 +1416,21 @@
       "fileSize": 19019888
     },
     {
+      "path": "mods/create-dragons-plus-1.8.7.jar",
+      "hashes": {
+        "sha1": "3e53b26e850f9d2a995868b0d7c012ba8e9d373b",
+        "sha512": "b7b343c53c0f6ae307e2bf596515f93f337ebbed8e449b930e87e5b9e72be495afa620b83507bb0e59bf30d60be0b0a7716d2be8319cff42bf7e0a253779b0a3"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/dzb1a5WV/versions/C1pFgdCC/create-dragons-plus-1.8.7.jar"
+      ],
+      "fileSize": 644935
+    },
+    {
       "path": "mods/create-dyn-light-forge-1.21.1-2.0.1.jar",
       "hashes": {
         "sha1": "38ca94bda8ddcb8d75152ad9d4108283316f81ac",
@@ -1384,6 +1459,21 @@
         "https://cdn.modrinth.com/data/ZXVNO62w/versions/ge5EAie4/create-easyfilling-dypiduo-1.21.1-1.0.0.jar"
       ],
       "fileSize": 131771
+    },
+    {
+      "path": "mods/create-enchantment-industry-2.3.0.jar",
+      "hashes": {
+        "sha1": "d9cef051c5318d27c634184bfb1ef35550b96789",
+        "sha512": "fd16f1ba0b40d47f0ed23bc91a434c06935716f8c450a132c95d983d95c4a19afed4c6df7334e3fbac23a1c1c3a464ea9f348f7ffa0b4b6d9b727224669709b5"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/JWGBpFUP/versions/o56ltpU3/create-enchantment-industry-2.3.0.jar"
+      ],
+      "fileSize": 683005
     },
     {
       "path": "mods/create-extended-wrenches-1.21.1-2.0.1.jar",
@@ -1581,6 +1671,21 @@
       "fileSize": 3132480
     },
     {
+      "path": "mods/createenchantablemachinery-3.6.0+mc1.21.1-neoforge.jar",
+      "hashes": {
+        "sha1": "ed9a5cf654235f54a3c5aced27ac654d5258e393",
+        "sha512": "1dda17f32d92b92ac2e953f7cc28efd6be4d627ca85f4639654bbc3acdc9c879bf0c1fc2f66e0956874d6e21928c1556df1630ee2243d67683e1eefe26312fc7"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/eqrvp4NK/versions/Cw5k6c0a/createenchantablemachinery-3.6.0%2Bmc1.21.1-neoforge.jar"
+      ],
+      "fileSize": 575739
+    },
+    {
       "path": "mods/createendergateway-1.1.1.jar",
       "hashes": {
         "sha1": "c631169b2e5fb67324d58d96601b749e84eb7187",
@@ -1701,6 +1806,21 @@
       "fileSize": 846199
     },
     {
+      "path": "mods/createnetherindustry-0.2.3.jar",
+      "hashes": {
+        "sha1": "451b43fb3a019b44b7423e56a987e4e5be52c201",
+        "sha512": "897a9266301bcd957b9d0cc91d60bbcd86aa61d3f0885c0a9235795f4c69f3ad7c4a19bac47f4c73dd70eb4ca47747da461eeccb870697cc655ab593c3ab0294"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/N7WPmTgv/versions/SNPbuKeo/createnetherindustry-0.2.3.jar"
+      ],
+      "fileSize": 491610
+    },
+    {
       "path": "mods/createnewbeg-0.1.0-1.21.1.jar",
       "hashes": {
         "sha1": "a178fd63d33a7e18d1bc748bb3b247e575328fd9",
@@ -1806,6 +1926,21 @@
       "fileSize": 1841534
     },
     {
+      "path": "mods/createsandpapers-1.3.0-1.21.1.jar",
+      "hashes": {
+        "sha1": "ecbd44ab7cfb5c0283467e19c626ed40fafcbc1b",
+        "sha512": "962940d2f45329f2188912db0fc8d471389502abebaee075bae92bc456c65a053d9aafa7f18ce055cc02e081ba46c4c57f026895ce6ebc85b67aa337afde7528"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/PM1NaPZg/versions/NnmEK6t4/createsandpapers-1.3.0-1.21.1.jar"
+      ],
+      "fileSize": 92716
+    },
+    {
       "path": "mods/createsa_tank_fix-1.3.jar",
       "hashes": {
         "sha1": "8e3214432c1d0137b34d6e098be30032874db3e4",
@@ -1894,6 +2029,21 @@
         "https://cdn.modrinth.com/data/j4ARnQwY/versions/rUu97B0K/create_bb-1.0.7-1.21.1-Neoforge.jar"
       ],
       "fileSize": 2613213
+    },
+    {
+      "path": "mods/create_better_motors-3.1.9.jar",
+      "hashes": {
+        "sha1": "2e62400c8dd58f6eb88467c40c57fb2da08b7830",
+        "sha512": "27f650cd311653cc611dfa1e1f363d5595254b0fb61ff76ee6b6f7f299c196ce18ca7a578b10e149dec224e2411190f18d19aff31480af8ed81aa43a26172a99"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/PzouXFuY/versions/SKgXo9fH/create_better_motors-3.1.9.jar"
+      ],
+      "fileSize": 394611
     },
     {
       "path": "mods/create_blazing_hot-0.7.2+neoforge-mc1.21.1.jar",
@@ -2166,6 +2316,21 @@
       "fileSize": 7703
     },
     {
+      "path": "mods/create_rns-1.1.2-1.21.1-6.jar",
+      "hashes": {
+        "sha1": "386fc00f7aa9763d7274e9e0fd58f183c19f549d",
+        "sha512": "2b0597c1f9213563aae59f1263cb61d3ec45cb30cef317209eb4e1083bd5a8c0e8df31b988977e5363e7590163c5a664218564683fd140e98d83fdc4d2adc983"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/wy2arhik/versions/xLMXXz7u/create_rns-1.1.2-1.21.1-6.jar"
+      ],
+      "fileSize": 590050
+    },
+    {
       "path": "mods/create_rustic_structures-1.0.0-neoforge-1.21.1.jar",
       "hashes": {
         "sha1": "1f0f0f1fc4202eaaa3470c76d6b18f776762d85f",
@@ -2179,6 +2344,21 @@
         "https://cdn.modrinth.com/data/lmbZMkEZ/versions/WeXjf3zz/create_rustic_structures-1.0.0-neoforge-1.21.1.jar"
       ],
       "fileSize": 710280
+    },
+    {
+      "path": "mods/create_ru_compat-1.0.0.jar",
+      "hashes": {
+        "sha1": "89afacb558831b62ac968d9034c5c53eb8c9f2c3",
+        "sha512": "39e1696dd0f665a278b0c51e81f6b8a8ff7881ebc75a2f17137dcba51e35b38c6aef3ae1d54856142a334299e82f2d3a508599808789f8c295e15ea98473d862"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/bdR5T71y/versions/2JgMnuog/create_ru_compat-1.0.0.jar"
+      ],
+      "fileSize": 14704
     },
     {
       "path": "mods/create_structures_overhaul-1.3.1-neoforge-1.21.1.jar",
@@ -2811,6 +2991,21 @@
       "fileSize": 393572
     },
     {
+      "path": "mods/dynamiccrops-1.0.2-neoforge-1.21.1.jar",
+      "hashes": {
+        "sha1": "74f7089aec04b503511d2d8df57d2e80c467d731",
+        "sha512": "7c978d2a4fc8f649bf15bc8843df22bf05c5f48e2a0cbedc67edab705ee941000c9e49f5afca3a01f58908638e0c5d7cf045f0dcf4802a72c7ab3b7e3bf580f3"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/PuzdYzmO/versions/Y4Qt46zc/dynamiccrops-1.0.2-neoforge-1.21.1.jar"
+      ],
+      "fileSize": 22308
+    },
+    {
       "path": "mods/dynamicelectricity-1.21.1-1.2.1-0.jar",
       "hashes": {
         "sha1": "91a27404d577284d81267acaf594b57a7a46f43d",
@@ -2914,6 +3109,21 @@
         "https://cdn.modrinth.com/data/cnDVUV99/versions/mFvCVUDQ/ecological-0.3.0%2B1.21-1.21.1.jar"
       ],
       "fileSize": 95543
+    },
+    {
+      "path": "mods/efmgender-1.0.0.jar",
+      "hashes": {
+        "sha1": "93feab48f15c4b196a60482477034799c94b68a5",
+        "sha512": "4b37fc1394b71d7a500381b699272a0fe1f51ffa346de020f0ddf7cb67c903c477260afb21ca4de96e10ca78dba907405018e186d8cdf5c65eb81ee7385754a9"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/XXlrcE67/versions/GTmNKAwg/efmgender-1.0.0.jar"
+      ],
+      "fileSize": 8155
     },
     {
       "path": "mods/electrodynamics-1.21.1-1.0.2.jar",
@@ -4731,19 +4941,34 @@
       "fileSize": 7083805
     },
     {
-      "path": "mods/modernfix-neoforge-5.26.1+mc1.21.1.jar",
+      "path": "mods/ModernElements-neoforge-1.1.9.jar",
       "hashes": {
-        "sha1": "50abc7ff4ef2fcbc3baf4c6b96e2a7141cbd1b8a",
-        "sha512": "d6df16e21c454b86b07991408dd0eb0f611942ee01d9598375a6b0907167aaf29e2906c8ad11c5f0971979e68ea8267d9a8deb82ba638bd85ccd4265d2448a1d"
+        "sha1": "91d15013921db91ea6f220d515948054c092f665",
+        "sha512": "eb4b7aa686ca57a38542a54c3b89ea379569087407768fc16e5a7524f21e86100cb29f208824698c2d154df577803e5fc9ae9f23dbe3fd5da6e0eed5db5fb3be"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/gZ2puRF8/versions/6hvQIeQM/ModernElements-neoforge-1.1.9.jar"
+      ],
+      "fileSize": 2094497
+    },
+    {
+      "path": "mods/modernfix-neoforge-5.27.0+mc1.21.1.jar",
+      "hashes": {
+        "sha1": "6866fb01bd88ff44124245775751d9be1f79c6bd",
+        "sha512": "5c50309f7f4c44900d8bd4cbf2c6da1ba6008cc6653c025608c3d4bf5e9c5546a382abaac241fdbc02b9c01c936d2f5dc961b7136bb21fcf838d3cda67fc8c89"
       },
       "env": {
         "client": "required",
         "server": "optional"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/nmDcB62a/versions/c759JLsq/modernfix-neoforge-5.26.1%2Bmc1.21.1.jar"
+        "https://cdn.modrinth.com/data/nmDcB62a/versions/7bPu6FEi/modernfix-neoforge-5.27.0%2Bmc1.21.1.jar"
       ],
-      "fileSize": 498852
+      "fileSize": 561268
     },
     {
       "path": "mods/modern_nuclearization-2.0.jar",
@@ -4926,6 +5151,21 @@
       "fileSize": 73938
     },
     {
+      "path": "mods/movabletracks-1.0.1.jar",
+      "hashes": {
+        "sha1": "5899b119c95ac73feee94f6f3842605a68de6cf0",
+        "sha512": "bd0867df827cd1f0fb51c3a137eb5188563136b23fca23d81ba468d104b2ad05040a9319064bef0d4bbf95556a62687fd62d374c5cc84ae499b3bd746c46981a"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/xX4m1GME/versions/JIha8XmV/movabletracks-1.0.1.jar"
+      ],
+      "fileSize": 65625
+    },
+    {
       "path": "mods/mru-1.0.19+LTS+1.21.1+neoforge.jar",
       "hashes": {
         "sha1": "903f41bce1ff0b4bd13b66d46bfbd21423663bbc",
@@ -5061,6 +5301,21 @@
       "fileSize": 81559
     },
     {
+      "path": "mods/NemosBloomingBlossom-NeoForge-1.21.1-1.3.jar",
+      "hashes": {
+        "sha1": "7039970db73fffcd12cc903d6d2b59262c00106f",
+        "sha512": "7d20df090bf84e57e58750d4d9d4ec4173e3b9266a370c85910c4b4e702fc9ed507ce2f66e0ef106521f80429714c44269f1587d3c42eb14eefb466da1f67d24"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/k9WBR3d6/versions/vbuo9Q6v/NemosBloomingBlossom-NeoForge-1.21.1-1.3.jar"
+      ],
+      "fileSize": 28732
+    },
+    {
       "path": "mods/NeoForge-Version-Serene Seasons Plus-1.21.1-4.2.3.jar",
       "hashes": {
         "sha1": "f38f2b2448cc35e7e26992313423778b80962e8e",
@@ -5106,19 +5361,19 @@
       "fileSize": 83342
     },
     {
-      "path": "mods/netherskeletons-5.0-neoforge-1.21.1.jar",
+      "path": "mods/netherskeletons-5.1-neoforge-1.21.1.jar",
       "hashes": {
-        "sha1": "395e4ac5169ff730339b696c6378dfd7dc2ca5a2",
-        "sha512": "d020ddb1e9643747eb9f2bc731d8018439747c83c0a85aec3f043c0c238b00a030bfb75291992af81f78e6657990ec909f89d48f7e1655b08623e1474f95fb39"
+        "sha1": "6b9f96503f3713519101a1a5438ed571c1337437",
+        "sha512": "68748b8f6d3e86f1073a955c6c7bb3aa64a9adba5eadbee8c869a2e0b1b38beb3169cc1b21e3fdd95f15ee3aab7b39b558b5a1a0e89898f3c10fed9348cd724f"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/M36xhGy8/versions/zQcVMPwP/netherskeletons-5.0-neoforge-1.21.1.jar"
+        "https://cdn.modrinth.com/data/M36xhGy8/versions/X8ihmlCP/netherskeletons-5.1-neoforge-1.21.1.jar"
       ],
-      "fileSize": 262664
+      "fileSize": 276471
     },
     {
       "path": "mods/newgrange-1.21.1.jar",
@@ -5421,6 +5676,21 @@
       "fileSize": 1221583
     },
     {
+      "path": "mods/pantographsandwires-neoforge-1.21.1-alpha-0.2.0-1-C6+2.jar",
+      "hashes": {
+        "sha1": "2a711e4cf5227483c0ac0c5807e2598ca06406c6",
+        "sha512": "a8e9d6a495245d395ce8311c8a8f893c3ec153760b279b172333edb0ee6635a1f90734b05956318f5497850131047663e6c576ab9796bdfa05f9b8ebfeaf895e"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/VzdCnMqW/versions/sVdMYYKZ/pantographsandwires-neoforge-1.21.1-alpha-0.2.0-1-C6%2B2.jar"
+      ],
+      "fileSize": 1785298
+    },
+    {
       "path": "mods/particle_core-0.3.3+1.21+neoforge.jar",
       "hashes": {
         "sha1": "f859d68818e522fb00056d3ed1603ca4300eb681",
@@ -5661,19 +5931,19 @@
       "fileSize": 325778
     },
     {
-      "path": "mods/quick-pack-neoforge-1.2.0+1.21.10.jar",
+      "path": "mods/quick-pack-neoforge-1.3.0+1.21.8.jar",
       "hashes": {
-        "sha1": "04c2e51b446222fe3c34d5ec7a95cae216456e28",
-        "sha512": "5c6b3b63ba0cda369531dfdb77ea2380642e419e5ce6c21e6addccf3325a6ab0d1991ba1a823d3211ff8da7c942d79e4ed534ea909c4a7aa71bb6c43e6359adf"
+        "sha1": "5de01be0d75475dbd7709f4b837d3113d7fc69cb",
+        "sha512": "c1a523d014fbdde859cffd7d129719199736a653e72ed2169703172250da2e9cc5193992ba25ba2737d56a328ff87955a76e11f225f7220bbaae0aa79005c1cd"
       },
       "env": {
         "client": "required",
         "server": "optional"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/pSISfJ4O/versions/K6FpGNBw/quick-pack-neoforge-1.2.0%2B1.21.10.jar"
+        "https://cdn.modrinth.com/data/pSISfJ4O/versions/xsHbItzE/quick-pack-neoforge-1.3.0%2B1.21.8.jar"
       ],
-      "fileSize": 8161
+      "fileSize": 8648
     },
     {
       "path": "mods/railways-0.1.0+neoforge-mc1.21.1.jar",
@@ -6561,6 +6831,21 @@
       "fileSize": 62864
     },
     {
+      "path": "mods/steampowered-1.21.1-3.2.1.jar",
+      "hashes": {
+        "sha1": "e7525107aac659e6a096b6055d9e1e910eaf9695",
+        "sha512": "9bcc8156f6cca2b30a65d189c5641465b3f3680a7a282a7d81ccac39b0ca54b29ce525f9a16e26411e24025b6cff13fb3747cca66d5defad4c4871c7129cacb1"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/J7eSzkL7/versions/w3zLn2Kv/steampowered-1.21.1-3.2.1.jar"
+      ],
+      "fileSize": 302335
+    },
+    {
       "path": "mods/stonehenge-1.21.1.jar",
       "hashes": {
         "sha1": "20d730ff52b9de492edab84aaba8d033903af23c",
@@ -6756,19 +7041,19 @@
       "fileSize": 2125089
     },
     {
-      "path": "mods/tectonic-3.0.21-neoforge-21.1.jar",
+      "path": "mods/tectonic-3.0.22-neoforge-21.1.jar",
       "hashes": {
-        "sha1": "e246028f329383a89f9cf84ce824272820d55ec9",
-        "sha512": "9111c158e75c71dfd5243e9bf2be4edcc915f0db042b1d5d573cf21e1ea07293561feb831887f8403dbceff0624546778f84c88c6ef61148636f60bca8d2da82"
+        "sha1": "12b0f4af2a2eaae3d9e9cb1a8a3fd1ca7e610314",
+        "sha512": "a02d3f2bfd8aa099512005df23b45ec723694c397b4224a69ffd47b41cd06bb3d56a0f10bbfd81e8159e0fc55f61d0729656f91231410a74ed55e6fc16fd18ec"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/lWDHr9jE/versions/qrX9Y1PI/tectonic-3.0.21-neoforge-21.1.jar"
+        "https://cdn.modrinth.com/data/lWDHr9jE/versions/iCGkqnnx/tectonic-3.0.22-neoforge-21.1.jar"
       ],
-      "fileSize": 329507
+      "fileSize": 337253
     },
     {
       "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
@@ -6786,6 +7071,21 @@
       "fileSize": 120365
     },
     {
+      "path": "mods/terralith-biome-saplings-1.1.6.jar",
+      "hashes": {
+        "sha1": "e64015de95eb6d17ca4c72ae61389cb1679bd426",
+        "sha512": "948b1e4ced7ea15a21bc7af78feebc32e31a23d5619bfff8c4efa6b9560e402c11e11bb5ba238d8a2940b20cad5d32adb5cc733c2c51b2949f6b5c962295a524"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/CYGkXnUb/versions/jyLDOcvy/terralith-biome-saplings-1.1.6.jar"
+      ],
+      "fileSize": 341464
+    },
+    {
       "path": "mods/Terralith_1.21.x_v2.5.8.jar",
       "hashes": {
         "sha1": "bee0cfb1a8cd4bf3d96bccea224fb45d74de9085",
@@ -6801,19 +7101,19 @@
       "fileSize": 3115385
     },
     {
-      "path": "mods/tesseract-api-neoforge-1.11.10-1.21.1.jar",
+      "path": "mods/tesseract-api-neoforge-1.11.11-1.21.1.jar",
       "hashes": {
-        "sha1": "250d7fa9cb3ee7211404c44a7f21d59b54f33b17",
-        "sha512": "28588f3501350cc903453a560832c9b55879ab28db1c8faadf4eb3026b21f67a541108ccb6706db2227a47172ed255333dba7b551817e3e8dfdd384815c0a378"
+        "sha1": "f98b5f1335fd95438023e46a62cdc1a2f288c57e",
+        "sha512": "8416b82b9100d894ab73ce78a809a3d1ac4b1c510ad932bd803188dd1985a52f7f3ce8289d7afd60e0cc614dd88d2d05129a1dcf3b8d70a3c2483ba6e4dc6e3c"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/pHNT1iyc/versions/ciyDFgWt/tesseract-api-neoforge-1.11.10-1.21.1.jar"
+        "https://cdn.modrinth.com/data/pHNT1iyc/versions/o1g3v0XL/tesseract-api-neoforge-1.11.11-1.21.1.jar"
       ],
-      "fileSize": 726159
+      "fileSize": 726364
     },
     {
       "path": "mods/tfmg-1.2.0.jar",
@@ -7506,6 +7806,21 @@
       "fileSize": 2157794
     },
     {
+      "path": "mods/would-1.21.1-0.1.4-neoforge.jar",
+      "hashes": {
+        "sha1": "7e4e5823b114abad015d88fdab5909c7f933f08b",
+        "sha512": "3b4aadca2f5913ed79828256f2a0e3ea47926cfb123d62b48e822343ed258069c226de8675c3aadb59c78662f1c42f033335042bb3e101df66e3f3c50a1bad34"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/D2IDbjeu/versions/tCzVXIHV/would-1.21.1-0.1.4-neoforge.jar"
+      ],
+      "fileSize": 1158333
+    },
+    {
       "path": "mods/wunderlib-21.0.10.jar",
       "hashes": {
         "sha1": "330ab9d6d8d92a9337e97ef22e64f83fe2d4bf2a",
@@ -7864,6 +8179,21 @@
         "https://cdn.modrinth.com/data/HH4FjUqN/versions/1DTuj8UO/%5B1.21.1-Neoforge%5D%20Hybrid%20Aquatic%201.5.5.jar"
       ],
       "fileSize": 3375151
+    },
+    {
+      "path": "mods/[1.21.1] neoforge-JECT-2.0.0.jar",
+      "hashes": {
+        "sha1": "0fec9e3b730c716722f3d26c49d8b5cf494626b3",
+        "sha512": "4b9c23b4541e3d181a1d6f094022c4734f64bdcaa66bc6920bffb787a8f390f69bee545d1448d2c82a995235e74e7e75eb12cff36d33bf39a573772a2753007b"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/qgdPhK1x/versions/DU7GYvUn/%5B1.21.1%5D%20neoforge-JECT-2.0.0.jar"
+      ],
+      "fileSize": 289596
     },
     {
       "path": "datapacks/ae2-applied-kinetic.zip",
@@ -8497,7 +8827,7 @@
     }
   ],
   "dependencies": {
-    "neoforge": "21.1.222",
+    "neoforge": "21.1.224",
     "minecraft": "1.21.1"
   }
 }
