@@ -22,6 +22,16 @@ BlockEvents.randomTick("minecraft:obsidian", ($) => {
     }
 })
 
+BlockEvents.randomTick("biomesoplenty:thermal_calcite_vent", ($) => {
+    if (Math.random() > 0.99) {
+        let tick = 0
+        for (let block = $.getBlock().getUp(); (block.getId().endsWith("air") || block.getId().endsWith("water")) && Math.random() > 0.1; block = block.getUp(), ++tick) {
+            console.log("thermal calcite vent random tick")
+            $.getLevel().setBlock(block.getPos(), "minecraft:water", 10)
+        }
+    }
+})
+
 BlockEvents.randomTick("northstar:venus_plume", lightning_summon("venus", 1))
 BlockEvents.randomTick("betterend:aurora_crystal", lightning_summon("end", 0.05))
 BlockEvents.randomTick("betterend:neon_cactus", lightning_summon("end", 0.05))

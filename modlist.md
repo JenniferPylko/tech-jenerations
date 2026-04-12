@@ -273,6 +273,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `GraveStone Mod`
 - `Gravestone x Curios API Compat`
 - `Greeneries`
+- `Grounded`
 - `GuideME`
 - `Hardcore Torches`
 - `Highlight`
@@ -506,6 +507,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Updating World Icon`
 - `Vanillin`
 - `Variants&Ventures`
+- `Verdant`
 - `Via Romana: Infrastructure-Driven Fast Travel`
 - `Villager Clock Tower`
 - `Villages&Pillages`

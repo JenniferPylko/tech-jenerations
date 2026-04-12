@@ -11,6 +11,7 @@ global.biomes.swampy = [
     "minecraft:mangrove_swamp",
     "minecraft:swamp",
     "natures_spirit:marsh",
+    "regions_unexplored:bayou",
     "regions_unexplored:marsh",
     "terralith:orchid_swamp"
 ]
@@ -123,7 +124,9 @@ global.biomes.standard_strata = [
     "minecraft:windswept_savanna",
     "minecraft:wooded_badlands",
     "natures_spirit:alpine_clearings",
+    "natures_spirit:alpine_highlands",
     "natures_spirit:arid_highlands",
+    "natures_spirit:aspen_forest",
     "natures_spirit:blooming_highlands",
     "natures_spirit:boreal_taiga",
     "natures_spirit:cedar_thicket",
@@ -172,6 +175,7 @@ global.biomes.standard_strata = [
     "regions_unexplored:sparse_redwoods",
     "regions_unexplored:temperate_grove",
     "terralith:alpine_highlands",
+    "terralith:arid_highlands",
     "terralith:birch_taiga",
     "terralith:blooming_plateau",
     "terralith:blooming_valley",
@@ -180,6 +184,7 @@ global.biomes.standard_strata = [
     "terralith:forested_highlands",
     "terralith:fractured_savanna",
     "terralith:highlands",
+    "terralith:ice_marsh",
     "terralith:jungle_mountains",
     "terralith:lavender_forest",
     "terralith:lush_valley",
@@ -196,6 +201,7 @@ global.biomes.standard_strata = [
     "terralith:snowy_shield",
     "terralith:steppe",
     "terralith:temperate_highlands",
+    "terralith:white_cliffs",
     "terralith:windswept_spires",
     "terralith:yosemite_cliffs",
     "terralith:yosemite_lowlands"

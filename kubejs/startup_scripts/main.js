@@ -130,6 +130,7 @@ BlockEvents.modification(($) => {
     $.modify("minecraft:crying_obsidian", (block) => block.setIsRandomlyTicking(true))
     $.modify("minecraft:sculk_catalyst", (block) => block.setIsRandomlyTicking(true))
     $.modify("biomesoplenty:anomaly", (block) => block.setIsRandomlyTicking(true))
+    $.modify("biomesoplenty:thermal_calcite_vent", (block) => block.setIsRandomlyTicking(true))
     $.modify("betterend:brimstone", (block) => block.setIsRandomlyTicking(true))
     $.modify("betterend:aurora_crystal", (block) => block.setIsRandomlyTicking(true))
     $.modify("betterend:neon_cactus", (block) => block.setIsRandomlyTicking(true))
