@@ -22,9 +22,11 @@
 !/config/coldsweat/*.toml
 !/config/cristellib
 !/config/dimensional_leap
+!/config/explorerscompass-common.toml
 !/config/fancymenu
 !/config/fog
 !/config/mods_optimizer
+!/config/naturescompass-common.toml
 !/config/nerb
 !/config/netherportalspread
 !/config/northerncompass
