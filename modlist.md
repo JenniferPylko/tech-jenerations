@@ -209,7 +209,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Echoes`
 - `Echoes of The End ( Structures)`
 - `Ecological`
-- `Gender Mod Epic Fight Compat`
 - `Electrodynamics`
 - `EMI`
 - `EMIffect`
@@ -310,7 +309,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Let Me Despawn`
 - `Lithium`
 - `Lithostitched`
-- `Lit on fire`
 - `Living Things`
 - `Load My F***ing Tags`
 - `LootJS: KubeJS Addon`
@@ -416,7 +414,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Restless Legions`
 - `Revamped Phantoms`
 - `Rhino`
-- `Rain should extinguish campfires`
 - `Rusted`
 - `Savanna Watchtower - Structure ✅`
 - `Schematic Energistics`
@@ -504,6 +501,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Unified Crops`
 - `UniLib`
 - `Unkindled`
+- `Unlit Campfire`
 - `Updating World Icon`
 - `Vanillin`
 - `Variants&Ventures`

@@ -24,10 +24,16 @@ BlockEvents.randomTick("minecraft:obsidian", ($) => {
 
 BlockEvents.randomTick("biomesoplenty:thermal_calcite_vent", ($) => {
     if (Math.random() > 0.99) {
-        let tick = 0
-        for (let block = $.getBlock().getUp(); (block.getId().endsWith("air") || block.getId().endsWith("water")) && Math.random() > 0.1; block = block.getUp(), ++tick) {
-            console.log("thermal calcite vent random tick")
-            $.getLevel().setBlock(block.getPos(), "minecraft:water", 10)
+        for (let block = $.getBlock().getUp(), tick = 0
+            ;(block.getId().endsWith("air") || block.getId().endsWith("water") || block.getId().endsWith("ice")) && Math.random() > 0.1
+            ;block = block.getUp(), ++tick) {
+            (() => {
+                const position = block.getPos()
+                setTimeout(() => $.getLevel().setBlock(position, "minecraft:water", 10), tick*tick / 2)
+            })()
+            if (block.getId().endsWith("ice")) {
+                break
+            }
         }
     }
 })

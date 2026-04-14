@@ -77,7 +77,8 @@ const tags_common = ($) => {
         "tfmg:aluminum_smart_fluid_pipe",
         "tfmg:cast_iron_pipe",
         "tfmg:cast_iron_smart_fluid_pipe",
-        "tfmg:plastic_smart_fluid_pipe"
+        "tfmg:plastic_smart_fluid_pipe",
+        "hardcore_torches:unlit_campfire"
     ])
 }
 /*

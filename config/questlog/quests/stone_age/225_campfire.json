@@ -3,12 +3,12 @@
   "objectives": [
     {
       "type": "questlog:item_obtain",
-      "item": "hardcore_torches:unlit_campfire",
+      "item": "minecraft:campfire",
       "required_amount": 1,
       "name": "Craft a campfire"
     }, {
       "type": "questlog:block_place",
-      "block": "hardcore_torches:unlit_campfire",
+      "block": "minecraft:campfire",
       "required_amount": 1,
       "name": "Place the campfire"
     }
@@ -26,7 +26,7 @@
     }
   ],
   "title": "Build a campfire",
-  "description": "You can use this as a light source, to stay warm, and for cooking",
+  "description": "You can use this as a light source, to stay warm, and for cooking. Don't forget to add fuel.",
   "icon": {
     "item": "minecraft:campfire"
   },

@@ -18,7 +18,7 @@ The main goal to advance out of the stone age is building a bloomery. You'll nee
 
 Food and water need heat to be safe to eat. You can start by building a campfire.
 
-<Recipe id="hardcore_torches:campfire" />
+<Recipe id="minecraft:campfire" />
 
 The campfire can be used to cure clay bricks.
 

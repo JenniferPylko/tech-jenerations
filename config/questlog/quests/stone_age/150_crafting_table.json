@@ -3,7 +3,7 @@
   "objectives": [
     {
       "type": "questlog:item_obtain",
-      "item": "minecraft:planks",
+      "item": "#minecraft:planks",
       "required_amount": 4,
       "name": "Cut planks from logs"
     }, {

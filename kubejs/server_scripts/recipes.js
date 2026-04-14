@@ -190,7 +190,7 @@ ServerEvents.recipes(($) => {
     $shaped_3x3_blend(Item.of("modern_industrialization:fire_clay_dust"), "tfmg:fireclay_ball", "tfmg:fireclay_ball", "#c:dusts/bauxite")
     $shaped_3x3_blend(Item.of("modern_industrialization:fire_clay_bricks"), "modern_industrialization:fire_clay_brick", "tfmg:fireclay_ball")
     $shaped_3x3_blend(Item.of("minecraft:furnace"), "#c:cobblestones", "#c:cobblestones", "#c:furnace_cavity")
-    $shaped_3x3_blend(Item.of("create:andesite_alloy"), "#c:raw_materials/tin", "#c:clay_balls", "minecraft:andesite")
+    //$shaped_3x3_blend(Item.of("create:andesite_alloy"), "#c:raw_materials/tin", "#c:clay_balls", "minecraft:andesite")
 
     $.replaceOutput({output: "minecraft:torch"}, "minecraft:torch", "hardcore_torches:unlit_torch")
 
