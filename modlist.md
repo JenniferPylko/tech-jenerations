@@ -121,7 +121,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create: Ender Transmission`
 - `Create: Filters Anywhere`
 - `Create Horse Power`
-- `Create: Improved Display Link Experience`
 - `Create Low-Heated`
 - `Create: Meta Logistics`
 - `Create: Nether Industry`

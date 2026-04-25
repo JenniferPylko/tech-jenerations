@@ -1791,21 +1791,6 @@
       "fileSize": 258688
     },
     {
-      "path": "mods/createidlx-1.21.1-1.4.jar",
-      "hashes": {
-        "sha1": "5be0dd098af952e9cd046deef43976cf24df04ef",
-        "sha512": "5b53658f0ffb30022e2f134d55cffcee1aea4d9330838b255bb81fd7b8c7258dab9ffff867a2bec1639b82383afe5b979387927d05902f9e1ef26ecf22829e8b"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/n0AbAYWj/versions/C5gZfI2S/createidlx-1.21.1-1.4.jar"
-      ],
-      "fileSize": 901549
-    },
-    {
       "path": "mods/createlowheated-neoforge-1.21.1-6.0.9-2.jar",
       "hashes": {
         "sha1": "741ed70048a104a58d60aa44724be90763404292",
@@ -2933,17 +2918,17 @@
     {
       "path": "mods/Dungeons And Villages DeeperAndDarker 1.21.1.jar",
       "hashes": {
-        "sha1": "a30516d2c7e9dbc8faca3c07ec3ca97d0551e8da",
-        "sha512": "0f0b9f6102cb396ceaa2fe7ff4324c37126156195f938125f9c483b7a7561b65784d41eb2d36030ef33b2a3444f260ee48a769ee4ab68c9145ac421b26ad7ff3"
+        "sha1": "c30b887ecb2ab3ba931f8352c5a0a9f678958459",
+        "sha512": "fe776a001dc9073508773279018a67731b4edfa304db4e409b78c04afcd2ceb0275250f56c33dc24a841abb89360a3fde5620c8fae401b1f2a52f87495062b6b"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/dDLO8v94/versions/WiuWE8qu/Dungeons%20And%20Villages%20DeeperAndDarker%201.21.1.jar"
+        "https://cdn.modrinth.com/data/dDLO8v94/versions/UTNjeKNU/Dungeons%20And%20Villages%20DeeperAndDarker%201.21.1.jar"
       ],
-      "fileSize": 266800
+      "fileSize": 376603
     },
     {
       "path": "mods/dungeons-and-taverns-ancient-city-overhaul-v2.jar",
@@ -7326,19 +7311,19 @@
       "fileSize": 122876
     },
     {
-      "path": "mods/toomanyrecipeviewers-0.7.2+mc.21.1.jar",
+      "path": "mods/toomanyrecipeviewers-0.7.3+mc.21.1.jar",
       "hashes": {
-        "sha1": "a80f68d67da36e5fdf6ab6fd7390e9361133e346",
-        "sha512": "eedff5ceaf154571eb8fa9718734d29c8ad74f32953d2e0b728f0a7dec9d094fc309a7dc05fa4ae16ceb64d8313b0f9b1bc914dfdf8de54d8ce562840037ea1e"
+        "sha1": "266605572d63d834b99e930e477ee01b0b7082df",
+        "sha512": "79fc75b844bc74c40e885190cdd63f6449085f388428202ae6af175081db891bce3b67d2fba6299078f45090aefbd40e2cfbffb2c4438e82b052f83013b4c774"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/yFypjcfd/versions/46hQ6QAt/toomanyrecipeviewers-0.7.2%2Bmc.21.1.jar"
+        "https://cdn.modrinth.com/data/yFypjcfd/versions/slJJPeMk/toomanyrecipeviewers-0.7.3%2Bmc.21.1.jar"
       ],
-      "fileSize": 1165041
+      "fileSize": 1165347
     },
     {
       "path": "mods/totw_modded-neoforge-1.21-1.0.9.jar",
