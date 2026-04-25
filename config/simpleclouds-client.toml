@@ -29,7 +29,7 @@ showVivecraftNotice = true
 	#Specifies the type of world fog that should be used. Each has their own advantages and disadvantages, ranging from visual discrepancies to possible compatibility issues.
 	#Default: SCREEN_SPACE
 	#Allowed Values: VANILLA, SCREEN_SPACE, OFF
-	fogMode = "VANILLA"
+	fogMode = "SCREEN_SPACE"
 	#Specifies the angle of the rain, perpendicular to the ground. Higher values makes it more horizontal.
 	#Default: 15.0
 	# Default: 15.0
@@ -42,7 +42,7 @@ showVivecraftNotice = true
 	stormFogAngle = 80.0
 	#Specifies if lightning should have slight random color variation.
 	#Default: true
-	lightningColorVariation = true
+	lightningColorVariation = false
 	#Specifies the attenuation distance for thunder. The lower the value, the quieter it will be from longer distances.
 	#Default: 2000
 	# Default: 2000
@@ -118,12 +118,12 @@ showVivecraftNotice = true
 		#Default: 5
 		# Default: 5
 		# Range: 1 ~ 32
-		framesToGenerateMesh = 10
+		framesToGenerateMesh = 20
 		#Used to set the target FPS with the 'Target FPS' option in 'Generation Interval'.
 		#Default: 30
 		# Default: 30
 		# Range: 1 ~ 1000
-		targetMeshGenFps = 4
+		targetMeshGenFps = 1
 
 #Debug
 [debug]

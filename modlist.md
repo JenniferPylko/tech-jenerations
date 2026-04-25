@@ -8,6 +8,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Accessories`
 - `Accessories Compatibility Layer`
 - `Additional Structures`
+- `AdoraBuild: Structures`
 - `AE2 Dynamic Trees Fix`
 - `Applied Energistics 2 Wireless Terminals`
 - `Almanac`
@@ -22,6 +23,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Applied Create`
 - `Applied Energistics 2`
 - `AppFlux`
+- `Applied KubeJS`
 - `Architectury API`
 - `Ash API`
 - `AStages`
@@ -82,6 +84,8 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Cold Sweat`
 - `Collective`
 - `Colorful Hearts`
+- `Colorful Bricks!`
+- `Colorful Redstone Lamps`
 - `Compat API`
 - `Compat Structure`
 - `Sinytra Connector`
@@ -96,23 +100,21 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `CraftPresence`
 - `Create Encased`
 - `Create`
-- `Create: Dragons Plus`
 - `Create: Dynamic Lights`
 - `Create: EasyFilling`
 - `Create: Enchantment Industry`
 - `Create: Extended Wrenches`
-- `Create Man of Many Planes`
 - `Create: More Girder`
 - `Create: New Age`
 - `Create Stuff 'N Additions`
 - `Create touchpad scrolling fix`
-- `Create: Wrencheable Planes`
 - `Create Crafts & Additions`
 - `Create: Applied Kinetics`
 - `CreateTagsFix`
 - `Create: Chemistry`
 - `Create Deco`
 - `Create: Diesel Generators`
+- `Create: Dragons Plus`
 - `Create: Enchantable Machinery`
 - `Create: Ender Gateway`
 - `Create: Ender Link`
@@ -163,7 +165,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create Train Parts`
 - `Create Train Physics`
 - `Create: Trimmed`
-- `Zinc Macerate`
 - `Cristel Lib`
 - `Crops Love Rain`
 - `Curios API`
@@ -172,6 +173,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Dark Orion`
 - `Dark Forest Watchtower - Structure ✅`
 - `darkaroundme`
+- `Darker Depths`
 - `Dark Paintings`
 - `Data Anchor`
 - `Deeper and Darker`
@@ -195,6 +197,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Dynamic Trees - Oh The Biomes We've Gone`
 - `Dynamic Trees - Regions Unexplored`
 - `Dynamic Trees - Terralith`
+- `Dungeons And Villages: Deeper and Darker`
 - `Dungeons and Taverns Ancient City Overhaul`
 - `Dungeons and Taverns`
 - `When Dungeons Arise`
@@ -250,6 +253,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Fiber-Optic Cables`
 - `First-person Model`
 - `Fish of Thieves`
+- `Fiw Bosses`
 - `Flowing Fluids`
 - `Create: Fluid`
 - `Fog`
@@ -260,7 +264,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Fullblock Energistics`
 - `Fusion (Connected Textures)`
 - `Fzzy Config`
-- `Gabou's Libs`
+- `Gabou's Libs - New logo LIZZARRDD`
 - `Geckolib`
 - `Giant Lily Pads`
 - `Giant Natural Additions`
@@ -282,7 +286,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `iChunUtil`
 - `Ignition`
 - `ImmediatelyFast`
-- `Immersive Aircraft`
 - `Incendium`
 - `Industrialization Overdrive`
 - `Infinity Cave`
@@ -307,6 +310,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `LanternLib`
 - `Lava Turns Sand into Glass`
 - `Let Me Despawn`
+- `Lightning Generator`
 - `Lithium`
 - `Lithostitched`
 - `Living Things`
@@ -314,7 +318,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `LootJS: KubeJS Addon`
 - `Lost Libraries`
 - `Luki's Ancient Cities`
-- `Man of Many Planes`
 - `Macaw's Paintings`
 - `Mechanicals Lib`
 - `Medieval Buildings`
@@ -369,7 +372,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Not Enough Crashes`
 - `Nuclear Science`
 - `Nullscape`
-- `NuStone Crafting`
 - `Ocean Villager Trader`
 - `Ocean Lily Pad Village`
 - `ShatterLib | OctoLib`
@@ -385,6 +387,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Perception`
 - `Petra - Ruins Structure ✅`
 - `Philips Ruins`
+- `Pick Up Notifier`
 - `Piglin Conservatory v3.0`
 - `Plains Watchtower - Structure ✅`
 - `Polymorph`
@@ -453,6 +456,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Sparse Structures`
 - `Spawn Animations Compats`
 - `Spawn Animations`
+- `Fungal Infection:Spore`
 - `Spring to Life Backport`
 - `Spyglass Improvements`
 - `Create: Steam Powered`
@@ -558,13 +562,19 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Atmospheric Skies & Fog`
 - `Biome Dirt`
 - `Block Damage Fusion`
+- `Connected Vines`
+- `Connected Bricks`
+- `Connected Paths`
 - `Connected Rocks`
+- `Fusion connected copper grate`
 - `Connected Polished Stones`
 - `Create Touch-Ups`
 - `Create: Vanilla Reimagined`
 - `Create Waystones Texture + GUI`
 - `create style hopper`
 - `Crushed ores for Modern Industrialization`
+- `Connected Textures (CTM) Overhaul`
+- `DrX's Connected Logs`
 - `Enhanced Audio: Ambience (Sound Pack)`
 - `Enhanced Lightning Sound`
 - `Foggy Pale Garden (FPG) x Polytone`
@@ -573,6 +583,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Fusion Block Transitions`
 - `Fusion Connected Blocks`
 - `Fusion Connected Glass`
+- `Fusion Connected Modern Stained Glass`
 - `Fusion Stacking Items`
 - `Fusion Arid Glass`
 - `GUI Retextures`
@@ -584,7 +595,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Sounds X Create`
 - `Sparkles: Stardust Labs Resourcepack`
 - `Standardized Ingots - Create and More!`
-- `Stone Brick Overlays`
+- `Stone Brick Overlay`
 - `Create: Diesel Generators x TFMG`
 - `Water Caustics`
 - `Emissive Shaders`

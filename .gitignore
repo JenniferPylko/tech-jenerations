@@ -41,6 +41,7 @@
 !/config/umines
 !/config/vanilla_structures
 !/config/wover
+!/config/ae2-client.toml
 !/config/ae2-common.toml
 !/config/amendments-common.toml
 !/config/atmospheric-common.toml

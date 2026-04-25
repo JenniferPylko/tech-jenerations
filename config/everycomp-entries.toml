@@ -203,6 +203,12 @@
 			walnut = true
 			blue_spruce = true
 
+		[types.wood_type.darkerdepths]
+			petrified = true
+
+		[types.wood_type.spore]
+			rotten = true
+
 		[types.leaves_type.biomeswevegone]
 			flowering_palo_verde = true
 			aspen = true
@@ -843,6 +849,18 @@
 
 		[types.stone_type.burnt]
 			sooty_stone = true
+
+		[types.stone_type.spore]
+			infested_stone = true
+
+		[types.stone_type.darkerdepths]
+			aridrock = true
+			duskrock = true
+			darkslate = true
+			grimestone = true
+
+		[types.stone_type.chronodawn]
+			temporal_stone = true
 
 		[types.mud_type.deeperdarker]
 			sculk_grime = true
