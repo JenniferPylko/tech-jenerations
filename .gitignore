@@ -16,7 +16,7 @@
 !/config/bclib
 !/config/biomesoplenty
 !/config/biomeswevegone
-!/config/burnt_basic_config.toml
+!/config/burnt_basic.json
 !/config/coldsweat
 /config/coldsweat/*
 !/config/coldsweat/*.toml

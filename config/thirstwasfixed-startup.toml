@@ -75,7 +75,7 @@
 [Supplementaries]
 	#Whether or not to apply a patch to Supplementaries faucets to allow them to propagate thirst to Cauldrons
 	#If false, faucets will simply not set the purity of the cauldron
-	"Fix Faucets" = true
+	"Fix Faucets" = false
 
 [ParCool]
 	#The amount of thirst required to gain a stamina recovery bonus

@@ -283,11 +283,31 @@ ServerEvents.tags("block", ($) => {
     $.add("thickair:red_air_providers", "#burnt:on_fire")
     $.add("burnt:will_burn", [
         "biomesoplenty:hanging_cobweb", "biomesoplenty:hanging_cobweb_strand", "biomesoplenty:stringy_cobweb",
-        "regions_unexplored:cobalt_webbing", "atmospheric:grimweb", "#woodworks:leaf_piles", "#dynamictrees:foliage",
-        "#greeneries:reeds", "#wover:vegetation/plant", "#wover:vegetation/vine", "#wover:vegetation/seeds",
+        "regions_unexplored:cobalt_webbing", "atmospheric:grimweb",
         "#c:lignite_coal", "#c:ores/lignite_coal", "#c:coke", "#c:ores/oil", "tfmg:oil_deposit",
-        "minecraft:cartography_table", "minecraft:crafting_table", "minecraft:loom"
+        "minecraft:cartography_table", "minecraft:crafting_table", "minecraft:loom",
+        /*"#minecraft:supports_vegetation", "wover:surfaces/soil_or_logs", */ "#woodworks:leaf_piles", "#dynamictrees:foliage", "atmospheric:golden_growths",
+        "#greeneries:reeds", "#wover:vegetation/plant", "#wover:vegetation/vine", "#wover:vegetation/seeds"
     ])
+    $.add("burnt:grass_blocks", [
+        "#minecraft:supports_vegetation", "wover:surfaces/soil_or_logs"
+    ])
+    $.add("burnt:burnt_leaves_stick", [
+        "#minecraft:supports_vegetation", "wover:surfaces/soil_or_logs"
+    ])
+    $.add("burnt:plants_will_burn", [
+        "#woodworks:leaf_piles", "#dynamictrees:foliage", "atmospheric:golden_growths",
+        "#greeneries:reeds", "#wover:vegetation/plant", "#wover:vegetation/vine", "#wover:vegetation/seeds"
+    ])
+    $.add("burnt:burnt_grows", [
+        "#woodworks:leaf_piles", "#dynamictrees:foliage", "atmospheric:golden_growths",
+        "#greeneries:reeds", "#wover:vegetation/plant", "#wover:vegetation/vine", "#wover:vegetation/seeds"
+    ])
+    $.add("burnt:tall_grass", [
+        "#woodworks:leaf_piles", "#dynamictrees:foliage", "atmospheric:golden_growths",
+        "#greeneries:reeds", "#wover:vegetation/plant", "#wover:vegetation/vine", "#wover:vegetation/seeds"
+    ])
+
     $.add("survivalistessentials:fiber_plants", [
         "#dynamictrees:foliage", "#greeneries:grass", "#greeneries:fern", "#greeneries:reeds", "#wover:vegetation/vine"
     ])
