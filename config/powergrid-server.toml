@@ -283,7 +283,7 @@ configVersion = 4
 		transmissionLineThreshold = 0.20000000298023224
 		#.
 		#Experimental! Allows transmission lines to split large grid into smaller networks. This option should improve performance for large grids but it will result in transmission lines having a propagation delay and capacitance.
-		splittingTransmissionLines = false
+		splittingTransmissionLines = true
 		#.
 		#Allows transformers to split the grid. This option should improve performance but it will result in transformers having some capacitance and delay.
 		splittingsTransformers = false
