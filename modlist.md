@@ -100,6 +100,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `CraftPresence`
 - `Create Encased`
 - `Create`
+- `Create Aeronautics`
 - `Create: Dynamic Lights`
 - `Create: EasyFilling`
 - `Create: Enchantment Industry`
@@ -128,6 +129,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create: Create O' Plenty (Create + Biomes O' Plenty Mod compat)`
 - `Create Ore Excavation`
 - `Create Picky Wheels`
+- `Create Propulsion: Simulated`
 - `Create: Pure Glass`
 - `Create Railways Navigator`
 - `Create: Recipe Conflict Fixer`
@@ -279,8 +281,10 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `GuideME`
 - `Hardcore Torches`
 - `Highlight`
+- `Item Highlighter`
 - `Hopo Better Mineshaft`
 - `HRTF Fix`
+- `Iceberg`
 - `Icebreak`
 - `iChunUtil`
 - `Ignition`
@@ -395,6 +399,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Presence Footsteps [FORGE]`
 - `Prickle`
 - `Prometheus`
+- `Create Propulsed`
 - `Pufferfish's Biome Dither`
 - `Puzzles Lib`
 - `Questlog`
@@ -417,11 +422,11 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Revamped Phantoms`
 - `Rhino`
 - `Rusted`
+- `Sable`
 - `Savanna Watchtower - Structure ✅`
 - `Schematic Energistics`
 - `Sculk Muffler`
 - `Sculk Transporting`
-- `Seamless Loading Screen `
 - `Searchables`
 - `Seasonal Integration`
 - `Serene Seasons`
@@ -434,7 +439,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Skippy Pearls`
 - `Sleeping Bags`
 - `Small Biome Towers`
-- `Small Ships`
 - `Small Villager Greenhouse`
 - `Create Smart Bounds`
 - `Smithing Template Viewer`
@@ -482,7 +486,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `The Undergarden`
 - `Thick Air`
 - `Thief`
-- `ThirstWasFixed`
 - `Thirst Was Taken`
 - `Tidal Towns`
 - `Tidy Binds`
@@ -499,7 +502,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create: Trial & Error`
 - `Trimmed`
 - `Towns and Towers`
-- `Unmovable Mines`
 - `Unbreakables`
 - `Unified Crops`
 - `UniLib`
@@ -579,10 +581,10 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Foggy Pale Garden (FPG) x Polytone`
 - `Fractal Enchantment Glint`
 - `Fusion 3D Items`
+- `Fusion Better Stained Glass`
 - `Fusion Block Transitions`
 - `Fusion Connected Blocks`
 - `Fusion Connected Glass`
-- `Fusion Connected Modern Stained Glass`
 - `Fusion Stacking Items`
 - `Fusion Arid Glass`
 - `GUI Retextures`
