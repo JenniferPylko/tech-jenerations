@@ -34,8 +34,8 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Automatic Operator`
 - `BaguetteLib`
 - `Balm`
-- `Battle Arts API`
 - `Epic Fight - Battle Arts`
+- `Battle Arts API`
 - `BCLib Neoforge`
 - `Create: Bells & Whistles`
 - `Better Compatibility Checker`
@@ -50,6 +50,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Better Tooltips`
 - `Create: Big Contraptions`
 - `Biolith`
+- `Biome Extractor`
 - `Biomes O' Plenty`
 - `Biomes O' Remin`
 - `BiomeSpy`
@@ -78,6 +79,8 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `CIT: Hotfix for Enchanted Books`
 - `CIT Resewn`
 - `CITResewnNeoPatcher`
+- `Civilis Technology Compatibility`
+- `Civillis`
 - `Climate Rivers`
 - `Cloth Config API`
 - `Cobweb`
@@ -107,10 +110,12 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create: Extended Wrenches`
 - `Create: More Girder`
 - `Create: New Age`
+- `Create: Northstar-Aeronautics Compatibility`
 - `Create Stuff 'N Additions`
 - `Create touchpad scrolling fix`
 - `Create Crafts & Additions`
 - `Create: Applied Kinetics`
+- `Create Aeronautics: burner fuel`
 - `CreateTagsFix`
 - `Create: Chemistry`
 - `Create Deco`
@@ -148,6 +153,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create: Connected`
 - `Create: Deep Dark`
 - `Create: Easy Structures`
+- `Create Frequency`
 - `Create: Ironworks`
 - `Create: Limited`
 - `Create: Let The Adventure Begin`
@@ -282,12 +288,14 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Hardcore Torches`
 - `Highlight`
 - `Item Highlighter`
+- `Hollowmarch`
 - `Hopo Better Mineshaft`
 - `HRTF Fix`
 - `Iceberg`
 - `Icebreak`
 - `iChunUtil`
 - `Ignition`
+- `ImGuiMC`
 - `ImmediatelyFast`
 - `Incendium`
 - `Industrialization Overdrive`
@@ -399,7 +407,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Presence Footsteps [FORGE]`
 - `Prickle`
 - `Prometheus`
-- `Create Propulsed`
 - `Pufferfish's Biome Dither`
 - `Puzzles Lib`
 - `Questlog`
@@ -486,6 +493,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `The Undergarden`
 - `Thick Air`
 - `Thief`
+- `ThirstWasFixed`
 - `Thirst Was Taken`
 - `Tidal Towns`
 - `Tidy Binds`
@@ -510,6 +518,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Updating World Icon`
 - `Vanillin`
 - `Variants&Ventures`
+- `Veil`
 - `Verdant`
 - `Via Romana: Infrastructure-Driven Fast Travel`
 - `Villager Clock Tower`
@@ -527,7 +536,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Worldgen Patches`
 - `WorldgenFeatureFix`
 - `WorldWeaver Neoforge`
-- `Would`
 - `WunderLib Neoforge`
 - `Xaero's Minimap`
 - `Xaero's Map Server Utils`

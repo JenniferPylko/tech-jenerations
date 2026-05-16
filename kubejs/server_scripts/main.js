@@ -280,4 +280,36 @@ for (const sleeping_bag of Ingredient.of("@sleeping_bags").getItemIds()) {
         }
     })
 }
+
+PlayerEvents.tick(($) => {
+    if ($.level.getDimensionKey() === "minecraft:overworld" && $.entity.getPos().y() > 512) {
+        //entity.changeDimension($.server.getLevel("northstar:earth_orbit"))
+        //$.server.runCommand(`execute in northstar:earth_orbit run tp ${$.entity.getStringUUID()} ~ 64 ~`)
+        $.server.runCommand(`execute as ${$.entity.username} run drivetransfer northstar:earth_orbit`)
+    } else if ($.level.getLevel().getDimensionKey() === "northstar:earth_orbit" && $.entity.getPos().y() < -32) {
+        //entity.changeDimension($.server.getLevel("minecraft:overworld"))
+        $.server.runCommand(`execute as ${$.entity.username} run drivetransfer minecraft:overworld`)
+    }
+})
+/*
+LevelEvents.tick(($) => {
+    const entities = $.level.getEntities()
+    for (const entity of entities) {
+        //console.log(JSON.stringify(entity.getPassengers().length))
+        if (entity.getPassengers().length > 0) {
+            try {
+            if (entity.getLevel().getDimensionKey() === "minecraft:overworld" && entity.getPos().y() > 512) {
+                //entity.changeDimension($.server.getLevel("northstar:earth_orbit"))
+                $.server.runCommand(`execute in northstar:earth_orbit run tp ${$.entity.getStringUUID()} ~ 64 ~`)
+            } else if (entity.getLevel().getDimensionKey() === "northstar:earth_orbit" && entity.getPos().y() < -32) {
+                //entity.changeDimension($.server.getLevel("minecraft:overworld"))
+                $.server.runCommand(`execute in minecraft:overworld run tp ${$.entity.getStringUUID()} ~ 480 ~`)
+            }
+        } catch (e) {}
+        }
+    }
+    return
+    console.log($.entity.getStringUUID())
+    console.log($.entity.getPassengers())   
+})*/
 })()

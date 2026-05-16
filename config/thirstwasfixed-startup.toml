@@ -98,3 +98,7 @@
 	# Default: -10
 	# Range: -20 ~ 0
 	"Stamina Penalty Value" = -10
+
+[Millenaire]
+	#Whether or not to add thirst values for Millenaire drinks
+	"Millenaire Drinks" = true

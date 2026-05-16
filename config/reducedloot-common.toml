@@ -4,3 +4,8 @@
 lootChance = 0.2
 #Loot tables that should NOT be affected (namespace:path)
 chestBlacklist = ["namespace:chests/chest_id"]
+#List of full mod IDs / namespaces to skip.
+#If a loot table comes from one of these mod IDs, ReducedLoot will not reduce it.
+#Example with multiple mods:
+#modIdBlacklist = ["mod1", "mod2", "mod3"]
+modIdBlacklist = ["reducedloot"]

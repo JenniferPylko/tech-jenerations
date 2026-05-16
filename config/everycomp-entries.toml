@@ -188,21 +188,6 @@
 			sooty_jungle = true
 			blazing = true
 
-		[types.wood_type.would]
-			willow = true
-			baobab = true
-			ebony = true
-			fir = true
-			pine = true
-			cedar = true
-			mahogany = true
-			azalea = true
-			palm = true
-			maple = true
-			aspen = true
-			walnut = true
-			blue_spruce = true
-
 		[types.wood_type.darkerdepths]
 			petrified = true
 
@@ -717,20 +702,6 @@
 			smoldering_cherry = true
 			smoldering_acacia = true
 			blast = true
-
-		[types.leaves_type.would]
-			willow = true
-			baobab = true
-			ebony = true
-			fir = true
-			pine = true
-			cedar = true
-			mahogany = true
-			palm = true
-			maple = true
-			aspen = true
-			walnut = true
-			blue_spruce = true
 
 		[types.stone_type.natures_spirit]
 			white_kaolin = true
