@@ -1,0 +1,29 @@
+{
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:block_place",
+      "block": "simulated:physics_assembler",
+      "required_amount": 1,
+      "name": "Use the physics assembler"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "display": {
+        "name": "Quest Reward",
+        "icon": {
+          "item": "minecraft:bottle"
+        }
+      }
+    }
+  ],
+  "title": "A theoretical degree in physics",
+  "description": "Use the physics assembler and start building aeronautics contraptions",
+  "icon": {
+    "item": "simulated:physics_assembler"
+  },
+  "chapter": "steam_age"
+}

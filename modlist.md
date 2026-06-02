@@ -13,6 +13,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Applied Energistics 2 Wireless Terminals`
 - `Almanac`
 - `Almost Unified`
+- `AU: Immersive Engineering`
 - `Alternate Current`
 - `Ambient Environment`
 - `Amendments`
@@ -20,11 +21,14 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Ancient Enchantment Temple`
 - `Animal Genders`
 - `AppleSkin`
+- `Applied Mekanistics`
 - `Applied Create`
 - `Applied Energistics 2`
 - `AppFlux`
+- `Applied Pneumatics`
 - `Applied KubeJS`
 - `Architectury API`
+- `Ascended Arts`
 - `Ash API`
 - `AStages`
 - `Astrological (End Terrain & Biomes)`
@@ -44,6 +48,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Better Biome Reblend`
 - `Better Days`
 - `BetterEnd Neoforge`
+- `Better Fusion Reactor for Mekanism`
 - `BetterNether Neoforge`
 - `Better Falling`
 - `Better Library`
@@ -83,6 +88,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Civillis`
 - `Climate Rivers`
 - `Cloth Config API`
+- `Create More Seats`
 - `Cobweb`
 - `Cold Sweat`
 - `Collective`
@@ -175,7 +181,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Cristel Lib`
 - `Crops Love Rain`
 - `Curios API`
-- `CustomMeteorJS`
 - `Custom Nether Portal`
 - `Dark Orion`
 - `Dark Forest Watchtower - Structure ✅`
@@ -223,28 +228,31 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `EMI`
 - `EMIffect`
 - `EMI professions (EMIP)`
-- `EMI++`
 - `EMI: Create Schematics`
 - `EMI Enchanting`
 - `EMI Loot`
 - `EMI Ores`
 - `Enchantment Descriptions`
 - `Enderpearl Backport`
+- `Engineered Compatibility`
 - `Entity Culling`
 - `[EMF] Entity Model Features`
 - `[ETF] Entity Texture Features`
 - `Environmental`
 - `Epic Fight`
+- `Epic Fight - Dawn Day`
 - `Epic Fight: Skill Tree`
+- `Epic Fight - Mod Compat`
 - `Euphonium`
 - `Every Compat (Wood Good)`
+- `Evolved Mekanism`
 - `Excavated Variants`
 - `You Wouldn't Put Gunpowder In A Furnace`
 - `Explorer's Compass`
 - `Explorify`
 - `Explosive Enhancement: Reforged`
-- `Exposure: Detective`
 - `Exposure`
+- `Exposure: Detective`
 - `Exposure: Expanded`
 - `Exposure: Polaroid`
 - `Extended Industrialization`
@@ -262,7 +270,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Fish of Thieves`
 - `Fiw Bosses`
 - `Flowing Fluids`
-- `Create: Fluid`
+- `Create：FluidLogistic`
 - `Fog`
 - `Forest Watchtower - Structure ✅`
 - `Forge Config API Port`
@@ -283,6 +291,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `GraveStone Mod`
 - `Gravestone x Curios API Compat`
 - `Greeneries`
+- `Grid and FE`
 - `Grounded`
 - `GuideME`
 - `Hardcore Torches`
@@ -294,11 +303,14 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Iceberg`
 - `Icebreak`
 - `iChunUtil`
+- `Iglee's Library`
 - `Ignition`
 - `ImGuiMC`
 - `ImmediatelyFast`
+- `Immersive Energistics`
+- `Immersive Engineering`
+- `Immersive Petroleum`
 - `Incendium`
-- `Industrialization Overdrive`
 - `Infinity Cave`
 - `Info Tools`
 - `Item interactions mod`
@@ -307,16 +319,21 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Japanese Castle - Structure ✅`
 - `Japanese Offering Shrines`
 - `Japanese Temple - Structure ✅`
+- `Just Enough Immersive Multiblocks`
 - `Jungle Watchtower - Structure ✅`
 - `Just Enough Breeding (JEBr)`
+- `Just Enough Mekanism Multiblocks`
 - `keybindjs`
 - `Keychains: Supplementaries`
 - `Kiwi 🥝`
 - `Konkrete`
 - `Kotlin for Forge`
 - `KubeJS Create`
+- `KubeJS Mekanism`
 - `KubeJS`
+- `KubeJSable`
 - `KubeJS Offline`
+- `KubeJS Mekanism Extends`
 - `Labyrythm`
 - `LanternLib`
 - `Lava Turns Sand into Glass`
@@ -336,6 +353,13 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Medieval Buildings [Nether Edition]`
 - `MEGA Cells`
 - `Megalo's AIO - NeoForge Edition`
+- `Mekanism`
+- `Mekanism Generators`
+- `Mekanism Tools`
+- `Mekanism: Ponders`
+- `Mekanism The Factory Must Grow Compatibility`
+- `Mekanism:More Machine`
+- `Mekanism x Create: Northstar`
 - `Melody`
 - `ME-Beam-Former`
 - `MidnightLib`
@@ -347,6 +371,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Modern Elements`
 - `ModernFix`
 - `Modern Nuclearization`
+- `Modular Force Field Systems`
 - `MES - Moog's End Structures`
 - `MMV - Moog's Missing Villages`
 - `MNS - Moog's Nether Structures`
@@ -401,11 +426,14 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Pick Up Notifier`
 - `Piglin Conservatory v3.0`
 - `Plains Watchtower - Structure ✅`
+- `PneumaticCraft Electrostatic Fix`
+- `PneumaticCraft: Repressurized`
 - `Polymorph`
 - `Polytone`
 - `Create: Power Grid`
 - `Presence Footsteps [FORGE]`
 - `Prickle`
+- `ProbeJS`
 - `Prometheus`
 - `Pufferfish's Biome Dither`
 - `Puzzles Lib`
@@ -422,6 +450,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Regions Unexplored`
 - `Remin: Realistic Minerals`
 - `Repurposed Structures - Neoforge/Forge`
+- `Repurposed Structures - PneumaticCraft: Repressurized Compat`
 - `Resourceful Config`
 - `Resourceful Lib`
 - `Resource Pack Overrides`
@@ -495,6 +524,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Thief`
 - `ThirstWasFixed`
 - `Thirst Was Taken`
+- `ThreatenGL`
 - `Tidal Towns`
 - `Tidy Binds`
 - `TLib`
@@ -516,7 +546,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Unkindled`
 - `Unlit Campfire`
 - `Updating World Icon`
-- `Vanillin`
 - `Variants&Ventures`
 - `Veil`
 - `Verdant`

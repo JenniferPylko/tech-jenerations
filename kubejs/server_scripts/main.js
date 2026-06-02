@@ -74,6 +74,23 @@ BlockEvents.randomTick("operation_starcleave:nucleosyntheseed", ($) => {
         $FirmamentManipulator.fractureFirmament(firmament, x, z, $.random)
     }
 })
+
+BlockEvents.placed("cnbridge:dimensional_drive", ($) => {
+    if ($.level.getDimensionKey() === "minecraft:overworld") {
+        $.player.tell('§5The dimensional drive cannot operate on earth')
+        $.cancel()
+    }
+})
+
+EntityEvents.spawned(($) => {
+    // no northstar rockets in the overworld >:(
+    if ($.entity.toString().startsWith("RocketContraptionEntity") && $.level.getDimensionKey().path === "overworld") {
+        $.entity.disassemble()
+        $.entity.kill()
+        $.entity.remove()
+        $.server.playerList.broadcastSystemMessage('§6Epstein drive (Northstar) rockets cannot launch from earth. Use a physics contraption with thrusters to get to earth orbit.', false)
+    }
+})
 /*
 BlockEvents.randomTick("minecraft:sculk_catalyst", ($) => {
     const neighbors = [
@@ -165,7 +182,6 @@ const count_overrides = {
 
 LootJS.modifiers(($) => {
     $.addBlockModifier("#minecraft:mineable/pickaxe").modifyLoot(ItemFilter.custom(() => true), (item) => {
-        console.log(item.id)
         const override = ore_loot_overrides[item.id]
         if (typeof override !== "undefined") {
             if (Array.isArray(override)) {
@@ -183,8 +199,6 @@ LootJS.modifiers(($) => {
             return item
     })
     $.addTableModifier(LootType.BLOCK).customAction((context, loot) => {
-        //console.log(JSON.stringify(context))
-        //console.log(JSON.stringify(loot))
         if (!context.id.getPath().match(/.*wheat.*/) && loot.hasItem("minecraft:wheat_seeds")) {
             loot.remove("minecraft:wheat_seeds")
         }
@@ -280,36 +294,19 @@ for (const sleeping_bag of Ingredient.of("@sleeping_bags").getItemIds()) {
         }
     })
 }
-
+let tick_counter = 0
 PlayerEvents.tick(($) => {
-    if ($.level.getDimensionKey() === "minecraft:overworld" && $.entity.getPos().y() > 512) {
-        //entity.changeDimension($.server.getLevel("northstar:earth_orbit"))
-        //$.server.runCommand(`execute in northstar:earth_orbit run tp ${$.entity.getStringUUID()} ~ 64 ~`)
-        $.server.runCommand(`execute as ${$.entity.username} run drivetransfer northstar:earth_orbit`)
-    } else if ($.level.getLevel().getDimensionKey() === "northstar:earth_orbit" && $.entity.getPos().y() < -32) {
-        //entity.changeDimension($.server.getLevel("minecraft:overworld"))
-        $.server.runCommand(`execute as ${$.entity.username} run drivetransfer minecraft:overworld`)
-    }
-})
-/*
-LevelEvents.tick(($) => {
-    const entities = $.level.getEntities()
-    for (const entity of entities) {
-        //console.log(JSON.stringify(entity.getPassengers().length))
-        if (entity.getPassengers().length > 0) {
-            try {
-            if (entity.getLevel().getDimensionKey() === "minecraft:overworld" && entity.getPos().y() > 512) {
-                //entity.changeDimension($.server.getLevel("northstar:earth_orbit"))
-                $.server.runCommand(`execute in northstar:earth_orbit run tp ${$.entity.getStringUUID()} ~ 64 ~`)
-            } else if (entity.getLevel().getDimensionKey() === "northstar:earth_orbit" && entity.getPos().y() < -32) {
-                //entity.changeDimension($.server.getLevel("minecraft:overworld"))
-                $.server.runCommand(`execute in minecraft:overworld run tp ${$.entity.getStringUUID()} ~ 480 ~`)
-            }
-        } catch (e) {}
+    console.log(tick_counter)
+    if (++tick_counter % 40 === 0) {
+        if ($.level.getDimensionKey() === "minecraft:overworld" && $.entity.getPos().y() > 2048) {
+            $.server.runCommand(`execute in northstar:earth_orbit run tp ${$.entity.username} ~ 64 ~`)
+        } else if ($.level.getDimensionKey() === "northstar:earth_orbit" && $.entity.getPos().y() < -12) {
+            $.server.runCommand(`execute in minecraft:overworld run tp ${$.entity.username} ~ 2000 ~`)
+        } else if ($.level.getDimensionKey() === "northstar:earth_orbit" && $.entity.getPos().y() < 0) {
+            $.server.runCommandSilent(`execute as ${$.entity.username} run drivetransfer earth`)
+        } else if ($.level.getDimensionKey() === "minecraft:overworld" && $.entity.getPos().y() > 2000) {
+            $.server.runCommandSilent(`execute as ${$.entity.username} run drivetransfer earth_orbit`)
         }
     }
-    return
-    console.log($.entity.getStringUUID())
-    console.log($.entity.getPassengers())   
-})*/
+})
 })()

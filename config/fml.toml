@@ -34,3 +34,4 @@ earlyWindowSquir = false
 	via_romana = ["-dataanchor"]
 	extendedwrenches = ["-create"]
 	sodiumcoreshadersupport = ["-sodium"]
+	industrialization_overdrive = ["-tesseract_api"]

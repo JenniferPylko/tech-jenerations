@@ -24,6 +24,14 @@
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
 	"Thirst Bonus Value" = 0.1
+	#Right offset for the quench overlay. You only need this if you have AppleSkin installed and the quench overlay is not aligning with your thirst bar on your HUD for some reason
+	# Default: 0
+	# Range: -100 ~ 100
+	"Quench Overlay Right Offset" = 0
+	#Top offset for the quench overlay
+	# Default: 0
+	# Range: -100 ~ 100
+	"Quench Overlay Top Offset" = 0
 
 ["Ars Nouveau"]
 	#Whether or not the Ars Nouveau Potion Flask should restore thirst when consumed

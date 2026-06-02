@@ -16,7 +16,7 @@
     "questlog.chapter.questlog.stone_age": "The Stone Age",
     "questlog.chapter.questlog.copper_age": "The Copper Age",
     "questlog.chapter.questlog.iron_age": "The Iron Age",
-    "questlog.chapter.questlog.ancient_tech": "Ancient Tech",
+    "questlog.chapter.questlog.ancient_tech": "Ancient Technology",
     "questlog.chapter.questlog.steam_age": "The Steam Age",
     "questlog.chapter.questlog.nuclear_power": "Nuclear Power",
     "questlog.chapter.questlog.industrial_age": "The Industrial Age",
@@ -27,5 +27,7 @@
     "questlog.chapter.questlog.alternating_current_3": "Electric Age: 3-Phase",
     "questlog.chapter.questlog.cyber_age": "The Cyber Age",
     "questlog.chapter.questlog.starcleave": "Operation: Starcleave",
-    "questlog.chapter.questlog.chronodawn": "CHRONODAWN"
+    "questlog.chapter.questlog.chronodawn": "CHRONODAWN",
+    "modernelements.gas.carboxyl": "Carboxyl",
+    "modernelements.fluid.carboxyl": "Carboxyl"
 }

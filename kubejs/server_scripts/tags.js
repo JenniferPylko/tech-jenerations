@@ -1,5 +1,6 @@
 (() => { // stop polluting my scope!
 const { unification, manual_unification, utils } = global
+const { $ModernElements, $IChemicalObject } = global.classes
 
 const copy_block_tags = ($, source, dest) => {
     const blockTags = Block.getBlock(source).getTags()
@@ -18,10 +19,16 @@ const tags_common = ($) => {
     for (const category of Object.keys(unification)) {
         for (const material of Object.keys(unification[category])) {
             //console.log(`Adding unity tags for ${material} ${category}`)
-            $.add(`c:${category}`, unification[category][material])
+            $.add(`${category}`, unification[category][material])
             $.add(`c:${material}`, unification[category][material])
-            $.add(`c:${category}/${material}`, unification[category][material])
+            $.add(`${category}/${material}`, unification[category][material])
         }
+    }
+    let element
+    for (let i = 1; i <= 118; ++i) {
+        element = element_registry.get(i).getSymbol().toLowerCase().trim()
+        console.log(element)
+        $.add("c:hidden_from_recipe_viewers", `chemicalscience:block_element_${element}`)
     }
 
     $.remove("c:ores/aluminum", "#c:ores/aluminum")
@@ -42,6 +49,7 @@ const tags_common = ($) => {
     $.add("lit_on_fire:can_lit_campfire", "#hardcore_torches:active_torches")
 
     $.add("c:hidden_from_recipe_viewers", [
+        "#almostunified:hide",
         "#create_mpnt:fluid_pipes",
         "#create_mpnt:pumps",
         "#modern_industrialization:fluid_pipes",
@@ -81,6 +89,32 @@ const tags_common = ($) => {
         "hardcore_torches:unlit_campfire"
     ])
 }
+
+const element_registry = $ModernElements.getInstance().getElementRegistry()
+const compound_registry = $ModernElements.getInstance().getCompoundRegistry()
+const element_tags = ($, element_types) => {
+    let resources
+    let chemicals = []
+    for (let i = 1; i <= 118; ++i) {
+        chemicals.push(element_registry.get(i).getName().toLowerCase().trim())
+    }
+    for (const compound_type of compound_registry.getCompounds().values()) {
+        for (const compound of compound_type) {
+            console.log(compound)
+            chemicals.push(Java.cast($IChemicalObject, compound).getChemicalDefinition().getName().toLowerCase().trim().replaceAll(" ", "_"))
+        }
+    }
+    for (const chemical of chemicals) {
+        $.add("c:hidden_from_recipe_viewers", `modernelements:${chemical}`)
+        for (const type of Object.keys(element_types)) {
+            resources = element_types[type].map((v) => `modernelements:${chemical}_${v}`)
+            console.log(resources)
+            $.add(`${type}`, resources)
+            $.add(`c:${chemical}`, resources)
+            $.add(`${type}/${chemical}`, resources)
+        }
+    }
+}
 /*
 // what is kubejs even about?
 const manual_unification_functions = {}
@@ -97,15 +131,46 @@ ServerEvents.tags("fluid", ($) => {
 
     utils.hide_all($, manual_unification.fluid)
     //manual_unification_functions["fluid"]($)
+
+    element_tags($, {
+        "c:gases": ["gas"],
+        "c:liquids": ["fluid"],
+        "tfmg:gas": ["gas"]
+    })
+})
+
+ServerEvents.tags("voltaic:gases", ($) => {
+    console.log("amogus voltaic gas tag")
+    $.add("c:hidden_from_recipe_viewers", /.*/)
+})
+
+ServerEvents.tags("mekanism:chemical", ($) => {
+    console.log("amogus mekanism chemical tag")
+    $.add("c:hidden_from_recipe_viewers", /.*/)
 })
 
 ServerEvents.tags("item", ($) => {
     tags_common($)
-    console.log("huh", manual_unification.item)
+
+
+
+    element_tags($, {
+        "c:dusts": ["dust"],
+        "c:buckets": ["bucket"],
+        "c:storage_blocks": ["block"],
+        "c:nuggets": ["nugget"],
+        "c:ingots": ["ingot"],
+        "c:buckets": ["fluid_bucket", "gas_bucket"],
+        "c:liquid_buckets": ["fluid_bucket"],
+        "c:gas_buckets": ["gas_bucket"]
+    })
+
     utils.hide_all($, manual_unification.item)
     //manual_unification_functions["item"]($)
 
     $.add("c:hidden_from_recipe_viewers", [
+        "@appmek",
+        "@excavated_variants",
         "createdieselgenerators:ethanol_bucket",
         "charcoal_pit:ethanol_bucket",
         "charcoal_pit:ethanol_bottle",
@@ -252,6 +317,10 @@ ServerEvents.tags("block", ($) => {
 
     //manual_unification_functions["block"]($)
     utils.hide_all($, manual_unification.block)
+
+    element_tags($, {
+        "c:storage_blocks": ["block"]
+    })
 
     $.add("c:stones", ["kubejs:shale", "astrological:purpurite", "natures_spirit:travertine"])
     $.add("minecraft:mineable/pickaxe", ["kubejs:shale", "astrological:purpurite"])

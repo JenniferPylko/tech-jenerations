@@ -66,8 +66,10 @@ ServerEvents.recipes(($) => {
     $.replaceInput({mod: "electrodynamics", input: "#c:gems/quartz"}, "#c:gems/quartz", "#c:gems/rose_quartz")
     $.replaceInput({mod: "create", output: "#c:gems/rose_quartz", input: "#c:gems/quartz"}, "#c:gems/quartz", "minecraft:quartz")
     $.replaceInput({output: "create_new_age:generator_coil"}, "#c:ingots/copper", "#c:em_coil_item")
+    $.replaceInput({output: "ae2:quartz_fiber"}, "#c:glass_blocks/cheap", "electrodynamics:fiberglasssheet")
     $.replaceInput({input: "ae2:quartz_fiber", not: {output: "fiberopticcables:fiber_optic_cable"}}, "ae2:quartz_fiber", "fiberopticcables:fiber_optic_cable")
     $.replaceInput({output: "fiberopticcables:fiber_optic_cable"}, "#c:gems/quartz", "ae2:quartz_fiber")
+    $.replaceInput({output: "fiberopticcables:fiber_optic_cable"}, "#c:ingots/iron", "tfmg:rubber_sheet")
     $.replaceInput({output: "fiberopticcables:fiber_optic_transformer"}, "#c:gems/quartz", "ae2:quartz_fiber")
     $.replaceInput({output: "operation_starcleave:firmament_rejuvenator"}, Ingredient.of("minecraft:air"), "minecraft:nether_star")
 

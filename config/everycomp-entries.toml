@@ -91,7 +91,6 @@
 			larch = true
 			magnolia = true
 			maple = true
-			mauve = true
 			palm = true
 			pine = true
 			redwood = true
@@ -101,6 +100,7 @@
 			yellow_bioshroom = true
 			blue_bioshroom = true
 			green_bioshroom = true
+			wisteria = true
 
 		[types.wood_type.undergarden]
 			smogstem = true
@@ -332,7 +332,6 @@
 			cypress = true
 			dead_pine = true
 			dead = true
-			enchanted_birch = true
 			eucalyptus = true
 			flowering = true
 			golden_larch = true
@@ -340,7 +339,6 @@
 			larch = true
 			magnolia = true
 			maple = true
-			mauve = true
 			orange_maple = true
 			palm = true
 			pine = true
@@ -352,6 +350,9 @@
 			socotra = true
 			white_magnolia = true
 			willow = true
+			sky_wisteria = true
+			lavender_wisteria = true
+			salmon_wisteria = true
 
 		[types.leaves_type.dynamictrees]
 			spruce = true
@@ -833,6 +834,10 @@
 		[types.stone_type.chronodawn]
 			temporal_stone = true
 
+		[types.stone_type.pneumaticcraft]
+			reinforced_stone = true
+			compressed_stone = true
+
 		[types.mud_type.deeperdarker]
 			sculk_grime = true
 
@@ -846,9 +851,6 @@
 			window_pane = true
 			window = true
 
-		[entries.wood_type.regions_unexplored]
-			branch = true
-
 		[entries.wood_type.copperagebackport]
 			shelf = true
 
@@ -861,11 +863,14 @@
 			beehive = true
 			trapped_chest = true
 
-		[entries.leaves_type.regions_unexplored]
-			shrub = true
+		[entries.wood_type.regions_unexplored]
+			branch = true
 
 		[entries.leaves_type.woodworks]
 			leaf_pile = true
+
+		[entries.leaves_type.regions_unexplored]
+			shrub = true
 
 		[entries.stone_type.create]
 			small_brick_wall = true

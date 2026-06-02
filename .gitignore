@@ -169,6 +169,7 @@
 !/config/soundattract-common.toml
 !/config/SoundPhysicsPerfected.json5
 !/config/sparsestructures.json5
+!/config/spore-startup.toml
 !/config/structure_layout_optimizer.jsonc
 !/config/supplementaries-common.toml
 !/config/suppsquared-common.toml

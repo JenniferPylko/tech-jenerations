@@ -1,6 +1,9 @@
 // priority: -100
 
+(() => {
 const { name_cleanup, banned_mods } = global.mods
+
+const { $ModernElements, $CompoundDefinition, $CompoundType, $MatterState, $Formula } = global.classes
 
 for (const id of Object.keys(Platform.mods)) {
     if (typeof name_cleanup[id] !== "undefined") {
@@ -54,11 +57,11 @@ StartupEvents.registry("block", ($) => {
 })
 
 StartupEvents.registry("fluid", ($) => {
-    $.create("ammonium_chloride", "thin")
+    /*$.create("ammonium_chloride", "thin")
         .tint(0xddf0ff)
         .translucent()
         .displayName("Ammonium Chloride Solution")
-        .tag("c:acidic")
+        .tag("c:acidic")*/
 })
 
 BlockEvents.modification(($) => {
@@ -125,6 +128,7 @@ BlockEvents.modification(($) => {
     $name("charcoal_pit:chimney_brick", "Bloomery Chimney")
     $name("sub_expansion:stone_stalagmite", "Slate Stalagmite")
     $name("sub_expansion:stone_stalactite", "Slate Stalactite")
+    $name("northstar:jet_engine", "Epstein Drive")
 
     $.modify("minecraft:obsidian", (block) => block.setIsRandomlyTicking(true))
     $.modify("minecraft:crying_obsidian", (block) => block.setIsRandomlyTicking(true))
@@ -178,3 +182,23 @@ ItemEvents.modification(($) => {
 
     $name("tfmg:heavy_plate", "Steel Plate")
 })
+
+StartupEvents.init(($) => {
+    const compounds = global.classes.$ModernElements.getInstance().getCompoundRegistry()
+
+    compounds.register(new $CompoundDefinition(
+        "carboxyl", "696969", $CompoundType.ION, $MatterState.SOLID, true,
+        new $Formula.Builder().chem("carbon", 1).chem("oxygen", 2).chem("hydrogen", 1).build(), 0, 0, 0
+    ))
+
+    compounds.register(new $CompoundDefinition(
+        "tetrachloromethane", "347894", $CompoundType.ORGANIC, $MatterState.LIQUID, true,
+        new $Formula.Builder().chem("carbon", 1).chem("chlorine", 4).build(), -25, -22.92, 76.72
+    ))
+
+    compounds.register(new $CompoundDefinition(
+        "bromomethane", "574933", $CompoundType.ORGANIC, $MatterState.GAS, true,
+        new $Formula.Builder().chem("carbon", 1).chem("hydrogen", 3).chem("bromine", 1).build(), -100, -93.66, 4
+    ))
+})
+})()

@@ -20,6 +20,7 @@
     "brown_diamond",
     "blue_diamond",
     "blue_topaz",
+    "bronze",
     "cadmium",
     "caesium",
     "calcium",
@@ -91,6 +92,7 @@
     "rhodium",
     "rose_gold",
     "rose_quartz",
+    "rubber",
     "rubidium",
     "ruby",
     "ruthenium",
@@ -142,7 +144,8 @@
     "item_pipes",
     "wires",
     "insulated_wires",
-    "thick_wires"
+    "thick_wires",
+    "sheets"
   ],
   "tree": [
     "pine",
