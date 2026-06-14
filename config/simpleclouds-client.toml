@@ -42,7 +42,7 @@ showVivecraftNotice = true
 	stormFogAngle = 80.0
 	#Specifies if lightning should have slight random color variation.
 	#Default: true
-	lightningColorVariation = false
+	lightningColorVariation = true
 	#Specifies the attenuation distance for thunder. The lower the value, the quieter it will be from longer distances.
 	#Default: 2000
 	# Default: 2000

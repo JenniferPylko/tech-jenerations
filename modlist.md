@@ -4,23 +4,28 @@ This information is pulled directly from Modrinth's API when building the mrpack
 
 - `Abandoned Watchtowers`
 - `Abridged`
-- `Abu Simbel - Ruins Structure ✅`
 - `Accessories`
 - `Accessories Compatibility Layer`
 - `Additional Structures`
 - `AdoraBuild: Structures`
 - `AE2 Dynamic Trees Fix`
 - `Applied Energistics 2 Wireless Terminals`
+- `Create: Crafts & Additions and Aeronautics Compat`
+- `Copycats+ aeronautics weight`
+- `Create Aeronautics: Compatability`
+- `Aeronautics Propeller Blur`
+- `Aeronautics:Addition`
 - `Almanac`
 - `Almost Unified`
 - `AU: Immersive Engineering`
 - `Alternate Current`
+- `Alternating Flux NeoForge`
 - `Ambient Environment`
 - `Amendments`
-- `Ancient Jungle Ring - Ruins Structure ✅`
 - `Ancient Enchantment Temple`
 - `Animal Genders`
 - `AppleSkin`
+- `Applied Generators`
 - `Applied Mekanistics`
 - `Applied Create`
 - `Applied Energistics 2`
@@ -32,6 +37,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Ash API`
 - `AStages`
 - `Astrological (End Terrain & Biomes)`
+- `Athena`
 - `Atmospheric`
 - `AlmostUnifiedDrops`
 - `Auth Me`
@@ -90,11 +96,15 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Cloth Config API`
 - `Create More Seats`
 - `Cobweb`
+- `Create Ore Excavation Deposits`
+- `⛏️ Create Ore Excavation x Mekanism`
 - `Cold Sweat`
+- `Cold Sweat and Aeronautics`
 - `Collective`
 - `Colorful Hearts`
 - `Colorful Bricks!`
 - `Colorful Redstone Lamps`
+- `Command Structures`
 - `Compat API`
 - `Compat Structure`
 - `Sinytra Connector`
@@ -107,9 +117,12 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `CorgiLib`
 - `Custom Portal API Reforged`
 - `CraftPresence`
+- `Create Aeronautics: Boat Propellers`
 - `Create Encased`
 - `Create`
 - `Create Aeronautics`
+- `Create Aeronautics Lift Patch`
+- `Create Sable Dynamic Lights`
 - `Create: Dynamic Lights`
 - `Create: EasyFilling`
 - `Create: Enchantment Industry`
@@ -120,7 +133,9 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create Stuff 'N Additions`
 - `Create touchpad scrolling fix`
 - `Create Crafts & Additions`
+- `Create: Addon Compatibility`
 - `Create: Applied Kinetics`
+- `CreateBetterFps`
 - `Create Aeronautics: burner fuel`
 - `CreateTagsFix`
 - `Create: Chemistry`
@@ -146,10 +161,13 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create: Recipe Conflict Fixer`
 - `Create: More Sandpapers`
 - `Create: Stuff 'N Additions - Tank Fix (Spout, Curios & Upgrade)`
+- `Create: Sensors`
 - `Create Sifting`
 - `Create Stock Bridge`
 - `Create: Threaded Trains`
 - `Create: real stack size`
+- `Create Aeronautics: Automated Logistics`
+- `Create Aeronautics: Transmission & Linkage`
 - `Create: Blocks & Bogies`
 - `Create: Better Motors`
 - `Create: Blazing Hot`
@@ -159,9 +177,9 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create: Connected`
 - `Create: Deep Dark`
 - `Create: Easy Structures`
-- `Create Frequency`
 - `Create: Ironworks`
 - `Create: Limited`
+- `Create : Linear Motion Simulated`
 - `Create: Let The Adventure Begin`
 - `Create: Melodies & Mechanisms`
 - `Create: Crafts & (More) Additions`
@@ -180,6 +198,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create: Trimmed`
 - `Cristel Lib`
 - `Crops Love Rain`
+- `Crossroads`
 - `Curios API`
 - `Custom Nether Portal`
 - `Dark Orion`
@@ -191,14 +210,13 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Deeper and Darker`
 - `Deep Dark Trader`
 - `Deimos`
-- `Delfos - Ruins Structure ✅`
 - `Create: Design n' Decor`
 - `KubeJS Diesel Generators`
 - `Diagonal Fences`
 - `Diagonal Walls`
 - `Diagonal Windows`
 - `Dimensional Leap`
-- `Dissonance`
+- `Dimensional Sable`
 - `Distant Friends`
 - `Distant Horizons`
 - `Create: Dreams & Desires`
@@ -240,9 +258,9 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `[ETF] Entity Texture Features`
 - `Environmental`
 - `Epic Fight`
-- `Epic Fight - Dawn Day`
 - `Epic Fight: Skill Tree`
 - `Epic Fight - Mod Compat`
+- `Essentials`
 - `Euphonium`
 - `Every Compat (Wood Good)`
 - `Evolved Mekanism`
@@ -290,6 +308,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Glow`
 - `GraveStone Mod`
 - `Gravestone x Curios API Compat`
+- `Gravestone and Sable Compatibility Patch`
 - `Greeneries`
 - `Grid and FE`
 - `Grounded`
@@ -297,6 +316,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Hardcore Torches`
 - `Highlight`
 - `Item Highlighter`
+- `History Stages`
 - `Hollowmarch`
 - `Hopo Better Mineshaft`
 - `HRTF Fix`
@@ -311,14 +331,18 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Immersive Engineering`
 - `Immersive Petroleum`
 - `Incendium`
+- `Industrial Foregoing`
 - `Infinity Cave`
 - `Info Tools`
+- `Iris & Oculus Flywheel Compat`
+- `Iris Shaders`
+- `Iris Veil Compat`
 - `Item interactions mod`
 - `Jade 🔍`
 - `Jade Addons (Neo/Forge)`
-- `Japanese Castle - Structure ✅`
+- `JAOPCA`
+- `JAOPCA Extras`
 - `Japanese Offering Shrines`
-- `Japanese Temple - Structure ✅`
 - `Just Enough Immersive Multiblocks`
 - `Jungle Watchtower - Structure ✅`
 - `Just Enough Breeding (JEBr)`
@@ -346,6 +370,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `LootJS: KubeJS Addon`
 - `Lost Libraries`
 - `Luki's Ancient Cities`
+- `Create Aeronautics: Sable Mass Mod Compatibility`
 - `Macaw's Paintings`
 - `Mechanicals Lib`
 - `Medieval Buildings`
@@ -372,6 +397,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `ModernFix`
 - `Modern Nuclearization`
 - `Modular Force Field Systems`
+- `Create: Molten Vents`
 - `MES - Moog's End Structures`
 - `MMV - Moog's Missing Villages`
 - `MNS - Moog's Nether Structures`
@@ -387,7 +413,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `M.R.U`
 - `Multiplayer Server Pause`
 - `Musket Mod`
-- `Mycenae - Ruins Structure ✅`
 - `Natural Temperature`
 - `Nature's Compass`
 - `Nature's Spirit`
@@ -398,7 +423,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `NetherPortalFix`
 - `Nether Portal Spread`
 - `Nether Skeletons`
-- `Newgrange - Ruins Structure ✅`
 - `Noisiumed`
 - `NoPackCompatCheck`
 - `Northern Compass`
@@ -411,17 +435,20 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Ocean Villager Trader`
 - `Ocean Lily Pad Village`
 - `ShatterLib | OctoLib`
+- `Oculus For Simple Clouds - NEW LOGO`
 - `Oh The Biomes We've Gone`
 - `Oh The Trees You'll Grow`
 - `Create: Old Infrastructure`
 - `Operation: Starcleave`
 - `OreFix`
+- `Oritech`
 - `oωo (owo-lib)`
 - `Create: Pantographs & Wires`
 - `Particle Core`
+- `Patchouli`
 - `Patience`
 - `Perception`
-- `Petra - Ruins Structure ✅`
+- `Presence Footsteps x Sable (Aeronautics Compat)`
 - `Philips Ruins`
 - `Pick Up Notifier`
 - `Piglin Conservatory v3.0`
@@ -458,17 +485,29 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Revamped Phantoms`
 - `Rhino`
 - `Rusted`
+- `Sable Chunk Guard`
 - `Sable`
+- `Sable: Weighted - Add-On Bundle`
+- `Sable: Weighted - Create: TFMG`
+- `Sable: Destructive`
+- `Sable AABB Fix`
+- `Jade Sable Compat`
+- `Sable: Physics Compat`
+- `Create Stuff 'N Additions x Sable & Aeronautics Compat`
+- `Sable Pathfinder`
 - `Savanna Watchtower - Structure ✅`
 - `Schematic Energistics`
 - `Sculk Muffler`
 - `Sculk Transporting`
 - `Searchables`
+- `Spotlights or Something`
 - `Seasonal Integration`
 - `Serene Seasons`
 - `ServerCore`
 - `Server Heater`
+- `Shard's Compat: Voltaic-Sable Compat`
 - `Shared Advancements`
+- `Shrouded`
 - `Simple Clouds`
 - `Simple Custom Early Loading`
 - `Simple Fog Control`
@@ -485,8 +524,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Sodium`
 - `Sodium Core Shader Support`
 - `Sodium Dynamic Lights`
-- `Sodium Options API`
-- `Sodium Options Mod Compat`
 - `Sonic Break`
 - `Soul Fire'd`
 - `Attract to Sound ([NEO]Forge/Fabric): Sound & Stealth.`
@@ -499,10 +536,10 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Spring to Life Backport`
 - `Spyglass Improvements`
 - `Create: Steam Powered`
-- `Stonehenge - Ruins Structure ✅`
 - `Every Compat (Stone Zone)`
 - `STRAYED FATES: Forsaken`
 - `Structure Expansion`
+- `Create Aeronautics Structures`
 - `Structure Layout Optimizer`
 - `Subsurface`
 - `Subterranean Expansion | Cave Update`
@@ -527,11 +564,13 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `ThreatenGL`
 - `Tidal Towns`
 - `Tidy Binds`
+- `Titanium`
 - `TLib`
 - `Toasty's Mobs`
 - `Too Many Paintings!`
 - `TooManyRecipeViewers`
 - `Towers of the Wild Modded`
+- `Create: Towed`
 - `Towers of the Wild Modded - Extra Towers`
 - `Create Train Utilities`
 - `Transparent`
@@ -541,10 +580,12 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Trimmed`
 - `Towns and Towers`
 - `Unbreakables`
+- `Underground Bunkers`
 - `Unified Crops`
 - `UniLib`
 - `Unkindled`
 - `Unlit Campfire`
+- `Unlocked Void Sea  - Aeronautics Addon`
 - `Updating World Icon`
 - `Variants&Ventures`
 - `Veil`
@@ -558,12 +599,14 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `What Am I Listening To?`
 - `Warpstack`
 - `Waystones`
+- `Waystones: Sable (Create Aeronautics Addon)`
 - `What's That Slot?`
 - `WITS (What Is This Structure?)`
 - `Wooden Bucket`
 - `Woodworks`
 - `Worldgen Patches`
 - `WorldgenFeatureFix`
+- `Create + Sable : Server Spawn/Spawn Anchor on airship/subspaces`
 - `WorldWeaver Neoforge`
 - `WunderLib Neoforge`
 - `Xaero's Minimap`

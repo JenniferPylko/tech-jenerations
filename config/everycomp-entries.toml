@@ -194,6 +194,10 @@
 		[types.wood_type.spore]
 			rotten = true
 
+		[types.wood_type.shroud]
+			virelith = true
+			umber = true
+
 		[types.leaves_type.biomeswevegone]
 			flowering_palo_verde = true
 			aspen = true
@@ -704,6 +708,10 @@
 			smoldering_acacia = true
 			blast = true
 
+		[types.leaves_type.shroud]
+			virelith = true
+			umber = true
+
 		[types.stone_type.natures_spirit]
 			white_kaolin = true
 			light_gray_kaolin = true
@@ -837,6 +845,9 @@
 		[types.stone_type.pneumaticcraft]
 			reinforced_stone = true
 			compressed_stone = true
+
+		[types.stone_type.shroud]
+			sculk_stone = true
 
 		[types.mud_type.deeperdarker]
 			sculk_grime = true

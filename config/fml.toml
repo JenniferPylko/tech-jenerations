@@ -32,6 +32,5 @@ earlyWindowSquir = false
 #dependencyOverrides.targetMod = ["-dep1", "+dep2"]
 [dependencyOverrides]
 	via_romana = ["-dataanchor"]
-	extendedwrenches = ["-create"]
 	sodiumcoreshadersupport = ["-sodium"]
-	industrialization_overdrive = ["-tesseract_api"]
+	create_linear_motion_simulated = ["-simulated", "-sable"]

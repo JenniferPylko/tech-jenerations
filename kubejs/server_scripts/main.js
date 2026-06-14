@@ -296,7 +296,6 @@ for (const sleeping_bag of Ingredient.of("@sleeping_bags").getItemIds()) {
 }
 let tick_counter = 0
 PlayerEvents.tick(($) => {
-    console.log(tick_counter)
     if (++tick_counter % 40 === 0) {
         if ($.level.getDimensionKey() === "minecraft:overworld" && $.entity.getPos().y() > 2048) {
             $.server.runCommand(`execute in northstar:earth_orbit run tp ${$.entity.username} ~ 64 ~`)

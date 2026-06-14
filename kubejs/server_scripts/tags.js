@@ -7,7 +7,6 @@ const copy_block_tags = ($, source, dest) => {
     const itemTags = Block.getBlock(source).asItem().getTags()
 
     for (const tag of blockTags) {
-        console.log(tag)
         $.add(tag, dest)
     }
     for (const tag of itemTags) {
@@ -108,7 +107,6 @@ const element_tags = ($, element_types) => {
         $.add("c:hidden_from_recipe_viewers", `modernelements:${chemical}`)
         for (const type of Object.keys(element_types)) {
             resources = element_types[type].map((v) => `modernelements:${chemical}_${v}`)
-            console.log(resources)
             $.add(`${type}`, resources)
             $.add(`c:${chemical}`, resources)
             $.add(`${type}/${chemical}`, resources)

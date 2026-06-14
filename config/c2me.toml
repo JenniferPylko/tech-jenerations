@@ -70,7 +70,7 @@ globalExecutorParallelism = "default"
 	useDensityFunctionCompiler = true
 	# (Default: true) Whether to enable aquifer optimizations to accelerate overworld worldgen
 	# (may cause incompatibility with other mods)
-	optimizeAquifer = "default"
+	optimizeAquifer = false
 	# (Default: true) Whether to enable End Biome Cache to accelerate The End worldgen 
 	# This is no longer included in lithium-fabric 
 	# (may cause incompatibility with other mods)
@@ -142,7 +142,7 @@ globalExecutorParallelism = "default"
 	# which can overload the server thread and cause stutters.
 	# This applies a rough filter to filter out fluids that are definitely not going to flow
 	# 
-	filterFluidPostProcessing = "default"
+	filterFluidPostProcessing = false
 	# (Default: true) Whether to use legacy scheduling for neighbor chunks
 	# 
 	# Enabling this restores the behavior of always loading in neighbor chunks when a chunk is loaded.
@@ -153,7 +153,7 @@ globalExecutorParallelism = "default"
 	# This option will attempt to aggressively unload unused chunks.
 	# Only applies when useLegacyScheduling is disabled.
 	# 
-	lowMemoryMode = true
+	lowMemoryMode = "default"
 	# (Default: true) Whether to delay full chunk events to after full chunk future have been completed
 	# This restores the buggy behavior in NeoForge that the ecosystem have been relying on
 	# 
