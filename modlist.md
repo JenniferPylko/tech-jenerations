@@ -507,7 +507,6 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Sculk Muffler`
 - `Sculk Transporting`
 - `Searchables`
-- `Spotlights or Something`
 - `Seasonal Integration`
 - `Serene Seasons`
 - `ServerCore`
