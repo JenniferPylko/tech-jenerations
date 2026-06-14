@@ -294,10 +294,14 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Forge Config API Port`
 - `Forgified Fabric API`
 - `Forgotten Church`
+- `Formations (Structure Library)`
+- `Formations Nether`
+- `Formations Overworld`
 - `Fullblock Energistics`
 - `Fusion (Connected Textures)`
 - `Fzzy Config`
 - `Gabou's Libs - New logo LIZZARRDD`
+- `Gardens of the Dead`
 - `Geckolib`
 - `Giant Lily Pads`
 - `Giant Natural Additions`
@@ -314,6 +318,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Grounded`
 - `GuideME`
 - `Hardcore Torches`
+- `Hearths`
 - `Highlight`
 - `Item Highlighter`
 - `History Stages`
@@ -338,6 +343,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Iris Shaders`
 - `Iris Veil Compat`
 - `Item interactions mod`
+- `Ixeris`
 - `Jade 🔍`
 - `Jade Addons (Neo/Forge)`
 - `JAOPCA`
@@ -361,6 +367,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Labyrythm`
 - `LanternLib`
 - `Lava Turns Sand into Glass`
+- `Legendary Monsters`
 - `Let Me Despawn`
 - `Lightning Generator`
 - `Lithium`
@@ -538,6 +545,8 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Create: Steam Powered`
 - `Every Compat (Stone Zone)`
 - `STRAYED FATES: Forsaken`
+- `Structory`
+- `Structory: Towers`
 - `Structure Expansion`
 - `Create Aeronautics Structures`
 - `Structure Layout Optimizer`
@@ -565,6 +574,7 @@ This information is pulled directly from Modrinth's API when building the mrpack
 - `Tidal Towns`
 - `Tidy Binds`
 - `Titanium`
+- `The Lost Castle`
 - `TLib`
 - `Toasty's Mobs`
 - `Too Many Paintings!`

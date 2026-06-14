@@ -501,19 +501,19 @@
       "fileSize": 30484
     },
     {
-      "path": "mods/astages-2.0.4-1.21.1.jar",
+      "path": "mods/astages-2.1.0-1.21.1.jar",
       "hashes": {
-        "sha1": "0f70e8cf4242989caa93a86213f7a8a9728ec294",
-        "sha512": "6ee74b6fbfb7cdcd7964e2e893d405318bff831c0771e28ba757396202977bacbe249e4724e23e9e46be40cd824b8ae28a42d44c331e6781da8789674b292961"
+        "sha1": "7780e70d6769834bd757269a603601cf69891c5d",
+        "sha512": "fa1add9f7dff526697c939a018b1c730b5709eaa1f454035c9d5ea52dab8dfacbe7cabf32e6b17fa52de541c2f14572ccdb6713bbe827c79201819d382370dcb"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/6wy8fmIk/versions/wb43fBLM/astages-2.0.4-1.21.1.jar"
+        "https://cdn.modrinth.com/data/6wy8fmIk/versions/EyNHXQyp/astages-2.1.0-1.21.1.jar"
       ],
-      "fileSize": 763850
+      "fileSize": 802339
     },
     {
       "path": "mods/astrological-1.21.1-1.7.0.jar",
@@ -4386,6 +4386,51 @@
       "fileSize": 19234
     },
     {
+      "path": "mods/formations-1.0.4-neoforge-mc1.21.jar",
+      "hashes": {
+        "sha1": "3845f96c9304f6956688f7a35205e9354bf411b0",
+        "sha512": "09fd3bcb9b7d63f18a89693e4bd84548fa15761a60214e3e2f010c680c06914e92794661d1887746c9b4dfa1907d21533738ecda8557abf5801774f4875fc77f"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/tPe4xnPd/versions/ybUmDE8h/formations-1.0.4-neoforge-mc1.21.jar"
+      ],
+      "fileSize": 287525
+    },
+    {
+      "path": "mods/formationsnether-1.0.5-mc1.21+.jar",
+      "hashes": {
+        "sha1": "12b69c1cd22bbbe8c5888a030bef791b992b0d39",
+        "sha512": "db25dd89c37c1e95880a570c63ca53aa4713064a19dbb8016dab63aa68232a252c93277b2b5f0e42e8006d8de197707bf487b431ead3d27f39b85f6551c6ff8e"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/cGvQGRls/versions/6DBJbZXK/formationsnether-1.0.5-mc1.21%2B.jar"
+      ],
+      "fileSize": 942046
+    },
+    {
+      "path": "mods/formationsoverworld-1.0.5-mc1.21+.jar",
+      "hashes": {
+        "sha1": "edbc169c78f9f1cdf5233e996f12b21e7e1cdf18",
+        "sha512": "cc1143bab8897f89db2b17e68068bd71ee19814beedde8a6ef4ca6dc1f3ef31828caf0952181730af2ac68f7a44d940b5dbbc9d9f1abe91752ca364f6864a370"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/KX1XC0Oo/versions/oDpgbADk/formationsoverworld-1.0.5-mc1.21%2B.jar"
+      ],
+      "fileSize": 873370
+    },
+    {
       "path": "mods/fulleng-2.3.2.jar",
       "hashes": {
         "sha1": "ebb062531edf08ae30d45cbb4213871e24ee8750",
@@ -4444,6 +4489,21 @@
         "https://cdn.modrinth.com/data/N8aGZtvj/versions/MXtY8Vhp/gaboulibs-neoforge-1.7.2.jar"
       ],
       "fileSize": 27288
+    },
+    {
+      "path": "mods/gardens-of-the-dead-neoforge-5.0.2.jar",
+      "hashes": {
+        "sha1": "a53907122062aa7c12a99f9ee3fffe03acba62f3",
+        "sha512": "862a8a7cc63f80a07a626b91d9d1319c8fbb71610ad2b525b6af955bcd0622cfd39c16fe2b0376f6c71cf2a02dc0568b3540812bbb79518399bb475160d75183"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/lg1TPRFm/versions/YfbXE0Lc/gardens-of-the-dead-neoforge-5.0.2.jar"
+      ],
+      "fileSize": 11891302
     },
     {
       "path": "mods/geckolib-neoforge-1.21.1-4.8.4.jar",
@@ -4684,6 +4744,21 @@
         "https://cdn.modrinth.com/data/Ru97clEJ/versions/hi5e5lMx/hardcore_torches-1.21.0-2.2.jar"
       ],
       "fileSize": 262986
+    },
+    {
+      "path": "mods/Hearths v1.0.5.mod.jar",
+      "hashes": {
+        "sha1": "7d1d4be3c3033b7df902b51915f37f53d60718b5",
+        "sha512": "c30f4444e0e844185b75b91f2375d3897dd969f7b90df63276cc1e7553412333a632f86c7b88f97708ed8862922630170e82b45cd08762f43a7ede2ebbea51c7"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/XCIMrYn0/versions/tu78cSah/Hearths%20v1.0.5.mod.jar"
+      ],
+      "fileSize": 334560
     },
     {
       "path": "mods/highlight-neoforge-1.21-3.0.0.jar",
@@ -5046,6 +5121,21 @@
       "fileSize": 187708
     },
     {
+      "path": "mods/Ixeris-4.4.4+1.21.1-neoforge.jar",
+      "hashes": {
+        "sha1": "d63e2b91d4c47882ee8cf0bb3ab601b2612bb473",
+        "sha512": "a868f02fc5bd9a7199caeab9297c10ae6adbe62a16cee61416d918bc2dfd6f781a7aade3a365d78a766bdc26bdc3aac1d6170405a552b9e617a84682bc645fd5"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/p8RJPJIC/versions/2kT1cmvk/Ixeris-4.4.4%2B1.21.1-neoforge.jar"
+      ],
+      "fileSize": 637539
+    },
+    {
       "path": "mods/Jade-1.21.1-NeoForge-15.10.5.jar",
       "hashes": {
         "sha1": "d5bf134b3dbde9f5258666823900e21341dc0a50",
@@ -5389,6 +5479,21 @@
         "https://cdn.modrinth.com/data/FHGyZu8b/versions/OW1cg4XB/lavasand-1.21.1-neoforge-2.2.jar"
       ],
       "fileSize": 152383
+    },
+    {
+      "path": "mods/legendary_monsters-2.1.15 MC 1.21.1.jar",
+      "hashes": {
+        "sha1": "e975a5a690b7aed0d3143691d25ba5343d26c836",
+        "sha512": "9a0b2034e96237492bde777065e5ec36757762e47525ad6b9373d158e86b559092b5d0846f3149facfad56960ec807670351caae4fa54ffe6ed0d5a5df4a6bdd"
+      },
+      "env": {
+        "client": "required",
+        "server": "optional"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/9d9Bkqva/versions/x9uELHYg/legendary_monsters-2.1.15%20MC%201.21.1.jar"
+      ],
+      "fileSize": 44603818
     },
     {
       "path": "mods/letmedespawn-1.21.x-neoforge-1.5.0.jar",
@@ -8046,6 +8151,36 @@
       "fileSize": 2435044
     },
     {
+      "path": "mods/Structory_26.1_v1.3.16.jar",
+      "hashes": {
+        "sha1": "ee48f145a3a09fdb3f492576cbc21ed26abc74bb",
+        "sha512": "c3528d32c888d5b57cd14d1cf085ceeb567457e770b021dcedfe4475e36e16522cea5796ccb84a6467801d6f3c8d054feefa4a6bac5c4a91b1e8350ad736912d"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/aKCwCJlY/versions/Nvh2sSPX/Structory_26.1_v1.3.16.jar"
+      ],
+      "fileSize": 1261336
+    },
+    {
+      "path": "mods/Structory_Towers_26.1_v1.0.16.jar",
+      "hashes": {
+        "sha1": "ed22fe659cb3020f2e86b7619ce721714b9546be",
+        "sha512": "d8a5602b82f4dcfb3f0ce29d11b658a6d141d67b8363290a68e965c9da016b79e8daa5e20627537833d59f12f4f67732a1d692772382d544b6ec8c013b689da8"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/j3FONRYr/versions/ioKwCTuD/Structory_Towers_26.1_v1.0.16.jar"
+      ],
+      "fileSize": 491545
+    },
+    {
       "path": "mods/structure-expansion-neoforge-88.0.1.jar",
       "hashes": {
         "sha1": "73dbedaa61d5e52297e63bfb7361ea501deaa6b7",
@@ -8449,6 +8584,21 @@
         "https://cdn.modrinth.com/data/1Ro7m06l/versions/ENONQ5aP/titanium-1.21-4.0.43.jar"
       ],
       "fileSize": 605765
+    },
+    {
+      "path": "mods/tlc-neoforge-1.21.1-2.1.0.jar",
+      "hashes": {
+        "sha1": "419b6f9c19da9dac1602b98dc8a93ce4d02d9eda",
+        "sha512": "82aff13c96edf9d114e1640c547bc60da7ed3ff3e414ac126cd9875e04173731f944fdf16c459c8c72acb9200686090da9e996ebcd39ad50394fd2e0ebb2b0ab"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/FGlHZl7X/versions/1SIEERGM/tlc-neoforge-1.21.1-2.1.0.jar"
+      ],
+      "fileSize": 551284
     },
     {
       "path": "mods/tlib-neoforge-1.5.0-1.21.1.jar",

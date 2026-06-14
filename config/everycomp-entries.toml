@@ -198,6 +198,10 @@
 			virelith = true
 			umber = true
 
+		[types.wood_type.gardens_of_the_dead]
+			whistlecane = true
+			soulblight = true
+
 		[types.leaves_type.biomeswevegone]
 			flowering_palo_verde = true
 			aspen = true
@@ -848,6 +852,9 @@
 
 		[types.stone_type.shroud]
 			sculk_stone = true
+
+		[types.stone_type.legendary_monsters]
+			enderstone = true
 
 		[types.mud_type.deeperdarker]
 			sculk_grime = true
